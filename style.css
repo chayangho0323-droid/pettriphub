@@ -1,0 +1,1042 @@
+﻿/* ??? 湲곕낯 珥덇린????????????????????????????????? */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* ?⑤뵫???ｌ뼱???붿냼 ?ш린媛 ??而ㅼ?寃?*/
+}
+
+body {
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  background: #f6f7f9;
+  color: #222;
+}
+
+/* ??? ?ㅻ뜑 ?????????????????????????????????????? */
+.site-header {
+  text-align: center;
+  padding: 40px 16px 24px;
+}
+
+.site-header h1 {
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: 8px;
+}
+
+/* ??? 寃???꾪꽣 ?곸뿭 ???????????????????????????? */
+.controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap; /* ?붾㈃??醫곸쑝硫?以꾨컮轅?*/
+  padding: 0 16px 16px;
+}
+
+/* [type="search"]濡??쒖젙: ??洹몃윭硫?泥댄겕諛뺤뒪?먮룄 ???ㅽ??쇱씠 ?곸슜??踰꾨┝ */
+.controls input[type="search"],
+.controls select {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.controls input[type="search"] {
+  width: 260px;
+}
+
+.result-count {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  padding-bottom: 16px;
+}
+
+/* ??? 二쇰쭚/吏??諛붾줈媛湲?移?????????????????????? */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px 20px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #444;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.chip:hover {
+  border-color: #4756c9;
+  color: #4756c9;
+}
+
+/* ?대쾲 二쇰쭚 移⑹? ?덉뿉 ?꾧쾶 */
+.chip-hot {
+  background: #fff0f0;
+  border-color: #ffb3b3;
+  color: #d63031;
+}
+
+/* 怨듭뿰쨌?됱궗 移???異뺤젣? ?ㅻⅨ ?깃꺽???섏씠吏??蹂대씪???꾩슜 ?ㅽ???*/
+.chip-events {
+  background: #f5f0ff;
+  border-color: #c9b3f5;
+  color: #6d3fc4;
+}
+
+.chip-events:hover {
+  border-color: #6d3fc4;
+  color: #6d3fc4;
+}
+
+/* ?먮젅?댁뀡 ?섏씠吏??"?꾩껜 異뺤젣 蹂닿린" 留곹겕 */
+.home-link {
+  margin-top: 10px;
+}
+
+.home-link a {
+  color: #4756c9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ??? ?ъ씠??怨듯넻 ?명꽣 ?????????????????????????? */
+.site-footer {
+  text-align: center;
+  padding: 30px 16px 40px;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 40px;
+  color: #888;
+  font-size: 0.85rem;
+  line-height: 2;
+}
+
+.site-footer a {
+  color: #4756c9;
+  text-decoration: none;
+}
+
+/* ??? 怨듭뿰쨌?됱궗 紐⑸줉 ?섏씠吏 ?????????????????????? */
+html {
+  scroll-behavior: smooth; /* 吏???먰봽 ??遺?쒕읇寃??대룞 */
+}
+
+.events-container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 16px 60px;
+}
+
+/* 移⑹씠 留롮? ?섏씠吏(??紐⑸줉)?? ?곗뒪?ы넲?먯꽌留??곷떒 怨좎젙
+   (紐⑤컮?쇱? 移⑹씠 ?щ윭 以꾩씠??怨좎젙?섎㈃ ?붾㈃???덈Т 媛?ㅼ꽌 ??踰꾪듉?쇰줈 ?泥? */
+@media (min-width: 768px) {
+  .sticky-desktop {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: #f6f7f9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* 吏??移?以꾩쓣 ?ㅽ겕濡ㅽ빐???곷떒??怨좎젙 */
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #f6f7f9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* ?먰봽濡??대룞?덉쓣 ???뱀뀡 ?쒕ぉ??怨좎젙??移?以꾩뿉 媛?ㅼ?吏 ?딄쾶 ?ъ쑀瑜???*/
+.event-region {
+  scroll-margin-top: 110px;
+}
+
+/* ?곗륫 ?섎떒 留??꾨줈 ?뚮줈??踰꾪듉 */
+.to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #4756c9;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  z-index: 60;
+}
+
+.to-top:hover {
+  background: #3a46a8;
+}
+
+/* 怨듭뿰 ?λⅤ ?꾩씠肄?*/
+.event-icon {
+  font-size: 1.05rem;
+  margin-right: 2px;
+}
+
+/* 怨듭뿰紐?留곹겕 */
+.event-name-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.event-name-link:hover {
+  color: #4756c9;
+  text-decoration: underline;
+}
+
+.event-region {
+  margin-top: 28px;
+}
+
+.event-region h2 {
+  font-size: 1.15rem;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #4756c9;
+  margin-bottom: 4px;
+}
+
+.event-count {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 400;
+}
+
+.event-row {
+  display: flex;
+  gap: 16px;
+  padding: 14px 4px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.event-date {
+  flex-shrink: 0;
+  width: 150px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #4756c9;
+}
+
+.event-time {
+  color: #999;
+  font-weight: 400;
+}
+
+.event-name {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.event-desc {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+.event-meta {
+  font-size: 0.83rem;
+  color: #888;
+  margin-top: 4px;
+}
+
+.event-meta a {
+  color: #4756c9;
+  text-decoration: none;
+}
+
+.event-meta a:hover {
+  text-decoration: underline;
+}
+
+/* 紐⑤컮?쇱뿉?쒕뒗 ?좎쭨媛 ?꾨줈 媛寃??몃줈 諛곗튂 */
+@media (max-width: 600px) {
+  .event-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .event-date {
+    width: auto;
+  }
+}
+
+/* ?곸꽭 ?섏씠吏 異붿쿇 移대뱶媛 留곹겕????湲곕낯 留곹겕 袁몃컝 ?쒓굅 */
+.nearby-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* 留덉슦?ㅻ? ?щ━硫??뚮윭蹂????덈떎???먮굦 二쇨린 */
+.nearby-link:hover .nearby-name {
+  color: #4756c9;
+  text-decoration: underline;
+}
+
+/* ??? 移대뱶 洹몃━????????????????????????????????? */
+.festival-grid {
+  display: grid;
+  /* ?붾㈃ ?덈퉬??留욎떠 260px ?댁긽 移대뱶瑜??먮룞?쇰줈 ?щ윭 ??諛곗튂 */
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px 60px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden; /* ?대?吏 紐⑥꽌由ш? 移대뱶 諛뽰쑝濡????섍?寃?*/
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s, box-shadow 0.15s;
+  position: relative; /* ?섑듃 踰꾪듉??移대뱶 湲곗??쇰줈 諛곗튂?섍린 ?꾪븿 */
+}
+
+/* 移대뱶 ?ㅻⅨ履??꾩뿉 寃뱀퀜吏??섑듃 踰꾪듉 */
+.fav-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  border: none;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* 카드 안 네이버 후기 버튼 — 카드 전체가 링크라 <a>를 못 쓰고 button으로 처리 */
+.review-link {
+  margin-top: 8px;
+  padding: 4px 12px;
+  border: 1px solid #03c75a; /* 네이버 초록 */
+  background: #fff;
+  color: #03c75a;
+  border-radius: 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.review-link:hover {
+  background: #03c75a;
+  color: #fff;
+}
+
+.fav-heart:hover {
+  transform: scale(1.15);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover; /* 鍮꾩쑉 ??源⑥?寃??섎씪??梨꾩? */
+  background: #eee;
+  display: block;
+}
+
+/* ?대?吏媛 ?녿뒗 異뺤젣???泥?諛뺤뒪 */
+.card .no-image {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9ecf1;
+  color: #99a;
+  font-size: 2rem;
+}
+
+.card-body {
+  padding: 14px 16px 18px;
+}
+
+.card-body h2 {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-bottom: 6px;
+}
+
+.card-body .period,
+.card-body .address {
+  font-size: 0.85rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* 移대뱶瑜?媛먯떥??留곹겕 ??諛묒쨪/?뚮???媛숈? 留곹겕 湲곕낯 ?ㅽ????쒓굅 */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* ??? ?곹깭 諛곗? (吏꾪뻾以?/ D-n) ??????????????????? */
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+.badge.ongoing {
+  background: #e6f6ec;
+  color: #1a8b45;
+}
+
+.badge.upcoming {
+  background: #eef2ff;
+  color: #4756c9;
+}
+
+.badge.long {
+  background: #f0f0f2;
+  color: #777;
+}
+
+/* ?곸꽕쨌?κ린 ?④린湲?泥댄겕諛뺤뒪 */
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+  padding: 10px 4px;
+  user-select: none;
+  position: relative; /* 留먰뭾?좎쓣 ???쇰꺼 湲곗??쇰줈 ?꾩슦湲??꾪븿 */
+}
+
+/* 移⑹뿉??留먰뭾?좎쓣 ?꾩슱 ???덇쾶 湲곗???遺??*/
+.chip {
+  position: relative;
+}
+
+/* 留먰뭾??蹂몄껜: data-tip ?띿꽦??湲??CSS媛 爰쇰궡??attr) 蹂댁뿬以??*/
+.near-me[data-tip]::after,
+.report-btn[data-tip]::after,
+.chip[data-tip]::after,
+.toggle[data-tip]::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 8px); /* ?쇰꺼 諛붾줈 ?꾨옒 8px 吏??*/
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  background: #333;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-align: left;
+  z-index: 10;
+  /* ?됱냼???④? + 遺?쒕읇寃??섑??섎뒗 ?④낵 */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s;
+  pointer-events: none; /* 留먰뭾?좎씠 留덉슦???대┃??媛濡쒖콈吏 ?딄쾶 */
+}
+
+/* 留먰뭾???꾩そ???묒? ?쇨컖??瑗щ━ */
+.near-me[data-tip]::before,
+.report-btn[data-tip]::before,
+.chip[data-tip]::before,
+.toggle[data-tip]::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-bottom-color: #333;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+/* 留덉슦?ㅻ? ?щ━硫?留먰뭾?좉낵 瑗щ━瑜?蹂댁뿬以??*/
+.near-me[data-tip]:hover::after,
+.near-me[data-tip]:hover::before,
+.report-btn[data-tip]:hover::after,
+.report-btn[data-tip]:hover::before,
+.chip[data-tip]:hover::after,
+.chip[data-tip]:hover::before,
+.toggle[data-tip]:hover::after,
+.toggle[data-tip]:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ??? ?곸꽭 ?섏씠吏 ??????????????????????????????? */
+.detail-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 80px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #4756c9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.detail-container .hero {
+  width: 100%;
+  max-height: 70vh; /* 理쒕? ?붾㈃ ?믪씠??70%源뚯? */
+  object-fit: contain; /* cover???섎씪?닿퀬, contain? 鍮꾩쑉 ?좎??섎ŉ ?꾩껜瑜?蹂댁뿬以?*/
+  border-radius: 12px;
+  background: #e9ecf1; /* ?ъ뒪??醫뚯슦 ?щ갚 遺遺꾩쓽 諛곌꼍??*/
+  display: block;
+}
+
+.detail-body {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.detail-body h1 {
+  font-size: 1.5rem;
+  margin: 8px 0 16px;
+  line-height: 1.35;
+}
+
+.info-row {
+  color: #555;
+  line-height: 1.9;
+  font-size: 0.95rem;
+}
+
+.info-row a {
+  color: #4756c9;
+}
+
+.overview {
+  margin-top: 24px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.overview h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.overview p {
+  line-height: 1.8;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.loading {
+  text-align: center;
+  color: #888;
+  padding: 40px 0;
+}
+
+/* ??? ?곸꽭: ?ъ쭊 媛ㅻ윭由?????????????????????????? */
+.thumbs {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  overflow-x: auto; /* ?ъ쭊??留롮쑝硫?媛濡??ㅽ겕濡?*/
+  padding-bottom: 4px;
+}
+
+.thumb {
+  width: 84px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  flex-shrink: 0;
+  border: 2px solid transparent;
+  opacity: 0.75;
+}
+
+.thumb:hover {
+  opacity: 1;
+}
+
+.thumb.active {
+  border-color: #4756c9;
+  opacity: 1;
+}
+
+/* ??? ?곸꽭: ?뺣낫 紐⑸줉 ??????????????????????????? */
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.info-item {
+  display: flex;
+  gap: 12px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.info-label {
+  flex-shrink: 0;
+  width: 110px;
+  color: #888;
+  font-weight: 600;
+}
+
+.info-value {
+  color: #333;
+  min-width: 0; /* 湲?URL??移대뱶 諛뽰쑝濡????먯졇?섍?寃?*/
+  overflow-wrap: anywhere;
+}
+
+.info-value a {
+  color: #4756c9;
+}
+
+/* ??? ?곸꽭: 吏??+ 湲몄갼湲???????????????????????? */
+.map-section {
+  margin-top: 24px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.map-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#map {
+  height: 320px;
+  border-radius: 12px;
+  z-index: 0; /* Leaflet???ㅻⅨ ?붿냼瑜?媛由ъ? ?딄쾶 */
+}
+
+.dir-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.dir-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.dir-btn.kakao {
+  background: #fee500;
+  color: #191919;
+}
+
+.dir-btn.naver {
+  background: #03c75a;
+  color: #fff;
+}
+
+.dir-btn.hotel {
+  background: #003580; /* 遺?밸떣而??뚮옉. ?쒗쑕 ?뱀씤 ??留곹겕留?援먯껜?섎㈃ ??*/
+  color: #fff;
+}
+
+.dir-btn.coupang {
+  background: #e52528; /* 荑좏뙜 鍮④컯 */
+  color: #fff;
+}
+
+/* 荑좏뙜 ?뚰듃?덉뒪 ?섎Т 怨좎? 臾멸뎄 */
+.coupang-notice {
+  margin-top: 10px;
+  font-size: 0.78rem;
+  color: #999;
+}
+
+/* ??? ?곸꽭: ?≪뀡 踰꾪듉 (李?罹섎┛??怨듭쑀) ?????????? */
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 4px 0 16px;
+}
+
+.action-btn {
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.88rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-family: inherit;
+}
+
+.action-btn:hover {
+  background: #f5f6fa;
+}
+
+.action-btn.faved {
+  border-color: #ffb3c1;
+  background: #fff0f3;
+}
+
+/* ??? ?곸꽭: 二쇰? 愿愿묒?/留쏆쭛 ???????????????????? */
+.nearby-section {
+  margin-top: 24px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.nearby-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.nearby-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto; /* 媛濡쒕줈 ?섏튂硫??ㅽ겕濡?*/
+  padding-bottom: 6px;
+}
+
+.nearby-card {
+  flex: 0 0 140px; /* 移대뱶 ??怨좎젙, 以꾩뼱?ㅼ? ?딆쓬 */
+}
+
+.nearby-card img,
+.nearby-noimg {
+  width: 140px;
+  height: 95px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #e9ecf1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #99a;
+  font-size: 1.5rem;
+}
+
+.nearby-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+
+.nearby-dist {
+  font-size: 0.78rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+/* === CampingHub ?꾩슜 異붽? ?ㅽ???=== */
+
+/* ?덉빟 諛붾줈媛湲?踰꾪듉 ??媛??以묒슂???됰룞?대씪 珥덈줉?됱쑝濡?媛뺤“ */
+.dir-btn.reserve {
+  background: #1a8b45;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.dir-btn.reserve:hover {
+  background: #157038;
+}
+
+/* === ?쒓뎅??以꾨컮轅?媛쒖꽑 === */
+/* ?⑥뼱(?댁젅) 以묎컙?먯꽌 ?섎━吏 ?딄퀬 ?⑥뼱 ?⑥쐞濡쒕쭔 以꾨컮轅덈릺寃?*/
+body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* 醫곸? ?붾㈃(紐⑤컮???먯꽌留??섑??섎뒗 以꾨컮轅???PC?먯꽌???щ챸 */
+.mobile-br {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile-br {
+    display: inline;
+  }
+}
+
+/* 泥댄겕諛뺤뒪 臾띠쓬: 紐⑤컮?쇱뿉?????좉????⑹뼱吏吏 ?딄퀬 ?섎????④퍡 以꾨컮轅?*/
+.toggle-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 12px;
+}
+
+/* ?쒕낫?섍린 留곹겕 ???명꽣?먯꽌 ?덉뿉 ?꾧쾶 */
+.report-link {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 6px 14px;
+  border: 1px solid #1a8b45;
+  border-radius: 20px;
+  color: #1a8b45 !important;
+  font-weight: 600;
+}
+
+.report-link:hover {
+  background: #1a8b45;
+  color: #fff !important;
+}
+
+/* ?꾪꽣 以??앹쓽 ?쒕낫 踰꾪듉 */
+.report-btn {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 20px;
+  background: #1a8b45;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  position: relative; /* 留먰뭾??湲곗???*/
+}
+
+.report-btn:hover {
+  background: #157038;
+}
+
+/* 내 주변 가까운 순 버튼 — 켜지면(.on) 파란색으로 채워짐 */
+.near-me {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 20px;
+  border: 1.5px solid #2b6cb0;
+  background: #fff;
+  color: #2b6cb0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative; /* 말풍선 기준점 */
+}
+.near-me:hover {
+  background: #ebf4ff;
+}
+.near-me.on {
+  background: #2b6cb0;
+  color: #fff;
+}
+
+/* 寃??寃곌낵 0嫄댁씪 ?뚯쓽 ?덈궡 諛뺤뒪 */
+.empty-result {
+  grid-column: 1 / -1;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 48px 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.empty-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.empty-desc {
+  color: #777;
+  line-height: 1.7;
+  margin-bottom: 18px;
+  font-size: 0.92rem;
+}
+
+.report-btn.big {
+  padding: 12px 24px;
+  font-size: 0.95rem;
+}
+
+
+/* 제보 버튼 말풍선이 상단 고정 칩 줄(z-index 50)에 가리지 않게 맨 앞으로 */
+.report-btn[data-tip]::after,
+.report-btn[data-tip]::before {
+  z-index: 100;
+}
+
+/* 제보 버튼은 화면 오른쪽 끝에 있어서 말풍선이 중앙 정렬이면 화면 밖으로 나감
+   → 버튼 오른쪽에 맞춰 정렬하고, 꼬리도 오른쪽으로 */
+.report-btn[data-tip]::after {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
+.report-btn[data-tip]::before {
+  left: auto;
+  right: 16px;
+  transform: none;
+}
+
+/* 모든 말풍선(체크박스·칩·제보버튼)이 상단 고정 칩 줄(z-index 50)에 가리지 않게 */
+.toggle[data-tip]::after,
+.toggle[data-tip]::before,
+.chip[data-tip]::after,
+.chip[data-tip]::before,
+.near-me[data-tip]::after,
+.near-me[data-tip]::before {
+  z-index: 100;
+}
+
+
+/* 입문 가이드 페이지 — 읽는 글이라 목록/팁 상자 스타일 보강 */
+.guide-body ul {
+  margin: 10px 0 0 20px;
+  line-height: 1.85;
+}
+.guide-body li {
+  margin-bottom: 7px;
+}
+.guide-tip {
+  background: #f0f7f4;
+  border-left: 4px solid #1a8b45;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-top: 14px;
+  line-height: 1.8;
+}
+
+/* 장비 비교 가이드 — 비교표 (모바일에선 가로 스크롤) */
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+.guide-table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.guide-table th {
+  background: #eef1f7;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.guide-table th, .guide-table td {
+  border: 1px solid #e2e5ea;
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+.guide-table td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* 오늘의 인기 상품 카드 (네이버쇼핑 데이터) */
+.product-price {
+  color: #d63031;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+.product-mall {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 2px;
+}
+.product-updated {
+  font-size: 0.75rem;
+  color: #999;
+  font-weight: 400;
+}
+.product-notice {
+  font-size: 0.78rem;
+  color: #999;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* 게이지 바 — 비교표의 ★★☆를 대신하는 시각 표시 */
+.gauge {
+  display: inline-block;
+  width: 54px;
+  height: 9px;
+  background: #e5e7eb;
+  border-radius: 5px;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.gauge i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #34a866, #1a8b45);
+  border-radius: 5px;
+}
+
+/* 가이드 도식 그림 */
+.guide-figure {
+  background: #fff;
+  border: 1px solid #eceff3;
+  border-radius: 10px;
+  padding: 14px 10px 6px;
+  margin-top: 14px;
+  text-align: center;
+}
+.guide-figure svg {
+  max-width: 100%;
+  height: auto;
+}

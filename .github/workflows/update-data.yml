@@ -1,0 +1,42 @@
+# 매일 새벽 6시(한국시간)에 반려동물 동반 장소 데이터를 갱신하고 배포하는 자동화 설정.
+# 축제(05:00)·캠핑(05:30)과 30분씩 어긋나게 해서 API 한도를 나눠 쓴다.
+# 관광공사 상세정보(동반조건·소개)는 하루 400건씩 자동으로 채워진다 (자가복구 캐시).
+
+name: 반려동물 장소 데이터 자동 갱신
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # UTC 21:00 = 한국시간 새벽 06:00
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
+
+      # 키 2개는 저장소 Secrets에 등록 (Settings > Secrets and variables > Actions)
+      #   TOUR_API_KEY  — 공공데이터포털 인증키 (축제·캠핑과 같은 키)
+      #   VWORLD_KEY    — VWorld 지오코더 인증키 (주소→좌표)
+      - run: node fetch-pet.js
+        env:
+          TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
+          VWORLD_KEY: ${{ secrets.VWORLD_KEY }}
+
+      - run: node build-pages.js
+
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "자동 데이터 갱신 $(date -u +'%Y-%m-%d')"
+          git push
