@@ -331,6 +331,7 @@ function buildPage(p, all) {
   </script>
   <script src="../pet-page.js"></script>
   <script src="../track-clicks.js"></script>
+  <script src="../report.js?v=${BUILD_VER}"></script>
 </body>
 </html>`;
 }
@@ -376,6 +377,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
+  <script src="report.js?v=${BUILD_VER}"></script>
 </body>
 </html>`;
 }
