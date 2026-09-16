@@ -297,7 +297,7 @@ function buildPage(p, all) {
   <meta property="og:type" content="place" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
-  ${p.image ? `<meta property="og:image" content="${esc(p.image)}" />` : ""}
+  <meta property="og:image" content="${p.image ? esc(p.image) : `${SITE_URL}/og-image.png`}" />
   <meta property="og:url" content="${SITE_URL}/place/${p.id}.html" />
   <link rel="stylesheet" href="../style.css?v=${BUILD_VER}" />
   ${hasCoords ? `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -370,6 +370,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <link rel="canonical" href="${SITE_URL}/${filename}" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
+  <meta property="og:image" content="${SITE_URL}/og-image.png" />
   <link rel="stylesheet" href="style.css?v=${BUILD_VER}" />${HEAD_COMMON}
 </head>
 <body>
