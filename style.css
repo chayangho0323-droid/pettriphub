@@ -440,6 +440,50 @@ html {
 .ph-culture    { background: linear-gradient(135deg, #c39cf0, #7d4fcf) !important; }
 .ph-etc        { background: linear-gradient(135deg, #b8c0cc, #7d8794) !important; }
 
+/* MFDS official-registration ribbon on cards (top-left over photo/tile) */
+.official-ribbon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  background: #1a8b45;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.02em;
+  text-shadow: none;
+}
+/* Official-registration highlight box on detail page */
+.official-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 16px;
+  padding: 12px 14px;
+  background: #e6f6ec;
+  border: 1.5px solid #1a8b45;
+  border-radius: 12px;
+  color: #145c30;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.official-banner .ob-icon { font-size: 1.6rem; }
+.official-banner strong { color: #1a8b45; font-size: 1.05rem; }
+.official-banner a { color: #1a8b45; font-weight: 700; white-space: nowrap; }
+.official-note {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px 12px;
+  background: #e6f6ec;
+  color: #1a8b45;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 /* Photo submission call-to-action (landing strip + about page button) */
 .photo-call {
   display: flex;

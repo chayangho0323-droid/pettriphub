@@ -91,15 +91,16 @@ function render() {
     const icon = CAT_ICON[p.category] || "📍";
     const img = p.image ? `<img src="${p.image}" alt="${p.name}" loading="lazy" />` : placeholder(p.category);
     const badges = [
-      p.official ? `<span class="badge ongoing">✅ 식약처 등록</span>` : "",
       `<span class="badge upcoming">${icon} ${p.category}</span>`,
       p.petSize ? `<span class="badge long">🐕 ${p.petSize}</span>` : "",
     ].join(" ");
+    const ribbon = p.official ? `<span class="official-ribbon">✅ 식약처 등록</span>` : "";
     const dist = nearPos && isFinite(p._dist) ? ` · 🚗 ${p._dist < 10 ? p._dist.toFixed(1) : Math.round(p._dist)}km` : "";
     return `
       <a class="card-link" href="place/${p.id}.html">
         <article class="card">
           <button class="fav-heart${faved ? " faved" : ""}" data-id="${p.id}" aria-label="찜하기">${faved ? "❤️" : "🤍"}</button>
+          ${ribbon}
           ${img}
           <div class="card-body">
             ${badges}

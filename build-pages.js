@@ -168,13 +168,13 @@ function listCard(p) {
     ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" />`
     : placeholder(p.category);
   const badges = [
-    p.official ? `<span class="badge ongoing">✅ 식약처 등록</span>` : "",
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
     p.petInfo && p.petInfo.petSize ? `<span class="badge long">🐕 ${esc(p.petInfo.petSize.slice(0, 12))}</span>` : "",
   ].join(" ");
   return `
     <a class="card-link" href="place/${p.id}.html">
       <article class="card">
+        ${p.official ? `<span class="official-ribbon">✅ 식약처 등록</span>` : ""}
         ${img}
         <div class="card-body">
           ${badges}
@@ -200,9 +200,13 @@ function buildPage(p, all) {
         <a class="ph-report report-link" href="${esc(reportMailto(p))}">📷 이곳 사진 제보하기</a>
       </div>`;
   const badges = [
-    p.official ? `<span class="badge ongoing">✅ 식약처 공식 등록 업소</span>` : "",
+    p.official ? `<span class="badge ongoing">✅ 식약처 등록</span>` : "",
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
   ].join(" ");
+  // 식약처 등록 업소 강조 박스 (핵심 차별점 — 제목 바로 아래)
+  const officialBanner = p.official
+    ? `<div class="official-banner"><span class="ob-icon">✅</span><div><strong>식약처 공식 등록 반려동물 동반출입 음식점</strong><br />영업자가 지자체에 정식 등록하고 식품의약품안전처 현황에 올라 있는 업소예요. <a href="../about.html#official">등록 제도 안내 →</a></div></div>`
+    : "";
 
   const homepage = p.homepage ? `<a href="${esc(p.homepage)}" target="_blank" rel="noopener">${esc(p.homepage)}</a>` : "";
 
@@ -306,6 +310,7 @@ function buildPage(p, all) {
     <div class="detail-body">
       <div class="badges">${badges}</div>
       <h1>${esc(p.name)}</h1>
+      ${officialBanner}
       <div class="detail-actions">
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
