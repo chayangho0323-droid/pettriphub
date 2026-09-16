@@ -9,7 +9,7 @@ const SITE_URL = "https://pettriphub.kr";
 const SITE_NAME = "PetTripHub";
 
 // 구글 애널리틱스 측정 ID — 발급받으면 여기에 넣는다 (비어 있으면 통계 코드 생략)
-const GA_ID = "";
+const GA_ID = "G-X518CVXSC1";
 const GA_SNIPPET = GA_ID
   ? `
   <!-- Google Analytics (방문자 통계) -->
