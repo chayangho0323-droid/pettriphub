@@ -429,12 +429,64 @@ html {
 .ph-culture    { background: linear-gradient(135deg, #c39cf0, #7d4fcf) !important; }
 .ph-etc        { background: linear-gradient(135deg, #b8c0cc, #7d8794) !important; }
 
+/* Photo submission call-to-action (landing strip + about page button) */
+.photo-call {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 900px;
+  margin: 0 auto 18px;
+  padding: 12px 16px;
+  background: #fff7ec;
+  border: 1px solid #ffd9a8;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #5a3d1a;
+}
+.photo-call-icon { font-size: 1.6rem; }
+.photo-call-text { flex: 1; }
+.photo-call-btn {
+  white-space: nowrap;
+  padding: 8px 14px;
+  background: #ff8c42;
+  color: #fff !important;
+  border-radius: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+.photo-call-btn:hover { background: #e8752c; }
+@media (max-width: 640px) {
+  .photo-call { flex-wrap: wrap; margin: 0 16px 16px; }
+  .photo-call-btn { width: 100%; text-align: center; }
+}
+.ph-report {
+  margin-top: 8px;
+  padding: 7px 14px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #333 !important;
+  border-radius: 18px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: none;
+  z-index: 1;
+}
+.ph-report:hover { background: #fff; }
+.photo-credit {
+  font-size: 0.82rem;
+  color: #777;
+  margin: 6px 2px 0;
+}
+
 /* Detail page banner when there is no photo */
 .ph-hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
+  height: 190px;
   border-radius: 12px;
 }
 .ph-hero .ph-icon { font-size: 3.2rem; }

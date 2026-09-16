@@ -33,6 +33,39 @@ const COUPANG_ITEMS = [];
 
 const pets = JSON.parse(fs.readFileSync("pets.json", "utf-8"));
 
+// ─── 제보받은 사진 (photos.json) ───
+// 방문자가 이메일로 보낸 사진을 photos/ 폴더에 넣고 photos.json에 한 줄 추가하면 카드·상세·RSS에 자동 반영.
+//   { "mhdg8jv": { "image": "photos/mhdg8jv.jpg", "credit": "멍멍맘" } }
+// 관광공사 사진이 있어도 제보 사진이 우선 (직접 찍은 사진이 더 정확하므로)
+const REPORT_EMAIL = "chayangho0323@gmail.com";
+let manualPhotos = {};
+try { manualPhotos = JSON.parse(fs.readFileSync("photos.json", "utf-8")); } catch {}
+let manualCount = 0;
+for (const p of pets) {
+  const m = manualPhotos[p.id];
+  if (m && m.image) {
+    p.image = /^https?:/.test(m.image) ? m.image : `${SITE_URL}/${m.image}`;
+    p.photoCredit = m.credit || "";
+    manualCount++;
+  }
+}
+if (manualCount) console.log(`📷 제보 사진 ${manualCount}곳 적용`);
+
+// 사진 제보 메일 링크 (제목·본문이 채워진 메일창이 열림). GA에서는 .report-link 클릭 = click_report
+function reportMailto(p) {
+  const subject = p ? `[사진 제보] ${p.name}` : "[사진 제보] PetTripHub";
+  const body = [
+    p ? `장소: ${p.name} (${p.sido} ${p.sigungu})` : "장소 이름: \n지역: ",
+    p ? `페이지: ${SITE_URL}/place/${p.id}.html` : "",
+    "방문일: ",
+    "표기할 닉네임: ",
+    "",
+    "※ 직접 촬영한 사진 1~3장을 첨부해 주세요. 보내주신 사진은 PetTripHub에 닉네임과 함께 게시되는 데 동의한 것으로 봅니다.",
+    "※ 다른 사람 얼굴·차량 번호판이 나온 사진은 피해 주세요.",
+  ].filter((l) => l !== "").join("\n");
+  return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 // ─── 카테고리 / 지역 정의 (app.js와 같은 표. 수정 시 양쪽 다!) ───
 const CATS = [
   { key: "카페", slug: "cafe", icon: "☕", desc: "반려동물과 함께 들어갈 수 있는 카페" },
@@ -140,8 +173,13 @@ function buildPage(p, all) {
   const description = (p.overview || `${p.name}은(는) ${p.sido} ${p.sigungu}에 있는 반려동물 동반 가능 ${p.category}입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.`).slice(0, 150);
 
   const hero = p.image
-    ? `<img class="hero" src="${esc(p.image)}" alt="${esc(p.name)}" />`
-    : `<div class="ph-hero ph-${cat.slug}"><span class="ph-icon">${cat.icon}</span><span class="ph-label">반려동물 동반 ${esc(cat.key)}</span></div>`;
+    ? `<img class="hero" src="${esc(p.image)}" alt="${esc(p.name)}" />${p.photoCredit ? `<p class="photo-credit">📷 사진 제보: ${esc(p.photoCredit)} 님 · <a class="report-link" href="${esc(reportMailto(p))}">나도 제보하기</a></p>` : ""}`
+    : `<div class="ph-hero ph-${cat.slug}">
+        <span class="ph-icon">${cat.icon}</span>
+        <span class="ph-label">반려동물 동반 ${esc(cat.key)}</span>
+        <a class="ph-report report-link" href="${esc(reportMailto(p))}">📷 이곳 사진 제보하기</a>
+      </div>
+      <p class="photo-credit">아직 사진이 없어요. 다녀오셨다면 직접 찍은 사진을 보내주세요 — 닉네임과 함께 올려드려요.</p>`;
   const badges = [
     p.official ? `<span class="badge ongoing">✅ 식약처 공식 등록 업소</span>` : "",
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
