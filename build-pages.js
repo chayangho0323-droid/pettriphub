@@ -169,12 +169,12 @@ function listCard(p) {
     : placeholder(p.category);
   const badges = [
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
+    p.official ? `<span class="badge official">✅ 식약처 등록</span>` : "",
     p.petInfo && p.petInfo.petSize ? `<span class="badge long">🐕 ${esc(p.petInfo.petSize.slice(0, 12))}</span>` : "",
   ].join(" ");
   return `
     <a class="card-link" href="place/${p.id}.html">
       <article class="card">
-        ${p.official ? `<span class="official-ribbon">✅ 식약처 등록</span>` : ""}
         ${img}
         <div class="card-body">
           ${badges}
@@ -200,8 +200,8 @@ function buildPage(p, all) {
         <a class="ph-report report-link" href="${esc(reportMailto(p))}">📷 이곳 사진 제보하기</a>
       </div>`;
   const badges = [
-    p.official ? `<span class="badge ongoing">✅ 식약처 등록</span>` : "",
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
+    p.official ? `<span class="badge official">✅ 식약처 등록</span>` : "",
   ].join(" ");
   // 식약처 등록 업소 강조 박스 (핵심 차별점 — 제목 바로 아래)
   const officialBanner = p.official
