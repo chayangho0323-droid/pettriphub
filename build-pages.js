@@ -379,6 +379,40 @@ fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset
 fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`, "utf-8");
 console.log(`✅ sitemap.xml (${urls.length}개 주소) + robots.txt`);
 
+// RSS — 네이버 서치어드바이저 "RSS 제출"용. 최근 추가된 장소 50곳 (같은 날이면 오늘의 셔플 순)
+const rssItems = [...pets]
+  .sort((a, b) => (b.addedAt || "20260915").localeCompare(a.addedAt || "20260915") || rank(a.id) - rank(b.id))
+  .slice(0, 50);
+const rfc822 = (yyyymmdd) => {
+  const s = yyyymmdd || "20260915";
+  return new Date(Date.UTC(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8), -3)).toUTCString(); // 06:00 KST
+};
+const rssBody = rssItems.map((p) => {
+  const cat = catOf(p.category);
+  const desc = `${p.sido} ${p.sigungu}에 있는 반려동물 동반 ${p.category}${p.official ? " (식약처 반려동물 동반출입 음식점 등록 업소)" : ""}. ${p.address}`;
+  return `    <item>
+      <title>${esc(`${p.name} — ${p.sido} ${p.sigungu} 반려동물 동반 ${p.category}`)}</title>
+      <link>${SITE_URL}/place/${p.id}.html</link>
+      <guid isPermaLink="true">${SITE_URL}/place/${p.id}.html</guid>
+      <pubDate>${rfc822(p.addedAt)}</pubDate>
+      <category>${esc(cat.key)}</category>
+      <description>${esc(desc)}</description>${p.image ? `\n      <enclosure url="${esc(p.image)}" type="image/jpeg" length="0" />` : ""}
+    </item>`;
+}).join("\n");
+fs.writeFileSync("rss.xml", `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>PetTripHub — 반려동물 동반 카페·식당·여행지</title>
+    <link>${SITE_URL}/</link>
+    <description>강아지·고양이와 함께 갈 수 있는 전국 카페, 식당, 관광지, 숙소. 식약처 등록 업소 + 한국관광공사 동반여행지, 매일 자동 갱신</description>
+    <language>ko</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${rssBody}
+  </channel>
+</rss>
+`, "utf-8");
+console.log(`✅ rss.xml (${rssItems.length}건)`);
+
 // 홈 목록용 경량 데이터 (app.js가 읽음)
 const slim = pets.map((p) => ({
   id: p.id, name: p.name, category: p.category, sido: p.sido, sigungu: p.sigungu,

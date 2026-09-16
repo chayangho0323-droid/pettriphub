@@ -347,6 +347,14 @@ async function main() {
   console.log(`📖 상세정보 채움: 오늘 ${filled}건 (누적 ${tour.filter((p) => p.petInfo).length}/${tour.length})`);
 
   const pets = [...mfds, ...tour];
+  // 처음 등장한 날짜 (RSS "새로 추가된 장소"용). 캐시에 있던 곳은 기존 날짜, 기록 없으면 사이트 오픈일
+  let added = 0;
+  for (const p of pets) {
+    const c = cache[p.id];
+    p.addedAt = c ? c.addedAt || "20260915" : todayStr();
+    if (!c) added++;
+  }
+  if (Object.keys(cache).length) console.log(`🆕 새로 추가된 장소 ${added}곳`);
   fs.writeFileSync("pets.json", JSON.stringify(pets, null, 2), "utf-8");
   console.log(`✅ pets.json 저장 — 총 ${pets.length}곳 (식약처 ${mfds.length} + 관광공사 ${tour.length})`);
 }
