@@ -70,14 +70,17 @@ function reportMailto(p) {
   ].filter((l) => l !== "").join("\n");
   return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
-// 사진 제보 안내 띠 (메인 index.html과 같은 모양) — 상세 페이지용
+// 사진 제보 안내 띠 (메인 index.html과 같은 모양) — p가 있으면 상세 페이지용(장소 이름 채움), null이면 목록 페이지용
 function photoCallHtml(p) {
+  const text = !p
+    ? "식약처 등록 카페·식당은 공식 사진이 없어요. 다녀오신 곳 사진을 보내주시면"
+    : p.image ? "이곳에 다녀오셨다면 직접 찍은 사진을 보내주세요 —" : "아직 이곳 사진이 없어요. 다녀오셨다면 직접 찍은 사진을 보내주세요 —";
   return `
       <div class="photo-call">
         <span class="photo-call-icon">📷</span>
         <div class="photo-call-text">
           <span class="photo-call-title">사진 제보 받아요!</span>
-          ${p.image ? "이곳에 다녀오셨다면" : "아직 이곳 사진이 없어요. 다녀오셨다면"} 직접 찍은 사진을 보내주세요 — <strong>닉네임과 함께</strong> 올려드려요. (직접 찍은 사진만!)
+          ${text} <strong>닉네임과 함께</strong> 올려드려요. (직접 찍은 사진만!)
         </div>
         <a class="photo-call-btn report-link" href="${esc(reportMailto(p))}">이메일로 제보하기 →</a>
       </div>`;
@@ -372,6 +375,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   </header>
   <nav class="quick-links">${catChips}</nav>
   <nav class="quick-links quick-links-regions">${regionChips}</nav>
+  ${photoCallHtml(null)}
   <p class="result-count">${items.length}곳</p>
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 장소가 없습니다.</p>`}</main>
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
