@@ -84,6 +84,17 @@ body {
   color: #4756c9;
 }
 
+/* Currently selected region/category chip on list pages */
+.chip-active {
+  background: #4756c9;
+  border-color: #4756c9;
+  color: #fff;
+  font-weight: 700;
+}
+.chip-active:hover { color: #fff; }
+.quick-links-regions { padding-top: 0; }
+.detail-body .photo-call { margin: 18px 0; }
+
 /* ?대쾲 二쇰쭚 移⑹? ?덉뿉 ?꾧쾶 */
 .chip-hot {
   background: #fff0f0;

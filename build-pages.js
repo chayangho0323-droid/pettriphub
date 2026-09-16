@@ -24,7 +24,12 @@ const GA_SNIPPET = GA_ID
 // Google AdSense (같은 게시자 계정 — 사이트 추가 후 광고 게재)
 const ADS_SNIPPET = `
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5951913667078413" crossorigin="anonymous"></script>`;
-const HEAD_COMMON = GA_SNIPPET + ADS_SNIPPET;
+// 제보 안내 제목용 둥근 글씨체 (구글 폰트 Jua, 무료) — index/about.html에도 같은 링크 있음
+const FONT_LINK = `
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />`;
+const HEAD_COMMON = FONT_LINK + GA_SNIPPET + ADS_SNIPPET;
 // 정적 파일 캐시 무력화 — 매일 빌드 날짜가 붙어 style.css 변경이 방문자에게 바로 반영됨
 const BUILD_VER = (() => { const d = new Date(Date.now() + 9 * 3600 * 1000); return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, "0")}${String(d.getUTCDate()).padStart(2, "0")}`; })();
 
@@ -64,6 +69,18 @@ function reportMailto(p) {
     "※ 다른 사람 얼굴·차량 번호판이 나온 사진은 피해 주세요.",
   ].filter((l) => l !== "").join("\n");
   return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+// 사진 제보 안내 띠 (메인 index.html과 같은 모양) — 상세 페이지용
+function photoCallHtml(p) {
+  return `
+      <div class="photo-call">
+        <span class="photo-call-icon">📷</span>
+        <div class="photo-call-text">
+          <span class="photo-call-title">사진 제보 받아요!</span>
+          ${p.image ? "이곳에 다녀오셨다면" : "아직 이곳 사진이 없어요. 다녀오셨다면"} 직접 찍은 사진을 보내주세요 — <strong>닉네임과 함께</strong> 올려드려요. (직접 찍은 사진만!)
+        </div>
+        <a class="photo-call-btn report-link" href="${esc(reportMailto(p))}">이메일로 제보하기 →</a>
+      </div>`;
 }
 
 // ─── 카테고리 / 지역 정의 (app.js와 같은 표. 수정 시 양쪽 다!) ───
@@ -178,8 +195,7 @@ function buildPage(p, all) {
         <span class="ph-icon">${cat.icon}</span>
         <span class="ph-label">반려동물 동반 ${esc(cat.key)}</span>
         <a class="ph-report report-link" href="${esc(reportMailto(p))}">📷 이곳 사진 제보하기</a>
-      </div>
-      <p class="photo-credit">아직 사진이 없어요. 다녀오셨다면 직접 찍은 사진을 보내주세요 — 닉네임과 함께 올려드려요.</p>`;
+      </div>`;
   const badges = [
     p.official ? `<span class="badge ongoing">✅ 식약처 공식 등록 업소</span>` : "",
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
@@ -298,6 +314,7 @@ function buildPage(p, all) {
         ${infoRow("📞", "문의", esc(p.tel))}
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
+      ${photoCallHtml(p)}
       ${petSection}
       ${overview}
       ${mapBlock}
@@ -319,8 +336,21 @@ function buildPage(p, all) {
 }
 
 // ─── 목록 페이지 (카테고리/지역) ───
-function buildListPage({ filename, title, heading, subtitle, description, items }) {
+// region/cat = 이 페이지가 어떤 지역·유형으로 좁혀져 있는지 (칩 링크가 그 안에서 더 좁혀지도록)
+function buildListPage({ filename, title, heading, subtitle, description, items, region = "", cat = "" }) {
   const cards = items.map(listCard).join("");
+  const rslug = REGION_SLUGS[region];
+  // 유형 칩: 지역 페이지 안에서는 "그 지역의 유형" 페이지로
+  const catChips = [
+    `<a class="chip${!cat ? " chip-active" : ""}" href="${rslug ? `region-${rslug}.html` : "index.html"}">전체 유형</a>`,
+    ...CATS.map((c) => `<a class="chip${cat === c.key ? " chip-active" : ""}" href="${rslug ? `region-${rslug}-${c.slug}.html` : `cat-${c.slug}.html`}">${c.icon} ${c.key}</a>`),
+  ].join("");
+  // 지역 칩: 유형 페이지 안에서는 "그 유형의 지역" 페이지로
+  const catSlug = cat ? catOf(cat).slug : "";
+  const regionChips = [
+    `<a class="chip${!region ? " chip-active" : ""}" href="${catSlug ? `cat-${catSlug}.html` : "index.html"}">전체 지역</a>`,
+    ...Object.entries(REGION_SLUGS).map(([r, s]) => `<a class="chip${region === r ? " chip-active" : ""}" href="${catSlug ? `region-${s}-${catSlug}.html` : `region-${s}.html`}">${r}</a>`),
+  ].join("");
   return `<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -339,7 +369,8 @@ function buildListPage({ filename, title, heading, subtitle, description, items 
     <p class="subtitle">${esc(subtitle)}</p>
     <p class="home-link"><a href="index.html">← 전체 보기</a></p>
   </header>
-  <nav class="quick-links">${CATS.map((c) => `<a class="chip" href="cat-${c.slug}.html">${c.icon} ${c.key}</a>`).join("")}</nav>
+  <nav class="quick-links">${catChips}</nav>
+  <nav class="quick-links quick-links-regions">${regionChips}</nav>
   <p class="result-count">${items.length}곳</p>
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 장소가 없습니다.</p>`}</main>
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
@@ -378,6 +409,7 @@ for (const c of CATS) {
     subtitle: `${c.desc} ${items.length}곳`,
     description: `${c.desc} ${items.length}곳. 지역별 위치, 연락처, 동반 조건과 네이버 후기까지 한눈에.`,
     items,
+    cat: c.key,
   }), "utf-8");
   catFiles.push(filename);
 }
@@ -395,10 +427,29 @@ for (const [region, slug] of Object.entries(REGION_SLUGS)) {
     subtitle: `${region}에서 반려동물과 함께 갈 수 있는 곳 ${items.length}곳`,
     description: `${region} 반려동물 동반 가능 카페, 식당, 관광지, 숙소 ${items.length}곳 모음. 식약처 등록 업소와 관광공사 동반여행지 정보.`,
     items,
+    region,
   }), "utf-8");
   regionFiles.push(filename);
+
+  // 지역 × 유형 페이지 (예: region-jeju-cafe.html = 제주 카페) — 지역 안에서 유형 칩을 눌렀을 때
+  for (const c of CATS) {
+    const sub = shuffled(pets.filter((p) => p.sido === region && p.category === c.key));
+    if (!sub.length) continue;
+    const subFile = `region-${slug}-${c.slug}.html`;
+    fs.writeFileSync(subFile, buildListPage({
+      filename: subFile,
+      title: `${region} 반려동물 동반 ${c.key} ${sub.length}곳 — ${SITE_NAME}`,
+      heading: `${c.icon} ${region} 반려동물 동반 ${c.key}`,
+      subtitle: `${region}에서 반려동물과 함께 갈 수 있는 ${c.key} ${sub.length}곳`,
+      description: `${region} 반려동물 동반 가능 ${c.key} ${sub.length}곳. 위치, 연락처, 동반 조건과 네이버 후기까지 한눈에.`,
+      items: sub,
+      region,
+      cat: c.key,
+    }), "utf-8");
+    regionFiles.push(subFile);
+  }
 }
-console.log(`✅ 지역 페이지 ${regionFiles.length}개`);
+console.log(`✅ 지역 페이지 ${regionFiles.length}개 (지역×유형 포함)`);
 
 // sitemap + robots
 const today = new Date().toISOString().slice(0, 10);
