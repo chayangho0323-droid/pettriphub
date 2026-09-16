@@ -384,6 +384,55 @@ html {
   font-size: 2rem;
 }
 
+/* Category color tiles for places without a photo (MFDS registry has no images) */
+.no-image,
+.nearby-noimg,
+.ph-hero {
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 4px;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+.no-image::after,
+.nearby-noimg::after,
+.ph-hero::after {
+  content: "\1F43E"; /* paw watermark */
+  position: absolute;
+  right: -6px;
+  bottom: -14px;
+  font-size: 4.5rem;
+  opacity: 0.18;
+  transform: rotate(-20deg);
+  pointer-events: none;
+}
+.ph-icon { font-size: 2.6rem; line-height: 1; filter: drop-shadow(0 2px 3px rgba(0,0,0,0.15)); }
+.ph-label { font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; opacity: 0.95; }
+.nearby-noimg .ph-icon { font-size: 1.7rem; }
+.nearby-noimg .ph-label { font-size: 0.7rem; }
+.nearby-noimg::after { font-size: 2.6rem; bottom: -8px; }
+.ph-cafe       { background: linear-gradient(135deg, #c99e7a, #8d5a3b) !important; }
+.ph-restaurant { background: linear-gradient(135deg, #ff9a6c, #e0552f) !important; }
+.ph-bakery     { background: linear-gradient(135deg, #f7c76b, #d8952c) !important; }
+.ph-spot       { background: linear-gradient(135deg, #7fd39a, #2f9a5f) !important; }
+.ph-stay       { background: linear-gradient(135deg, #8fb0ff, #4a6fd6) !important; }
+.ph-leisure    { background: linear-gradient(135deg, #6fd6cf, #2a9d94) !important; }
+.ph-culture    { background: linear-gradient(135deg, #c39cf0, #7d4fcf) !important; }
+.ph-etc        { background: linear-gradient(135deg, #b8c0cc, #7d8794) !important; }
+
+/* Detail page banner when there is no photo */
+.ph-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border-radius: 12px;
+}
+.ph-hero .ph-icon { font-size: 3.2rem; }
+.ph-hero .ph-label { font-size: 0.95rem; }
+.ph-hero::after { font-size: 6rem; right: 10px; bottom: -22px; }
+
 .card-body {
   padding: 14px 16px 18px;
 }

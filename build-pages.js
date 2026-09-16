@@ -95,12 +95,30 @@ try {
   console.log("⚠️ 캠핑허브 데이터를 가져오지 못해 근처 캠핑장 섹션 생략");
 }
 
+// 사진 없는 곳(식약처 등록부엔 사진이 없음)을 위한 카테고리 색상 타일 (app.js와 같은 모양)
+function placeholder(category, cls = "no-image") {
+  const cat = catOf(category);
+  return `<div class="${cls} ph-${cat.slug}"><span class="ph-icon">${cat.icon}</span><span class="ph-label">${esc(cat.key)}</span></div>`;
+}
+
+// 사진 있는 곳을 3장에 1장꼴로 섞어 목록이 허전하지 않게 (셔플 순서는 유지) — app.js와 동일
+function mixPhotos(list) {
+  const withImg = list.filter((p) => p.image), without = list.filter((p) => !p.image);
+  const out = [];
+  let i = 0, j = 0;
+  while (i < withImg.length || j < without.length) {
+    if (i < withImg.length && (out.length % 3 === 0 || j >= without.length)) out.push(withImg[i++]);
+    else out.push(without[j++]);
+  }
+  return out;
+}
+
 // ─── 목록 카드 (app.js와 같은 모양) ───
 function listCard(p) {
   const cat = catOf(p.category);
   const img = p.image
     ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" />`
-    : `<div class="no-image">${cat.icon}</div>`;
+    : placeholder(p.category);
   const badges = [
     p.official ? `<span class="badge ongoing">✅ 식약처 등록</span>` : "",
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
@@ -126,7 +144,9 @@ function buildPage(p, all) {
   const title = `${p.name} — 반려동물 동반 ${p.category} (${p.sido} ${p.sigungu})`;
   const description = (p.overview || `${p.name}은(는) ${p.sido} ${p.sigungu}에 있는 반려동물 동반 가능 ${p.category}입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.`).slice(0, 150);
 
-  const hero = p.image ? `<img class="hero" src="${esc(p.image)}" alt="${esc(p.name)}" />` : "";
+  const hero = p.image
+    ? `<img class="hero" src="${esc(p.image)}" alt="${esc(p.name)}" />`
+    : `<div class="ph-hero ph-${cat.slug}"><span class="ph-icon">${cat.icon}</span><span class="ph-label">반려동물 동반 ${esc(cat.key)}</span></div>`;
   const badges = [
     p.official ? `<span class="badge ongoing">✅ 식약처 공식 등록 업소</span>` : "",
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
@@ -171,7 +191,7 @@ function buildPage(p, all) {
     const oc = catOf(o.category);
     return `
       <a class="nearby-card nearby-link" href="${o.id}.html">
-        ${o.image ? `<img src="${esc(o.image)}" alt="${esc(o.name)}" loading="lazy" />` : `<div class="nearby-noimg">${oc.icon}</div>`}
+        ${o.image ? `<img src="${esc(o.image)}" alt="${esc(o.name)}" loading="lazy" />` : placeholder(o.category, "nearby-noimg")}
         <div class="nearby-name">${esc(o.name)}</div>
         <div class="nearby-dist">${oc.icon} ${esc(o.category)}${o.dist < 999 && hasCoords && o.lat ? ` · ${o.dist < 10 ? o.dist.toFixed(1) : Math.round(o.dist)}km` : ""}</div>
       </a>`;
@@ -311,7 +331,7 @@ for (const old of fs.readdirSync(__dirname)) {
 const d = kstNow();
 const daySeed = `${d.getUTCFullYear()}${d.getUTCMonth() + 1}${d.getUTCDate()}`;
 const rank = (id) => { let h = 5381; const s = daySeed + id; for (let i = 0; i < s.length; i++) h = ((h * 33) ^ s.charCodeAt(i)) >>> 0; return h; };
-const shuffled = (list) => [...list].sort((a, b) => rank(a.id) - rank(b.id));
+const shuffled = (list) => mixPhotos([...list].sort((a, b) => rank(a.id) - rank(b.id)));
 
 const catFiles = [];
 for (const c of CATS) {

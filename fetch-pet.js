@@ -23,6 +23,10 @@ const TOUR_TYPES = [
   [12, "관광지"], [14, "문화시설"], [28, "레포츠"], [32, "숙박"], [39, "식당"],
 ];
 const DETAIL_BUDGET = 400; // 하루에 관광공사 상세정보를 채울 최대 건수 (한도 보호)
+// 하루에 식약처 업소 사진을 관광공사 DB(KorService2)에서 찾아볼 최대 건수 (약 10%가 매칭됨)
+// KorService2 한도(일 1,000회)는 축제 사이트와 같이 쓰므로 여유를 둔다. 환경변수로 늘릴 수 있음.
+const PHOTO_BUDGET = Number(process.env.PHOTO_BUDGET) || 200;
+const PHOTO_RETRY_DAYS = 90; // 못 찾은 업소는 이 기간 뒤에 다시 찾아본다 (관광공사 DB가 계속 늘어남)
 
 // ── 공통 도우미 ─────────────────────────────────────────
 function kstNow() {
@@ -49,8 +53,12 @@ const SIDO_MAP = [
   ["전라북", "전북"], ["전북", "전북"], ["전라남", "전남"], ["전남", "전남"],
   ["경상북", "경북"], ["경북", "경북"], ["경상남", "경남"], ["경남", "경남"], ["제주", "제주"],
 ];
+const GWANGJU_GU = ["동구", "서구", "남구", "북구", "광산구"];
 function sidoOf(address) {
-  for (const [p, name] of SIDO_MAP) if ((address || "").startsWith(p)) return name;
+  address = address || "";
+  // 2026년 통합으로 두 데이터 모두 "전남광주통합특별시 북구 …" 식으로 옴 → 광주 5개 구는 "광주"로 분리
+  if (address.startsWith("전남광주")) return GWANGJU_GU.includes(sigunguOf(address)) ? "광주" : "전남";
+  for (const [p, name] of SIDO_MAP) if (address.startsWith(p)) return name;
   return "기타";
 }
 function sigunguOf(address) {
@@ -66,7 +74,9 @@ async function fetchMfds() {
   const out = [];
   for (const r of rows) {
     const cells = [...r.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((m) =>
-      m[1].replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim()
+      m[1].replace(/<[^>]+>/g, "")
+        .replace(/&amp;/g, "&").replace(/&#0?39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+        .replace(/\s+/g, " ").trim()
     );
     if (cells.length < 5 || !/^\d+$/.test(cells[0])) continue;
     const [, name, biz, , address] = cells;
@@ -186,6 +196,46 @@ async function fetchOverview(contentid) {
   }
 }
 
+// ── 식약처 업소 사진 빌려오기 ──────────────────────────────
+// 식약처 등록부에는 사진이 없다. 같은 이름의 가게가 관광공사 DB(searchKeyword2)에 있으면
+// 그 사진을 쓴다 (축제 사이트의 fetchTourMatch와 같은 방식). 이름+시도+시군구가 모두 맞아야 채택.
+const normName = (s) => String(s || "")
+  .replace(/\(.*?\)/g, "").replace(/\(주\)|㈜|주식회사/g, "")
+  .replace(/\s|[()\[\]<>·,.'"&-]/g, "").toLowerCase();
+async function fetchPhotoMatch(p) {
+  const keyword = String(p.name).replace(/\(주\)|㈜|주식회사/g, "").replace(/\(.*?\)/g, "").trim();
+  if (keyword.length < 2) return { image: "" };
+  try {
+    const params = new URLSearchParams({
+      serviceKey: TOUR_KEY, MobileOS: "ETC", MobileApp: "PetTripHub", _type: "json",
+      numOfRows: "10", pageNo: "1", arrange: "A", keyword,
+    });
+    const res = await fetch(`https://apis.data.go.kr/B551011/KorService2/searchKeyword2?${params}`);
+    const text = await res.text();
+    if (text.trim().startsWith("<")) throw new Error("XML");
+    const data = JSON.parse(text);
+    if (data?.response?.header?.resultCode !== "0000") throw new Error("API");
+    let items = data?.response?.body?.items?.item ?? [];
+    if (!Array.isArray(items)) items = [items];
+    const target = normName(p.name);
+    const hit = items.find((it) => {
+      const a = normName(it.title);
+      if (!a || !target || !it.firstimage) return false;
+      if (sidoOf(it.addr1) !== p.sido) return false;
+      if (p.sigungu && !(it.addr1 || "").includes(p.sigungu)) return false;
+      return a === target || (a.length >= 3 && target.length >= 3 && (a.includes(target) || target.includes(a)));
+    });
+    return { image: hit ? hit.firstimage : "", tourId: hit ? String(hit.contentid) : "" };
+  } catch {
+    return null; // 실패 → 다음 실행에 재시도
+  }
+}
+function daysBetween(yyyymmdd) {
+  if (!yyyymmdd) return Infinity;
+  const y = +yyyymmdd.slice(0, 4), m = +yyyymmdd.slice(4, 6) - 1, d = +yyyymmdd.slice(6, 8);
+  return (kstNow() - Date.UTC(y, m, d)) / 86400000;
+}
+
 // ── 메인 ────────────────────────────────────────────────
 async function main() {
   if (!TOUR_KEY) {
@@ -232,6 +282,25 @@ async function main() {
     if (VWORLD_KEY) await sleep(60);
   }
   console.log(`📍 좌표 변환: 새로 ${geoNew}건 / 실패 ${geoFail}건 ${VWORLD_KEY ? "" : "(VWORLD_KEY 없음 — 건너뜀)"}`);
+
+  // 사진 빌려오기 (캐시 우선, 아직 안 찾아본 업소만 하루 예산 내에서)
+  let photoTried = 0, photoNew = 0;
+  for (const p of mfds) {
+    const c = cache[p.id] || {};
+    p.image = c.image || "";
+    p.tourId = c.tourId || "";
+    p.photoTried = c.photoTried || "";
+    if (p.image) continue;
+    if (photoTried >= PHOTO_BUDGET || daysBetween(p.photoTried) < PHOTO_RETRY_DAYS) continue;
+    const m = await fetchPhotoMatch(p);
+    photoTried++;
+    if (m) {
+      p.photoTried = todayStr();
+      if (m.image) { p.image = m.image; p.tourId = m.tourId; photoNew++; }
+    }
+    await sleep(120);
+  }
+  console.log(`📷 사진 찾기: 오늘 ${photoTried}곳 시도, 새로 ${photoNew}곳 (누적 ${mfds.filter((p) => p.image).length}/${mfds.length})`);
 
   // ② 관광공사
   let tour = [];

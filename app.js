@@ -33,6 +33,23 @@ function toggleFavorite(id) {
   localStorage.setItem("pet-favorites", JSON.stringify(favs));
 }
 
+// 사진 없는 곳(식약처 등록부엔 사진이 없음)을 위한 카테고리 색상 타일 (build-pages.js와 같은 모양)
+function placeholder(cat) {
+  return `<div class="no-image ph-${CAT_SLUG[cat] || "etc"}"><span class="ph-icon">${CAT_ICON[cat] || "📍"}</span><span class="ph-label">${cat}</span></div>`;
+}
+
+// 사진 있는 곳을 3장에 1장꼴로 섞어 첫 화면이 허전하지 않게 (셔플 순서는 유지)
+function mixPhotos(list) {
+  const withImg = list.filter((p) => p.image), without = list.filter((p) => !p.image);
+  const out = [];
+  let i = 0, j = 0;
+  while (i < withImg.length || j < without.length) {
+    if (i < withImg.length && (out.length % 3 === 0 || j >= without.length)) out.push(withImg[i++]);
+    else out.push(without[j++]);
+  }
+  return out;
+}
+
 // ── 카드 그리기 ──
 function render() {
   const keyword = searchEl.value.trim().toLowerCase();
@@ -65,6 +82,7 @@ function render() {
     const daySeed = `${kst.getUTCFullYear()}${kst.getUTCMonth() + 1}${kst.getUTCDate()}`;
     const rank = (id) => { let h = 5381; const s = daySeed + id; for (let i = 0; i < s.length; i++) h = ((h * 33) ^ s.charCodeAt(i)) >>> 0; return h; };
     shown.sort((a, b) => rank(a.id) - rank(b.id));
+    shown = mixPhotos(shown);
   }
 
   countEl.textContent = `${shown.length}곳`;
@@ -77,7 +95,7 @@ function render() {
   listEl.innerHTML = shown.map((p) => {
     const faved = favorites.includes(p.id);
     const icon = CAT_ICON[p.category] || "📍";
-    const img = p.image ? `<img src="${p.image}" alt="${p.name}" loading="lazy" />` : `<div class="no-image">${icon}</div>`;
+    const img = p.image ? `<img src="${p.image}" alt="${p.name}" loading="lazy" />` : placeholder(p.category);
     const badges = [
       p.official ? `<span class="badge ongoing">✅ 식약처 등록</span>` : "",
       `<span class="badge upcoming">${icon} ${p.category}</span>`,
