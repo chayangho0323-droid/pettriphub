@@ -69,6 +69,7 @@ function render() {
       p._dist = 6371 * 2 * Math.asin(Math.sqrt(h));
     });
     shown.sort((a, b) => a._dist - b._dist);
+    shown = mixPhotos(shown); // 가까운 순 안에서도 사진 있는 곳 먼저
   } else {
     // 매일 셔플 (같은 날엔 같은 순서) — 4천여 곳이 공평하게 노출
     const kst = new Date(Date.now() + 9 * 60 * 60 * 1000);
