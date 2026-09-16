@@ -25,6 +25,8 @@ const GA_SNIPPET = GA_ID
 const ADS_SNIPPET = `
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5951913667078413" crossorigin="anonymous"></script>`;
 const HEAD_COMMON = GA_SNIPPET + ADS_SNIPPET;
+// 정적 파일 캐시 무력화 — 매일 빌드 날짜가 붙어 style.css 변경이 방문자에게 바로 반영됨
+const BUILD_VER = (() => { const d = new Date(Date.now() + 9 * 3600 * 1000); return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, "0")}${String(d.getUTCDate()).padStart(2, "0")}`; })();
 
 // 쿠팡 파트너스 (반려용품) — 링크가 생기면 채운다. 비어 있으면 섹션 자체가 안 나옴
 const COUPANG_ITEMS = [];
@@ -236,7 +238,7 @@ function buildPage(p, all) {
   <meta property="og:description" content="${esc(description)}" />
   ${p.image ? `<meta property="og:image" content="${esc(p.image)}" />` : ""}
   <meta property="og:url" content="${SITE_URL}/place/${p.id}.html" />
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../style.css?v=${BUILD_VER}" />
   ${hasCoords ? `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>` : ""}
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>${HEAD_COMMON}
@@ -291,7 +293,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items 
   <link rel="canonical" href="${SITE_URL}/${filename}" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
-  <link rel="stylesheet" href="style.css" />${HEAD_COMMON}
+  <link rel="stylesheet" href="style.css?v=${BUILD_VER}" />${HEAD_COMMON}
 </head>
 <body>
   <header class="site-header">
