@@ -38,16 +38,9 @@ function placeholder(cat) {
   return `<div class="no-image ph-${CAT_SLUG[cat] || "etc"}"><span class="ph-icon">${CAT_ICON[cat] || "📍"}</span><span class="ph-label">${cat}</span></div>`;
 }
 
-// 사진 있는 곳을 3장에 1장꼴로 섞어 첫 화면이 허전하지 않게 (셔플 순서는 유지)
+// 사진 있는 곳을 전부 앞으로, 사진 없는 곳(색상 타일)은 뒤로 (각 그룹 안에서는 셔플 순서 유지)
 function mixPhotos(list) {
-  const withImg = list.filter((p) => p.image), without = list.filter((p) => !p.image);
-  const out = [];
-  let i = 0, j = 0;
-  while (i < withImg.length || j < without.length) {
-    if (i < withImg.length && (out.length % 3 === 0 || j >= without.length)) out.push(withImg[i++]);
-    else out.push(without[j++]);
-  }
-  return out;
+  return [...list.filter((p) => p.image), ...list.filter((p) => !p.image)];
 }
 
 // ── 카드 그리기 ──
