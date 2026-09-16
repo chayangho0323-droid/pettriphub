@@ -446,6 +446,15 @@ html {
 }
 .photo-call-icon { font-size: 1.6rem; }
 .photo-call-text { flex: 1; }
+.photo-call-title {
+  font-family: "Jua", "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  color: #e8752c;
+  letter-spacing: 0.02em;
+  margin-right: 6px;
+}
+h2.photo-call-title { font-size: 1.5rem; margin-bottom: 8px; }
 .photo-call-btn {
   white-space: nowrap;
   padding: 8px 14px;
