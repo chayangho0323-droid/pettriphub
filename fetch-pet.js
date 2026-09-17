@@ -100,6 +100,7 @@ async function fetchMfds() {
 }
 
 // ── VWorld 지오코딩 (주소 → 좌표) ─────────────────────────
+let geoLastError = ""; // 실패 원인 진단용 (GitHub 서버에서 VWorld가 막히는지 로그로 확인)
 async function geocode(address) {
   if (!VWORLD_KEY) return null;
   // 괄호 안 상세(층·호수)는 빼고 도로명 주소만 — 매칭률이 올라간다
@@ -111,10 +112,15 @@ async function geocode(address) {
         address: clean, refine: "true", simple: "true", format: "json", type, key: VWORLD_KEY,
       });
       const res = await fetch(`https://api.vworld.kr/req/address?${params}`);
-      const data = await res.json();
+      const text = await res.text();
+      let data;
+      try { data = JSON.parse(text); } catch { geoLastError = `HTTP ${res.status} JSON 아님: ${text.slice(0, 120).replace(/\s+/g, " ")}`; continue; }
       const p = data?.response?.result?.point;
       if (data?.response?.status === "OK" && p) return { lat: Number(p.y), lng: Number(p.x) };
-    } catch {}
+      geoLastError = `status=${data?.response?.status} ${JSON.stringify(data?.response?.error || "").slice(0, 120)}`;
+    } catch (e) {
+      geoLastError = `네트워크: ${e.message}`;
+    }
   }
   return null;
 }
@@ -269,11 +275,15 @@ async function main() {
   }
 
   // 좌표 변환 (캐시에 있으면 재사용, 없으면 VWorld)
-  let geoNew = 0, geoFail = 0;
+  // 이름이 바뀌면 ID도 바뀌므로, 주소가 같은 캐시 항목의 좌표도 재사용한다 (VWorld 호출 절약 + 실패 대비)
+  const coordByAddress = {};
+  for (const c of Object.values(cache)) if (c.source === "mfds" && c.lat && c.lng && c.address) coordByAddress[c.address] = c;
+  let geoNew = 0, geoFail = 0, geoReused = 0;
   for (const p of mfds) {
-    const c = cache[p.id];
+    const c = cache[p.id] || coordByAddress[p.address];
     if (c && c.lat && c.lng) {
       p.lat = c.lat; p.lng = c.lng;
+      if (!cache[p.id]) geoReused++;
       continue;
     }
     const g = await geocode(p.address);
@@ -281,7 +291,8 @@ async function main() {
     else { p.lat = null; p.lng = null; geoFail++; }
     if (VWORLD_KEY) await sleep(60);
   }
-  console.log(`📍 좌표 변환: 새로 ${geoNew}건 / 실패 ${geoFail}건 ${VWORLD_KEY ? "" : "(VWORLD_KEY 없음 — 건너뜀)"}`);
+  console.log(`📍 좌표 변환: 새로 ${geoNew}건 / 실패 ${geoFail}건 / 주소로 재사용 ${geoReused}건 ${VWORLD_KEY ? "" : "(VWORLD_KEY 없음 — 건너뜀)"}`);
+  if (geoFail && geoLastError) console.log(`   ⚠️ VWorld 마지막 실패 사유: ${geoLastError}`);
 
   // 사진 빌려오기 (캐시 우선, 아직 안 찾아본 업소만 하루 예산 내에서)
   let photoTried = 0, photoNew = 0;

@@ -689,12 +689,12 @@
     "address": "서울특별시 동대문구 천호대로83길 9(1층 장안동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.56277510231814,
+    "lng": 127.06432489120965,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mvv4g9a",
@@ -4021,12 +4021,12 @@
     "address": "서울특별시 노원구 초안산로2길 110(창조교회 1층 좌측1,2호 월계동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.633341361171034,
+    "lng": 127.05794278661679,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mvg77a0",
@@ -7370,12 +7370,12 @@
     "address": "서울특별시 도봉구 도봉로145길 78(1층 방학동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.6647420123353,
+    "lng": 127.03826307904791,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "m3m723b",
@@ -7591,8 +7591,8 @@
     "address": "서울특별시 강동구 양재대로89길 73(1층 101호 성내동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.52738862943865,
+    "lng": 127.13147200115216,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
@@ -8203,12 +8203,12 @@
     "address": "서울특별시 마포구 월드컵로10길 17(1층 서교동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.55484234734321,
+    "lng": 126.91269341737535,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "m835zk3",
@@ -8832,8 +8832,8 @@
     "address": "전남광주통합특별시 동구 지호로 149(2층 지산동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 35.149386440651654,
+    "lng": 126.94474551447891,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
@@ -9869,12 +9869,12 @@
     "address": "전남광주통합특별시 여수시 학동5길 10(1층 학동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 34.763752149157426,
+    "lng": 127.66682120192651,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "myfyu4i",
@@ -10515,12 +10515,12 @@
     "address": "부산광역시 수영구 수영로618번길 85(2층 광안동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 35.160205042950565,
+    "lng": 129.11842683387238,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "m3ftxby",
@@ -11535,12 +11535,12 @@
     "address": "부산광역시 강서구 명지국제2로28번길 3(115호, 116호 명지동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 35.09405557480238,
+    "lng": 128.90761914085795,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mkermjq",
@@ -12113,8 +12113,8 @@
     "address": "부산광역시 남구 못골로 87(대연스퀘어 B동 104호 대연동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 35.13614003190909,
+    "lng": 129.09197741541948,
     "image": "",
     "tourId": "",
     "photoTried": "",
@@ -12453,12 +12453,12 @@
     "address": "부산광역시 해운대구 마린시티2로 33(104동 139-1호 일부호 우동, 해운대두산위브더제니스)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 35.156942375342766,
+    "lng": 129.14600320700467,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mfegmfk",
@@ -12946,12 +12946,12 @@
     "address": "부산광역시 남구 분포로 145(1층 1064호 용호동, 더블유)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 35.13261248437445,
+    "lng": 129.11337026659822,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mxilct4",
@@ -14306,8 +14306,8 @@
     "address": "대구광역시 달서구 성서공단로 287(달서반려견놀이터 근린생활시설제1동 1층 장동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 35.83762787616115,
+    "lng": 128.51317868579412,
     "image": "",
     "tourId": "",
     "photoTried": "",
@@ -16788,12 +16788,12 @@
     "address": "인천광역시 영종구 용유서로 140-2(1,2층 을왕동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.448844196438856,
+    "lng": 126.39318787351627,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "msgkxij",
@@ -17094,12 +17094,12 @@
     "address": "인천광역시 강화군 강화읍 향나무길22번길 11(1층)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.746087086165204,
+    "lng": 126.47834073685512,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "m5pi1ll",
@@ -20205,12 +20205,12 @@
     "address": "경기도 용인시 기흥구 죽전로15번길 15-3(보정동,1층)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.3218716905109,
+    "lng": 127.11001616784677,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mnizz0b",
@@ -24506,8 +24506,8 @@
     "address": "경기도 화성시 동탄구 동탄대로14길 6-14(1층 전체 여울동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.184405101148265,
+    "lng": 127.10265038108115,
     "image": "",
     "tourId": "",
     "photoTried": "",
@@ -27481,12 +27481,12 @@
     "address": "경기도 수원시 장안구 경수대로775번길 69(영화동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.289005960640296,
+    "lng": 127.01797442375272,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "ms6320j",
@@ -30728,12 +30728,12 @@
     "address": "경기도 부천시 원미구 길주로 1(판타스틱 스튜디오 G2동 1층 3.4.5호 상동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.50751735390578,
+    "lng": 126.74541520736118,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mc235df",
@@ -33737,8 +33737,8 @@
     "address": "충청남도 당진시 합덕읍 합덕성당2길 8",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 36.79356221669296,
+    "lng": 126.78493681985185,
     "image": "",
     "tourId": "",
     "photoTried": "",
@@ -33771,8 +33771,8 @@
     "address": "충청남도 천안시 동남구 광덕면 해수길 121(1동 1층)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 36.673713912197314,
+    "lng": 127.03779641732592,
     "image": "",
     "tourId": "",
     "photoTried": "",
@@ -39092,12 +39092,12 @@
     "address": "경상남도 함양군 마천면 창원아랫길 25-12",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 35.423444578853335,
+    "lng": 127.67777965518252,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mhpxx17",
@@ -40724,12 +40724,12 @@
     "address": "제주특별자치도 서귀포시 안덕면 한창로 271(1층)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 33.283788516985396,
+    "lng": 126.35316787298295,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "m95m431",
@@ -41880,12 +41880,12 @@
     "address": "강원특별자치도 강릉시 주문진읍 해안로 1637",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.88182302634401,
+    "lng": 128.8316987426818,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "m95cj0h",
@@ -42135,8 +42135,8 @@
     "address": "강원특별자치도 삼척시 테마타운길 49(302호 갈천동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.46722031745222,
+    "lng": 129.1692669187673,
     "image": "",
     "tourId": "",
     "photoTried": "",
@@ -42237,12 +42237,12 @@
     "address": "강원특별자치도 춘천시 신북읍 신샘밭로 706-8(1층)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.92941852038878,
+    "lng": 127.78752236338889,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mgoarb7",
@@ -42390,8 +42390,8 @@
     "address": "강원특별자치도 강릉시 월대산로103번길 62-41(1층 101호 두산동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.76599940795604,
+    "lng": 128.92737634257267,
     "image": "",
     "tourId": "",
     "photoTried": "",
@@ -43036,12 +43036,12 @@
     "address": "강원특별자치도 홍천군 서면 한치골길 262",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.64962889178414,
+    "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "m3fgqug",
@@ -43359,12 +43359,12 @@
     "address": "강원특별자치도 강릉시 창해로 307(세인트존스호텔 오션동 1층 강문동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.791995565367074,
+    "lng": 128.92109307911358,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "mspqiqa",
@@ -44107,12 +44107,12 @@
     "address": "강원특별자치도 원주시 전망길 15-1(1층 단계동)",
     "official": true,
     "source": "mfds",
-    "lat": null,
-    "lng": null,
+    "lat": 37.35292447834742,
+    "lng": 127.91678504232544,
     "image": "",
     "tourId": "",
     "photoTried": "",
-    "addedAt": "20260917"
+    "addedAt": "20260915"
   },
   {
     "id": "ms3xfel",
