@@ -1,0 +1,150 @@
+/* report.css - visitor photo submission UI (photo-call strip, report modal, visitor gallery).
+   Shared by FestivalHub / CampingHub. Extracted from PetTripHub style.css. ASCII only. */
+.detail-body .photo-call { margin: 18px 0; }
+.photo-call {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 900px;
+  margin: 0 auto 18px;
+  padding: 12px 16px;
+  background: #fff7ec;
+  border: 1px solid #ffd9a8;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #5a3d1a;
+}
+.photo-call-icon { font-size: 1.6rem; }
+.photo-call-text { flex: 1; }
+.photo-call-title {
+  font-family: "Jua", "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  color: #e8752c;
+  letter-spacing: 0.02em;
+  margin-right: 6px;
+}
+h2.photo-call-title { font-size: 1.5rem; margin-bottom: 8px; }
+.photo-call-btn {
+  white-space: nowrap;
+  padding: 8px 14px;
+  background: #ff8c42;
+  color: #fff !important;
+  border-radius: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+.photo-call-btn:hover { background: #e8752c; }
+@media (max-width: 640px) {
+  .photo-call { flex-wrap: wrap; margin: 0 16px 16px; }
+  .photo-call-btn { width: 100%; text-align: center; }
+}
+.photo-credit {
+  font-size: 0.82rem;
+  color: #777;
+  margin: 6px 2px 0;
+}
+.report-modal-bg {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.report-modal {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px 22px 18px;
+  width: 100%;
+  max-width: 520px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  color: #333;
+}
+.report-modal h3 { margin: 0 0 6px; font-size: 1.4rem; }
+.report-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.report-desc { font-size: 0.92rem; margin: 0 0 12px; line-height: 1.5; }
+.report-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.report-addr {
+  flex: 1;
+  background: #f5f6fa;
+  border: 1px solid #e3e5ee;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.95rem;
+  user-select: all;
+}
+.report-copy {
+  border: 1px solid #4756c9;
+  background: #fff;
+  color: #4756c9;
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.report-copy:hover { background: #4756c9; color: #fff; }
+.report-body {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e3e5ee;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  line-height: 1.5;
+  color: #555;
+  background: #fafbfc;
+  margin-bottom: 8px;
+  resize: vertical;
+}
+.report-hint { font-size: 0.8rem; color: #888; line-height: 1.5; }
+.report-actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 10px; }
+.report-actions .photo-call-btn { flex: 1; text-align: center; }
+.report-alt { background: #6c757d !important; }
+.report-alt:hover { background: #5a6268 !important; }
+.visitor-gallery h2 { display: flex; align-items: center; gap: 8px; }
+.visitor-count {
+  background: #ff8c42;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  padding: 2px 9px;
+}
+.visitor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+}
+.visitor-photo { margin: 0; }
+.visitor-photo img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  background: #eee;
+}
+.visitor-photo figcaption { font-size: 0.78rem; color: #666; margin-top: 4px; line-height: 1.4; }
+.detail-body .photo-call, .detail-container .photo-call { margin: 18px 0; }

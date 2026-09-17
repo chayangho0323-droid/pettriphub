@@ -38,52 +38,32 @@ const COUPANG_ITEMS = [];
 
 const pets = JSON.parse(fs.readFileSync("pets.json", "utf-8"));
 
-// ─── 제보받은 사진 (photos.json) ───
-// 방문자가 이메일로 보낸 사진을 photos/ 폴더에 넣고 photos.json에 한 줄 추가하면 카드·상세·RSS에 자동 반영.
-//   { "mhdg8jv": { "image": "photos/mhdg8jv.jpg", "credit": "멍멍맘" } }
-// 관광공사 사진이 있어도 제보 사진이 우선 (직접 찍은 사진이 더 정확하므로)
+// ─── 방문자 사진 제보 (공통 모듈 visitor-photos.js — 세 사이트 동일) ───
+// 받은 사진: photos/ 폴더 + photos.json → 상세 "📸 방문자 사진" 갤러리. 공식 사진 없는 곳은 첫 제보 사진이 대표 사진.
+const VP = require("./visitor-photos");
 const REPORT_EMAIL = "chayangho0323@gmail.com";
-let manualPhotos = {};
-try { manualPhotos = JSON.parse(fs.readFileSync("photos.json", "utf-8")); } catch {}
+const visitorPhotos = VP.loadVisitorPhotos(SITE_URL);
 let manualCount = 0;
 for (const p of pets) {
-  const m = manualPhotos[p.id];
-  if (m && m.image) {
-    p.image = /^https?:/.test(m.image) ? m.image : `${SITE_URL}/${m.image}`;
-    p.photoCredit = m.credit || "";
-    manualCount++;
-  }
+  const list = visitorPhotos[p.id];
+  if (!list) continue;
+  p.visitorPhotos = list;
+  if (!p.image) { p.image = list[0].image; p.photoCredit = list[0].credit; }
+  manualCount++;
 }
-if (manualCount) console.log(`📷 제보 사진 ${manualCount}곳 적용`);
+if (manualCount) console.log(`📷 방문자 사진 ${manualCount}곳 적용`);
 
-// 사진 제보 메일 링크 (제목·본문이 채워진 메일창이 열림). GA에서는 .report-link 클릭 = click_report
 function reportMailto(p) {
-  const subject = p ? `[사진 제보] ${p.name}` : "[사진 제보] PetTripHub";
-  const body = [
-    p ? `장소: ${p.name} (${p.sido} ${p.sigungu})` : "장소 이름: \n지역: ",
-    p ? `페이지: ${SITE_URL}/place/${p.id}.html` : "",
-    "방문일: ",
-    "표기할 닉네임: ",
-    "",
-    "※ 직접 촬영한 사진 1~3장을 첨부해 주세요. 보내주신 사진은 PetTripHub에 닉네임과 함께 게시되는 데 동의한 것으로 봅니다.",
-    "※ 다른 사람 얼굴·차량 번호판이 나온 사진은 피해 주세요.",
-  ].filter((l) => l !== "").join("\n");
-  return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  return VP.reportMailto(p
+    ? { email: REPORT_EMAIL, siteName: SITE_NAME, name: p.name, where: `${p.sido} ${p.sigungu}`.trim(), pageUrl: `${SITE_URL}/place/${p.id}.html` }
+    : { email: REPORT_EMAIL, siteName: SITE_NAME });
 }
-// 사진 제보 안내 띠 (메인 index.html과 같은 모양) — p가 있으면 상세 페이지용(장소 이름 채움), null이면 목록 페이지용
+// 사진 제보 안내 띠 — p가 있으면 상세 페이지용, null이면 목록 페이지용 (index.html에도 같은 문구가 있음)
 function photoCallHtml(p) {
   const text = !p
-    ? "식약처 등록 카페·식당은 공식 사진이 없어요. 다녀오신 곳 사진을 보내주시면"
-    : p.image ? "이곳에 다녀오셨다면 직접 찍은 사진을 보내주세요 —" : "아직 이곳 사진이 없어요. 다녀오셨다면 직접 찍은 사진을 보내주세요 —";
-  return `
-      <div class="photo-call">
-        <span class="photo-call-icon">📷</span>
-        <div class="photo-call-text">
-          <span class="photo-call-title">사진 제보 받아요!</span>
-          ${text} <strong>닉네임과 함께</strong> 올려드려요. (직접 찍은 사진만!)
-        </div>
-        <a class="photo-call-btn report-link" href="${esc(reportMailto(p))}">이메일로 제보하기 →</a>
-      </div>`;
+    ? "우리 댕댕이·냥이와 다녀온 사진을 자랑해 주세요! 식약처 등록 카페·식당은 공식 사진이 없어서 더 반가워요. <strong>닉네임과 함께</strong> 올려드려요."
+    : `이곳에 다녀오셨나요? 반려동물과 함께 찍은 사진, 예쁜 사진을 자랑해 주세요 — <strong>닉네임과 함께</strong> 이 페이지에 올려드려요.`;
+  return VP.photoCallHtml({ title: "사진 제보 받아요!", text, href: reportMailto(p) });
 }
 
 // ─── 카테고리 / 지역 정의 (app.js와 같은 표. 수정 시 양쪽 다!) ───
@@ -322,6 +302,7 @@ function buildPage(p, all) {
         ${infoRow("📞", "문의", esc(p.tel))}
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
+      ${VP.galleryHtml(p.visitorPhotos, { name: p.name, href: reportMailto(p) })}
       ${photoCallHtml(p)}
       ${petSection}
       ${overview}

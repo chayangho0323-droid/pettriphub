@@ -7,6 +7,7 @@
 //   click_map       길찾기·지도
 //   click_homepage  공식 홈페이지
 //   click_report    제보하기
+//   click_photo     방문자 사진 제보 (report.js 안내창 포함)
 //   click_calendar  캘린더 추가
 //   click_nearby    주변 관광지·맛집
 //   click_favorite  찜하기
@@ -25,6 +26,7 @@
     if (el.closest(".dir-btn.kakao, .dir-btn.naver")) return "click_map";
     if (el.closest(".review-link")) return "click_review"; // 네이버 후기 보기 (캠핑 카드)
     if (el.closest("#near-me")) return "click_nearme"; // 내 주변 가까운 순 (캠핑)
+    if (el.closest('a.report-link[href^="mailto:"], .report-modal a, .report-copy')) return "click_photo"; // 방문자 사진 제보 (띠 버튼·안내창 버튼)
     if (el.closest(".report-btn, .report-link")) return "click_report";
     if (el.closest("#cal-btn")) return "click_calendar";
     if (el.closest(".shop-link")) return "click_shop"; // 네이버쇼핑 인기 상품 (가이드 페이지)

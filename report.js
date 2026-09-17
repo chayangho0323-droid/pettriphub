@@ -32,7 +32,7 @@
       <div class="report-modal" role="dialog" aria-label="사진 제보 방법">
         <button class="report-close" aria-label="닫기">✕</button>
         <h3 class="photo-call-title">📷 사진 제보하기</h3>
-        <p class="report-desc">직접 찍은 사진 1~3장을 아래 주소로 보내주세요. 확인 후 닉네임과 함께 올려드려요.</p>
+        <p class="report-desc">직접 찍은 사진 1~5장을 아래 주소로 보내주세요. 가족·친구·반려동물과 찍은 사진, 자랑하고 싶은 예쁜 사진 모두 환영해요! 확인 후 닉네임과 함께 올려드려요.</p>
         <div class="report-row">
           <code class="report-addr"></code>
           <button class="report-copy" data-copy="addr">주소 복사</button>
@@ -46,7 +46,7 @@
           <a class="photo-call-btn" target="_blank" rel="noopener" data-gmail>Gmail로 보내기</a>
           <a class="photo-call-btn report-alt" data-mailto>메일 앱으로 보내기</a>
         </div>
-        <p class="report-hint">※ 다른 사람 얼굴·차량 번호판이 나온 사진은 피해 주세요. 보내주신 사진은 사이트에 게시되는 데 동의한 것으로 봅니다.</p>
+        <p class="report-hint">※ 사진 속 인물 모두가 게시에 동의한 사진만 보내주세요 (모르는 사람 얼굴·차량 번호판이 크게 나온 사진은 피해 주세요). 보내주신 사진은 사이트에 게시되는 데 동의한 것으로 보며, 요청하시면 바로 내려드립니다.</p>
       </div>`;
     wrap.querySelector(".report-addr").textContent = m.to;
     wrap.querySelector(".report-body").value = `제목: ${m.subject}\n\n${m.body}`;
