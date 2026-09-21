@@ -12,8 +12,9 @@
   <meta property="og:image" content="https://pettriphub.kr/og-image.png" />
   <meta property="og:url" content="https://pettriphub.kr/place/m1cal4h.html" />
   <link rel="stylesheet" href="../style.css?v=20260921" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"카페인중독 연천전곡점","description":"카페인중독 연천전곡점은(는) 경기 연천군에 있는 반려동물 동반 가능 카페입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.","url":"https://pettriphub.kr/place/m1cal4h.html","address":{"@type":"PostalAddress","streetAddress":"경기도 연천군 전곡읍 은전로 18(2동)","addressCountry":"KR"},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"반려동물 동반 가능","value":true}]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"카페인중독 연천전곡점","description":"카페인중독 연천전곡점은(는) 경기 연천군에 있는 반려동물 동반 가능 카페입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.","url":"https://pettriphub.kr/place/m1cal4h.html","address":{"@type":"PostalAddress","streetAddress":"경기도 연천군 전곡읍 은전로 18(2동)","addressCountry":"KR"},"geo":{"@type":"GeoCoordinates","latitude":38.02544048145673,"longitude":127.06325792744943},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"반려동물 동반 가능","value":true}]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />
@@ -61,55 +62,75 @@
       </div>
       <section class="overview"><h2>🐾 반려동물 동반 안내</h2><p>이 업소는 식품의약품안전처 <strong>「반려동물 동반출입 음식점」</strong>으로 정식 등록된 곳입니다. 등록 업소는 반려동물 동반 출입에 필요한 시설 기준과 준수사항을 갖추고 있어요. 다만 크기 제한·목줄 규정 등 세부 조건은 업소마다 달라 <strong>방문 전 전화 확인</strong>을 권장합니다.</p></section>
       
-      
+      <section class="overview"><h2>오시는 길</h2><div id="map" class="map"></div></section>
       
     <div class="dir-buttons">
-      
+      <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%B9%B4%ED%8E%98%EC%9D%B8%EC%A4%91%EB%8F%85%20%EC%97%B0%EC%B2%9C%EC%A0%84%EA%B3%A1%EC%A0%90,38.02544048145673,127.06325792744943">🚗 카카오맵 길찾기</a>
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%B0%EC%B2%9C%EA%B5%B0%20%EC%A0%84%EA%B3%A1%EC%9D%8D%20%EC%9D%80%EC%A0%84%EB%A1%9C%2018(2%EB%8F%99)">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%97%B0%EC%B2%9C%EA%B5%B0%20%EC%B9%B4%ED%8E%98%EC%9D%B8%EC%A4%91%EB%8F%85%20%EC%97%B0%EC%B2%9C%EC%A0%84%EA%B3%A1%EC%A0%90?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
       <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
-      <a class="nearby-card nearby-link" href="mqfd4ox.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">동막골 숯불닭갈비</div>
-        <div class="nearby-dist">🍽️ 식당</div>
-      </a>
       <a class="nearby-card nearby-link" href="me31pne.html">
         <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
         <div class="nearby-name">연천회관</div>
-        <div class="nearby-dist">🍽️ 식당</div>
-      </a>
-      <a class="nearby-card nearby-link" href="mah4pwa.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">잔잔</div>
-        <div class="nearby-dist">🍽️ 식당</div>
-      </a>
-      <a class="nearby-card nearby-link" href="mqi2ibh.html">
-        <div class="nearby-noimg ph-cafe"><span class="ph-icon">☕</span><span class="ph-label">카페</span></div>
-        <div class="nearby-name">샛대광길13 카페</div>
-        <div class="nearby-dist">☕ 카페</div>
-      </a>
-      <a class="nearby-card nearby-link" href="m4bk2d0.html">
-        <div class="nearby-noimg ph-cafe"><span class="ph-icon">☕</span><span class="ph-label">카페</span></div>
-        <div class="nearby-name">워킹버즈</div>
-        <div class="nearby-dist">☕ 카페</div>
+        <div class="nearby-dist">🍽️ 식당 · 5.9km</div>
       </a>
       <a class="nearby-card nearby-link" href="mcbamj1.html">
         <div class="nearby-noimg ph-cafe"><span class="ph-icon">☕</span><span class="ph-label">카페</span></div>
         <div class="nearby-name">율？당</div>
-        <div class="nearby-dist">☕ 카페</div>
+        <div class="nearby-dist">☕ 카페 · 6.7km</div>
       </a>
-      <a class="nearby-card nearby-link" href="2841245.html">
-        <img src="https://tong.visitkorea.or.kr/cms/resource_photo/96/4062096_image2_1.jpg" alt="임진강 댑싸리정원" loading="lazy" />
-        <div class="nearby-name">임진강 댑싸리정원</div>
-        <div class="nearby-dist">🏞️ 관광지</div>
+      <a class="nearby-card nearby-link" href="mqfd4ox.html">
+        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
+        <div class="nearby-name">동막골 숯불닭갈비</div>
+        <div class="nearby-dist">🍽️ 식당 · 7.2km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="m4bk2d0.html">
+        <div class="nearby-noimg ph-cafe"><span class="ph-icon">☕</span><span class="ph-label">카페</span></div>
+        <div class="nearby-name">워킹버즈</div>
+        <div class="nearby-dist">☕ 카페 · 8.3km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="127695.html">
+        <img src="https://tong.visitkorea.or.kr/cms/resource/47/3575647_image2_1.jpg" alt="허브아일랜드" loading="lazy" />
+        <div class="nearby-name">허브아일랜드</div>
+        <div class="nearby-dist">🏞️ 관광지 · 9.0km</div>
       </a>
       <a class="nearby-card nearby-link" href="125496.html">
         <img src="http://tong.visitkorea.or.kr/cms/resource/05/3532805_image2_1.jpg" alt="재인폭포 (한탄강 유네스코 세계지질공원)" loading="lazy" />
         <div class="nearby-name">재인폭포 (한탄강 유네스코 세계지질공원)</div>
-        <div class="nearby-dist">🏞️ 관광지</div>
+        <div class="nearby-dist">🏞️ 관광지 · 9.0km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="mah4pwa.html">
+        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
+        <div class="nearby-name">잔잔</div>
+        <div class="nearby-dist">🍽️ 식당 · 9.3km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="2841245.html">
+        <img src="https://tong.visitkorea.or.kr/cms/resource_photo/96/4062096_image2_1.jpg" alt="임진강 댑싸리정원" loading="lazy" />
+        <div class="nearby-name">임진강 댑싸리정원</div>
+        <div class="nearby-dist">🏞️ 관광지 · 12km</div>
       </a></div></section>
-      
+      <section class="nearby-section"><h2>🏕️ 근처 반려동물 동반 캠핑장</h2><div class="nearby-row">
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/100478.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/100478/thumb/thumb_720_8211cgch3jBpiSu3pDVcqbrC.jpg" alt="라구나캠프" loading="lazy" />
+        <div class="nearby-name">라구나캠프</div>
+        <div class="nearby-dist">📍 1.8km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/100703.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/100703/thumb/thumb_720_9326mMeWxtIxoBQ0Z1wnGWDn.jpg" alt="스톤브룩 캠핑장" loading="lazy" />
+        <div class="nearby-name">스톤브룩 캠핑장</div>
+        <div class="nearby-dist">📍 2.1km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/964.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/964/thumb/thumb_720_3817qJfnhYJSz9VKvRutuujL.jpg" alt="반려견호텔 랩도그빌" loading="lazy" />
+        <div class="nearby-name">반려견호텔 랩도그빌</div>
+        <div class="nearby-dist">📍 2.9km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/1151.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/1151/thumb/thumb_720_9074rR14D1UyLnrEq6AnyDIh.jpg" alt="물꽃 캠핑장" loading="lazy" />
+        <div class="nearby-name">물꽃 캠핑장</div>
+        <div class="nearby-dist">📍 3.3km · 캠핑허브 ↗</div>
+      </a></div></section>
       
       <p class="coupang-notice">※ 식약처 등록 현황은 영업자가 자율 신청한 업소 기준이며, 등록 이후 운영 상태가 바뀔 수 있습니다. 방문 전 확인을 권장합니다.</p>
     </div>
@@ -121,7 +142,7 @@
     <p><a class="cross-link" href="https://campinghub.kr/theme-pet.html" target="_blank" rel="noopener">🏕️ 반려동물 동반 캠핑장 1,100곳 — 캠핑허브</a> · <a class="cross-link" href="https://festivalhub.kr" target="_blank" rel="noopener">🎪 전국 축제 — 페스티벌허브</a></p>
   </footer>
   <script>
-    window.PET = {"id":"m1cal4h","name":"카페인중독 연천전곡점","lat":null,"lng":null};
+    window.PET = {"id":"m1cal4h","name":"카페인중독 연천전곡점","lat":38.02544048145673,"lng":127.06325792744943};
   </script>
   <script src="../pet-page.js"></script>
   <script src="../track-clicks.js"></script>

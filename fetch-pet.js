@@ -101,6 +101,7 @@ async function fetchMfds() {
 
 // ── VWorld 지오코딩 (주소 → 좌표) ─────────────────────────
 let geoLastError = ""; // 실패 원인 진단용 (GitHub 서버에서 VWorld가 막히는지 로그로 확인)
+const fetchStatus = { ranAt: new Date().toISOString(), runner: process.env.GITHUB_ACTIONS ? "github-actions" : "local" };
 async function geocode(address) {
   if (!VWORLD_KEY) return null;
   // 괄호 안 상세(층·호수)는 빼고 도로명 주소만 — 매칭률이 올라간다
@@ -293,6 +294,8 @@ async function main() {
   }
   console.log(`📍 좌표 변환: 새로 ${geoNew}건 / 실패 ${geoFail}건 / 주소로 재사용 ${geoReused}건 ${VWORLD_KEY ? "" : "(VWORLD_KEY 없음 — 건너뜀)"}`);
   if (geoFail && geoLastError) console.log(`   ⚠️ VWorld 마지막 실패 사유: ${geoLastError}`);
+  // 실행 결과를 저장소에 남긴다 — Actions 로그를 열지 않아도 실패 사유를 볼 수 있게 (fetch-status.json)
+  fetchStatus.geocode = { new: geoNew, fail: geoFail, reusedByAddress: geoReused, lastError: geoFail ? geoLastError : "" };
 
   // 사진 빌려오기 (캐시 우선, 아직 안 찾아본 업소만 하루 예산 내에서)
   let photoTried = 0, photoNew = 0;
@@ -367,6 +370,9 @@ async function main() {
   }
   if (Object.keys(cache).length) console.log(`🆕 새로 추가된 장소 ${added}곳`);
   fs.writeFileSync("pets.json", JSON.stringify(pets, null, 2), "utf-8");
+  fetchStatus.total = pets.length;
+  fetchStatus.noCoords = pets.filter((p) => !p.lat || !p.lng).length;
+  fs.writeFileSync("fetch-status.json", JSON.stringify(fetchStatus, null, 2), "utf-8");
   console.log(`✅ pets.json 저장 — 총 ${pets.length}곳 (식약처 ${mfds.length} + 관광공사 ${tour.length})`);
 }
 

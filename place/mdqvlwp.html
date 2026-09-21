@@ -12,8 +12,9 @@
   <meta property="og:image" content="https://pettriphub.kr/og-image.png" />
   <meta property="og:url" content="https://pettriphub.kr/place/mdqvlwp.html" />
   <link rel="stylesheet" href="../style.css?v=20260921" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"애플즈금관","description":"애플즈금관은(는) 충북 청주시에 있는 반려동물 동반 가능 카페입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.","url":"https://pettriphub.kr/place/mdqvlwp.html","address":{"@type":"PostalAddress","streetAddress":"충청북도 청주시 상당구 미원면 운암계원로 614-2(1층)","addressCountry":"KR"},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"반려동물 동반 가능","value":true}]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"애플즈금관","description":"애플즈금관은(는) 충북 청주시에 있는 반려동물 동반 가능 카페입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.","url":"https://pettriphub.kr/place/mdqvlwp.html","address":{"@type":"PostalAddress","streetAddress":"충청북도 청주시 상당구 미원면 운암계원로 614-2(1층)","addressCountry":"KR"},"geo":{"@type":"GeoCoordinates","latitude":36.620445328995345,"longitude":127.72414980954831},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"반려동물 동반 가능","value":true}]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />
@@ -61,55 +62,75 @@
       </div>
       <section class="overview"><h2>🐾 반려동물 동반 안내</h2><p>이 업소는 식품의약품안전처 <strong>「반려동물 동반출입 음식점」</strong>으로 정식 등록된 곳입니다. 등록 업소는 반려동물 동반 출입에 필요한 시설 기준과 준수사항을 갖추고 있어요. 다만 크기 제한·목줄 규정 등 세부 조건은 업소마다 달라 <strong>방문 전 전화 확인</strong>을 권장합니다.</p></section>
       
-      
+      <section class="overview"><h2>오시는 길</h2><div id="map" class="map"></div></section>
       
     <div class="dir-buttons">
-      
+      <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%95%A0%ED%94%8C%EC%A6%88%EA%B8%88%EA%B4%80,36.620445328995345,127.72414980954831">🚗 카카오맵 길찾기</a>
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EB%AF%B8%EC%9B%90%EB%A9%B4%20%EC%9A%B4%EC%95%94%EA%B3%84%EC%9B%90%EB%A1%9C%20614-2(1%EC%B8%B5)">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%95%A0%ED%94%8C%EC%A6%88%EA%B8%88%EA%B4%80?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
       <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
-      <a class="nearby-card nearby-link" href="msqo3wz.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">가끔</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+      <a class="nearby-card nearby-link" href="3544316.html">
+        <div class="nearby-noimg ph-stay"><span class="ph-icon">🏨</span><span class="ph-label">숙박</span></div>
+        <div class="nearby-name">사담관광농원캠핑</div>
+        <div class="nearby-dist">🏨 숙박 · 7.4km</div>
       </a>
-      <a class="nearby-card nearby-link" href="mhcwlxz.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">가화참숯소갈비살전문점</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+      <a class="nearby-card nearby-link" href="2671791.html">
+        <img src="http://tong.visitkorea.or.kr/cms/resource/57/3449957_image2_1.jpg" alt="말티재 전망대(말티고개)" loading="lazy" />
+        <div class="nearby-name">말티재 전망대(말티고개)</div>
+        <div class="nearby-dist">🏞️ 관광지 · 15km</div>
       </a>
-      <a class="nearby-card nearby-link" href="mbec3lv.html">
+      <a class="nearby-card nearby-link" href="msu8n1w.html">
         <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">노이즈</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+        <div class="nearby-name">어디야냥까페</div>
+        <div class="nearby-dist">🍽️ 식당 · 15km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="mib0q90.html">
+        <div class="nearby-noimg ph-cafe"><span class="ph-icon">☕</span><span class="ph-label">카페</span></div>
+        <div class="nearby-name">EPPY(에피)</div>
+        <div class="nearby-dist">☕ 카페 · 17km</div>
       </a>
       <a class="nearby-card nearby-link" href="mnmihmr.html">
         <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
         <div class="nearby-name">러푼젤</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+        <div class="nearby-dist">🍽️ 식당 · 19km</div>
       </a>
-      <a class="nearby-card nearby-link" href="mr1wnhe.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">보더</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+      <a class="nearby-card nearby-link" href="3464160.html">
+        <img src="https://tong.visitkorea.or.kr/cms/resource/26/3464126_image2_1.jpg" alt="대운선박" loading="lazy" />
+        <div class="nearby-name">대운선박</div>
+        <div class="nearby-dist">🏞️ 관광지 · 19km</div>
       </a>
-      <a class="nearby-card nearby-link" href="mystebh.html">
+      <a class="nearby-card nearby-link" href="msp938q.html">
         <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">사례월</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+        <div class="nearby-name">피그네버레스트(PIG NEVER REST)</div>
+        <div class="nearby-dist">🍽️ 식당 · 19km</div>
       </a>
-      <a class="nearby-card nearby-link" href="mxrz6p3.html">
+      <a class="nearby-card nearby-link" href="m4t2wq1.html">
         <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">쇼에</div>
-        <div class="nearby-dist">🍽️ 식당</div>
-      </a>
-      <a class="nearby-card nearby-link" href="mjk38x4.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">수리마술이</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+        <div class="nearby-name">행복한 부엌쟁이의 작은식탁</div>
+        <div class="nearby-dist">🍽️ 식당 · 20km</div>
       </a></div></section>
-      
+      <section class="nearby-section"><h2>🏕️ 근처 반려동물 동반 캠핑장</h2><div class="nearby-row">
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/101195.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/101195/thumb/thumb_720_9016hnDgPpRIdunIDgsa6SSi.jpg" alt="우니메이카 청주점" loading="lazy" />
+        <div class="nearby-name">우니메이카 청주점</div>
+        <div class="nearby-dist">📍 1.8km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/101105.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/101105/thumb/thumb_720_5801BvZvlA5MFCmvc4RkCA47.jpg" alt="옥화 포시즌캠핑장" loading="lazy" />
+        <div class="nearby-name">옥화 포시즌캠핑장</div>
+        <div class="nearby-dist">📍 1.9km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/100260.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/100260/thumb/thumb_720_0329ihBu5VUWxYr7FAe0HJkx.jpg" alt="일상화 글램핑" loading="lazy" />
+        <div class="nearby-name">일상화 글램핑</div>
+        <div class="nearby-dist">📍 4.6km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/7235.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/7235/thumb/thumb_720_3736TEbh5skBekwupyyXme39.jpg" alt="후평숲캠핑장" loading="lazy" />
+        <div class="nearby-name">후평숲캠핑장</div>
+        <div class="nearby-dist">📍 5.1km · 캠핑허브 ↗</div>
+      </a></div></section>
       
       <p class="coupang-notice">※ 식약처 등록 현황은 영업자가 자율 신청한 업소 기준이며, 등록 이후 운영 상태가 바뀔 수 있습니다. 방문 전 확인을 권장합니다.</p>
     </div>
@@ -121,7 +142,7 @@
     <p><a class="cross-link" href="https://campinghub.kr/theme-pet.html" target="_blank" rel="noopener">🏕️ 반려동물 동반 캠핑장 1,100곳 — 캠핑허브</a> · <a class="cross-link" href="https://festivalhub.kr" target="_blank" rel="noopener">🎪 전국 축제 — 페스티벌허브</a></p>
   </footer>
   <script>
-    window.PET = {"id":"mdqvlwp","name":"애플즈금관","lat":null,"lng":null};
+    window.PET = {"id":"mdqvlwp","name":"애플즈금관","lat":36.620445328995345,"lng":127.72414980954831};
   </script>
   <script src="../pet-page.js"></script>
   <script src="../track-clicks.js"></script>

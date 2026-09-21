@@ -12,8 +12,9 @@
   <meta property="og:image" content="https://pettriphub.kr/og-image.png" />
   <meta property="og:url" content="https://pettriphub.kr/place/mn4adhc.html" />
   <link rel="stylesheet" href="../style.css?v=20260921" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"오르노 성수점","description":"오르노 성수점은(는) 서울 성동구에 있는 반려동물 동반 가능 식당입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.","url":"https://pettriphub.kr/place/mn4adhc.html","address":{"@type":"PostalAddress","streetAddress":"서울특별시 성동구 뚝섬로17가길 49(베이스성수 1층 성수동2가)","addressCountry":"KR"},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"반려동물 동반 가능","value":true}]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"오르노 성수점","description":"오르노 성수점은(는) 서울 성동구에 있는 반려동물 동반 가능 식당입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.","url":"https://pettriphub.kr/place/mn4adhc.html","address":{"@type":"PostalAddress","streetAddress":"서울특별시 성동구 뚝섬로17가길 49(베이스성수 1층 성수동2가)","addressCountry":"KR"},"geo":{"@type":"GeoCoordinates","latitude":37.540816817626315,"longitude":127.05884576953696},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"반려동물 동반 가능","value":true}]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />
@@ -61,55 +62,75 @@
       </div>
       <section class="overview"><h2>🐾 반려동물 동반 안내</h2><p>이 업소는 식품의약품안전처 <strong>「반려동물 동반출입 음식점」</strong>으로 정식 등록된 곳입니다. 등록 업소는 반려동물 동반 출입에 필요한 시설 기준과 준수사항을 갖추고 있어요. 다만 크기 제한·목줄 규정 등 세부 조건은 업소마다 달라 <strong>방문 전 전화 확인</strong>을 권장합니다.</p></section>
       
-      
+      <section class="overview"><h2>오시는 길</h2><div id="map" class="map"></div></section>
       
     <div class="dir-buttons">
-      
+      <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%98%A4%EB%A5%B4%EB%85%B8%20%EC%84%B1%EC%88%98%EC%A0%90,37.540816817626315,127.05884576953696">🚗 카카오맵 길찾기</a>
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EB%9A%9D%EC%84%AC%EB%A1%9C17%EA%B0%80%EA%B8%B8%2049(%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%84%B1%EC%88%98%201%EC%B8%B5%20%EC%84%B1%EC%88%98%EB%8F%992%EA%B0%80)">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%98%A4%EB%A5%B4%EB%85%B8%20%EC%84%B1%EC%88%98%EC%A0%90?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
       <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
-      <a class="nearby-card nearby-link" href="m3yksbd.html">
-        <img src="http://tong.visitkorea.or.kr/cms/resource/64/2899064_image2_1.jpg" alt="(주)플레이버타운" loading="lazy" />
-        <div class="nearby-name">(주)플레이버타운</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+      <a class="nearby-card nearby-link" href="m4a88a1.html">
+        <img src="http://tong.visitkorea.or.kr/cms/resource/43/2900243_image2_1.jpg" alt="메이플탑" loading="lazy" />
+        <div class="nearby-name">메이플탑</div>
+        <div class="nearby-dist">🍽️ 식당 · 0.2km</div>
       </a>
-      <a class="nearby-card nearby-link" href="mn9utz5.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">ttitto 띠또분식</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+      <a class="nearby-card nearby-link" href="mbdes9.html">
+        <div class="nearby-noimg ph-bakery"><span class="ph-icon">🥐</span><span class="ph-label">베이커리</span></div>
+        <div class="nearby-name">천상가옥</div>
+        <div class="nearby-dist">🥐 베이커리 · 0.2km</div>
       </a>
-      <a class="nearby-card nearby-link" href="mvv4g9a.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">그린룸 GRIN ROOM</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+      <a class="nearby-card nearby-link" href="2745594.html">
+        <img src="http://tong.visitkorea.or.kr/cms/resource/24/3564924_image2_1.jpg" alt="성수연방" loading="lazy" />
+        <div class="nearby-name">성수연방</div>
+        <div class="nearby-dist">🏞️ 관광지 · 0.2km</div>
       </a>
-      <a class="nearby-card nearby-link" href="m39z0pk.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">금은방</div>
-        <div class="nearby-dist">🍽️ 식당</div>
-      </a>
-      <a class="nearby-card nearby-link" href="mf93bzh.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">누메로 뜨레쓰</div>
-        <div class="nearby-dist">🍽️ 식당</div>
-      </a>
-      <a class="nearby-card nearby-link" href="mivb0mb.html">
-        <img src="http://tong.visitkorea.or.kr/cms/resource/99/2894799_image2_1.jpg" alt="누메로도스" loading="lazy" />
-        <div class="nearby-name">누메로도스</div>
-        <div class="nearby-dist">🍽️ 식당</div>
-      </a>
-      <a class="nearby-card nearby-link" href="myzmstc.html">
-        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
-        <div class="nearby-name">다니엘 카페&amp;펍 by waff</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+      <a class="nearby-card nearby-link" href="m6o3k7w.html">
+        <div class="nearby-noimg ph-cafe"><span class="ph-icon">☕</span><span class="ph-label">카페</span></div>
+        <div class="nearby-name">리브릭(Libreak)</div>
+        <div class="nearby-dist">☕ 카페 · 0.3km</div>
       </a>
       <a class="nearby-card nearby-link" href="moll9qk.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/76/4043576_image2_1.png" alt="디아일" loading="lazy" />
         <div class="nearby-name">디아일</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+        <div class="nearby-dist">🍽️ 식당 · 0.3km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="2938669.html">
+        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
+        <div class="nearby-name">맥파이앤타이거 성수티룸</div>
+        <div class="nearby-dist">🍽️ 식당 · 0.4km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="mdm7bel.html">
+        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
+        <div class="nearby-name">림보</div>
+        <div class="nearby-dist">🍽️ 식당 · 0.4km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="m4xkjo3.html">
+        <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
+        <div class="nearby-name">모르겐글루트(Morgenglut)</div>
+        <div class="nearby-dist">🍽️ 식당 · 0.4km</div>
       </a></div></section>
-      
+      <section class="nearby-section"><h2>🏕️ 근처 반려동물 동반 캠핑장</h2><div class="nearby-row">
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/101161.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/101161/thumb/thumb_720_5994kD7yYT42WmPvRGtVohUn.jpg" alt="초이휴캠핑장" loading="lazy" />
+        <div class="nearby-name">초이휴캠핑장</div>
+        <div class="nearby-dist">📍 9.6km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/7868.html" title="캠핑허브에서 보기">
+        <div class="nearby-noimg">🏕️</div>
+        <div class="nearby-name">서울 서초 글램핑 청계산장</div>
+        <div class="nearby-dist">📍 10km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/100199.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/100199/thumb/thumb_720_8114VjZtcffaEu9aeGMzLdw4.jpg" alt="사노리숲" loading="lazy" />
+        <div class="nearby-name">사노리숲</div>
+        <div class="nearby-dist">📍 12km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/100337.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/100337/thumb/thumb_720_8885FqorAofEE9kog4f2e7yr.jpg" alt="따봄" loading="lazy" />
+        <div class="nearby-name">따봄</div>
+        <div class="nearby-dist">📍 13km · 캠핑허브 ↗</div>
+      </a></div></section>
       
       <p class="coupang-notice">※ 식약처 등록 현황은 영업자가 자율 신청한 업소 기준이며, 등록 이후 운영 상태가 바뀔 수 있습니다. 방문 전 확인을 권장합니다.</p>
     </div>
@@ -121,7 +142,7 @@
     <p><a class="cross-link" href="https://campinghub.kr/theme-pet.html" target="_blank" rel="noopener">🏕️ 반려동물 동반 캠핑장 1,100곳 — 캠핑허브</a> · <a class="cross-link" href="https://festivalhub.kr" target="_blank" rel="noopener">🎪 전국 축제 — 페스티벌허브</a></p>
   </footer>
   <script>
-    window.PET = {"id":"mn4adhc","name":"오르노 성수점","lat":null,"lng":null};
+    window.PET = {"id":"mn4adhc","name":"오르노 성수점","lat":37.540816817626315,"lng":127.05884576953696};
   </script>
   <script src="../pet-page.js"></script>
   <script src="../track-clicks.js"></script>
