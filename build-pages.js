@@ -78,6 +78,21 @@ const CATS = [
 ];
 const catOf = (key) => CATS.find((c) => c.key === key) || { key, slug: "etc", icon: "📍", desc: "" };
 
+// 검색어에 맞춘 유형 표현 ("반려동물 동반 카페"보다 "애견동반 카페"로 검색함)
+const PET_CAT_WORDS = {
+  카페: "애견동반 카페", 식당: "애견동반 식당", 베이커리: "애견동반 베이커리",
+  관광지: "반려견 동반 여행지", 숙박: "애견동반 숙소", 레포츠: "반려견 동반 레포츠", 문화시설: "반려견 동반 문화시설",
+};
+const petCatWord = (category) => PET_CAT_WORDS[category] || `반려견 동반 ${category}`;
+
+// 받침 유무에 맞는 조사 (한글이 아니면 "은(는)"처럼 병기)
+function josa(word, withFinal, withoutFinal) {
+  const ch = String(word || "").replace(/[\s)\]」』"']+$/g, "").slice(-1);
+  const code = ch.charCodeAt(0);
+  if (!(code >= 0xac00 && code <= 0xd7a3)) return `${withFinal}(${withoutFinal})`;
+  return (code - 0xac00) % 28 ? withFinal : withoutFinal;
+}
+
 const REGION_SLUGS = {
   서울: "seoul", 부산: "busan", 대구: "daegu", 인천: "incheon", 광주: "gwangju",
   대전: "daejeon", 울산: "ulsan", 세종: "sejong", 경기: "gyeonggi", 강원: "gangwon",
@@ -169,8 +184,16 @@ function listCard(p) {
 // ─── 장소 한 곳 → 상세 페이지 ───
 function buildPage(p, all) {
   const cat = catOf(p.category);
-  const title = `${p.name} — 반려동물 동반 ${p.category} (${p.sido} ${p.sigungu})`;
-  const description = (p.overview || `${p.name}은(는) ${p.sido} ${p.sigungu}에 있는 반려동물 동반 가능 ${p.category}입니다. 위치, 연락처, 동반 조건과 주변 정보를 확인하세요.`).slice(0, 150);
+  // 제목·설명은 사람들이 실제로 검색하는 말에 맞춘다 (2026-09-21 네이버 검색어 분석:
+  // 가게 이름만 검색하면 클릭률 0%, "OO 강아지출입"처럼 동반 의도가 붙은 검색은 50%).
+  // "반려동물 동반"보다 "강아지 동반·애견동반"이 실제 검색어라 제목에 넣는다.
+  const where = p.sigungu || p.sido;
+  const title = `${p.name} 강아지 동반 가능 — ${where} ${petCatWord(p.category)}`;
+  const size = p.petInfo && p.petInfo.petSize ? ` 동반 가능 범위: ${p.petInfo.petSize}.` : "";
+  const lead = p.official
+    ? `${p.name}${josa(p.name, "은", "는")} 식약처에 「반려동물 동반출입 음식점」으로 정식 등록된 ${p.sido} ${p.sigungu}의 ${petCatWord(p.category)}입니다. 강아지·반려견과 함께 입장할 수 있어요.`
+    : `${p.name}${josa(p.name, "은", "는")} ${p.sido} ${p.sigungu}에 있는 ${petCatWord(p.category)}로, 강아지·반려견과 함께 갈 수 있습니다.${size}`;
+  const description = `${lead} ${p.overview ? p.overview : "주소, 지도, 네이버 후기, 주변 동반 장소를 확인하세요."}`.replace(/\s+/g, " ").slice(0, 150);
 
   const hero = p.image
     ? `<img class="hero" src="${esc(p.image)}" alt="${esc(p.name)}" />${p.photoCredit ? `<p class="photo-credit">📷 사진 제보: ${esc(p.photoCredit)} 님 · <a class="report-link" href="${esc(reportMailto(p))}">나도 제보하기</a></p>` : ""}`
@@ -397,10 +420,10 @@ for (const c of CATS) {
   const filename = `cat-${c.slug}.html`;
   fs.writeFileSync(filename, buildListPage({
     filename,
-    title: `전국 반려동물 동반 ${c.key} ${items.length}곳 총정리 — ${SITE_NAME}`,
+    title: `전국 ${petCatWord(c.key)} ${items.length}곳 총정리 — 강아지 동반 가능한 곳 | ${SITE_NAME}`,
     heading: `${c.icon} 반려동물 동반 ${c.key}`,
     subtitle: `${c.desc} ${items.length}곳`,
-    description: `${c.desc} ${items.length}곳. 지역별 위치, 연락처, 동반 조건과 네이버 후기까지 한눈에.`,
+    description: `강아지·반려견과 함께 갈 수 있는 전국 ${petCatWord(c.key)} ${items.length}곳. 식약처 등록 업소와 관광공사 동반여행지를 지역별로, 위치·동반 조건·네이버 후기까지 한눈에.`,
     items,
     cat: c.key,
   }), "utf-8");
@@ -415,10 +438,10 @@ for (const [region, slug] of Object.entries(REGION_SLUGS)) {
   const filename = `region-${slug}.html`;
   fs.writeFileSync(filename, buildListPage({
     filename,
-    title: `${region} 반려동물 동반 카페·식당·여행지 ${items.length}곳 — ${SITE_NAME}`,
+    title: `${region} 애견동반 카페·식당·여행지 ${items.length}곳 — 강아지 동반 가능한 곳 | ${SITE_NAME}`,
     heading: `📍 ${region} 반려동물 동반 장소`,
     subtitle: `${region}에서 반려동물과 함께 갈 수 있는 곳 ${items.length}곳`,
-    description: `${region} 반려동물 동반 가능 카페, 식당, 관광지, 숙소 ${items.length}곳 모음. 식약처 등록 업소와 관광공사 동반여행지 정보.`,
+    description: `${region}에서 강아지·반려견과 함께 갈 수 있는 애견동반 카페, 식당, 여행지, 숙소 ${items.length}곳. 식약처 등록 업소와 관광공사 동반여행지 정보.`,
     items,
     region,
   }), "utf-8");
@@ -431,10 +454,10 @@ for (const [region, slug] of Object.entries(REGION_SLUGS)) {
     const subFile = `region-${slug}-${c.slug}.html`;
     fs.writeFileSync(subFile, buildListPage({
       filename: subFile,
-      title: `${region} 반려동물 동반 ${c.key} ${sub.length}곳 — ${SITE_NAME}`,
+      title: `${region} ${petCatWord(c.key)} ${sub.length}곳 — 강아지 동반 가능한 곳 | ${SITE_NAME}`,
       heading: `${c.icon} ${region} 반려동물 동반 ${c.key}`,
       subtitle: `${region}에서 반려동물과 함께 갈 수 있는 ${c.key} ${sub.length}곳`,
-      description: `${region} 반려동물 동반 가능 ${c.key} ${sub.length}곳. 위치, 연락처, 동반 조건과 네이버 후기까지 한눈에.`,
+      description: `${region}에서 강아지·반려견과 함께 갈 수 있는 ${petCatWord(c.key)} ${sub.length}곳. 위치, 연락처, 동반 조건과 네이버 후기까지 한눈에.`,
       items: sub,
       region,
       cat: c.key,
@@ -468,7 +491,7 @@ const rssBody = rssItems.map((p) => {
   const cat = catOf(p.category);
   const desc = `${p.sido} ${p.sigungu}에 있는 반려동물 동반 ${p.category}${p.official ? " (식약처 반려동물 동반출입 음식점 등록 업소)" : ""}. ${p.address}`;
   return `    <item>
-      <title>${esc(`${p.name} — ${p.sido} ${p.sigungu} 반려동물 동반 ${p.category}`)}</title>
+      <title>${esc(`${p.name} — ${p.sido} ${p.sigungu} ${petCatWord(p.category)}`)}</title>
       <link>${SITE_URL}/place/${p.id}.html</link>
       <guid isPermaLink="true">${SITE_URL}/place/${p.id}.html</guid>
       <pubDate>${rfc822(p.addedAt)}</pubDate>
