@@ -36,6 +36,15 @@ const BUILD_VER = (() => { const d = new Date(Date.now() + 9 * 3600 * 1000); ret
 // 쿠팡 파트너스 (반려용품) — 링크가 생기면 채운다. 비어 있으면 섹션 자체가 안 나옴
 const COUPANG_ITEMS = [];
 
+// 카카오 애드핏 (2026-09-28 매체 PetTripHub 등록) — 상세 페이지 동반 안내 아래 1개
+const ADFIT_UNIT_BODY = "DAN-TPN5R3i2yb75Ge6t"; // 광고단위 "pettrip-본문" 300x250
+const adfitBlock = (unit, w, h) => `
+      <div class="adfit" aria-label="광고">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="${unit}" data-ad-width="${w}" data-ad-height="${h}"></ins>
+        <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
+      </div>`;
+const ADFIT_BODY = adfitBlock(ADFIT_UNIT_BODY, 300, 250);
+
 const pets = JSON.parse(fs.readFileSync("pets.json", "utf-8"));
 
 // ─── 방문자 사진 제보 (공통 모듈 visitor-photos.js — 세 사이트 동일) ───
@@ -329,6 +338,7 @@ function buildPage(p, all) {
       ${photoCallHtml(p)}
       ${petSection}
       ${overview}
+      ${ADFIT_BODY}
       ${mapBlock}
       ${directions}
       ${nearbySection}

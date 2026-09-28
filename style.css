@@ -1306,3 +1306,11 @@ body {
   background: #eee;
 }
 .visitor-photo figcaption { font-size: 0.78rem; color: #666; margin-top: 4px; line-height: 1.4; }
+
+/* Kakao AdFit ad slot (detail page, below pet info) */
+.adfit {
+  display: flex;
+  justify-content: center;
+  margin: 22px 0 6px;
+}
+.adfit ins { max-width: 100%; }
