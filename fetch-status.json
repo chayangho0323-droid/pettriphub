@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-09-27T23:38:17.106Z",
+  "ranAt": "2026-09-29T00:48:49.577Z",
   "runner": "github-actions",
   "geocode": {
     "new": 0,
-    "fail": 30,
-    "reusedByAddress": 0,
+    "fail": 40,
+    "reusedByAddress": 1,
     "lastError": "네트워크: fetch failed"
   },
-  "total": 3792,
-  "noCoords": 30
+  "total": 3797,
+  "noCoords": 40
 }
