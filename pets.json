@@ -4199,13 +4199,13 @@
     "addedAt": "20260918"
   },
   {
-    "id": "mejn2l7",
+    "id": "mdmrzaa",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -4216,13 +4216,13 @@
     "addedAt": "20260915"
   },
   {
-    "id": "mdmrzaa",
+    "id": "mejn2l7",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -9571,23 +9571,6 @@
     "addedAt": "20260915"
   },
   {
-    "id": "m4jjnjw",
-    "name": "송경솥밥",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "광주",
-    "sigungu": "서구",
-    "address": "전남광주통합특별시 서구 상무시민로 136(수성빌딩 1층 치평동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 35.15499938373094,
-    "lng": 126.85388385172718,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260917",
-    "addedAt": "20260915"
-  },
-  {
     "id": "mag7mv8",
     "name": "송경솥밥",
     "category": "식당",
@@ -9599,6 +9582,23 @@
     "source": "mfds",
     "lat": 35.150317591447546,
     "lng": 126.92549246757514,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260917",
+    "addedAt": "20260915"
+  },
+  {
+    "id": "m4jjnjw",
+    "name": "송경솥밥",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "광주",
+    "sigungu": "서구",
+    "address": "전남광주통합특별시 서구 상무시민로 136(수성빌딩 1층 치평동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 35.15499938373094,
+    "lng": 126.85388385172718,
     "image": "",
     "tourId": "",
     "photoTried": "20260917",
@@ -10385,6 +10385,23 @@
     "tourId": "",
     "photoTried": "20260917",
     "addedAt": "20260915"
+  },
+  {
+    "id": "mwpsmjd",
+    "name": "몽드멍",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "광주",
+    "sigungu": "서구",
+    "address": "전남광주통합특별시 서구 상무민주로 115-1(5층 쌍촌동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260930",
+    "addedAt": "20260930"
   },
   {
     "id": "mc8nr3l",
@@ -12903,6 +12920,23 @@
     "addedAt": "20260915"
   },
   {
+    "id": "mifriyn",
+    "name": "더빌리지샵",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "부산",
+    "sigungu": "부산진구",
+    "address": "부산광역시 부산진구 동성로25번길 15(2층 전포동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260930",
+    "addedAt": "20260930"
+  },
+  {
     "id": "mrbdvc3",
     "name": "래미베이커리",
     "category": "카페",
@@ -14025,6 +14059,23 @@
     "addedAt": "20260915"
   },
   {
+    "id": "mowijot",
+    "name": "베리담",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "대구",
+    "sigungu": "달서구",
+    "address": "대구광역시 달서구 상화북로 25(1층 진천동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260930",
+    "addedAt": "20260930"
+  },
+  {
     "id": "m2ioemd",
     "name": "베이크 모마(Bake moma)",
     "category": "식당",
@@ -14805,6 +14856,23 @@
     "tourId": "2831960",
     "photoTried": "20260918",
     "addedAt": "20260915"
+  },
+  {
+    "id": "mf9hnla",
+    "name": "린네베이크",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "대구",
+    "sigungu": "북구",
+    "address": "대구광역시 북구 학남로 13(학정동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260930",
+    "addedAt": "20260930"
   },
   {
     "id": "m5a2b5x",
@@ -34782,6 +34850,23 @@
     "addedAt": "20260924"
   },
   {
+    "id": "mcz666z",
+    "name": "연어공주",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "충남",
+    "sigungu": "공주시",
+    "address": "충청남도 공주시 관골2길 34(주공6차아파트 상가동 102호 신관동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260930",
+    "addedAt": "20260929"
+  },
+  {
     "id": "mbgkkax",
     "name": "연옥이네밥상",
     "category": "식당",
@@ -42360,7 +42445,7 @@
     "lng": 126.76337924079675,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42377,7 +42462,7 @@
     "lng": 126.36360358276195,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42394,7 +42479,7 @@
     "lng": 126.27390845464987,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42411,7 +42496,7 @@
     "lng": 126.25905987088362,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42426,9 +42511,9 @@
     "source": "mfds",
     "lat": 33.263852535663375,
     "lng": 126.18234250986384,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/03/4070603_image2_1.jpg",
+    "tourId": "4071126",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42445,7 +42530,7 @@
     "lng": 126.50717349297462,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42462,7 +42547,7 @@
     "lng": 126.71499979149436,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42479,7 +42564,7 @@
     "lng": 126.22355054781613,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42496,7 +42581,7 @@
     "lng": 126.5307326815282,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42513,7 +42598,7 @@
     "lng": 126.52634958302508,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42530,7 +42615,7 @@
     "lng": 126.30205414673347,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42547,7 +42632,7 @@
     "lng": 126.4766528638151,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42564,7 +42649,7 @@
     "lng": 126.29639280413271,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42581,7 +42666,7 @@
     "lng": 126.54858981259996,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42598,7 +42683,7 @@
     "lng": 126.51445307996246,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42615,7 +42700,7 @@
     "lng": 126.53574260535459,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42632,7 +42717,7 @@
     "lng": 128.92018309460872,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42649,7 +42734,7 @@
     "lng": 128.8316987426818,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42666,7 +42751,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42683,7 +42768,7 @@
     "lng": 128.6812183677161,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42700,7 +42785,7 @@
     "lng": 128.22512638861514,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42717,7 +42802,7 @@
     "lng": 127.78451283762344,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42734,7 +42819,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42751,7 +42836,7 @@
     "lng": 128.92018309460872,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42768,7 +42853,7 @@
     "lng": 128.91355350423532,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42785,8 +42870,25 @@
     "lng": 128.9209361155228,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
+  },
+  {
+    "id": "mk18n7w",
+    "name": "강릉카페 이초",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "강원",
+    "sigungu": "강릉시",
+    "address": "강원특별자치도 강릉시 임영로 157(1~2층 용강동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260930",
+    "addedAt": "20260930"
   },
   {
     "id": "mkc9eip",
@@ -42802,7 +42904,7 @@
     "lng": 128.91985214203157,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42819,7 +42921,7 @@
     "lng": 128.92109307911358,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42836,7 +42938,7 @@
     "lng": 128.2267132422422,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42853,7 +42955,7 @@
     "lng": 128.9050163061213,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42868,9 +42970,9 @@
     "source": "mfds",
     "lat": 37.78777076072238,
     "lng": 127.52530310610305,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "http://tong.visitkorea.or.kr/cms/resource/92/2919892_image2_1.jpg",
+    "tourId": "2558052",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42887,7 +42989,7 @@
     "lng": 128.92057406968357,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42904,7 +43006,7 @@
     "lng": 129.1692669187673,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260917"
   },
   {
@@ -42921,7 +43023,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42938,7 +43040,7 @@
     "lng": null,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260922"
   },
   {
@@ -42955,7 +43057,7 @@
     "lng": 127.73436192613298,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42972,7 +43074,7 @@
     "lng": 127.66657414947795,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -42989,7 +43091,7 @@
     "lng": 128.7079337941068,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43006,7 +43108,7 @@
     "lng": 128.91497673073692,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43023,7 +43125,7 @@
     "lng": 127.78752236338889,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43040,7 +43142,7 @@
     "lng": 128.6326243761751,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43057,7 +43159,7 @@
     "lng": 127.98844297966872,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43074,7 +43176,7 @@
     "lng": 127.66456785947395,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43091,7 +43193,7 @@
     "lng": 128.91519009594765,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43108,7 +43210,7 @@
     "lng": 127.73387694907295,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43125,7 +43227,7 @@
     "lng": 129.1692669187673,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43140,9 +43242,9 @@
     "source": "mfds",
     "lat": 37.57874684200267,
     "lng": 128.332106097458,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "http://tong.visitkorea.or.kr/cms/resource/71/2789971_image2_1.jpg",
+    "tourId": "2789984",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43159,7 +43261,7 @@
     "lng": 127.75010057524493,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43176,7 +43278,7 @@
     "lng": 128.92737634257267,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260917"
   },
   {
@@ -43193,7 +43295,7 @@
     "lng": 127.73883548666234,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43210,7 +43312,7 @@
     "lng": 129.1084582010883,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43227,7 +43329,7 @@
     "lng": 128.46120097997516,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43244,7 +43346,7 @@
     "lng": 127.87575335266783,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43261,7 +43363,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43278,7 +43380,7 @@
     "lng": 127.92587221606692,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43295,7 +43397,7 @@
     "lng": 128.6326243761751,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43312,7 +43414,7 @@
     "lng": 127.92935203069226,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43329,7 +43431,7 @@
     "lng": 127.89748002697853,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43346,7 +43448,7 @@
     "lng": 127.98981297459503,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43363,7 +43465,7 @@
     "lng": 127.7837522567932,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43380,7 +43482,7 @@
     "lng": 129.05417158591726,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43397,7 +43499,7 @@
     "lng": 128.00720847651206,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43414,7 +43516,7 @@
     "lng": 127.93593284411055,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43431,7 +43533,7 @@
     "lng": 127.52530310610305,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43448,7 +43550,7 @@
     "lng": 129.18729429971285,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43465,7 +43567,7 @@
     "lng": 127.99760575411025,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43480,9 +43582,9 @@
     "source": "mfds",
     "lat": 37.87937176838336,
     "lng": 127.72793510002704,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "http://tong.visitkorea.or.kr/cms/resource/28/3578028_image2_1.JPG",
+    "tourId": "699497",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43499,7 +43601,7 @@
     "lng": 128.90087173077274,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43516,7 +43618,7 @@
     "lng": 127.77875747478322,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43533,7 +43635,7 @@
     "lng": 127.92824349321046,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43550,7 +43652,7 @@
     "lng": 128.89658112108071,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43567,7 +43669,7 @@
     "lng": 128.594674502709,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43584,7 +43686,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43601,7 +43703,7 @@
     "lng": 128.51098937782308,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43618,7 +43720,7 @@
     "lng": 128.49344026225043,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43635,7 +43737,7 @@
     "lng": 127.7370880475198,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43652,7 +43754,7 @@
     "lng": 128.37705344345633,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43669,7 +43771,7 @@
     "lng": 129.16750980884956,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43686,7 +43788,7 @@
     "lng": 128.8905907400557,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43703,7 +43805,7 @@
     "lng": 128.92018309460872,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43720,7 +43822,7 @@
     "lng": 128.6694946558191,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43737,7 +43839,7 @@
     "lng": 128.00652528735247,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43754,7 +43856,7 @@
     "lng": 127.69136403743128,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43771,7 +43873,7 @@
     "lng": 129.18748728952735,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43788,7 +43890,7 @@
     "lng": 129.1692669187673,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43805,7 +43907,7 @@
     "lng": 127.96399131192896,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43822,7 +43924,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43839,7 +43941,7 @@
     "lng": 128.56176534898145,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43856,7 +43958,7 @@
     "lng": 128.64276086531646,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43873,7 +43975,7 @@
     "lng": 128.6657320773719,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43890,7 +43992,7 @@
     "lng": 128.5570391998577,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43907,7 +44009,7 @@
     "lng": 128.82607141494793,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43924,7 +44026,7 @@
     "lng": 127.69828449669691,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43941,7 +44043,7 @@
     "lng": 128.37414377674563,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43958,7 +44060,7 @@
     "lng": 129.10649124433806,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43975,7 +44077,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -43992,7 +44094,7 @@
     "lng": 128.83252686246772,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44009,7 +44111,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44026,7 +44128,7 @@
     "lng": 128.7226484952709,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44043,7 +44145,7 @@
     "lng": 128.92109307911358,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44060,7 +44162,7 @@
     "lng": 128.6321641868372,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44077,7 +44179,7 @@
     "lng": 128.50971742974718,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44094,7 +44196,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44111,7 +44213,7 @@
     "lng": 129.165566452677,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44128,7 +44230,7 @@
     "lng": 127.73318928532825,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44145,7 +44247,7 @@
     "lng": 128.92109307911358,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44162,7 +44264,7 @@
     "lng": 127.98135539890436,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44179,7 +44281,7 @@
     "lng": 128.01687890548027,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44196,7 +44298,7 @@
     "lng": 127.5453758545871,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44213,7 +44315,7 @@
     "lng": 127.30199986015316,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44230,7 +44332,7 @@
     "lng": 127.87917837963309,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44247,7 +44349,7 @@
     "lng": 128.90067692161344,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44264,7 +44366,7 @@
     "lng": 127.73795542242942,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44279,9 +44381,9 @@
     "source": "mfds",
     "lat": 37.556451861366334,
     "lng": 129.12077379157864,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "http://tong.visitkorea.or.kr/cms/resource/08/2785908_image2_1.jpg",
+    "tourId": "2781701",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44298,8 +44400,25 @@
     "lng": 127.61997501970069,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
+  },
+  {
+    "id": "mfji05e",
+    "name": "왕성회집",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "강원",
+    "sigungu": "동해시",
+    "address": "강원특별자치도 동해시 일출로 151(5호 묵호진동, 삼양비취타워)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260930",
+    "addedAt": "20260930"
   },
   {
     "id": "mx5g21g",
@@ -44315,7 +44434,7 @@
     "lng": 129.1628684435766,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44332,7 +44451,7 @@
     "lng": 127.7335840819215,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44349,7 +44468,7 @@
     "lng": 127.72742887262362,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44366,7 +44485,7 @@
     "lng": 128.92109307911358,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44383,7 +44502,7 @@
     "lng": 127.75244070319536,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44400,7 +44519,7 @@
     "lng": 128.7844415267055,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44417,7 +44536,7 @@
     "lng": 128.6820045163986,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44434,7 +44553,7 @@
     "lng": 127.75696487535305,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44451,7 +44570,7 @@
     "lng": 127.51250788431005,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44468,7 +44587,7 @@
     "lng": 127.98740968527174,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44485,7 +44604,7 @@
     "lng": 127.73656125657105,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44502,7 +44621,7 @@
     "lng": 127.73096382443796,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44519,7 +44638,7 @@
     "lng": 128.90329309598786,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44536,7 +44655,7 @@
     "lng": 128.60657593878864,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44551,9 +44670,9 @@
     "source": "mfds",
     "lat": 37.930513758442444,
     "lng": 127.78888094535833,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/82/4108682_image2_1.jpg",
+    "tourId": "2774511",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44570,7 +44689,7 @@
     "lng": 128.83449363487955,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44585,9 +44704,9 @@
     "source": "mfds",
     "lat": 37.787235604846316,
     "lng": 128.91373343339626,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/38/2499738_image2_1.jpg",
+    "tourId": "2499936",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44604,7 +44723,7 @@
     "lng": 128.92018309460872,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44621,7 +44740,7 @@
     "lng": 129.15878961286148,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44638,7 +44757,7 @@
     "lng": 127.72444141198615,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44655,7 +44774,7 @@
     "lng": 127.78482927770716,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44672,7 +44791,7 @@
     "lng": 127.87732357819192,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44689,7 +44808,7 @@
     "lng": 127.73519419156233,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44706,7 +44825,7 @@
     "lng": 127.63018752287425,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44723,7 +44842,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44740,7 +44859,7 @@
     "lng": 128.9123606957268,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44757,7 +44876,7 @@
     "lng": 127.95896687288936,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44774,7 +44893,7 @@
     "lng": 127.73402292641431,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44791,7 +44910,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44808,7 +44927,7 @@
     "lng": 127.95701112644693,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44825,7 +44944,7 @@
     "lng": 128.8944278064593,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44842,7 +44961,7 @@
     "lng": 129.11677168328066,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44859,7 +44978,7 @@
     "lng": 129.19528347005576,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44876,7 +44995,7 @@
     "lng": 128.86762154601377,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44893,7 +45012,7 @@
     "lng": 127.91678504232544,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44908,9 +45027,9 @@
     "source": "mfds",
     "lat": 37.61481819150302,
     "lng": 128.37133860881835,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/53/2919153_image2_1.jpg",
+    "tourId": "736117",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44927,7 +45046,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44944,7 +45063,7 @@
     "lng": 127.75308326129667,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44961,7 +45080,7 @@
     "lng": 129.29902895879331,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44978,7 +45097,7 @@
     "lng": 128.49344026225043,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -44995,7 +45114,7 @@
     "lng": 127.75338978546064,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45012,7 +45131,7 @@
     "lng": 127.77807390240744,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45027,9 +45146,9 @@
     "source": "mfds",
     "lat": 37.7905498053383,
     "lng": 128.9209361155228,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "http://tong.visitkorea.or.kr/cms/resource/53/2874153_image2_1.jpg",
+    "tourId": "2874156",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45046,7 +45165,7 @@
     "lng": 128.87072960395187,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45063,7 +45182,7 @@
     "lng": 127.81764753246972,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45080,7 +45199,7 @@
     "lng": 127.85388596318462,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45097,7 +45216,7 @@
     "lng": 128.89057469666957,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45114,7 +45233,7 @@
     "lng": 128.5586566379055,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45129,9 +45248,9 @@
     "source": "mfds",
     "lat": 37.78976895112033,
     "lng": 128.91008385874034,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/99/3567999_image2_1.jpg",
+    "tourId": "3543262",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45148,7 +45267,7 @@
     "lng": 127.55058394485076,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45165,7 +45284,7 @@
     "lng": 128.78192725632846,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45182,7 +45301,7 @@
     "lng": 127.75748709451278,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45199,7 +45318,7 @@
     "lng": 127.76515964798185,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45216,7 +45335,7 @@
     "lng": 127.93109667326979,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45233,7 +45352,7 @@
     "lng": 129.10635855257482,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45250,7 +45369,7 @@
     "lng": 127.92225813318774,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45267,7 +45386,7 @@
     "lng": 127.73104009861599,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45284,7 +45403,7 @@
     "lng": 127.73984356689422,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45301,7 +45420,7 @@
     "lng": 127.44424340338145,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45318,7 +45437,7 @@
     "lng": 127.88128132522623,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45335,7 +45454,7 @@
     "lng": 127.98395496021428,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45352,7 +45471,7 @@
     "lng": 127.7502523152501,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45369,7 +45488,7 @@
     "lng": 129.16723806766356,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45386,7 +45505,7 @@
     "lng": 127.95346135165428,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45403,7 +45522,7 @@
     "lng": 127.72888305045292,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45420,7 +45539,7 @@
     "lng": 129.17568237588023,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45437,7 +45556,7 @@
     "lng": 127.7214417999588,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45454,7 +45573,7 @@
     "lng": 129.17143899427305,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45471,7 +45590,7 @@
     "lng": 127.47093855492352,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45488,7 +45607,7 @@
     "lng": 127.9584465252629,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45505,7 +45624,7 @@
     "lng": 128.7197644520846,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45522,7 +45641,7 @@
     "lng": 129.10302640382187,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45539,7 +45658,7 @@
     "lng": 127.68577911675465,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45556,7 +45675,7 @@
     "lng": 128.02335054468114,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45573,7 +45692,7 @@
     "lng": 127.77160670653913,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45590,7 +45709,7 @@
     "lng": 128.5402463820863,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45607,7 +45726,7 @@
     "lng": 128.89171376537283,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -45624,7 +45743,7 @@
     "lng": 129.1129445767918,
     "image": "",
     "tourId": "",
-    "photoTried": "",
+    "photoTried": "20260930",
     "addedAt": "20260915"
   },
   {
@@ -47054,23 +47173,6 @@
     "tourId": "",
     "photoTried": "",
     "addedAt": "20260915"
-  },
-  {
-    "id": "mcz666z",
-    "name": "연어공주",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "충남",
-    "sigungu": "공주시",
-    "address": "충청남도 공주시 관골2길 34(주공6차아파트 상가동 102호 신관동)",
-    "official": true,
-    "source": "mfds",
-    "lat": null,
-    "lng": null,
-    "image": "",
-    "tourId": "",
-    "photoTried": "",
-    "addedAt": "20260929"
   },
   {
     "id": "2784167",
@@ -52554,9 +52656,9 @@
     "sido": "대전",
     "sigungu": "동구",
     "address": "대전광역시 동구 산내로 106",
-    "lat": 36.2022976798,
-    "lng": 127.4547630291,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/87/3350787_image2_1.jpg",
+    "lat": 36.2022510241,
+    "lng": 127.4547440666,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/87/3350787_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -54254,8 +54356,8 @@
     "sido": "부산",
     "sigungu": "사하구",
     "address": "부산광역시 사하구 감내2로 203",
-    "lat": 35.0974606978369,
-    "lng": 129.010596996534,
+    "lat": 35.0974606978,
+    "lng": 129.0105969965,
     "image": "https://tong.visitkorea.or.kr/cms/resource/91/3365491_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -54529,9 +54631,9 @@
     "sido": "서울",
     "sigungu": "성북구",
     "address": "서울특별시 성북구 성북로23길 87 (성북동)",
-    "lat": 37.5927014565,
-    "lng": 126.9924967812,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/30/3551330_image2_1.jpg",
+    "lat": 37.5926476374,
+    "lng": 126.9924817919,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3551330_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -54774,7 +54876,7 @@
   },
   {
     "id": "128094",
-    "name": "비수구미마을(비수구미계곡)",
+    "name": "비수구미마을",
     "category": "관광지",
     "sido": "강원",
     "sigungu": "화천군",
@@ -65279,9 +65381,9 @@
     "sido": "경기",
     "sigungu": "고양시",
     "address": "경기도 고양시 덕양구 행주외동",
-    "lat": 37.5982699389,
-    "lng": 126.8197596027,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/20/2603220_image2_1.jpg",
+    "lat": 37.5982163,
+    "lng": 126.8197461,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/20/2603220_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -66454,9 +66556,9 @@
     "sido": "경북",
     "sigungu": "안동시",
     "address": "경상북도 안동시 풍천면 전서로 206",
-    "lat": 36.5486554565,
-    "lng": 128.5277689236,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/14/3585914_image2_1.jpg",
+    "lat": 36.548609725,
+    "lng": 128.5277448156,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/14/3585914_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -66604,9 +66706,9 @@
     "sido": "인천",
     "sigungu": "계양구",
     "address": "인천광역시 계양구 계양산로 101 (계산동)",
-    "lat": 37.548071351,
-    "lng": 126.7270444752,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/58/3039058_image2_1.jpg",
+    "lat": 37.5477,
+    "lng": 126.7272,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/58/3039058_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
