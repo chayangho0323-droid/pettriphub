@@ -76,3 +76,48 @@
     openModal(parseMailto(href), href);
   });
 })();
+
+// ── 방문자 사진 라이트박스: 사진을 새 탭 대신 페이지 안에서 크게 보기 (← → 넘기기, ESC·바깥 클릭 닫기) ──
+(function () {
+  let items = [], idx = 0, box = null;
+  function render() {
+    const it = items[idx];
+    box.querySelector(".lb-img").src = it.href;
+    box.querySelector(".lb-cap").textContent = (it.caption ? it.caption + " · " : "") + "📷 " + it.credit + " 님 제보 사진";
+    box.querySelector(".lb-count").textContent = (idx + 1) + " / " + items.length;
+    box.querySelector(".lb-prev").style.visibility = items.length > 1 ? "visible" : "hidden";
+    box.querySelector(".lb-next").style.visibility = items.length > 1 ? "visible" : "hidden";
+  }
+  function open(list, i) {
+    items = list; idx = i;
+    if (!box) {
+      box = document.createElement("div");
+      box.className = "lightbox";
+      box.innerHTML = '<button class="lb-close" aria-label="닫기">✕</button><button class="lb-prev" aria-label="이전">‹</button><figure><img class="lb-img" alt="" /><figcaption><span class="lb-cap"></span> <span class="lb-count"></span></figcaption></figure><button class="lb-next" aria-label="다음">›</button>';
+      box.addEventListener("click", (e) => {
+        if (e.target.closest(".lb-prev")) { idx = (idx - 1 + items.length) % items.length; render(); return; }
+        if (e.target.closest(".lb-next")) { idx = (idx + 1) % items.length; render(); return; }
+        if (e.target.closest(".lb-close") || e.target === box) close();
+      });
+      document.body.appendChild(box);
+    }
+    render();
+    box.classList.add("on");
+    document.body.style.overflow = "hidden";
+    document.addEventListener("keydown", onKey);
+  }
+  function close() { box.classList.remove("on"); document.body.style.overflow = ""; document.removeEventListener("keydown", onKey); }
+  function onKey(e) {
+    if (e.key === "Escape") close();
+    else if (e.key === "ArrowLeft") { idx = (idx - 1 + items.length) % items.length; render(); }
+    else if (e.key === "ArrowRight") { idx = (idx + 1) % items.length; render(); }
+  }
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a.visitor-open");
+    if (!a) return;
+    e.preventDefault();
+    const gallery = a.closest(".visitor-gallery") || document;
+    const links = [...gallery.querySelectorAll("a.visitor-open")];
+    open(links.map((l) => ({ href: l.getAttribute("href"), caption: l.dataset.caption || "", credit: l.dataset.credit || "방문자" })), links.indexOf(a));
+  });
+})();
