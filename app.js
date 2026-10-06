@@ -133,6 +133,8 @@ function fillOptions() {
   for (const [cat, slug] of Object.entries(CAT_SLUG)) {
     if (counts[cat]) addChip(`cat-${slug}.html`, `${CAT_ICON[cat]} ${cat} ${counts[cat]}`, cat === "카페" ? "chip chip-hot" : "chip");
   }
+  addChip("guide-cafe-manner.html", "📚 강아지와 카페 매너", "chip chip-hot", "처음 가는 애견동반 카페에서 지킬 것 — 운영자가 직접 쓴 가이드");
+  addChip("guide-daytrip.html", "🚗 당일치기 체크리스트", "chip", "강아지와 멀리 나가는 날 준비물·차 안 안전·관광지 입장 규정");
   for (const r of regions) addChip(`region-${REGION_SLUGS[r]}.html`, r);
 }
 

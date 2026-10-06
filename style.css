@@ -1338,3 +1338,11 @@ body {
 .lightbox .lb-prev { left: 12px; top: 50%; transform: translateY(-50%); }
 .lightbox .lb-next { right: 12px; top: 50%; transform: translateY(-50%); }
 .visitor-photo a img { cursor: zoom-in; }
+
+
+/* Region note on region/region x category pages */
+.region-note { max-width: 900px; margin: 0 auto 14px; padding: 12px 16px; background: #f0faf3; border: 1px solid #bfe6cc; border-radius: 12px; font-size: .9rem; line-height: 1.65; color: #2f5d3a; }
+@media (max-width: 640px) { .region-note { margin: 0 16px 14px; } }
+.auto-intro p, .place-note li { line-height: 1.8; }
+.place-note ul { padding-left: 20px; }
+.place-note li { margin-bottom: 6px; }

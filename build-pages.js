@@ -50,6 +50,10 @@ const pets = JSON.parse(fs.readFileSync("pets.json", "utf-8"));
 // ─── 방문자 사진 제보 (공통 모듈 visitor-photos.js — 세 사이트 동일) ───
 // 받은 사진: photos/ 폴더 + photos.json → 상세 "📸 방문자 사진" 갤러리. 공식 사진 없는 곳은 첫 제보 사진이 대표 사진.
 const VP = require("./visitor-photos");
+// 직접 쓴 가이드·지역 안내문·관광지 팁 (공공데이터에 없는 원본 콘텐츠 — 애드센스 "복제 콘텐츠" 보완)
+const { GUIDE_PAGES, REGION_NOTES, PLACE_NOTES } = require("./pettrip-guides");
+const normName = (n) => String(n || "").replace(/\s|[()\[\]<>·:,\-]/g, "").toLowerCase();
+function findPlaceNote(p) { const n = normName(p.name); return PLACE_NOTES.find((x) => n.includes(normName(x.key))) || null; }
 const REPORT_EMAIL = "chayangho0323@gmail.com";
 const visitorPhotos = VP.loadVisitorPhotos(SITE_URL);
 let manualCount = 0;
@@ -138,6 +142,7 @@ function footerHtml(prefix = "") {
   <footer class="site-footer">
     <p>정보 출처: 식품의약품안전처 반려동물 동반출입 음식점 등록 현황 · 한국관광공사 반려동물 동반여행 (공공데이터) · 매일 자동 갱신</p>
     <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}privacy.html">개인정보처리방침</a> · <a href="${prefix}index.html">전체 보기</a> · ${CATS.slice(0, 4).map((c) => `<a href="${prefix}cat-${c.slug}.html">${c.icon} ${c.key}</a>`).join(" · ")}</p>
+    <p>📚 가이드: <a href="${prefix}guide-cafe-manner.html">☕ 카페 매너</a> · <a href="${prefix}guide-choose.html">🍽️ 식당·카페 고르는 법</a> · <a href="${prefix}guide-daytrip.html">🚗 당일치기 체크리스트</a> · <a href="${prefix}guide-stay.html">🏨 숙소 예약 전 확인</a></p>
     <p><a class="cross-link" href="https://campinghub.kr/theme-pet.html" target="_blank" rel="noopener">🏕️ 반려동물 동반 캠핑장 1,100곳 — 캠핑허브</a> · <a class="cross-link" href="https://festivalhub.kr" target="_blank" rel="noopener">🎪 전국 축제 — 페스티벌허브</a></p>
   </footer>`;
 }
@@ -238,7 +243,28 @@ function buildPage(p, all) {
       ? `<section class="overview"><h2>🐾 반려동물 동반 안내</h2><p>이 업소는 식품의약품안전처 <strong>「반려동물 동반출입 음식점」</strong>으로 정식 등록된 곳입니다. 등록 업소는 반려동물 동반 출입에 필요한 시설 기준과 준수사항을 갖추고 있어요. 다만 크기 제한·목줄 규정 등 세부 조건은 업소마다 달라 <strong>방문 전 전화 확인</strong>을 권장합니다.</p></section>`
       : "";
 
-  const overview = p.overview ? `<section class="overview"><h2>소개</h2><p>${esc(p.overview)}</p></section>` : "";
+  // 소개글이 없는 식약처 업소(2,700곳)에 데이터로 만든 "한눈에 보기" — 등록 제도 설명 + 같은 동네 등록 업소 수
+  const sameGu = p.official ? all.filter((o) => o.id !== p.id && o.official && o.sido === p.sido && o.sigungu === p.sigungu) : [];
+  const sameGuCats = [...new Set(sameGu.map((o) => o.category))].slice(0, 3).join("·");
+  const regionSlug = REGION_SLUGS[p.sido];
+  const autoText = p.official
+    ? [
+        `${p.name}${josa(p.name, "은", "는")} ${p.sido} ${p.sigungu}에 있는 ${petCatWord(p.category)}로, 식품의약품안전처 「반려동물 동반출입 음식점」에 정식 등록된 업소입니다${p.biz ? ` (업종: ${p.biz})` : ""}.`,
+        "2026년 3월부터 시행된 이 등록 제도는 영업자가 동반 구역 분리·위생 관리 같은 기준을 갖춰 지자체에 신고해야 올라갈 수 있어서, 블로그 후기나 지도 앱의 태그와 달리 정부 등록 현황으로 확인된 정보예요.",
+        sameGu.length ? `${p.sigungu}에는 이곳 말고도 식약처 등록 ${sameGuCats || "애견동반 업소"} ${sameGu.length}곳이 더 있어요. ${regionSlug ? `<a href="../region-${regionSlug}-${catOf(p.category).slug}.html">${p.sido} ${petCatWord(p.category)} 전체 보기 →</a>` : ""}` : "",
+        "동반 가능한 크기·마리 수·실내 가능 여부는 업소마다 달라서, 처음 가는 곳은 방문 전 전화로 확인하는 걸 권해요.",
+      ].filter(Boolean).join(" ")
+    : "";
+  const overview = p.overview
+    ? `<section class="overview"><h2>소개</h2><p>${esc(p.overview)}</p></section>`
+    : autoText
+      ? `<section class="overview auto-intro"><h2>한눈에 보기</h2><p>${autoText}</p></section>`
+      : "";
+  // 관광지별 "반려견과 함께 갈 때" 팁 (직접 씀)
+  const note = findPlaceNote(p);
+  const noteSection = note
+    ? `<section class="overview place-note"><h2>🐾 반려견과 함께 갈 때</h2><ul>${note.tips.map((t) => `<li>${esc(t)}</li>`).join("")}</ul><p class="coupang-notice">※ 펫트립허브가 정리한 동반 팁이에요. 출입 규정은 바뀔 수 있으니 현장 안내를 우선하세요.</p></section>`
+    : "";
 
   const hasCoords = p.lat && p.lng;
   const mapBlock = hasCoords ? `<section class="overview"><h2>오시는 길</h2><div id="map" class="map"></div></section>` : "";
@@ -338,6 +364,7 @@ function buildPage(p, all) {
       ${photoCallHtml(p)}
       ${petSection}
       ${overview}
+      ${noteSection}
       ${ADFIT_BODY}
       ${mapBlock}
       ${directions}
@@ -395,6 +422,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   </header>
   <nav class="quick-links">${catChips}</nav>
   <nav class="quick-links quick-links-regions">${regionChips}</nav>
+  ${region && REGION_NOTES[region] ? `<section class="region-note"><p>🐾 <strong>${esc(region)}에서 강아지와 다닐 때</strong> — ${esc(REGION_NOTES[region])} 이 지역엔 식약처 등록 업소 ${items.filter((x) => x.official).length}곳과 관광공사 동반 여행지 ${items.filter((x) => !x.official).length}곳이 있어요.</p></section>` : ""}
   ${photoCallHtml(null)}
   <p class="result-count">${items.length}곳</p>
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 장소가 없습니다.</p>`}</main>
@@ -477,10 +505,50 @@ for (const [region, slug] of Object.entries(REGION_SLUGS)) {
 }
 console.log(`✅ 지역 페이지 ${regionFiles.length}개 (지역×유형 포함)`);
 
+// ─── 가이드 페이지 (pettrip-guides.js) ───
+const guideFiles = [];
+for (const g of GUIDE_PAGES) {
+  const filename = `${g.slug}.html`;
+  fs.writeFileSync(filename, `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${esc(g.title)} | ${SITE_NAME}</title>
+  <meta name="description" content="${esc(g.desc)}" />
+  <link rel="canonical" href="${SITE_URL}/${filename}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="${esc(g.title)}" />
+  <meta property="og:description" content="${esc(g.desc)}" />
+  <meta property="og:image" content="${SITE_URL}/og-image.png" />
+  <link rel="stylesheet" href="style.css?v=${BUILD_VER}" />${HEAD_COMMON}
+</head>
+<body>
+  <header class="site-header">
+    <h1>${g.icon} ${esc(g.title)}</h1>
+    <p class="home-link"><a href="index.html">← 전체 보기</a></p>
+  </header>
+  <main class="detail-container">
+    <div class="detail-body guide-body">
+      ${g.body}
+      ${ADFIT_BODY}
+      <p class="coupang-notice">이 글은 펫트립허브 운영자가 반려견과 다니며 겪은 경험과 공공기관의 공개 규정을 바탕으로 직접 썼습니다. 규정은 바뀔 수 있으니 방문 전 해당 장소에 확인해 주세요.</p>
+    </div>
+  </main>
+  ${footerHtml("")}
+  <script src="track-clicks.js"></script>
+  <script src="report.js?v=${BUILD_VER}"></script>
+</body>
+</html>`, "utf-8");
+  guideFiles.push(filename);
+}
+console.log(`✅ 가이드 ${guideFiles.length}편`);
+
 // sitemap + robots
 const today = new Date().toISOString().slice(0, 10);
 const urls = [
   `${SITE_URL}/`, `${SITE_URL}/about.html`, `${SITE_URL}/privacy.html`,
+  ...guideFiles.map((f) => `${SITE_URL}/${f}`),
   ...catFiles.map((f) => `${SITE_URL}/${f}`),
   ...regionFiles.map((f) => `${SITE_URL}/${f}`),
   ...pets.map((p) => `${SITE_URL}/place/${p.id}.html`),
