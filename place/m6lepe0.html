@@ -12,8 +12,9 @@
   <meta property="og:image" content="https://pettriphub.kr/og-image.png" />
   <meta property="og:url" content="https://pettriphub.kr/place/m6lepe0.html" />
   <link rel="stylesheet" href="../style.css?v=20261006" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"야미담","description":"야미담은 식약처에 「반려동물 동반출입 음식점」으로 정식 등록된 충북 단양군의 애견동반 식당입니다. 강아지·반려견과 함께 입장할 수 있어요. 주소, 지도, 네이버 후기, 주변 동반 장소를 확인하세요.","url":"https://pettriphub.kr/place/m6lepe0.html","address":{"@type":"PostalAddress","streetAddress":"충청북도 단양군 단양읍 별곡11길 7","addressCountry":"KR"},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"반려동물 동반 가능","value":true}]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"야미담","description":"야미담은 식약처에 「반려동물 동반출입 음식점」으로 정식 등록된 충북 단양군의 애견동반 식당입니다. 강아지·반려견과 함께 입장할 수 있어요. 주소, 지도, 네이버 후기, 주변 동반 장소를 확인하세요.","url":"https://pettriphub.kr/place/m6lepe0.html","address":{"@type":"PostalAddress","streetAddress":"충청북도 단양군 단양읍 별곡11길 7","addressCountry":"KR"},"geo":{"@type":"GeoCoordinates","latitude":36.986771561419175,"longitude":128.37039365672842},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"반려동물 동반 가능","value":true}]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />
@@ -66,10 +67,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-TPN5R3i2yb75Ge6t" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      
+      <section class="overview"><h2>오시는 길</h2><div id="map" class="map"></div></section>
       
     <div class="dir-buttons">
-      
+      <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%95%BC%EB%AF%B8%EB%8B%B4,36.986771561419175,128.37039365672842">🚗 카카오맵 길찾기</a>
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EB%8B%A8%EC%96%91%EA%B5%B0%20%EB%8B%A8%EC%96%91%EC%9D%8D%20%EB%B3%84%EA%B3%A111%EA%B8%B8%207">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%8B%A8%EC%96%91%EA%B5%B0%20%EC%95%BC%EB%AF%B8%EB%8B%B4?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
@@ -77,44 +78,64 @@
       <a class="nearby-card nearby-link" href="mw941xd.html">
         <div class="nearby-noimg ph-restaurant"><span class="ph-icon">🍽️</span><span class="ph-label">식당</span></div>
         <div class="nearby-name">forpie(폴파이)</div>
-        <div class="nearby-dist">🍽️ 식당</div>
+        <div class="nearby-dist">🍽️ 식당 · 1.1km</div>
       </a>
       <a class="nearby-card nearby-link" href="mdrpbxw.html">
         <div class="nearby-noimg ph-cafe"><span class="ph-icon">☕</span><span class="ph-label">카페</span></div>
         <div class="nearby-name">스푸마토(sfumato)</div>
-        <div class="nearby-dist">☕ 카페</div>
+        <div class="nearby-dist">☕ 카페 · 1.5km</div>
       </a>
       <a class="nearby-card nearby-link" href="2518166.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/88/4081388_image2_1.jpg" alt="단양 패러일번지" loading="lazy" />
         <div class="nearby-name">단양 패러일번지</div>
-        <div class="nearby-dist">🎾 레포츠</div>
-      </a>
-      <a class="nearby-card nearby-link" href="2519536.html">
-        <img src="https://tong.visitkorea.or.kr/cms/resource/56/3408156_image2_1.png" alt="만천하 스카이워크" loading="lazy" />
-        <div class="nearby-name">만천하 스카이워크</div>
-        <div class="nearby-dist">🎾 레포츠</div>
-      </a>
-      <a class="nearby-card nearby-link" href="2571935.html">
-        <img src="http://tong.visitkorea.or.kr/cms/resource/11/2570911_image2_1.jpg" alt="단양추억펜션" loading="lazy" />
-        <div class="nearby-name">단양추억펜션</div>
-        <div class="nearby-dist">🏨 숙박</div>
+        <div class="nearby-dist">🎾 레포츠 · 2.3km</div>
       </a>
       <a class="nearby-card nearby-link" href="2604656.html">
         <img src="http://tong.visitkorea.or.kr/cms/resource/78/2618378_image2_1.jpg" alt="단양강 잔도" loading="lazy" />
         <div class="nearby-name">단양강 잔도</div>
-        <div class="nearby-dist">🏞️ 관광지</div>
+        <div class="nearby-dist">🏞️ 관광지 · 2.9km</div>
       </a>
-      <a class="nearby-card nearby-link" href="2676837.html">
-        <img src="http://tong.visitkorea.or.kr/cms/resource/08/3536008_image2_1.jpg" alt="단양 보발재" loading="lazy" />
-        <div class="nearby-name">단양 보발재</div>
-        <div class="nearby-dist">🏞️ 관광지</div>
+      <a class="nearby-card nearby-link" href="2519536.html">
+        <img src="https://tong.visitkorea.or.kr/cms/resource/56/3408156_image2_1.png" alt="만천하 스카이워크" loading="lazy" />
+        <div class="nearby-name">만천하 스카이워크</div>
+        <div class="nearby-dist">🎾 레포츠 · 3.1km</div>
       </a>
       <a class="nearby-card nearby-link" href="2787086.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/57/3581957_image2_1.jpg" alt="단양 단성벽화마을" loading="lazy" />
         <div class="nearby-name">단양 단성벽화마을</div>
-        <div class="nearby-dist">🏞️ 관광지</div>
+        <div class="nearby-dist">🏞️ 관광지 · 6.9km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="2571935.html">
+        <img src="http://tong.visitkorea.or.kr/cms/resource/11/2570911_image2_1.jpg" alt="단양추억펜션" loading="lazy" />
+        <div class="nearby-name">단양추억펜션</div>
+        <div class="nearby-dist">🏨 숙박 · 7.1km</div>
+      </a>
+      <a class="nearby-card nearby-link" href="2676837.html">
+        <img src="http://tong.visitkorea.or.kr/cms/resource/08/3536008_image2_1.jpg" alt="단양 보발재" loading="lazy" />
+        <div class="nearby-name">단양 보발재</div>
+        <div class="nearby-dist">🏞️ 관광지 · 11km</div>
       </a></div></section>
-      
+      <section class="nearby-section"><h2>🏕️ 근처 반려동물 동반 캠핑장</h2><div class="nearby-row">
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/100307.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/100307/thumb/thumb_720_9250VZEvCnhUlUrOGREIVASN.jpg" alt="포레스트힐링캠프" loading="lazy" />
+        <div class="nearby-name">포레스트힐링캠프</div>
+        <div class="nearby-dist">📍 3.9km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/100644.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/100644/thumb/thumb_720_3997yLaGb6ScDvugRXgP4Eb7.jpg" alt="가리점캠핑장" loading="lazy" />
+        <div class="nearby-name">가리점캠핑장</div>
+        <div class="nearby-dist">📍 4.0km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/1719.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/1719/thumb/thumb_720_8772uJzFpYmITIFPjY9sgm0c.jpg" alt="소백산오토캠핑장" loading="lazy" />
+        <div class="nearby-name">소백산오토캠핑장</div>
+        <div class="nearby-dist">📍 4.3km · 캠핑허브 ↗</div>
+      </a>
+      <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener" href="https://campinghub.kr/camping/101267.html" title="캠핑허브에서 보기">
+        <img src="https://gocamping.or.kr/upload/camp/101267/thumb/thumb_720_7083teeDyEvfrgCiNGl0BVSr.jpg" alt="폭포가든캠핑장" loading="lazy" />
+        <div class="nearby-name">폭포가든캠핑장</div>
+        <div class="nearby-dist">📍 4.5km · 캠핑허브 ↗</div>
+      </a></div></section>
       
       <p class="coupang-notice">※ 식약처 등록 현황은 영업자가 자율 신청한 업소 기준이며, 등록 이후 운영 상태가 바뀔 수 있습니다. 방문 전 확인을 권장합니다.</p>
     </div>
@@ -126,7 +147,7 @@
     <p><a class="cross-link" href="https://campinghub.kr/theme-pet.html" target="_blank" rel="noopener">🏕️ 반려동물 동반 캠핑장 1,100곳 — 캠핑허브</a> · <a class="cross-link" href="https://festivalhub.kr" target="_blank" rel="noopener">🎪 전국 축제 — 페스티벌허브</a></p>
   </footer>
   <script>
-    window.PET = {"id":"m6lepe0","name":"야미담","lat":null,"lng":null};
+    window.PET = {"id":"m6lepe0","name":"야미담","lat":36.986771561419175,"lng":128.37039365672842};
   </script>
   <script src="../pet-page.js"></script>
   <script src="../track-clicks.js"></script>

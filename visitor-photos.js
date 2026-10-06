@@ -13,8 +13,8 @@ const fs = require("fs");
 
 const esc = (s) => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-// 제보 사진을 랜딩 맨 위에 고정하는 기간(일). 사용자가 2026-10-06 "3~5일" 제안 → 5일
-const PIN_DAYS = 5;
+// 제보 사진을 랜딩 맨 위에 고정하는 기간(일). 사용자가 2026-10-06 "3~5일" 제안 → 5일 → 2026-10-06 일주일로 변경
+const PIN_DAYS = 7;
 
 // photos.json → { id: [ { image(절대주소), video, poster, credit, caption, date } ] }
 function loadVisitorPhotos(siteUrl, file = "photos.json") {
