@@ -39,4 +39,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --cached --quiet || git commit -m "자동 데이터 갱신 $(date -u +'%Y-%m-%d')"
-          git push
+          # 로봇이 도는 사이 사람이 푸시하면 push가 거부된다 (2026-10-05·06 축제 로봇 실패 원인).
+          # → 최신 원격을 먼저 받아 그 위에 얹고(충돌 시 방금 빌드한 파일 우선), 실패하면 3번까지 재시도
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && break
+            echo "push 재시도 $i/3 (20초 대기)"; sleep 20
+          done
+          git log --oneline -1
