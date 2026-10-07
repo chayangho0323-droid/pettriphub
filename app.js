@@ -162,11 +162,11 @@ function renderWeatherBanner() {
   const chips = order.filter((s) => WX.sido[s]).map((s) => {
     const w = WX.sido[s], slug = REGION_SLUGS[s];
     const temp = w.tmn != null && w.tmx != null ? ` ${w.tmn}°/${w.tmx}°` : "";
-    const pm = w.pm ? ` <i class="wx-pm-mini ${/매우/.test(w.pm) ? "pm3" : /나쁨/.test(w.pm) ? "pm2" : /보통/.test(w.pm) ? "pm1" : "pm0"}">😷${w.pm}</i>` : "";
+    const pm = w.pm ? ` <i class="wx-pm-mini ${/매우/.test(w.pm) ? "pm3" : /나쁨/.test(w.pm) ? "pm2" : /보통/.test(w.pm) ? "pm1" : "pm0"}">😷 먼지 ${w.pm}</i>` : "";
     return `<a class="wx-chip wx-${w.grade}" href="${slug ? `region-${slug}.html` : "#"}" title="${s} 토요일 비 확률 ${w.pop}%${w.pm ? ` · 주말 미세먼지 ${w.pm}` : ""} · ${w.n}개 시군구 기준">${WX_ICON[w.grade]} ${s} ${w.pop}%${temp}${pm}</a>`;
   }).join("");
   const good = Object.values(WX.sido).filter((w) => w.grade === "good").length, total = Object.keys(WX.sido).length;
-  el.innerHTML = `<span class="wx-title">🐾 이번 주말 <strong>${WX.weekend.map(md).join("·")}</strong> 강아지 산책 날씨</span> <span class="wx-sub">${good === total ? "전국 맑음 — 어디든 좋아요!" : good ? `${total}개 지역 중 ${good}곳 좋음` : "비 소식 있어요 — 실내 동반 가능한 곳을 찾아보세요"}</span><span class="wx-chips">${chips}</span><span class="wx-foot">카드의 <b>☀️ 주말</b> 배지는 그 장소 시군구 기준 · 상세 페이지에 7일 예보와 강아지 산책 팁 · 기상청 ${WX.updated} 발표</span>`;
+  el.innerHTML = `<span class="wx-title">🐾 이번 주말 <strong>${WX.weekend.map(md).join("·")}</strong> 강아지 산책 날씨</span> <span class="wx-sub">${good === total ? "전국 맑음 — 어디든 좋아요!" : good ? `${total}개 지역 중 ${good}곳 좋음` : "비 소식 있어요 — 실내 동반 가능한 곳을 찾아보세요"}</span><span class="wx-chips">${chips}</span><span class="wx-foot"><b>칩 읽는 법</b> 날씨 · 토요일 비 확률 · 최저/최고 기온 · 😷 주말 미세먼지 &nbsp;|&nbsp; 카드의 <b>☀️ 주말</b> 배지는 그 장소 시군구 기준 · 상세 페이지에 7일 예보와 강아지 산책 팁 · 기상청 ${WX.updated} 발표</span>`;
 }
 async function loadWeather() {
   try {
