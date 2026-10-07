@@ -91,6 +91,7 @@ function render() {
     const icon = CAT_ICON[p.category] || "📍";
     const img = p.image ? `<img src="${p.image}" alt="${p.name}" loading="lazy" />` : placeholder(p.category);
     const badges = [
+      weekendBadge(p),
       `<span class="badge upcoming">${icon} ${p.category}</span>`,
       p.official ? `<span class="badge official">✅ 식약처 등록</span>` : "",
       p.petSize ? `<span class="badge long">🐕 ${p.petSize}</span>` : "",
@@ -137,6 +138,42 @@ function fillOptions() {
   addChip("guide-daytrip.html", "🚗 당일치기 체크리스트", "chip", "강아지와 멀리 나가는 날 준비물·차 안 안전·관광지 입장 규정");
   for (const r of regions) addChip(`region-${REGION_SLUGS[r]}.html`, r);
 }
+
+// ── 이번 주말 산책 날씨 (build-pages.js가 만든 weather-summary.json: 시도별 요약 + 시군구별 등급) ──
+// 상단 띠에 시도별 칩, 카드에 "☀️ 주말 좋음" 배지. 상세 페이지 날씨와 같은 기준(비 60%↑=비 예보, 30%↑=보통)
+let WX = null;
+const WX_ICON = { good: "☀️", soso: "⛅", rain: "🌧️" };
+const WX_LABEL = { good: "좋음", soso: "보통", rain: "비 예보" };
+function weekendBadge(p) {
+  if (!WX || !p.sigungu) return "";
+  const a = WX.areas[`${p.sido} ${p.sigungu}`];
+  if (!a) return "";
+  const rank = { rain: 2, soso: 1, good: 0 };
+  const g = [a[1], a[3]].filter(Boolean).sort((x, y) => rank[y] - rank[x])[0]; // 토·일 중 나쁜 쪽
+  if (!g) return "";
+  const pop = Math.max(a[0] ?? 0, a[2] ?? 0);
+  return `<span class="badge wx wx-${g}" title="이번 주말 비 확률 ${pop}%">${WX_ICON[g]} 주말 ${WX_LABEL[g]}</span>`;
+}
+function renderWeatherBanner() {
+  const el = document.getElementById("weather-banner");
+  if (!el || !WX || !WX.weekend.length) return;
+  const md = (d) => `${Number(d.date.slice(4, 6))}/${Number(d.date.slice(6))}(${d.dow})`;
+  const order = ["서울", "경기", "인천", "강원", "충북", "충남", "대전", "세종", "전북", "전남", "광주", "경북", "대구", "경남", "부산", "울산", "제주"];
+  const chips = order.filter((s) => WX.sido[s]).map((s) => {
+    const w = WX.sido[s], slug = REGION_SLUGS[s];
+    const temp = w.tmn != null && w.tmx != null ? ` ${w.tmn}°/${w.tmx}°` : "";
+    return `<a class="wx-chip wx-${w.grade}" href="${slug ? `region-${slug}.html` : "#"}" title="${s} 토요일 비 확률 ${w.pop}% · ${w.n}개 시군구 기준">${WX_ICON[w.grade]} ${s} ${w.pop}%${temp}</a>`;
+  }).join("");
+  const good = Object.values(WX.sido).filter((w) => w.grade === "good").length, total = Object.keys(WX.sido).length;
+  el.innerHTML = `<span class="wx-title">🐾 이번 주말 <strong>${WX.weekend.map(md).join("·")}</strong> 강아지 산책 날씨</span> <span class="wx-sub">${good === total ? "전국 맑음 — 어디든 좋아요!" : good ? `${total}개 지역 중 ${good}곳 좋음` : "비 소식 있어요 — 실내 동반 가능한 곳을 찾아보세요"}</span><span class="wx-chips">${chips}</span><span class="wx-foot">카드의 <b>☀️ 주말</b> 배지는 그 장소 시군구 기준 · 상세 페이지에 7일 예보와 강아지 산책 팁 · 기상청 ${WX.updated} 발표</span>`;
+}
+async function loadWeather() {
+  try {
+    const res = await fetch("weather-summary.json");
+    if (res.ok) { WX = await res.json(); renderWeatherBanner(); if (allPets.length) render(); }
+  } catch (e) {}
+}
+loadWeather();
 
 // ── 시작 ──
 async function init() {

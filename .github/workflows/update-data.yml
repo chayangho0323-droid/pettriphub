@@ -32,6 +32,13 @@ jobs:
           TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
           VWORLD_KEY: ${{ secrets.VWORLD_KEY }}
 
+      # 기상청 단기·중기예보 → 시군구별 7일 날씨 weather.json (캠핑허브와 같은 코드, 하루 약 260회 호출)
+      # 실패하면 전날 weather.json을 그대로 써서 빌드는 계속된다
+      - run: node fetch-weather.js
+        env:
+          TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
+        continue-on-error: true
+
       - run: node build-pages.js
 
       - run: |

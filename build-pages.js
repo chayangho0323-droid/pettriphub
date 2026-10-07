@@ -54,6 +54,40 @@ const VP = require("./visitor-photos");
 const { GUIDE_PAGES, REGION_NOTES, PLACE_NOTES } = require("./pettrip-guides");
 const normName = (n) => String(n || "").replace(/\s|[()\[\]<>·:,\-]/g, "").toLowerCase();
 function findPlaceNote(p) { const n = normName(p.name); return PLACE_NOTES.find((x) => n.includes(normName(x.key))) || null; }
+
+// ─── 지역 날씨 (fetch-weather.js → weather.json, 시군구별 7일. 캠핑허브와 같은 구조, 문구만 반려견 기준) ───
+let WEATHER = { updated: "", areas: {} };
+try { WEATHER = JSON.parse(fs.readFileSync("weather.json", "utf-8")); } catch {}
+function weatherHtml(p) {
+  const area = WEATHER.areas[`${p.sido} ${p.sigungu}`];
+  if (!area || !area.days || !area.days.length) return "";
+  const icon = (d) => (d.pty ? (/눈/.test(d.sky) ? "🌨️" : "🌧️") : d.pop >= 60 ? "🌧️" : d.sky === "맑음" ? "☀️" : d.sky === "흐림" ? "☁️" : "⛅");
+  // 산책 적합도: 비 60%↑·강수 = 비 예보 / 30%↑ = 보통 / 그 외 좋음 (캠핑허브와 같은 기준)
+  const grade = (d) => (d.pty || d.pop >= 60 ? ["rain", "🌧️ 비 예보"] : d.pop >= 30 ? ["soso", "⛅ 보통"] : ["good", "☀️ 좋음"]);
+  const md = (d) => `${Number(d.date.slice(4, 6))}/${Number(d.date.slice(6))}`;
+  const temp = (d) => (d.tmn != null && d.tmx != null ? `${Math.round(d.tmn)}°/${Math.round(d.tmx)}°` : d.tmx != null ? `최고 ${Math.round(d.tmx)}°` : "");
+  const cells = area.days.map((d) => `<div class="wx-day${d.dow === "토" || d.dow === "일" ? " wx-weekend" : ""}"><span class="wx-dow">${md(d)} ${d.dow}</span><span class="wx-icon">${icon(d)}</span><span class="wx-pop">💧${d.pop != null ? d.pop + "%" : "-"}</span><span class="wx-temp">${temp(d)}</span></div>`).join("");
+  const weekend = area.days.filter((d) => d.dow === "토" || d.dow === "일").slice(0, 2);
+  const wkHtml = weekend.length
+    ? `<p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — ${weekend.map((d) => { const [cls, label] = grade(d); return `<span class="wx-grade ${cls}">${md(d)}(${d.dow}) ${label}</span> 비 ${d.pop ?? "-"}%${temp(d) ? " · " + temp(d) : ""}`; }).join(" / ")}</p>`
+    : "";
+  // 반려견 기준 팁: 더위(발바닥 화상·열사병), 추위(소형견·단모종), 비(실내 가능 여부)
+  const maxT = Math.max(...area.days.slice(0, 3).map((d) => (d.tmx != null ? d.tmx : -99)));
+  const minT = Math.min(...area.days.slice(0, 3).map((d) => (d.tmn != null ? d.tmn : 99)));
+  const tips = [];
+  if (maxT >= 28) tips.push(`🥵 낮 최고 ${Math.round(maxT)}°예요. 한낮 아스팔트는 발바닥 화상 위험이 있으니 산책은 아침·저녁으로, 물과 그늘을 챙기고 차 안에 잠시라도 두지 마세요.`);
+  if (minT <= 5) tips.push(`🧥 아침 최저 ${Math.round(minT)}°까지 내려가요. 소형견·단모종·노령견은 옷을 입히고 산책 시간을 짧게 잡으세요.`);
+  if (weekend.some((d) => d.pty || d.pop >= 60)) tips.push("☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.");
+  const tipHtml = tips.map((t) => `<p class="wx-tip">${t}</p>`).join("");
+  const mid = area.days.some((d) => d.src === "mid");
+  return `
+      <section class="overview weather-box">
+        <h2>⛅ ${esc(p.sigungu)} 이번 주 날씨</h2>
+        <div class="wx-strip">${cells}</div>
+        ${wkHtml}${tipHtml}
+        <p class="coupang-notice">기상청 단기·중기예보 (${esc(WEATHER.updated)} 발표) · ${esc(p.sigungu)} 기준${mid ? " · 4일 뒤부터는 권역 예보라 대략적인 값입니다" : ""}. 매일 새벽 갱신.</p>
+      </section>`;
+}
 const REPORT_EMAIL = "chayangho0323@gmail.com";
 const visitorPhotos = VP.loadVisitorPhotos(SITE_URL);
 let manualCount = 0;
@@ -363,6 +397,7 @@ function buildPage(p, all) {
       ${VP.galleryHtml(p.visitorPhotos, { name: p.name, href: reportMailto(p) })}
       ${photoCallHtml(p)}
       ${petSection}
+      ${weatherHtml(p)}
       ${overview}
       ${noteSection}
       ${ADFIT_BODY}
@@ -599,3 +634,33 @@ const slim = pets.map((p) => ({
 }));
 fs.writeFileSync("pets-list.json", JSON.stringify(slim), "utf-8");
 console.log(`✅ pets-list.json (${Math.round(JSON.stringify(slim).length / 1024)}KB)`);
+
+// ─── 메인 페이지용 주말 날씨 요약 (weather-summary.json, 약 10KB) — 캠핑허브와 같은 형식 ───
+// app.js가 읽어서 상단 "이번 주말 산책 날씨" 띠(시도별)와 카드 배지(시군구별)를 그린다
+{
+  const gradeOf = (d) => (d.pty || d.pop >= 60 ? "rain" : d.pop >= 30 ? "soso" : "good");
+  const summary = { updated: WEATHER.updated || "", weekend: [], areas: {}, sido: {} };
+  const sidoAcc = {};
+  for (const [key, area] of Object.entries(WEATHER.areas || {})) {
+    const wk = (area.days || []).filter((d) => d.dow === "토" || d.dow === "일").slice(0, 2);
+    if (!wk.length) continue;
+    if (!summary.weekend.length) summary.weekend = wk.map((d) => ({ date: d.date, dow: d.dow }));
+    const sat = wk.find((d) => d.dow === "토"), sun = wk.find((d) => d.dow === "일");
+    // [토 비확률, 토 등급, 일 비확률, 일 등급, 토 최저, 토 최고]
+    summary.areas[key] = [sat ? sat.pop : null, sat ? gradeOf(sat) : "", sun ? sun.pop : null, sun ? gradeOf(sun) : "", sat && sat.tmn != null ? Math.round(sat.tmn) : null, sat && sat.tmx != null ? Math.round(sat.tmx) : null];
+    const sido = key.split(" ")[0];
+    const acc = (sidoAcc[sido] ||= { pop: 0, n: 0, rain: 0, soso: 0, tmn: [], tmx: [] });
+    const rep = sat || sun;
+    acc.pop += rep.pop || 0; acc.n++;
+    const g = wk.some((d) => gradeOf(d) === "rain") ? "rain" : wk.some((d) => gradeOf(d) === "soso") ? "soso" : "good";
+    if (g === "rain") acc.rain++; else if (g === "soso") acc.soso++;
+    if (rep.tmn != null) acc.tmn.push(rep.tmn); if (rep.tmx != null) acc.tmx.push(rep.tmx);
+  }
+  for (const [sido, a] of Object.entries(sidoAcc)) {
+    const avg = (arr) => (arr.length ? Math.round(arr.reduce((s, v) => s + v, 0) / arr.length) : null);
+    const grade = a.rain / a.n >= 0.5 ? "rain" : (a.rain + a.soso) / a.n >= 0.5 ? "soso" : "good";
+    summary.sido[sido] = { pop: Math.round(a.pop / a.n), grade, tmn: avg(a.tmn), tmx: avg(a.tmx), n: a.n };
+  }
+  fs.writeFileSync("weather-summary.json", JSON.stringify(summary), "utf-8");
+  console.log(`✅ weather-summary.json (시도 ${Object.keys(summary.sido).length}·시군구 ${Object.keys(summary.areas).length})`);
+}
