@@ -1385,3 +1385,16 @@ body {
 .badge.wx-good { background: #e3f6e8; color: #1e7a3a; }
 .badge.wx-soso { background: #fff4d6; color: #8a5a00; }
 .badge.wx-rain { background: #e6eefc; color: #2b4ea8; }
+
+/* 메인 칩 안의 미세먼지 표시 */
+.weather-banner .wx-pm-mini { font-style: normal; font-size: .74rem; margin-left: 2px; padding: 0 5px; border-radius: 999px; }
+.weather-banner .wx-pm-mini.pm0 { background: #d7f0de; color: #1e7a3a; }
+.weather-banner .wx-pm-mini.pm1 { background: #ffe9b8; color: #8a5a00; }
+.weather-banner .wx-pm-mini.pm2 { background: #ffd4d4; color: #a52222; }
+.weather-banner .wx-pm-mini.pm3 { background: #e8d7ff; color: #5a1e9e; }
+/* 날짜 칸의 미세먼지 예보 (에어코리아) */
+.weather-box .wx-pm { font-size: 0.72rem; margin-top: 1px; padding: 0 6px; border-radius: 999px; }
+.weather-box .wx-pm.pm0 { background: #e3f6e8; color: #1e7a3a; }
+.weather-box .wx-pm.pm1 { background: #fff4d6; color: #8a5a00; }
+.weather-box .wx-pm.pm2 { background: #ffe3e3; color: #a52222; }
+.weather-box .wx-pm.pm3 { background: #e8d7ff; color: #5a1e9e; }

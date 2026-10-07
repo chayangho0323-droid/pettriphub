@@ -39,6 +39,12 @@ jobs:
           TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
         continue-on-error: true
 
+      # 에어코리아 미세먼지 예보 → air.json (산책 날씨 칸 😷 등급·주말 미세먼지 팁, 하루 약 10회 호출)
+      - run: node fetch-air.js
+        env:
+          TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
+        continue-on-error: true
+
       - run: node build-pages.js
 
       - run: |

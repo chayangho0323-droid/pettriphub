@@ -58,6 +58,9 @@ function findPlaceNote(p) { const n = normName(p.name); return PLACE_NOTES.find(
 // ─── 지역 날씨 (fetch-weather.js → weather.json, 시군구별 7일. 캠핑허브와 같은 구조, 문구만 반려견 기준) ───
 let WEATHER = { updated: "", areas: {} };
 try { WEATHER = JSON.parse(fs.readFileSync("weather.json", "utf-8")); } catch {}
+let AIR = { updated: "", areas: {} }; // 에어코리아 미세먼지 예보 (fetch-air.js → air.json: "시도 시군구" → {YYYYMMDD: 좋음|보통|나쁨|매우나쁨})
+try { AIR = JSON.parse(fs.readFileSync("air.json", "utf-8")); } catch {}
+const pmClsOf = (g) => (/매우/.test(g) ? "pm3" : /나쁨/.test(g) ? "pm2" : /보통/.test(g) ? "pm1" : "pm0");
 // 지역 목록 페이지용: 시군구별 주말 날씨 칩 + 카드 배지 (메인 app.js와 같은 기준)
 const wxGradeOf = (d) => (d.pty || d.pop >= 60 ? "rain" : d.pop >= 30 ? "soso" : "good");
 const WX_ICON = { good: "☀️", soso: "⛅", rain: "🌧️" };
@@ -94,8 +97,10 @@ function weatherHtml(p) {
   const grade = (d) => (d.pty || d.pop >= 60 ? ["rain", "🌧️ 비 예보"] : d.pop >= 30 ? ["soso", "⛅ 보통"] : ["good", "☀️ 좋음"]);
   const md = (d) => `${Number(d.date.slice(4, 6))}/${Number(d.date.slice(6))}`;
   const temp = (d) => (d.tmn != null && d.tmx != null ? `${Math.round(d.tmn)}°/${Math.round(d.tmx)}°` : d.tmx != null ? `최고 ${Math.round(d.tmx)}°` : "");
-  const cells = area.days.map((d) => `<div class="wx-day${d.dow === "토" || d.dow === "일" ? " wx-weekend" : ""}"><span class="wx-dow">${md(d)} ${d.dow}</span><span class="wx-icon">${icon(d)}</span><span class="wx-pop">💧${d.pop != null ? d.pop + "%" : "-"}</span><span class="wx-temp">${temp(d)}</span></div>`).join("");
+  const pmAll = (AIR.areas && AIR.areas[`${p.sido} ${p.sigungu}`]) || {};
+  const cells = area.days.map((d) => { const pm = pmAll[d.date]; return `<div class="wx-day${d.dow === "토" || d.dow === "일" ? " wx-weekend" : ""}"><span class="wx-dow">${md(d)} ${d.dow}</span><span class="wx-icon">${icon(d)}</span><span class="wx-pop">💧${d.pop != null ? d.pop + "%" : "-"}</span><span class="wx-temp">${temp(d)}</span>${pm ? `<span class="wx-pm ${pmClsOf(pm)}" title="미세먼지 예보 (에어코리아)">😷 ${pm}</span>` : ""}</div>`; }).join("");
   const weekend = area.days.filter((d) => d.dow === "토" || d.dow === "일").slice(0, 2);
+  const weekendPmBad = weekend.map((d) => pmAll[d.date]).some((g) => g && /나쁨/.test(g));
   const wkHtml = weekend.length
     ? `<p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — ${weekend.map((d) => { const [cls, label] = grade(d); return `<span class="wx-grade ${cls}">${md(d)}(${d.dow}) ${label}</span> 비 ${d.pop ?? "-"}%${temp(d) ? " · " + temp(d) : ""}`; }).join(" / ")}</p>`
     : "";
@@ -106,6 +111,7 @@ function weatherHtml(p) {
   if (maxT >= 28) tips.push(`🥵 낮 최고 ${Math.round(maxT)}°예요. 한낮 아스팔트는 발바닥 화상 위험이 있으니 산책은 아침·저녁으로, 물과 그늘을 챙기고 차 안에 잠시라도 두지 마세요.`);
   if (minT <= 5) tips.push(`🧥 아침 최저 ${Math.round(minT)}°까지 내려가요. 소형견·단모종·노령견은 옷을 입히고 산책 시간을 짧게 잡으세요.`);
   if (weekend.some((d) => d.pty || d.pop >= 60)) tips.push("☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.");
+  if (weekendPmBad) tips.push("😷 주말 미세먼지가 '나쁨'으로 예보됐어요. 강아지는 코 높이가 낮아 먼지를 더 마십니다. 산책은 짧게, 실내 동반 가능한 곳 위주로 잡고 돌아와서 발·코를 닦아 주세요.");
   const tipHtml = tips.map((t) => `<p class="wx-tip">${t}</p>`).join("");
   const mid = area.days.some((d) => d.src === "mid");
   return `
@@ -691,6 +697,20 @@ console.log(`✅ pets-list.json (${Math.round(JSON.stringify(slim).length / 1024
     const avg = (arr) => (arr.length ? Math.round(arr.reduce((s, v) => s + v, 0) / arr.length) : null);
     const grade = a.rain / a.n >= 0.5 ? "rain" : (a.rain + a.soso) / a.n >= 0.5 ? "soso" : "good";
     summary.sido[sido] = { pop: Math.round(a.pop / a.n), grade, tmn: avg(a.tmn), tmx: avg(a.tmx), n: a.n };
+  }
+  // 😷 시도별 주말 미세먼지 (토·일 중 나쁜 쪽, 시군구 중 가장 흔한 등급) — 메인 칩에 표시
+  if (summary.weekend.length && AIR.areas) {
+    const RANK = { 좋음: 0, 보통: 1, 나쁨: 2, 매우나쁨: 3 };
+    const cnt = {};
+    for (const [key, byDate] of Object.entries(AIR.areas)) {
+      const grades = summary.weekend.map((d) => byDate[d.date]).filter(Boolean);
+      if (!grades.length) continue;
+      const worst = grades.sort((a, b) => RANK[b] - RANK[a])[0];
+      const sido = key.split(" ")[0];
+      (cnt[sido] ||= {})[worst] = (cnt[sido][worst] || 0) + 1;
+    }
+    for (const [sido, c] of Object.entries(cnt)) if (summary.sido[sido]) summary.sido[sido].pm = Object.entries(c).sort((a, b) => b[1] - a[1])[0][0];
+    summary.airUpdated = AIR.updated || "";
   }
   fs.writeFileSync("weather-summary.json", JSON.stringify(summary), "utf-8");
   console.log(`✅ weather-summary.json (시도 ${Object.keys(summary.sido).length}·시군구 ${Object.keys(summary.areas).length})`);
