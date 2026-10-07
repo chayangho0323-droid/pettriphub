@@ -58,6 +58,34 @@ function findPlaceNote(p) { const n = normName(p.name); return PLACE_NOTES.find(
 // ─── 지역 날씨 (fetch-weather.js → weather.json, 시군구별 7일. 캠핑허브와 같은 구조, 문구만 반려견 기준) ───
 let WEATHER = { updated: "", areas: {} };
 try { WEATHER = JSON.parse(fs.readFileSync("weather.json", "utf-8")); } catch {}
+// 지역 목록 페이지용: 시군구별 주말 날씨 칩 + 카드 배지 (메인 app.js와 같은 기준)
+const wxGradeOf = (d) => (d.pty || d.pop >= 60 ? "rain" : d.pop >= 30 ? "soso" : "good");
+const WX_ICON = { good: "☀️", soso: "⛅", rain: "🌧️" };
+const WX_LABEL = { good: "좋음", soso: "보통", rain: "비 예보" };
+const WX_RANK = { rain: 2, soso: 1, good: 0 };
+function weekendOf(key) {
+  const area = WEATHER.areas[key];
+  if (!area) return null;
+  const wk = (area.days || []).filter((d) => d.dow === "토" || d.dow === "일").slice(0, 2);
+  if (!wk.length) return null;
+  const grade = wk.map(wxGradeOf).sort((a, b) => WX_RANK[b] - WX_RANK[a])[0]; // 토·일 중 나쁜 쪽
+  const sat = wk.find((d) => d.dow === "토") || wk[0];
+  return { grade, pop: Math.max(...wk.map((d) => d.pop ?? 0)), tmn: sat.tmn, tmx: sat.tmx, days: wk, sigungu: area.sigungu };
+}
+function weekendBadgeStatic(p) {
+  const w = p.sigungu && p.sido ? weekendOf(`${p.sido} ${p.sigungu}`) : null;
+  return w ? `<span class="badge wx wx-${w.grade}" title="이번 주말 비 확률 ${w.pop}%">${WX_ICON[w.grade]} 주말 ${WX_LABEL[w.grade]}</span>` : "";
+}
+function regionWeatherHtml(items, label) {
+  const keys = [...new Set(items.filter((p) => p.sigungu && p.sido).map((p) => `${p.sido} ${p.sigungu}`))];
+  const rows = keys.map((k) => weekendOf(k)).filter(Boolean).sort((a, b) => a.sigungu.localeCompare(b.sigungu, "ko"));
+  if (!rows.length) return "";
+  const md = (d) => `${Number(d.date.slice(4, 6))}/${Number(d.date.slice(6))}(${d.dow})`;
+  const good = rows.filter((w) => w.grade === "good").length;
+  const chips = rows.map((w) => `<span class="wx-chip wx-${w.grade}" title="${esc(w.sigungu)} 주말 비 확률 ${w.pop}%">${WX_ICON[w.grade]} ${esc(w.sigungu)} ${w.pop}%${w.tmn != null && w.tmx != null ? ` ${Math.round(w.tmn)}°/${Math.round(w.tmx)}°` : ""}</span>`).join("");
+  return `
+  <div class="weather-banner"><span class="wx-title">🐾 이번 주말 <strong>${rows[0].days.map(md).join("·")}</strong> ${esc(label)} 강아지 산책 날씨</span> <span class="wx-sub">${good === rows.length ? "전 지역 좋음!" : good ? `${rows.length}개 시군구 중 ${good}곳 좋음` : "비 소식 있어요 — 실내 동반 가능한 곳을 찾아보세요"}</span><span class="wx-chips">${chips}</span><span class="wx-foot">시군구별 토·일 중 나쁜 쪽 기준 · 카드의 ☀️ 주말 배지도 같은 기준 · 상세 페이지에 7일 예보와 강아지 팁 · 기상청 ${esc(WEATHER.updated)} 발표</span></div>`;
+}
 function weatherHtml(p) {
   const area = WEATHER.areas[`${p.sido} ${p.sigungu}`];
   if (!area || !area.days || !area.days.length) return "";
@@ -211,6 +239,7 @@ function listCard(p) {
     ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" />`
     : placeholder(p.category);
   const badges = [
+    weekendBadgeStatic(p),
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
     p.official ? `<span class="badge official">✅ 식약처 등록</span>` : "",
     p.petInfo && p.petInfo.petSize ? `<span class="badge long">🐕 ${esc(p.petInfo.petSize.slice(0, 12))}</span>` : "",
@@ -251,6 +280,7 @@ function buildPage(p, all) {
         <a class="ph-report report-link" href="${esc(reportMailto(p))}">📷 이곳 사진 제보하기</a>
       </div>`;
   const badges = [
+    weekendBadgeStatic(p),
     `<span class="badge upcoming">${cat.icon} ${esc(p.category)}</span>`,
     p.official ? `<span class="badge official">✅ 식약처 등록</span>` : "",
   ].join(" ");
@@ -457,6 +487,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   </header>
   <nav class="quick-links">${catChips}</nav>
   <nav class="quick-links quick-links-regions">${regionChips}</nav>
+  ${region ? regionWeatherHtml(items, region) : ""}
   ${region && REGION_NOTES[region] ? `<section class="region-note"><p>🐾 <strong>${esc(region)}에서 강아지와 다닐 때</strong> — ${esc(REGION_NOTES[region])} 이 지역엔 식약처 등록 업소 ${items.filter((x) => x.official).length}곳과 관광공사 동반 여행지 ${items.filter((x) => !x.official).length}곳이 있어요.</p></section>` : ""}
   ${photoCallHtml(null)}
   <p class="result-count">${items.length}곳</p>
