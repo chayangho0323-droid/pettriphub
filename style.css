@@ -1398,3 +1398,13 @@ body {
 .weather-box .wx-pm.pm1 { background: #fff4d6; color: #8a5a00; }
 .weather-box .wx-pm.pm2 { background: #ffe3e3; color: #a52222; }
 .weather-box .wx-pm.pm3 { background: #e8d7ff; color: #5a1e9e; }
+
+/* 🚇 대중교통·🅿️ 주차장 (fetch-transit.js → transitHtml, 축제허브와 같은 스타일) */
+.transit-box { margin: 14px 0 4px; padding: 12px 16px; background: #f4f7fb; border: 1px solid #d9e2ef; border-radius: 12px; }
+.transit-box h3 { font-size: 1rem; margin: 0 0 8px; }
+.transit-box h3 + ul { margin-bottom: 10px; }
+.transit-box ul { list-style: none; padding: 0; margin: 0 0 6px; }
+.transit-box li { line-height: 1.9; }
+.transit-box a { color: #1f3a8a; text-decoration: none; }
+.transit-box a:hover { text-decoration: underline; }
+.transit-box .transit-tag { display: inline-block; padding: 0 6px; border-radius: 999px; background: #e3e9f5; color: #2c3e8f; font-size: .78rem; }

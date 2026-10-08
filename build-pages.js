@@ -345,6 +345,29 @@ function buildPage(p, all) {
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(`${p.sigungu || p.sido} ${p.name}`)}?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>`;
 
+  // ── 🚇 대중교통 · 🅿️ 주차장 (fetch-transit.js: 3km 안 지하철역, 800m 안 정류장 2곳, 1.5km 안 주차장 3곳 — 축제허브와 같은 구조) ──
+  const t = p.transit || {};
+  const mapLink = (q, cls) => `<a class="${cls}" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(q)}">`;
+  const km = (m) => (m >= 1000 ? (m / 1000).toFixed(1) + "km" : m + "m");
+  const sigunguOf = `${p.sido || ""} ${p.sigungu || ""}`.trim();
+  const parkingHtml = t.parking && t.parking.length
+    ? `<h3>🅿️ 가까운 주차장</h3>
+        <ul>
+          ${t.parking.map((x) => `<li>${mapLink(`${sigunguOf} ${x.name}`, "parking-link")}<strong>${esc(x.name)}</strong></a> <span class="transit-tag">${esc(x.se)}${x.type ? "·" + esc(x.type) : ""}</span> ${km(x.dist)} · 도보 약 ${x.walkMin}분${x.cap ? ` · ${x.cap}면` : ""}${x.fee ? ` · <b>${esc(x.fee)}</b>` : ""}${x.hours ? ` · ${esc(x.hours)}` : ""}</li>`).join("")}
+        </ul>`
+    : "";
+  const transitHtml = t.station || (t.stops && t.stops.length) || parkingHtml
+    ? `<div class="transit-box">
+        ${t.station || (t.stops && t.stops.length) ? `<h3>🚇 대중교통으로 가는 법</h3>
+        <ul>
+          ${t.station ? `<li>🚈 ${mapLink(`${t.station.name}역`, "transit-link")}<strong>${esc(t.station.name)}역</strong></a> (${t.station.lines.map(esc).join("·")}) 에서 <strong>${km(t.station.dist)}</strong> · 도보 약 ${t.station.walkMin}분${t.station.dist > 1500 ? " (멀어서 역에서 버스·택시 환승 권장)" : ""}</li>` : ""}
+          ${(t.stops || []).map((s) => `<li>🚌 ${mapLink(`${sigunguOf} ${s.name} 정류장`, "transit-link")}<strong>${esc(s.name)}</strong></a> 정류장 ${s.dist}m · 도보 약 ${s.walkMin}분</li>`).join("")}
+        </ul>` : ""}
+        ${parkingHtml}
+        <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
+      </div>`
+    : "";
+
   // 같은 동네 다른 장소 (같은 시군구 우선, 가까운 순)
   const nearby = all
     .filter((o) => o.id !== p.id && o.sido === p.sido)
@@ -439,6 +462,7 @@ function buildPage(p, all) {
       ${ADFIT_BODY}
       ${mapBlock}
       ${directions}
+      ${transitHtml}
       ${nearbySection}
       ${campSection}
       ${coupang}

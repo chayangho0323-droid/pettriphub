@@ -20,6 +20,11 @@
 
   // 클릭된 요소를 보고 어떤 종류인지 판별한다
   function classify(el) {
+    // 2026-10-08 추가: 대중교통·주차장 링크, 날씨 띠의 지역 칩, 별 보기 지역 칩 (새 기능이 실제로 쓰이는지 측정)
+    if (el.closest(".parking-link")) return "click_parking";
+    if (el.closest(".transit-link, .transit-box a")) return "click_transit";
+    if (el.closest(".wx-star-chip")) return "click_star_chip";
+    if (el.closest(".wx-chip")) return "click_weather_chip";
     if (el.closest(".dir-btn.coupang")) return "click_coupang";
     if (el.closest(".dir-btn.hotel")) return "click_hotel";
     if (el.closest(".dir-btn.reserve")) return "click_reserve"; // 캠핑 예약 바로가기
