@@ -372,7 +372,8 @@ function buildPage(p, all) {
   const nearby = all
     .filter((o) => o.id !== p.id && o.sido === p.sido)
     .map((o) => ({ ...o, dist: hasCoords && o.lat && o.lng ? distKm(p.lat, p.lng, o.lat, o.lng) : o.sigungu === p.sigungu ? 5 : 999 }))
-    .sort((a, b) => a.dist - b.dist)
+    // 5km 안에 사진 있는 곳을 맨 앞에, 나머지는 가까운 순 (식약처 업소 페이지 체류 11초 — 볼거리 있는 카드를 먼저)
+    .sort((a, b) => ((a.dist <= 5 && a.image ? 0 : 1) - (b.dist <= 5 && b.image ? 0 : 1)) || a.dist - b.dist)
     .slice(0, 8);
   const nearbyCards = nearby.map((o) => {
     const oc = catOf(o.category);
@@ -384,8 +385,11 @@ function buildPage(p, all) {
       </a>`;
   }).join("");
   const nearbySection = nearby.length
-    ? `<section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">${nearbyCards}</div></section>`
+    ? `<section class="nearby-section"><h2>🐾 ${p.official && p.sigungu ? `${esc(p.sigungu)} 다른 애견동반 장소` : "근처 다른 반려동물 동반 장소"}</h2><div class="nearby-row">${nearbyCards}</div></section>`
     : "";
+  // 식약처 업소(소개·사진 없음)는 이 섹션을 위쪽(동반 안내 바로 아래)에 올려 "확인하고 바로 나감"을 줄인다 (2026-10-12, 체류 11초 대책)
+  const nearbyTop = p.official ? nearbySection : "";
+  const nearbyBottom = p.official ? "" : nearbySection;
 
   // 근처 반려동물 캠핑장 (캠핑허브 연결)
   const camps = hasCoords
@@ -456,6 +460,7 @@ function buildPage(p, all) {
       ${VP.galleryHtml(p.visitorPhotos, { name: p.name, href: reportMailto(p) })}
       ${photoCallHtml(p)}
       ${petSection}
+      ${nearbyTop}
       ${weatherHtml(p)}
       ${overview}
       ${noteSection}
@@ -463,7 +468,7 @@ function buildPage(p, all) {
       ${mapBlock}
       ${directions}
       ${transitHtml}
-      ${nearbySection}
+      ${nearbyBottom}
       ${campSection}
       ${coupang}
       ${p.official ? `<p class="coupang-notice">※ 식약처 등록 현황은 영업자가 자율 신청한 업소 기준이며, 등록 이후 운영 상태가 바뀔 수 있습니다. 방문 전 확인을 권장합니다.</p>` : ""}
