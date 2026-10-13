@@ -42,6 +42,12 @@ jobs:
           TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
         continue-on-error: true
 
+      # 홈페이지 링크 생존 검사 → link-status.json (7일마다 재검사, 하루 최대 300개). 죽은 홈페이지는 build가 표시에서 뺌
+      - run: node check-links.js
+        env:
+          LINK_BUDGET: "300"
+        continue-on-error: true
+
       # 에어코리아 미세먼지 예보 → air.json (산책 날씨 칸 😷 등급·주말 미세먼지 팁, 하루 약 10회 호출)
       - run: node fetch-air.js
         env:

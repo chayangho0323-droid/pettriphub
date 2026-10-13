@@ -46,6 +46,17 @@ const adfitBlock = (unit, w, h) => `
 const ADFIT_BODY = adfitBlock(ADFIT_UNIT_BODY, 300, 250);
 
 const pets = JSON.parse(fs.readFileSync("pets.json", "utf-8"));
+// 홈페이지 링크 생존 검사 결과(check-links.js → link-status.json): dead(404·5xx·접속 불가 확정)인 홈페이지는 비우고 homepageDead에 원래 주소를 남긴다 (캠핑허브와 같은 방식)
+{
+  let LINKS = {};
+  try { LINKS = JSON.parse(fs.readFileSync("link-status.json", "utf-8")); } catch {}
+  let deadN = 0;
+  for (const p of pets) {
+    const u = String(p.homepage || "").trim();
+    if (u && LINKS[u] && LINKS[u].state === "dead") { p.homepageDead = u; p.homepage = ""; deadN++; }
+  }
+  if (deadN) console.log(`🔗 열리지 않는 홈페이지 ${deadN}건 → 표시 제외`);
+}
 
 // ─── 방문자 사진 제보 (공통 모듈 visitor-photos.js — 세 사이트 동일) ───
 // 받은 사진: photos/ 폴더 + photos.json → 상세 "📸 방문자 사진" 갤러리. 공식 사진 없는 곳은 첫 제보 사진이 대표 사진.
@@ -295,7 +306,9 @@ function buildPage(p, all) {
     ? `<div class="official-banner"><span class="ob-icon">✅</span><div><strong>식약처 공식 등록 반려동물 동반출입 음식점</strong><br />영업자가 지자체에 정식 등록하고 식품의약품안전처 현황에 올라 있는 업소예요. <a href="../about.html#official">등록 제도 안내 →</a></div></div>`
     : "";
 
-  const homepage = p.homepage ? `<a href="${esc(p.homepage)}" target="_blank" rel="noopener">${esc(p.homepage)}</a>` : "";
+  const homepage = p.homepage
+    ? `<a href="${esc(p.homepage)}" target="_blank" rel="noopener">${esc(p.homepage)}</a>`
+    : p.homepageDead ? `<span class="muted">등록된 주소가 열리지 않음 — 네이버 후기·지도에서 확인하세요</span>` : "";
 
   // 동반 조건 (관광공사 데이터에만 있음)
   const pi = p.petInfo || {};
