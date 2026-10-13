@@ -4741,6 +4741,23 @@
     }
   },
   {
+    "id": "mwhn6n8",
+    "name": "닷",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "성동구",
+    "address": "서울특별시 성동구 상원길 81-1(1층 성수동1가)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "md5dkjl",
     "name": "댕크(Dank)",
     "category": "식당",
@@ -18041,13 +18058,13 @@
     }
   },
   {
-    "id": "mdmrzaa",
+    "id": "mejn2l7",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -18081,13 +18098,13 @@
     }
   },
   {
-    "id": "mejn2l7",
+    "id": "mdmrzaa",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -21076,6 +21093,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "m8q0oag",
+    "name": "치트키 룸",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "성동구",
+    "address": "서울특별시 성동구 상원6길 11-1(1층 성수동1가)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
   },
   {
     "id": "mq2se7o",
@@ -33750,6 +33784,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "m4zdry8",
+    "name": "카페디차",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "서울",
+    "sigungu": "동작구",
+    "address": "서울특별시 동작구 상도로47길 89(1층 상도1동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
   },
   {
     "id": "m5c91kx",
@@ -47347,6 +47398,83 @@
     }
   },
   {
+    "id": "me4w6k6",
+    "name": "듬뿌기",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "부산",
+    "sigungu": "부산진구",
+    "address": "부산광역시 부산진구 서전로68번길 120(2층 전포동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 35.15237411542563,
+    "lng": 129.06719894312062,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013",
+    "transit": {
+      "station": {
+        "name": "전포",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 189,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "동성고교",
+          "dist": 120,
+          "walkMin": 2
+        },
+        {
+          "name": "동성고등학교",
+          "dist": 129,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "경남공고 뒤",
+          "se": "공영",
+          "type": "노상",
+          "cap": 27,
+          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
+          "hours": "08:00~20:00",
+          "days": "평일+토요일",
+          "tel": "051-605-5886",
+          "dist": 368,
+          "walkMin": 5
+        },
+        {
+          "name": "하이빌 주변",
+          "se": "공영",
+          "type": "노상",
+          "cap": 12,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-607-6922",
+          "dist": 663,
+          "walkMin": 10
+        },
+        {
+          "name": "문현2동 주민센터 윗편",
+          "se": "공영",
+          "type": "노상",
+          "cap": 13,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-607-6922",
+          "dist": 843,
+          "walkMin": 13
+        }
+      ]
+    }
+  },
+  {
     "id": "mmb8gpr",
     "name": "따셰(tache)",
     "category": "식당",
@@ -49911,83 +50039,6 @@
     }
   },
   {
-    "id": "mn5ebtr",
-    "name": "스트럿",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "부산",
-    "sigungu": "부산진구",
-    "address": "부산광역시 부산진구 동성로39번길 28(1층 전포동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 35.154106058799535,
-    "lng": 129.06682861952265,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260917",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "전포",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 176,
-        "walkMin": 3
-      },
-      "stops": [
-        {
-          "name": "전포1동주민센터",
-          "dist": 88,
-          "walkMin": 1
-        },
-        {
-          "name": "부산은행(전포역)",
-          "dist": 89,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "경남공고 뒤",
-          "se": "공영",
-          "type": "노상",
-          "cap": 27,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일",
-          "tel": "051-605-5886",
-          "dist": 306,
-          "walkMin": 5
-        },
-        {
-          "name": "하이빌 주변",
-          "se": "공영",
-          "type": "노상",
-          "cap": 12,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-607-6922",
-          "dist": 859,
-          "walkMin": 13
-        },
-        {
-          "name": "문현2동 주민센터 윗편",
-          "se": "공영",
-          "type": "노상",
-          "cap": 13,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-607-6922",
-          "dist": 1038,
-          "walkMin": 15
-        }
-      ]
-    }
-  },
-  {
     "id": "m4h7d5j",
     "name": "스트럿",
     "category": "식당",
@@ -50060,6 +50111,83 @@
           "tel": "051-749-4887",
           "dist": 82,
           "walkMin": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "mn5ebtr",
+    "name": "스트럿",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "부산",
+    "sigungu": "부산진구",
+    "address": "부산광역시 부산진구 동성로39번길 28(1층 전포동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 35.154106058799535,
+    "lng": 129.06682861952265,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260917",
+    "addedAt": "20260915",
+    "transit": {
+      "station": {
+        "name": "전포",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 176,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "전포1동주민센터",
+          "dist": 88,
+          "walkMin": 1
+        },
+        {
+          "name": "부산은행(전포역)",
+          "dist": 89,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "경남공고 뒤",
+          "se": "공영",
+          "type": "노상",
+          "cap": 27,
+          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
+          "hours": "08:00~20:00",
+          "days": "평일+토요일",
+          "tel": "051-605-5886",
+          "dist": 306,
+          "walkMin": 5
+        },
+        {
+          "name": "하이빌 주변",
+          "se": "공영",
+          "type": "노상",
+          "cap": 12,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-607-6922",
+          "dist": 859,
+          "walkMin": 13
+        },
+        {
+          "name": "문현2동 주민센터 윗편",
+          "se": "공영",
+          "type": "노상",
+          "cap": 13,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-607-6922",
+          "dist": 1038,
+          "walkMin": 15
         }
       ]
     }
@@ -51245,83 +51373,6 @@
           "tel": "051-665-5032",
           "dist": 601,
           "walkMin": 9
-        }
-      ]
-    }
-  },
-  {
-    "id": "mb5hq8u",
-    "name": "유니플레이스(타로&펫애견카페)",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "부산",
-    "sigungu": "부산진구",
-    "address": "부산광역시 부산진구 서전로68번길 120(2층 전포동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 35.15237411542563,
-    "lng": 129.06719894312062,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260917",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "전포",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 189,
-        "walkMin": 3
-      },
-      "stops": [
-        {
-          "name": "동성고교",
-          "dist": 120,
-          "walkMin": 2
-        },
-        {
-          "name": "동성고등학교",
-          "dist": 129,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "경남공고 뒤",
-          "se": "공영",
-          "type": "노상",
-          "cap": 27,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일",
-          "tel": "051-605-5886",
-          "dist": 368,
-          "walkMin": 5
-        },
-        {
-          "name": "하이빌 주변",
-          "se": "공영",
-          "type": "노상",
-          "cap": 12,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-607-6922",
-          "dist": 663,
-          "walkMin": 10
-        },
-        {
-          "name": "문현2동 주민센터 윗편",
-          "se": "공영",
-          "type": "노상",
-          "cap": 13,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-607-6922",
-          "dist": 843,
-          "walkMin": 13
         }
       ]
     }
@@ -69002,6 +69053,23 @@
     }
   },
   {
+    "id": "m1egnl8",
+    "name": "언덕마루광장",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "인천",
+    "sigungu": "미추홀구",
+    "address": "인천광역시 미추홀구 매소홀로386번길 31-6(2층 학익동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "m7vuya3",
     "name": "오렌지 프로파일 커피랩",
     "category": "식당",
@@ -70233,13 +70301,13 @@
     }
   },
   {
-    "id": "mky6sl0",
+    "id": "mvwvo56",
     "name": "조선백호",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "인천",
     "sigungu": "제물포구",
-    "address": "인천광역시 제물포구 개항로96번길 11(1,2층 경동)",
+    "address": "인천광역시 제물포구 개항로96번길 11(1층 경동)",
     "official": true,
     "source": "mfds",
     "lat": 37.47163445123357,
@@ -70310,13 +70378,13 @@
     }
   },
   {
-    "id": "mvwvo56",
+    "id": "mky6sl0",
     "name": "조선백호",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "인천",
     "sigungu": "제물포구",
-    "address": "인천광역시 제물포구 개항로96번길 11(1층 경동)",
+    "address": "인천광역시 제물포구 개항로96번길 11(1,2층 경동)",
     "official": true,
     "source": "mfds",
     "lat": 37.47163445123357,
@@ -72554,13 +72622,13 @@
     }
   },
   {
-    "id": "mjpr3nd",
+    "id": "m5oxplu",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -72593,13 +72661,13 @@
     }
   },
   {
-    "id": "m5oxplu",
+    "id": "mjpr3nd",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -98261,6 +98329,23 @@
     }
   },
   {
+    "id": "ml64ekr",
+    "name": "비로(VIRO)",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "성남시",
+    "address": "경기도 성남시 수정구 위례서일로3길 37(1층 창곡동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "m1mlmz8",
     "name": "비숍(vishop)",
     "category": "식당",
@@ -106980,83 +107065,6 @@
     }
   },
   {
-    "id": "mn33g84",
-    "name": "위자네",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "경기",
-    "sigungu": "화성시",
-    "address": "경기도 화성시 효행구 봉담읍 장등1길 3-10(1층)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.22241653283153,
-    "lng": 126.9452998653405,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260925",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "오목천역",
-        "lines": [
-          "수인선"
-        ],
-        "dist": 2807,
-        "walkMin": 42
-      },
-      "stops": [
-        {
-          "name": "봉담2.LH2단지",
-          "dist": 63,
-          "walkMin": 1
-        },
-        {
-          "name": "봉담초",
-          "dist": 145,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "봉담 상리 2",
-          "se": "공영",
-          "type": "노외",
-          "cap": 214,
-          "fee": "기본 90분 400원 · 추가 10분 600원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 317,
-          "walkMin": 5
-        },
-        {
-          "name": "봉담 상리 1",
-          "se": "공영",
-          "type": "노외",
-          "cap": 186,
-          "fee": "기본 90분 400원 · 추가 10분 600원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 405,
-          "walkMin": 6
-        },
-        {
-          "name": "봉담 상리(행복주택)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 50,
-          "fee": "기본 90분 300원 · 추가 10분 400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 566,
-          "walkMin": 8
-        }
-      ]
-    }
-  },
-  {
     "id": "m3dpldi",
     "name": "위자네",
     "category": "식당",
@@ -107129,6 +107137,83 @@
           "tel": "031-8045-5255",
           "dist": 657,
           "walkMin": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "mn33g84",
+    "name": "위자네",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "화성시",
+    "address": "경기도 화성시 효행구 봉담읍 장등1길 3-10(1층)",
+    "official": true,
+    "source": "mfds",
+    "lat": 37.22241653283153,
+    "lng": 126.9452998653405,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260925",
+    "addedAt": "20260915",
+    "transit": {
+      "station": {
+        "name": "오목천역",
+        "lines": [
+          "수인선"
+        ],
+        "dist": 2807,
+        "walkMin": 42
+      },
+      "stops": [
+        {
+          "name": "봉담2.LH2단지",
+          "dist": 63,
+          "walkMin": 1
+        },
+        {
+          "name": "봉담초",
+          "dist": 145,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "봉담 상리 2",
+          "se": "공영",
+          "type": "노외",
+          "cap": 214,
+          "fee": "기본 90분 400원 · 추가 10분 600원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 317,
+          "walkMin": 5
+        },
+        {
+          "name": "봉담 상리 1",
+          "se": "공영",
+          "type": "노외",
+          "cap": 186,
+          "fee": "기본 90분 400원 · 추가 10분 600원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 405,
+          "walkMin": 6
+        },
+        {
+          "name": "봉담 상리(행복주택)",
+          "se": "공영",
+          "type": "노외",
+          "cap": 50,
+          "fee": "기본 90분 300원 · 추가 10분 400원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 566,
+          "walkMin": 8
         }
       ]
     }
@@ -108524,6 +108609,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "m4w1bhq",
+    "name": "정가네푸드",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "용인시",
+    "address": "경기도 용인시 처인구 포곡읍 전대로 53-1(1층 일부)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
   },
   {
     "id": "mmaxyev",
@@ -133218,6 +133320,23 @@
     }
   },
   {
+    "id": "msoqh8s",
+    "name": "나이스업커피",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "충북",
+    "sigungu": "청주시",
+    "address": "충청북도 청주시 서원구 산미로 154(2층 산남동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "mbec3lv",
     "name": "노이즈",
     "category": "식당",
@@ -145547,6 +145666,23 @@
     }
   },
   {
+    "id": "mj4z0no",
+    "name": "코티커피베이크",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "경북",
+    "sigungu": "구미시",
+    "address": "경상북도 구미시 인동22길 20(대동하이츠 1층 진평동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "m6chw5w",
     "name": "티읕 황리단길점",
     "category": "카페",
@@ -145921,6 +146057,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "mygvthx",
+    "name": "달달한오븐",
+    "category": "베이커리",
+    "biz": "제과점영업",
+    "sido": "경북",
+    "sigungu": "구미시",
+    "address": "경상북도 구미시 옥계북로 56(1층 옥계동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
   },
   {
     "id": "m4m7svo",
@@ -151123,6 +151276,83 @@
     }
   },
   {
+    "id": "mb3wsz7",
+    "name": "우메(ume)",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경남",
+    "sigungu": "김해시",
+    "address": "경상남도 김해시 김해대로2325번길 32(1층 부원동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 35.22913538972192,
+    "lng": 128.8808524901522,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013",
+    "transit": {
+      "station": {
+        "name": "부원",
+        "lines": [
+          "부산김해경전철"
+        ],
+        "dist": 406,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "중앙지구대",
+          "dist": 130,
+          "walkMin": 2
+        },
+        {
+          "name": "금강병원",
+          "dist": 168,
+          "walkMin": 3
+        }
+      ],
+      "parking": [
+        {
+          "name": "봉리단길 공영주차장1",
+          "se": "공영",
+          "type": "노외",
+          "cap": 22,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 59,
+          "walkMin": 1
+        },
+        {
+          "name": "봉리단길 공영주차장3",
+          "se": "공영",
+          "type": "노외",
+          "cap": 14,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 105,
+          "walkMin": 2
+        },
+        {
+          "name": "봉리단길 공영주차장2",
+          "se": "공영",
+          "type": "노외",
+          "cap": 8,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 115,
+          "walkMin": 2
+        }
+      ]
+    }
+  },
+  {
     "id": "mduuk54",
     "name": "우진식당 매미성본점",
     "category": "식당",
@@ -153971,83 +154201,6 @@
           "name": "물금ICD입구",
           "dist": 466,
           "walkMin": 7
-        }
-      ]
-    }
-  },
-  {
-    "id": "miik97x",
-    "name": "후르츠맨션",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "경남",
-    "sigungu": "김해시",
-    "address": "경상남도 김해시 김해대로2325번길 32(1층 부원동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 35.22913538972192,
-    "lng": 128.8808524901522,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260929",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "부원",
-        "lines": [
-          "부산김해경전철"
-        ],
-        "dist": 406,
-        "walkMin": 6
-      },
-      "stops": [
-        {
-          "name": "중앙지구대",
-          "dist": 130,
-          "walkMin": 2
-        },
-        {
-          "name": "금강병원",
-          "dist": 168,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "봉리단길 공영주차장1",
-          "se": "공영",
-          "type": "노외",
-          "cap": 22,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 59,
-          "walkMin": 1
-        },
-        {
-          "name": "봉리단길 공영주차장3",
-          "se": "공영",
-          "type": "노외",
-          "cap": 14,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 105,
-          "walkMin": 2
-        },
-        {
-          "name": "봉리단길 공영주차장2",
-          "se": "공영",
-          "type": "노외",
-          "cap": 8,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 115,
-          "walkMin": 2
         }
       ]
     }
@@ -177134,6 +177287,57 @@
     }
   },
   {
+    "id": "mnyfnlb",
+    "name": "여행가게와 연필가게",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "제주",
+    "sigungu": "서귀포시",
+    "address": "제주특별자치도 서귀포시 남원읍 태위로 929",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
+    "id": "mwdth3m",
+    "name": "엠엠티(MmT)",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "서울",
+    "sigungu": "성북구",
+    "address": "서울특별시 성북구 고려대로8길 23(1층 101호 안암동3가)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
+    "id": "majildq",
+    "name": "와이즈 독 스쿨 애견카페",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "경기",
+    "sigungu": "군포시",
+    "address": "경기도 군포시 송부로12번길 46(1층 일부호 도마교동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "2784167",
     "name": "가야산생태탐방원",
     "category": "관광지",
@@ -178418,9 +178622,9 @@
     "sido": "강원",
     "sigungu": "강릉시",
     "address": "강원특별자치도 강릉시 창해로 352",
-    "lat": 37.7947975418039,
-    "lng": 128.91901514704,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/85/2921985_image2_1.jpg",
+    "lat": 37.7947975418,
+    "lng": 128.919015147,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/52/4120552_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -183103,9 +183307,9 @@
     "sido": "경기",
     "sigungu": "김포시",
     "address": "경기도 김포시 대명항1로 109",
-    "lat": 37.6394407719,
-    "lng": 126.5417171922,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/34/3501734_image2_1.jpg",
+    "lat": 37.6393857623,
+    "lng": 126.5417037485,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/34/3501734_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -183124,7 +183328,7 @@
       "stops": [
         {
           "name": "대명항",
-          "dist": 291,
+          "dist": 294,
           "walkMin": 4
         },
         {
@@ -183143,7 +183347,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "032-930-3366",
-          "dist": 1127,
+          "dist": 1122,
           "walkMin": 17
         }
       ]
@@ -183220,9 +183424,9 @@
     "sido": "충남",
     "sigungu": "태안군",
     "address": "충청남도 태안군 이원면 내리",
-    "lat": 36.9351487451,
-    "lng": 126.2929090667,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/29/3494229_image2_1.jpg",
+    "lat": 36.9351,
+    "lng": 126.2929,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/57/4120757_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -183241,7 +183445,7 @@
       "stops": [
         {
           "name": "꾸지나무골",
-          "dist": 340,
+          "dist": 338,
           "walkMin": 5
         }
       ]
@@ -196168,9 +196372,9 @@
     "sido": "충남",
     "sigungu": "서산시",
     "address": "충청남도 서산시 운산면 이문안길 72-10",
-    "lat": 36.8247774413,
-    "lng": 126.5732782649,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/37/2648837_image2_1.jpg",
+    "lat": 36.8247270972,
+    "lng": 126.5732647618,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/37/2648837_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -196189,12 +196393,12 @@
       "stops": [
         {
           "name": "수당리뒷절의골",
-          "dist": 691,
+          "dist": 696,
           "walkMin": 10
         },
         {
           "name": "수당리",
-          "dist": 692,
+          "dist": 697,
           "walkMin": 10
         }
       ]
@@ -199626,9 +199830,9 @@
     "sido": "강원",
     "sigungu": "강릉시",
     "address": "강원특별자치도 강릉시 창해로 118 (송정동)",
-    "lat": 37.78009716001928,
-    "lng": 128.9371294664424,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/33/2671433_image2_1.jpg",
+    "lat": 37.78009716,
+    "lng": 128.9371294664,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/75/4120375_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -203024,9 +203228,9 @@
     "sido": "강원",
     "sigungu": "강릉시",
     "address": "강원특별자치도 강릉시 강동면 안인진길 47",
-    "lat": 37.736108520675174,
-    "lng": 128.98870338211896,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/46/2921846_image2_1.jpg",
+    "lat": 37.7361085207,
+    "lng": 128.9887033821,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/08/4120508_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -204998,7 +205202,7 @@
     "address": "강원특별자치도 강릉시 연곡면 영진리",
     "lat": 37.8695,
     "lng": 128.8449,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/10/3422710_image2_1.png",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/60/4120460_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -206245,9 +206449,9 @@
     "sido": "강원",
     "sigungu": "속초시",
     "address": "강원특별자치도 속초시 해오름로 83 (대포동)",
-    "lat": 38.182204775,
-    "lng": 128.6076711543,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/66/3492866_image2_1.jpg",
+    "lat": 38.1831549915,
+    "lng": 128.6089288176,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/95/4120695_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -206265,14 +206469,14 @@
     "transit": {
       "stops": [
         {
-          "name": "대포고개",
-          "dist": 680,
-          "walkMin": 10
+          "name": "새마을",
+          "dist": 720,
+          "walkMin": 11
         },
         {
-          "name": "새마을",
-          "dist": 683,
-          "walkMin": 10
+          "name": "성호아파트",
+          "dist": 740,
+          "walkMin": 11
         }
       ]
     }
@@ -211062,7 +211266,7 @@
     "address": "전북특별자치도 장수군 장수읍 논개사당길 65",
     "lat": 35.641078004,
     "lng": 127.5232574636,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/41/4098541_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/44/4098544_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -213754,9 +213958,9 @@
     "sido": "충남",
     "sigungu": "태안군",
     "address": "충청남도 태안군 소원면 천리포1길 277-6",
-    "lat": 36.8032865619,
-    "lng": 126.1509865497,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/37/3493737_image2_1.jpg",
+    "lat": 36.8030972956,
+    "lng": 126.1502662447,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/15/4119715_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -213775,12 +213979,12 @@
       "stops": [
         {
           "name": "의항1리.한국통신앞",
-          "dist": 47,
-          "walkMin": 1
+          "dist": 111,
+          "walkMin": 2
         },
         {
           "name": "의항1리.새말",
-          "dist": 346,
+          "dist": 361,
           "walkMin": 5
         }
       ]
@@ -213891,9 +214095,9 @@
     "sido": "강원",
     "sigungu": "철원군",
     "address": "강원특별자치도 철원군 철원읍 금강산로 265",
-    "lat": 38.2552751974,
-    "lng": 127.2019861959,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/55/3577155_image2_1.jpg",
+    "lat": 38.2552167601,
+    "lng": 127.2019683572,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/55/3577155_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -213912,7 +214116,7 @@
       "stops": [
         {
           "name": "노동당사",
-          "dist": 72,
+          "dist": 65,
           "walkMin": 1
         }
       ]
@@ -221960,6 +222164,45 @@
     }
   },
   {
+    "id": "2384260",
+    "name": "반딧불이캠핑장",
+    "category": "레포츠",
+    "sido": "경북",
+    "sigungu": "경주시",
+    "address": "경상북도 경주시 산내면 대현길 250-13",
+    "lat": 35.712649191,
+    "lng": 129.0741443223,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/47/3555847_image2_1.jpg",
+    "tel": "",
+    "official": false,
+    "source": "tour",
+    "petInfo": {
+      "petSize": "",
+      "petType": "일부구역 동반가능",
+      "petNeed": "목줄 착용",
+      "petEtc": "",
+      "petFacility": "",
+      "petRisk": ""
+    },
+    "overview": "경주시 산내면에 위치한 반딧불이캠핑장은 자연을 벗 삼아 캠핑을 즐길 수 있는 곳이다. 봄엔 벚꽃, 여름엔 푸르게 우거진 나무 그늘, 가을엔 형형색색 물든 낙엽, 겨울엔 운치 있는 눈까지 모두 감상할 수 있는 캠핑장이다. 캠핑장은 일반야영장과 방갈로가 준비되어 있다. 사이트의 크기는 구역 별로 조금씩 다르기 때문에 방문 전에 확인하는 것이 좋다.",
+    "homepage": "http://cafe.daum.net/kjautomcamping인스타그램",
+    "addedAt": "20261013",
+    "transit": {
+      "stops": [
+        {
+          "name": "태종하",
+          "dist": 363,
+          "walkMin": 5
+        },
+        {
+          "name": "시다",
+          "dist": 383,
+          "walkMin": 6
+        }
+      ]
+    }
+  },
+  {
     "id": "2761869",
     "name": "방태산 솔마루 오토캠핑장",
     "category": "레포츠",
@@ -222270,8 +222513,8 @@
     "sido": "강원",
     "sigungu": "속초시",
     "address": "강원특별자치도 속초시 대포동 585-5",
-    "lat": 38.1828830781178,
-    "lng": 128.609482918206,
+    "lat": 38.1828830781,
+    "lng": 128.6094829182,
     "image": "https://tong.visitkorea.or.kr/cms/resource/32/3416832_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -223836,9 +224079,9 @@
     "sido": "강원",
     "sigungu": "양양군",
     "address": "강원특별자치도 양양군 현북면 하륜길 54",
-    "lat": 38.02193582191522,
-    "lng": 128.72851476013392,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/01/3511601_image2_1.jpg",
+    "lat": 38.0219358219,
+    "lng": 128.7285147601,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/03/4120403_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -224020,8 +224263,8 @@
     "sido": "경북",
     "sigungu": "포항시",
     "address": "경상북도 포항시 남구 동해면 호미로2790번길 20-18",
-    "lat": 36.014296839418584,
-    "lng": 129.47800900392937,
+    "lat": 36.0142968394,
+    "lng": 129.4780090039,
     "image": "https://tong.visitkorea.or.kr/cms/resource/87/3520387_image2_1.jpg",
     "tel": "",
     "official": false,
