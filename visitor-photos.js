@@ -33,6 +33,7 @@ function loadVisitorPhotos(siteUrl, file = "photos.json") {
         caption: x.caption || "",
         date: x.date || "",
         review: x.review || "",  // 제보자 후기 (한 제보자에 한 번만 쓰면 됨)
+        place: x.place || "",    // 촬영 장소 (선택 — 공주·부여처럼 한 축제가 여러 곳에서 열릴 때 "어느 쪽"인지)
       }));
     if (list.length) out[id] = list;
   }
@@ -102,7 +103,8 @@ function galleryHtml(photos, { name, href }) {
   for (const ph of photos) {
     const key = ph.credit || "방문자";
     let g = groups.find((x) => x.credit === key);
-    if (!g) { g = { credit: key, items: [], review: "" }; groups.push(g); }
+    if (!g) { g = { credit: key, items: [], review: "", place: "" }; groups.push(g); }
+    if (ph.place && !g.place) g.place = ph.place; // 촬영 장소 (공주·부여처럼 여러 곳에서 열리는 축제용, 선택)
     g.items.push(ph);
     if (ph.review && !g.review) g.review = ph.review;
   }
@@ -126,7 +128,7 @@ function galleryHtml(photos, { name, href }) {
     const label = [pics ? `사진 ${pics}장` : "", vids ? `영상 ${vids}개` : ""].filter(Boolean).join(" · ");
     return `
         <div class="visitor-group">
-          <h3 class="visitor-group-title">📷 ${esc(g.credit)} 님의 제보 사진 <span class="visitor-meta">${label}</span></h3>
+          <h3 class="visitor-group-title">📷 ${esc(g.credit)} 님의 제보 사진 <span class="visitor-meta">${label}${g.place ? ` · 📍 ${esc(g.place)}` : ""}</span></h3>
           <div class="visitor-grid">${items}</div>
           ${g.review ? `<blockquote class="visitor-review"><strong>💬 ${esc(g.credit)} 님의 후기</strong><p>${esc(g.review)}</p></blockquote>` : ""}
         </div>`;
