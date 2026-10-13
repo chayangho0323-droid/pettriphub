@@ -733,12 +733,16 @@ console.log(`✅ pets-list.json (${Math.round(JSON.stringify(slim).length / 1024
     const cnt = {};
     for (const [key, byDate] of Object.entries(AIR.areas)) {
       const grades = summary.weekend.map((d) => byDate[d.date]).filter(Boolean);
-      if (!grades.length) continue;
-      const worst = grades.sort((a, b) => RANK[b] - RANK[a])[0];
+      // 주말 예보가 아직 없으면(주간 예보 미발표) 가장 최근 예보일 등급을 쓰고 그 날짜를 basis로 남긴다 → 칩에 "(수 기준)" 표시
+      let worst, basis = "";
+      if (grades.length) worst = grades.sort((a, b) => RANK[b] - RANK[a])[0];
+      else { const last = Object.keys(byDate).sort().pop(); if (!last) continue; worst = byDate[last]; basis = last; }
       const sido = key.split(" ")[0];
-      (cnt[sido] ||= {})[worst] = (cnt[sido][worst] || 0) + 1;
+      const slot = (cnt[sido] ||= {});
+      slot[worst] = (slot[worst] || 0) + 1;
+      if (basis) slot._basis = basis;
     }
-    for (const [sido, c] of Object.entries(cnt)) if (summary.sido[sido]) summary.sido[sido].pm = Object.entries(c).sort((a, b) => b[1] - a[1])[0][0];
+    for (const [sido, c] of Object.entries(cnt)) { if (!summary.sido[sido]) continue; const { _basis, ...g } = c; summary.sido[sido].pm = Object.entries(g).sort((a, b) => b[1] - a[1])[0][0]; if (_basis) summary.sido[sido].pmBasis = _basis; }
     summary.airUpdated = AIR.updated || "";
   }
   fs.writeFileSync("weather-summary.json", JSON.stringify(summary), "utf-8");

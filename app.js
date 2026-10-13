@@ -162,7 +162,7 @@ function renderWeatherBanner() {
   const chips = order.filter((s) => WX.sido[s]).map((s) => {
     const w = WX.sido[s], slug = REGION_SLUGS[s];
     const temp = w.tmn != null && w.tmx != null ? ` ${w.tmn}°/${w.tmx}°` : "";
-    const pm = w.pm ? ` <i class="wx-pm-mini ${/매우/.test(w.pm) ? "pm3" : /나쁨/.test(w.pm) ? "pm2" : /보통/.test(w.pm) ? "pm1" : "pm0"}">😷 먼지 ${w.pm}</i>` : "";
+    const pm = w.pm ? ` <i class="wx-pm-mini ${/매우/.test(w.pm) ? "pm3" : /나쁨/.test(w.pm) ? "pm2" : /보통/.test(w.pm) ? "pm1" : "pm0"}">😷 먼지 ${w.pm}${w.pmBasis ? ` (${["일","월","화","수","목","금","토"][new Date(w.pmBasis.slice(0,4)+"-"+w.pmBasis.slice(4,6)+"-"+w.pmBasis.slice(6)+"T00:00:00").getDay()]} 기준)` : ""}</i>` : "";
     return `<a class="wx-chip wx-${w.grade}" href="${slug ? `region-${slug}.html` : "#"}" title="${s} 토요일 비 확률 ${w.pop}%${w.pm ? ` · 주말 미세먼지 ${w.pm}` : ""} · ${w.n}개 시군구 기준">${WX_ICON[w.grade]} ${s} ${w.pop}%${temp}${pm}</a>`;
   }).join("");
   const good = Object.values(WX.sido).filter((w) => w.grade === "good").length, total = Object.keys(WX.sido).length;

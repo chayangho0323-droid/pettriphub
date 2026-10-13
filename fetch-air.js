@@ -16,7 +16,7 @@ const kst = new Date(Date.now() + 9 * 60 * 60 * 1000);
 const iso = (d) => d.toISOString().slice(0, 10);
 const addDays = (d, n) => new Date(d.getTime() + n * 86400000);
 
-async function getItems(path, params) {
+async function getItemsOnce(path, params) {
   const p = new URLSearchParams({ serviceKey: KEY, returnType: "json", numOfRows: "50", pageNo: "1", ...params });
   const res = await fetch(`https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/${path}?${p}`, { signal: AbortSignal.timeout(40000) });
   const text = await res.text();
@@ -26,6 +26,16 @@ async function getItems(path, params) {
   if (code && code !== "00") throw new Error(data.response.header.resultMsg || "API 에러");
   if (data?.OpenAPI_ServiceResponse) throw new Error(data.OpenAPI_ServiceResponse.cmmMsgHeader?.returnAuthMsg || "인증 에러");
   return data?.response?.body?.items || [];
+}
+
+// 에어코리아는 "서비스 연결실패 에러"가 간헐적으로 나므로 3번까지 재시도 (2026-10-12 캠핑 로봇이 PM10을 못 받아 주말 미세먼지가 비었던 원인)
+async function getItems(path, params) {
+  let lastErr;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try { return await getItemsOnce(path, params); }
+    catch (e) { lastErr = e; await new Promise((r) => setTimeout(r, 2500 * attempt)); }
+  }
+  throw lastErr;
 }
 
 // "서울 : 좋음,제주 : 좋음,..." → { 서울: "좋음", ... }
