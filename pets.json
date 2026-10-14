@@ -12547,8 +12547,8 @@
     }
   },
   {
-    "id": "mnms73h",
-    "name": "서울안심 마곡점",
+    "id": "memmbu",
+    "name": "서울안심",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
@@ -12560,8 +12560,8 @@
     "lng": 126.83580828888563,
     "image": "",
     "tourId": "",
-    "photoTried": "20261007",
-    "addedAt": "20261007",
+    "photoTried": "20261014",
+    "addedAt": "20261014",
     "transit": {
       "station": {
         "name": "발산",
@@ -17472,6 +17472,23 @@
     }
   },
   {
+    "id": "mymsvcf",
+    "name": "영원",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "서대문구",
+    "address": "서울특별시 서대문구 성산로 303(화인빌딩 2층 연희동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261014",
+    "addedAt": "20261014"
+  },
+  {
     "id": "mnoz2db",
     "name": "예고없이",
     "category": "식당",
@@ -22363,83 +22380,6 @@
     }
   },
   {
-    "id": "m6235o5",
-    "name": "컴인(COME In)",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "서울",
-    "sigungu": "서대문구",
-    "address": "서울특별시 서대문구 이화여대길 88-19(2층 대현동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.559492346710115,
-    "lng": 126.94395036986523,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260916",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "신촌역",
-        "lines": [
-          "경의중앙선"
-        ],
-        "dist": 148,
-        "walkMin": 2
-      },
-      "stops": [
-        {
-          "name": "신촌기차역",
-          "dist": 143,
-          "walkMin": 2
-        },
-        {
-          "name": "신촌기차역입구",
-          "dist": 296,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "북성초등학교 공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 100,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-360-8542",
-          "dist": 695,
-          "walkMin": 10
-        },
-        {
-          "name": "신촌동 제1공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 23,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-360-8542",
-          "dist": 847,
-          "walkMin": 13
-        },
-        {
-          "name": "신촌동 봉원고가 하부 공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 23,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-360-8542",
-          "dist": 892,
-          "walkMin": 13
-        }
-      ]
-    }
-  },
-  {
     "id": "mzbhywn",
     "name": "케익바(Cakebar)",
     "category": "식당",
@@ -22868,6 +22808,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "ms9bn9p",
+    "name": "쿠카하우스",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "마포구",
+    "address": "서울특별시 마포구 동교로 24(102호 합정동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261014",
+    "addedAt": "20261014"
   },
   {
     "id": "mtk61uy",
@@ -23426,6 +23383,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "m7xiz0p",
+    "name": "키노 연희",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "서대문구",
+    "address": "서울특별시 서대문구 연희로12길 23(지하1층 연희동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261014",
+    "addedAt": "20261014"
   },
   {
     "id": "m8kxwjq",
@@ -32423,6 +32397,23 @@
     }
   },
   {
+    "id": "mwdth3m",
+    "name": "엠엠티(MmT)",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "서울",
+    "sigungu": "성북구",
+    "address": "서울특별시 성북구 고려대로8길 23(1층 101호 안암동3가)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "mr6guk5",
     "name": "예스리 토스트",
     "category": "카페",
@@ -37354,6 +37345,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "meptpvn",
+    "name": "유랑",
+    "category": "베이커리",
+    "biz": "제과점영업",
+    "sido": "서울",
+    "sigungu": "마포구",
+    "address": "서울특별시 마포구 신촌로2길 5-8(1층 동교동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261014",
+    "addedAt": "20261014"
   },
   {
     "id": "mkpp7gf",
@@ -50039,83 +50047,6 @@
     }
   },
   {
-    "id": "m4h7d5j",
-    "name": "스트럿",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "부산",
-    "sigungu": "해운대구",
-    "address": "부산광역시 해운대구 달맞이길62번길 6-8(1층 중동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 35.160939598620025,
-    "lng": 129.17098601038973,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260917",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "중동",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 668,
-        "walkMin": 10
-      },
-      "stops": [
-        {
-          "name": "미포.문탠로드입구",
-          "dist": 154,
-          "walkMin": 2
-        },
-        {
-          "name": "해운대로데오거리",
-          "dist": 246,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "문탠로드관광 공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 98,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "00:01~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4885",
-          "dist": 50,
-          "walkMin": 1
-        },
-        {
-          "name": "달맞이주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 11,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 24,
-          "walkMin": 1
-        },
-        {
-          "name": "미포주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 15,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 82,
-          "walkMin": 1
-        }
-      ]
-    }
-  },
-  {
     "id": "mn5ebtr",
     "name": "스트럿",
     "category": "식당",
@@ -50188,6 +50119,83 @@
           "tel": "051-607-6922",
           "dist": 1038,
           "walkMin": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "m4h7d5j",
+    "name": "스트럿",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "부산",
+    "sigungu": "해운대구",
+    "address": "부산광역시 해운대구 달맞이길62번길 6-8(1층 중동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 35.160939598620025,
+    "lng": 129.17098601038973,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260917",
+    "addedAt": "20260915",
+    "transit": {
+      "station": {
+        "name": "중동",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 668,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "미포.문탠로드입구",
+          "dist": 154,
+          "walkMin": 2
+        },
+        {
+          "name": "해운대로데오거리",
+          "dist": 246,
+          "walkMin": 4
+        }
+      ],
+      "parking": [
+        {
+          "name": "문탠로드관광 공영",
+          "se": "공영",
+          "type": "노외",
+          "cap": 98,
+          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
+          "hours": "00:01~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-749-4885",
+          "dist": 50,
+          "walkMin": 1
+        },
+        {
+          "name": "달맞이주차장",
+          "se": "민영",
+          "type": "노외",
+          "cap": 11,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "10:00~22:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-749-4887",
+          "dist": 24,
+          "walkMin": 1
+        },
+        {
+          "name": "미포주차장",
+          "se": "민영",
+          "type": "노외",
+          "cap": 15,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "10:00~22:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-749-4887",
+          "dist": 82,
+          "walkMin": 1
         }
       ]
     }
@@ -70301,13 +70309,13 @@
     }
   },
   {
-    "id": "mvwvo56",
+    "id": "mky6sl0",
     "name": "조선백호",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "인천",
     "sigungu": "제물포구",
-    "address": "인천광역시 제물포구 개항로96번길 11(1층 경동)",
+    "address": "인천광역시 제물포구 개항로96번길 11(1,2층 경동)",
     "official": true,
     "source": "mfds",
     "lat": 37.47163445123357,
@@ -70378,13 +70386,13 @@
     }
   },
   {
-    "id": "mky6sl0",
+    "id": "mvwvo56",
     "name": "조선백호",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "인천",
     "sigungu": "제물포구",
-    "address": "인천광역시 제물포구 개항로96번길 11(1,2층 경동)",
+    "address": "인천광역시 제물포구 개항로96번길 11(1층 경동)",
     "official": true,
     "source": "mfds",
     "lat": 37.47163445123357,
@@ -80704,6 +80712,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "m6rp778",
+    "name": "해브어베이크",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "대전",
+    "sigungu": "서구",
+    "address": "대전광역시 서구 복수남로36번길 14(1층 복수동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261014",
+    "addedAt": "20261014"
   },
   {
     "id": "m52htqc",
@@ -127410,6 +127435,23 @@
     }
   },
   {
+    "id": "majildq",
+    "name": "와이즈 독 스쿨 애견카페",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "경기",
+    "sigungu": "군포시",
+    "address": "경기도 군포시 송부로12번길 46(1층 일부호 도마교동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "mz0dz4b",
     "name": "요커 (yo.kr) 광교 숲속마을점",
     "category": "카페",
@@ -133149,6 +133191,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "mz2c4wm",
+    "name": "히든하우스",
+    "category": "베이커리",
+    "biz": "제과점영업",
+    "sido": "경기",
+    "sigungu": "하남시",
+    "address": "경기도 하남시 하남대로 821(1층 일부호 덕풍동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261014",
+    "addedAt": "20261014"
   },
   {
     "id": "mw941xd",
@@ -160252,6 +160311,23 @@
     }
   },
   {
+    "id": "mnyfnlb",
+    "name": "여행가게와 연필가게",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "제주",
+    "sigungu": "서귀포시",
+    "address": "제주특별자치도 서귀포시 남원읍 태위로 929",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261013",
+    "addedAt": "20261013"
+  },
+  {
     "id": "m5uzs5l",
     "name": "오늘이크리스마스라면 사진관카페",
     "category": "식당",
@@ -177287,57 +177363,6 @@
     }
   },
   {
-    "id": "mnyfnlb",
-    "name": "여행가게와 연필가게",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "제주",
-    "sigungu": "서귀포시",
-    "address": "제주특별자치도 서귀포시 남원읍 태위로 929",
-    "official": true,
-    "source": "mfds",
-    "lat": null,
-    "lng": null,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20261013",
-    "addedAt": "20261013"
-  },
-  {
-    "id": "mwdth3m",
-    "name": "엠엠티(MmT)",
-    "category": "카페",
-    "biz": "휴게음식점",
-    "sido": "서울",
-    "sigungu": "성북구",
-    "address": "서울특별시 성북구 고려대로8길 23(1층 101호 안암동3가)",
-    "official": true,
-    "source": "mfds",
-    "lat": null,
-    "lng": null,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20261013",
-    "addedAt": "20261013"
-  },
-  {
-    "id": "majildq",
-    "name": "와이즈 독 스쿨 애견카페",
-    "category": "카페",
-    "biz": "휴게음식점",
-    "sido": "경기",
-    "sigungu": "군포시",
-    "address": "경기도 군포시 송부로12번길 46(1층 일부호 도마교동)",
-    "official": true,
-    "source": "mfds",
-    "lat": null,
-    "lng": null,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20261013",
-    "addedAt": "20261013"
-  },
-  {
     "id": "2784167",
     "name": "가야산생태탐방원",
     "category": "관광지",
@@ -184526,9 +184551,9 @@
     "sido": "충남",
     "sigungu": "태안군",
     "address": "충청남도 태안군 남면 마검포길 200",
-    "lat": 36.6164717773,
-    "lng": 126.3009584253,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/46/3422246_image2_1.jpg",
+    "lat": 36.6164225984,
+    "lng": 126.3009466869,
+    "image": "",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -184547,12 +184572,12 @@
       "stops": [
         {
           "name": "모레논",
-          "dist": 114,
+          "dist": 110,
           "walkMin": 2
         },
         {
           "name": "신온1리.목개",
-          "dist": 391,
+          "dist": 395,
           "walkMin": 6
         }
       ]
@@ -185972,9 +185997,9 @@
     "sido": "울산",
     "sigungu": "북구",
     "address": "울산광역시 북구 용바위1길 58",
-    "lat": 35.5811408729,
-    "lng": 129.4557092851,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/89/3537289_image2_1.jpg",
+    "lat": 35.5808,
+    "lng": 129.456,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/89/3537289_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -185993,13 +186018,13 @@
       "stops": [
         {
           "name": "튜릭아트박물관",
-          "dist": 81,
-          "walkMin": 1
+          "dist": 127,
+          "walkMin": 2
         },
         {
           "name": "금천마을",
-          "dist": 289,
-          "walkMin": 4
+          "dist": 307,
+          "walkMin": 5
         }
       ],
       "parking": [
@@ -186012,8 +186037,8 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "052-241-7982",
-          "dist": 292,
-          "walkMin": 4
+          "dist": 307,
+          "walkMin": 5
         },
         {
           "name": "구암",
@@ -186024,7 +186049,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "052-241-7982",
-          "dist": 1034,
+          "dist": 1008,
           "walkMin": 15
         },
         {
@@ -186036,7 +186061,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "052-209-3720",
-          "dist": 1097,
+          "dist": 1068,
           "walkMin": 16
         }
       ]
@@ -189685,10 +189710,10 @@
     "category": "관광지",
     "sido": "경기",
     "sigungu": "포천시",
-    "address": "경기도 포천시 이동면 도평리",
-    "lat": 38.0956743687,
-    "lng": 127.3504217471,
-    "image": "",
+    "address": "경기도 포천시 이동면 도평리 산 426",
+    "lat": 38.1042905959,
+    "lng": 127.3381502565,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/39/4122639_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -191529,8 +191554,8 @@
     "sido": "경남",
     "sigungu": "양산시",
     "address": "경상남도 양산시 원동면 어실로 1511",
-    "lat": 35.45000527619805,
-    "lng": 128.96465666089716,
+    "lat": 35.4500052762,
+    "lng": 128.9646566609,
     "image": "https://tong.visitkorea.or.kr/cms/resource/77/3537877_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -196031,40 +196056,6 @@
     }
   },
   {
-    "id": "2939800",
-    "name": "새만금환경생태단지",
-    "category": "관광지",
-    "sido": "전북",
-    "sigungu": "부안군",
-    "address": "전북특별자치도 부안군 불등길 58-85",
-    "lat": 35.7405746353,
-    "lng": 126.6136474148,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/45/3074045_image2_1.jpg",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "안내견만 가",
-      "petType": "",
-      "petNeed": "",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "새만금환경생태단지는 새만금 지역의 생태복원과 수질개선, 야생생물의 서식공간 제공, 생태환경 체험·교육 등 다양한 환경기능을 수행하기 위하여 0.8㎢(24만평) 규모로 조성되었다. 2022년 6월 5일 개장한 환경생태단지는 핵심보전지구인 생태습지와 함께 랜드마크인 달팽이언덕, 아이들을 위한 생태놀이터가 마련되어 있는 인간과 자연의 상생 공간으로 무료 관람이 가능하다. 새만금환경생태단지 방문자센터는 탐방객을 위한 해설프로그램 및 편의 제공을 목적으로 만들어졌으며, 전시실·수유실·휴게실·게임존 등 각종 시설이 잘 갖춰져 있다. 이곳에서 자전거·휠체어·유모차를 무료 대여할 수 있고, 스탬프 투어 완료 시 기념품을 제공(1인 1회)하며, 연령별 차별화된 해설프로그램을 통해 자연 생태계의 가치와 탄소중립 등 환경보전의 중요성을 배울 수 있다. 해설프로그램은 새만금환경생태단지 공식 홈페이지에서 예약을 통해 무료 신청이 가능하다.",
-    "homepage": "https://www.eariul.go.kr/smgeco",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "불등마을경로당",
-          "dist": 649,
-          "walkMin": 10
-        }
-      ]
-    }
-  },
-  {
     "id": "572973",
     "name": "새별오름",
     "category": "관광지",
@@ -200047,7 +200038,7 @@
     "address": "제주특별자치도 서귀포시 쇠소깍로 104 (하효동)",
     "lat": 33.253,
     "lng": 126.6227,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/03/3536103_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/33/4120333_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -200559,9 +200550,9 @@
     "sido": "경기",
     "sigungu": "수원시",
     "address": "경기도 수원시 팔달구 정조로800번길 16 (팔달로1가)",
-    "lat": 37.2794882505,
-    "lng": 127.0176533149,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/68/3402068_image2_1.JPG",
+    "lat": 37.279437694,
+    "lng": 127.0176389215,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/68/3402068_image2_1.JPG",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -200582,18 +200573,18 @@
         "lines": [
           "분당선"
         ],
-        "dist": 1565,
+        "dist": 1559,
         "walkMin": 23
       },
       "stops": [
         {
           "name": "팔달문.이안과",
-          "dist": 93,
+          "dist": 95,
           "walkMin": 1
         },
         {
           "name": "팔달문.수원백병원",
-          "dist": 125,
+          "dist": 121,
           "walkMin": 2
         }
       ],
@@ -200607,7 +200598,7 @@
           "hours": "00:00~20:00",
           "days": "평일+토요일+공휴일",
           "tel": "031-695-0930",
-          "dist": 226,
+          "dist": 231,
           "walkMin": 3
         },
         {
@@ -200619,7 +200610,7 @@
           "hours": "00:00~23:59",
           "days": "평일+공휴일",
           "tel": "031-695-0930",
-          "dist": 412,
+          "dist": 417,
           "walkMin": 6
         },
         {
@@ -200631,7 +200622,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-695-0930",
-          "dist": 727,
+          "dist": 721,
           "walkMin": 11
         }
       ]
@@ -208324,92 +208315,6 @@
     }
   },
   {
-    "id": "2781335",
-    "name": "월미문화의거리 & 달빛음악분수",
-    "category": "관광지",
-    "sido": "인천",
-    "sigungu": "제물포구",
-    "address": "인천광역시 제물포구 월미로 252",
-    "lat": 37.4738860361,
-    "lng": 126.5983832839,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/69/2786469_image2_1.jpg",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "",
-      "petType": "",
-      "petNeed": "",
-      "petEtc": "동반 가능 (배변봉투와 목줄 지참)",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "인천의 대표적인 관광지 중의 하나인 월미도에는 월미도 문화의 거리, 월미공원, 월미테마파크 등이 있다. 월미도 문화의 거리는 보행자 전용 도로로 차량 출입시간을 제외하고는 차량의 출입이 통제되어 있다. 초상화를 그려주는 길거리 화가들이 나와 있고 앉아 쉴 수 있는 벤치가 있는 작은 쉼터 같은 거리다. 월미공원에 위치한 월미 전망대에서는 인천항 일대의 전경을 다 볼 수 있어 월미도를 간다면 한 번쯤 들러서 전망을 구경하는 것도 좋다. 놀이와 체험이 가능한 월미테마파크에는 다양한 놀이 기구가 있어 연인들의 데이트 장소나 가족들의 나들이 장소로 인기 있다. 월미 달빛 음악 분수는 월미문화 거리 안에 있는 분수로 크지는 않지만 월미도의 볼거리 중 하나이다. 5월 1일부터 10월 31일까지 진행하고 매주 월요일은 정기점검을 한다. 음악 분수는 음악에 맞춰 불줄기들이 춤을 추는데 물과 음악이 조합되어 멋진 장관을 이룬다. 저녁이 되면 음악에 따라 6~7가지 빛의 분수 쇼가 펼쳐진다. 그러므로 낮에 감상하는 것보다는 밤에 보는 모습이 더욱더 멋지다.",
-    "homepage": "https://itour.incheon.go.kr/ssst/ssst/detail.do?pgListMode=S&cotId=APD21120710052543179",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "인천역",
-        "lines": [
-          "경인선",
-          "수인선"
-        ],
-        "dist": 1660,
-        "walkMin": 25
-      },
-      "stops": [
-        {
-          "name": "월미문화의거리",
-          "dist": 86,
-          "walkMin": 1
-        },
-        {
-          "name": "월미도종점",
-          "dist": 158,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "월미도3공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 61,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 303,
-          "walkMin": 5
-        },
-        {
-          "name": "월미도4공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 20,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 314,
-          "walkMin": 5
-        },
-        {
-          "name": "월미도2공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 39,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 338,
-          "walkMin": 5
-        }
-      ]
-    }
-  },
-  {
     "id": "2769492",
     "name": "월미산",
     "category": "관광지",
@@ -208579,9 +208484,9 @@
     "sido": "강원",
     "sigungu": "평창군",
     "address": "강원특별자치도 평창군 미탄면 동막골길 122",
-    "lat": 37.3139915833,
-    "lng": 128.4707599845,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/11/3566011_image2_1.jpg",
+    "lat": 37.313939499,
+    "lng": 128.4707356908,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/11/3566011_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -208600,7 +208505,7 @@
       "stops": [
         {
           "name": "뒤실입구",
-          "dist": 756,
+          "dist": 755,
           "walkMin": 11
         }
       ]
@@ -210215,9 +210120,9 @@
     "sido": "인천",
     "sigungu": "남동구",
     "address": "인천광역시 남동구 무네미로 236",
-    "lat": 37.4577461335,
-    "lng": 126.749303301,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/51/3590851_image2_1.jpg",
+    "lat": 37.4576921872,
+    "lng": 126.7492885564,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/51/3590851_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -210238,18 +210143,18 @@
         "lines": [
           "인천지하철 2호선"
         ],
-        "dist": 1083,
+        "dist": 1077,
         "walkMin": 16
       },
       "stops": [
         {
           "name": "인천대공원",
-          "dist": 58,
+          "dist": 60,
           "walkMin": 1
         },
         {
           "name": "장수공영차고지",
-          "dist": 576,
+          "dist": 582,
           "walkMin": 9
         }
       ],
@@ -210263,7 +210168,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "032-460-0530",
-          "dist": 678,
+          "dist": 672,
           "walkMin": 10
         },
         {
@@ -210275,7 +210180,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "032-460-0530",
-          "dist": 678,
+          "dist": 672,
           "walkMin": 10
         },
         {
@@ -210287,7 +210192,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "032-460-0530",
-          "dist": 859,
+          "dist": 854,
           "walkMin": 13
         }
       ]
@@ -210726,9 +210631,9 @@
     "sido": "경기",
     "sigungu": "파주시",
     "address": "경기도 파주시 적성면 율곡로 1857",
-    "lat": 37.9650701065,
-    "lng": 126.8897010962,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/21/2991121_image2_1.jpg",
+    "lat": 37.9650160952,
+    "lng": 126.8896856211,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/21/2991121_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -210747,7 +210652,7 @@
       "stops": [
         {
           "name": "황포돛배.두지리",
-          "dist": 421,
+          "dist": 422,
           "walkMin": 6
         }
       ]

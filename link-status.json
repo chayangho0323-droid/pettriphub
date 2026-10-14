@@ -1422,11 +1422,6 @@
   "status": 200,
   "checkedAt": "2026-10-13T08:00:01.363Z"
  },
- "https://www.eariul.go.kr/smgeco": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-13T08:00:01.363Z"
- },
  "http://www.seoulup.or.kr/": {
   "state": "ok",
   "status": 200,
@@ -2274,11 +2269,6 @@
   "final": "https://www.siheung.go.kr/cultour/main.do"
  },
  "https://www.gunsan.go.kr/tour/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-13T08:00:01.363Z"
- },
- "https://itour.incheon.go.kr/ssst/ssst/detail.do?pgListMode=S&cotId=APD21120710052543179": {
   "state": "ok",
   "status": 200,
   "checkedAt": "2026-10-13T08:00:01.363Z"
@@ -4073,5 +4063,10 @@
   "status": 200,
   "checkedAt": "2026-10-13T08:00:01.363Z",
   "final": "http://www.gn.go.kr/tour/sub02_01_03.do"
+ },
+ "http://cafe.daum.net/kjautomcamping인스타그램": {
+  "state": "unknown",
+  "status": 400,
+  "checkedAt": "2026-10-14T00:13:18.872Z"
  }
 }
