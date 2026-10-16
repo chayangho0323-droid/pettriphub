@@ -12006,84 +12006,6 @@
     }
   },
   {
-    "id": "mv4caf6",
-    "name": "사루",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "서울",
-    "sigungu": "중구",
-    "address": "서울특별시 중구 장충단로7길 24(1층 쌍림동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.56256581937329,
-    "lng": 127.00516958134583,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260929",
-    "addedAt": "20260929",
-    "transit": {
-      "station": {
-        "name": "동대문역사문화공원(DDP)",
-        "lines": [
-          "5호선",
-          "4호선"
-        ],
-        "dist": 236,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "장충동써미트호텔",
-          "dist": 136,
-          "walkMin": 2
-        },
-        {
-          "name": "퇴계로6가",
-          "dist": 145,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "장충 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 106,
-          "fee": "기본 5분 200원 · 추가 5분 150원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2277-7004",
-          "dist": 447,
-          "walkMin": 7
-        },
-        {
-          "name": "묵정공원지하 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 491,
-          "fee": "기본 5분 450원 · 추가 5분 400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2280-8370",
-          "dist": 489,
-          "walkMin": 7
-        },
-        {
-          "name": "훈련원공원",
-          "se": "공영",
-          "type": "노외",
-          "cap": 873,
-          "fee": "기본 5분 550원 · 추가 5분 550원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-3405-4597",
-          "dist": 490,
-          "walkMin": 7
-        }
-      ]
-    }
-  },
-  {
     "id": "mrq28h3",
     "name": "사루",
     "category": "식당",
@@ -12157,6 +12079,84 @@
           "tel": "02-2280-8360",
           "dist": 220,
           "walkMin": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "mv4caf6",
+    "name": "사루",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "중구",
+    "address": "서울특별시 중구 장충단로7길 24(1층 쌍림동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 37.56256581937329,
+    "lng": 127.00516958134583,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260929",
+    "addedAt": "20260929",
+    "transit": {
+      "station": {
+        "name": "동대문역사문화공원(DDP)",
+        "lines": [
+          "5호선",
+          "4호선"
+        ],
+        "dist": 236,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "장충동써미트호텔",
+          "dist": 136,
+          "walkMin": 2
+        },
+        {
+          "name": "퇴계로6가",
+          "dist": 145,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "장충 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 106,
+          "fee": "기본 5분 200원 · 추가 5분 150원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2277-7004",
+          "dist": 447,
+          "walkMin": 7
+        },
+        {
+          "name": "묵정공원지하 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 491,
+          "fee": "기본 5분 450원 · 추가 5분 400원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2280-8370",
+          "dist": 489,
+          "walkMin": 7
+        },
+        {
+          "name": "훈련원공원",
+          "se": "공영",
+          "type": "노외",
+          "cap": 873,
+          "fee": "기본 5분 550원 · 추가 5분 550원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-3405-4597",
+          "dist": 490,
+          "walkMin": 7
         }
       ]
     }
@@ -28014,6 +28014,23 @@
     }
   },
   {
+    "id": "ml3kbos",
+    "name": "히썬",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "마포구",
+    "address": "서울특별시 마포구 성미산로29안길 26(1층 우측호 연남동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261017",
+    "addedAt": "20261017"
+  },
+  {
     "id": "mwqmmm0",
     "name": "히크 엣 눙크",
     "category": "식당",
@@ -37833,6 +37850,23 @@
     }
   },
   {
+    "id": "mtg64hi",
+    "name": "피카프(fikaF)",
+    "category": "베이커리",
+    "biz": "제과점영업",
+    "sido": "서울",
+    "sigungu": "금천구",
+    "address": "서울특별시 금천구 가산로3길 48(1층 일부호 가산동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261017",
+    "addedAt": "20261017"
+  },
+  {
     "id": "m7j2ijs",
     "name": "필리(Philly)",
     "category": "베이커리",
@@ -44650,6 +44684,23 @@
     }
   },
   {
+    "id": "muiv494",
+    "name": "커피로드뷰 더시그너스점",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "광주",
+    "sigungu": "서구",
+    "address": "전남광주통합특별시 서구 죽봉대로 52(한국교직원공제회관 1층 농성동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261017",
+    "addedAt": "20261017"
+  },
+  {
     "id": "m1taadl",
     "name": "코코독스 애견카페",
     "category": "카페",
@@ -49944,83 +49995,6 @@
     }
   },
   {
-    "id": "m4h7d5j",
-    "name": "스트럿",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "부산",
-    "sigungu": "해운대구",
-    "address": "부산광역시 해운대구 달맞이길62번길 6-8(1층 중동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 35.160939598620025,
-    "lng": 129.17098601038973,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260917",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "중동",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 668,
-        "walkMin": 10
-      },
-      "stops": [
-        {
-          "name": "미포.문탠로드입구",
-          "dist": 154,
-          "walkMin": 2
-        },
-        {
-          "name": "해운대로데오거리",
-          "dist": 246,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "문탠로드관광 공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 98,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "00:01~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4885",
-          "dist": 50,
-          "walkMin": 1
-        },
-        {
-          "name": "달맞이주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 11,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 24,
-          "walkMin": 1
-        },
-        {
-          "name": "미포주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 15,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 82,
-          "walkMin": 1
-        }
-      ]
-    }
-  },
-  {
     "id": "mn5ebtr",
     "name": "스트럿",
     "category": "식당",
@@ -50093,6 +50067,83 @@
           "tel": "051-607-6922",
           "dist": 1038,
           "walkMin": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "m4h7d5j",
+    "name": "스트럿",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "부산",
+    "sigungu": "해운대구",
+    "address": "부산광역시 해운대구 달맞이길62번길 6-8(1층 중동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 35.160939598620025,
+    "lng": 129.17098601038973,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260917",
+    "addedAt": "20260915",
+    "transit": {
+      "station": {
+        "name": "중동",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 668,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "미포.문탠로드입구",
+          "dist": 154,
+          "walkMin": 2
+        },
+        {
+          "name": "해운대로데오거리",
+          "dist": 246,
+          "walkMin": 4
+        }
+      ],
+      "parking": [
+        {
+          "name": "문탠로드관광 공영",
+          "se": "공영",
+          "type": "노외",
+          "cap": 98,
+          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
+          "hours": "00:01~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-749-4885",
+          "dist": 50,
+          "walkMin": 1
+        },
+        {
+          "name": "달맞이주차장",
+          "se": "민영",
+          "type": "노외",
+          "cap": 11,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "10:00~22:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-749-4887",
+          "dist": 24,
+          "walkMin": 1
+        },
+        {
+          "name": "미포주차장",
+          "se": "민영",
+          "type": "노외",
+          "cap": 15,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "10:00~22:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-749-4887",
+          "dist": 82,
+          "walkMin": 1
         }
       ]
     }
@@ -51375,6 +51426,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "maajnwq",
+    "name": "유유(悠悠)",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "부산",
+    "sigungu": "부산진구",
+    "address": "부산광역시 부산진구 동성로 55-1(2층 전포동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261017",
+    "addedAt": "20261017"
   },
   {
     "id": "mee9sj7",
@@ -72595,13 +72663,13 @@
     }
   },
   {
-    "id": "mjpr3nd",
+    "id": "m5oxplu",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -72634,13 +72702,13 @@
     }
   },
   {
-    "id": "m5oxplu",
+    "id": "mjpr3nd",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -80913,75 +80981,6 @@
           "tel": "042-611-2956",
           "dist": 564,
           "walkMin": 8
-        }
-      ]
-    }
-  },
-  {
-    "id": "m6qe5d6",
-    "name": "텍스트가든",
-    "category": "베이커리",
-    "biz": "제과점영업",
-    "sido": "대전",
-    "sigungu": "유성구",
-    "address": "대전광역시 유성구 문지로 6-1(지상1층 도룡동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 36.38837640741825,
-    "lng": 127.37932396896026,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260922",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "대덕터널입구",
-          "dist": 25,
-          "walkMin": 1
-        },
-        {
-          "name": "대덕고등학교",
-          "dist": 188,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "도룡동공영(上)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 96,
-          "fee": "추가 10분 150원 · 1일 6,500원",
-          "hours": "08:00~22:00",
-          "days": "평일",
-          "tel": "042-611-2956",
-          "dist": 188,
-          "walkMin": 3
-        },
-        {
-          "name": "도룡동 우성(아)앞",
-          "se": "공영",
-          "type": "노상",
-          "cap": 27,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "042-611-2956",
-          "dist": 214,
-          "walkMin": 3
-        },
-        {
-          "name": "도룡동공영(下)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 90,
-          "fee": "추가 10분 150원 · 1일 6,500원",
-          "hours": "08:00~22:00",
-          "days": "평일",
-          "tel": "042-611-2956",
-          "dist": 413,
-          "walkMin": 6
         }
       ]
     }
@@ -100001,84 +100000,6 @@
     }
   },
   {
-    "id": "m6kszir",
-    "name": "선라이트마켓(SUNLIGHT MARKET)",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "경기",
-    "sigungu": "고양시",
-    "address": "경기도 고양시 일산동구 무궁화로187번길 26(1층 일부호 정발산동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.67238270572619,
-    "lng": 126.78110787817789,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260924",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "풍산역",
-        "lines": [
-          "경의중앙선",
-          "서해선"
-        ],
-        "dist": 462,
-        "walkMin": 7
-      },
-      "stops": [
-        {
-          "name": "정발산동행정복지센터",
-          "dist": 115,
-          "walkMin": 2
-        },
-        {
-          "name": "밤가시7.8단지.광림교회",
-          "dist": 163,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "정발산 상생",
-          "se": "공영",
-          "type": "노외",
-          "cap": 6,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-929-4858",
-          "dist": 409,
-          "walkMin": 6
-        },
-        {
-          "name": "정발산공원",
-          "se": "공영",
-          "type": "부설",
-          "cap": 102,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "09:00~20:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-929-4847",
-          "dist": 636,
-          "walkMin": 9
-        },
-        {
-          "name": "정발산",
-          "se": "공영",
-          "type": "노외",
-          "cap": 26,
-          "fee": "기본 30분 200원 · 추가 5분 50원 · 1일 3,000원",
-          "hours": "08:00~20:00",
-          "days": "평일",
-          "tel": "031-929-4858",
-          "dist": 864,
-          "walkMin": 13
-        }
-      ]
-    }
-  },
-  {
     "id": "m3ejo46",
     "name": "선미네",
     "category": "식당",
@@ -106360,8 +106281,8 @@
     }
   },
   {
-    "id": "mflb0w0",
-    "name": "우깃",
+    "id": "m7n5e6q",
+    "name": "우깃 안산 직영점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "경기",
@@ -106373,8 +106294,8 @@
     "lng": 126.83832059683209,
     "image": "",
     "tourId": "",
-    "photoTried": "20260929",
-    "addedAt": "20260929",
+    "photoTried": "20261017",
+    "addedAt": "20261017",
     "transit": {
       "station": {
         "name": "중앙역",
@@ -185712,10 +185633,10 @@
     "category": "관광지",
     "sido": "제주",
     "sigungu": "제주시",
-    "address": "제주특별자치도 제주시 조천읍 신촌북3길 62-1",
-    "lat": 33.5378017018462,
-    "lng": 126.613251253838,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/94/4001794_image2_1.jpg",
+    "address": "제주특별자치도 제주시 조천읍 신촌리 3403",
+    "lat": 33.5367573216,
+    "lng": 126.6173595815,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/22/4120322_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -185734,18 +185655,18 @@
       "stops": [
         {
           "name": "신촌초등학교[북]",
-          "dist": 760,
-          "walkMin": 11
+          "dist": 464,
+          "walkMin": 7
         },
         {
-          "name": "신촌초등학교[남]",
-          "dist": 786,
-          "walkMin": 12
+          "name": "신촌리[북]",
+          "dist": 465,
+          "walkMin": 7
         }
       ],
       "parking": [
         {
-          "name": "신촌리 2404-1",
+          "name": "신촌리 2347-1",
           "se": "공영",
           "type": "노외",
           "cap": 7,
@@ -185753,19 +185674,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 48,
-          "walkMin": 1
-        },
-        {
-          "name": "신촌리 2415-1",
-          "se": "공영",
-          "type": "노외",
-          "cap": 16,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 136,
+          "dist": 121,
           "walkMin": 2
         },
         {
@@ -185777,8 +185686,20 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 230,
+          "dist": 173,
           "walkMin": 3
+        },
+        {
+          "name": "신촌리 2542-1",
+          "se": "공영",
+          "type": "노외",
+          "cap": 7,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 267,
+          "walkMin": 4
         }
       ]
     }
@@ -191896,9 +191817,9 @@
     "sido": "강원",
     "sigungu": "고성군",
     "address": "강원특별자치도 고성군 거진읍 거진리",
-    "lat": 38.4497569582,
-    "lng": 128.4669255768,
-    "image": "",
+    "lat": 38.4497,
+    "lng": 128.4669,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/63/4127563_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -191924,19 +191845,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "033-680-3021",
-          "dist": 384,
-          "walkMin": 6
-        },
-        {
-          "name": "거진리 등대길2",
-          "se": "공영",
-          "type": "노외",
-          "cap": 9,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "033-680-3021",
-          "dist": 430,
+          "dist": 377,
           "walkMin": 6
         },
         {
@@ -191948,7 +191857,19 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "033-680-3021",
-          "dist": 432,
+          "dist": 428,
+          "walkMin": 6
+        },
+        {
+          "name": "거진리 등대길2",
+          "se": "공영",
+          "type": "노외",
+          "cap": 9,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "033-680-3021",
+          "dist": 428,
           "walkMin": 6
         }
       ]
@@ -211994,9 +211915,9 @@
     "sido": "전북",
     "sigungu": "정읍시",
     "address": "전북특별자치도 정읍시 산내면 청정로 926-65",
-    "lat": 35.5543138198,
-    "lng": 127.0189105512,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/67/3573567_image2_1.jpg",
+    "lat": 35.5542736114,
+    "lng": 127.018895547,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3573567_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -214579,9 +214500,9 @@
     "sido": "강원",
     "sigungu": "동해시",
     "address": "강원특별자치도 동해시 촛대바위길 28",
-    "lat": 37.4770166205,
-    "lng": 129.1589405415,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/46/3345046_image2_1.jpg",
+    "lat": 37.4769630198,
+    "lng": 129.1589103405,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/46/3345046_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -215054,9 +214975,9 @@
     "sido": "경기",
     "sigungu": "김포시",
     "address": "경기도 김포시 하성면 하성로 585",
-    "lat": 37.725279549,
-    "lng": 126.6298261699,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/12/3547112_image2_1.jpg",
+    "lat": 37.7252262677,
+    "lng": 126.6298128376,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/12/3547112_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -215075,12 +214996,12 @@
       "stops": [
         {
           "name": "태산가족공원",
-          "dist": 46,
+          "dist": 49,
           "walkMin": 1
         },
         {
           "name": "하성우체국앞",
-          "dist": 632,
+          "dist": 626,
           "walkMin": 9
         }
       ]
@@ -215506,10 +215427,10 @@
     "category": "관광지",
     "sido": "강원",
     "sigungu": "양구군",
-    "address": "강원특별자치도 양구군 양구읍 함춘로 102",
-    "lat": 38.11671863878059,
-    "lng": 127.98846106658499,
-    "image": "",
+    "address": "강원특별자치도 양구군 양구읍 하리 570-1",
+    "lat": 38.1167186388,
+    "lng": 127.9884610666,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/30/4119630_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -223189,9 +223110,9 @@
     "sido": "충북",
     "sigungu": "영동군",
     "address": "충청북도 영동군 황간면 원촌리",
-    "lat": 36.2343157417,
-    "lng": 127.8917176682,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/53/3569453_image2_1.jpg",
+    "lat": 36.2342689763,
+    "lng": 127.8916959398,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/53/3569453_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -223210,8 +223131,8 @@
       "stops": [
         {
           "name": "월류봉",
-          "dist": 366,
-          "walkMin": 5
+          "dist": 370,
+          "walkMin": 6
         }
       ],
       "parking": [
@@ -223236,7 +223157,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "043-740-3515",
-          "dist": 1437,
+          "dist": 1438,
           "walkMin": 21
         }
       ]
