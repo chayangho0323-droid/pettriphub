@@ -46,6 +46,30 @@ const adfitBlock = (unit, w, h) => `
 const ADFIT_BODY = adfitBlock(ADFIT_UNIT_BODY, 300, 250);
 
 const pets = JSON.parse(fs.readFileSync("pets.json", "utf-8"));
+// ─── 📍 네이버 지도 등록 정보 (fetch-local.js → local.json: 장소 id → {found, title, link, category, roadAddress, lat, lng}) ───
+// 식약처 업소는 홈페이지·세부 업종이 없어서 네이버 지역 검색으로 보충 (2026-10-16). 전화번호는 네이버가 안 줘서 못 채움.
+//  - homepage 비어 있으면 네이버 등록 링크(인스타·캐치테이블·홈페이지)를 쓰고 homepageVia="naver"
+//  - bizDetail: "음식점>카페,디저트" 의 마지막 칸 (업종 행에 "일반음식점 · 카페,디저트")
+//  - 좌표: 네이버 가게 좌표가 기존(주소 지오코딩) 좌표와 1km 안이면 더 정확한 쪽으로 교체
+//  - found:false(네이버에 같은 상호 없음) → naverMissing (상세에 "방문 전 영업 확인" 한 줄, 삭제는 안 함)
+{
+  let LOCAL = { places: {} };
+  try { LOCAL = JSON.parse(fs.readFileSync("local.json", "utf-8")); } catch {}
+  let linkN = 0, bizN = 0, geoN = 0, missN = 0;
+  for (const p of pets) {
+    const e = LOCAL.places && LOCAL.places[p.id];
+    if (!e) continue;
+    if (!e.found) { p.naverMissing = true; missN++; continue; }
+    p.naverPlace = e.title;
+    // 광고성 링크 제외 (체인 카페 "100원커피이벤트-선착순주문하기.com" 같은 홍보 도메인 16곳 — 2026-10-16 확인)
+    const adLink = /이벤트|선착순|event|promo/i.test(String(e.link || "").split(/[/?#]/)[2] || "");
+    if (!p.homepage && e.link && /^https?:\/\//i.test(e.link) && !adLink) { p.homepage = e.link; p.homepageVia = "naver"; linkN++; }
+    const detail = String(e.category || "").split(">").pop().trim();
+    if (detail && detail !== p.biz && detail !== p.category) { p.bizDetail = detail; bizN++; }
+    if (e.lat && e.lng && (!p.lat || distKm(p.lat, p.lng, e.lat, e.lng) <= 1)) { p.lat = e.lat; p.lng = e.lng; geoN++; }
+  }
+  if (linkN || missN) console.log(`📍 네이버 지도 정보: 링크 보충 ${linkN} · 세부 업종 ${bizN} · 좌표 보정 ${geoN} · 네이버에 없음 ${missN}`);
+}
 // 홈페이지 링크 생존 검사 결과(check-links.js → link-status.json): dead(404·5xx·접속 불가 확정)인 홈페이지는 비우고 homepageDead에 원래 주소를 남긴다 (캠핑허브와 같은 방식)
 {
   let LINKS = {};
@@ -332,9 +356,32 @@ function buildPage(p, all) {
     ? `<div class="official-banner"><span class="ob-icon">✅</span><div><strong>식약처 공식 등록 반려동물 동반출입 음식점</strong><br />영업자가 지자체에 정식 등록하고 식품의약품안전처 현황에 올라 있는 업소예요. <a href="../about.html#official">등록 제도 안내 →</a></div></div>`
     : "";
 
+  // 네이버 지도에서 가져온 링크는 주소 대신 종류 이름으로 (인스타그램·캐치테이블 예약 등 — 긴 주소보다 읽기 쉬움)
+  const linkLabel = (u) => {
+    const h = u.toLowerCase();
+    if (h.includes("instagram.com")) return "📸 인스타그램";
+    if (h.includes("catchtable")) return "🍽️ 캐치테이블 예약";
+    if (h.includes("booking.naver") || h.includes("m.place.naver") || h.includes("naver.me") || h.includes("m.site.naver")) return "🟢 네이버 예약·플레이스";
+    if (h.includes("smartstore.naver")) return "🛍️ 네이버 스마트스토어";
+    if (h.includes("blog.naver")) return "📝 네이버 블로그";
+    if (h.includes("pf.kakao")) return "💬 카카오톡 채널";
+    if (h.includes("facebook.com")) return "페이스북";
+    if (h.includes("youtube.com") || h.includes("youtu.be")) return "▶️ 유튜브";
+    if (h.includes("threads.com") || h.includes("threads.net")) return "스레드";
+    if (h.includes("tiktok.com")) return "틱톡";
+    if (h.includes("daangn.com")) return "🥕 당근 비즈프로필";
+    return "🌐 " + u.replace(/^https?:\/\/(www\.)?/, "").split(/[/?#]/)[0];
+  };
   const homepage = p.homepage
-    ? `<a href="${esc(p.homepage)}" target="_blank" rel="noopener">${esc(p.homepage)}</a>`
+    ? (p.homepageVia === "naver"
+      ? `<a href="${esc(p.homepage)}" target="_blank" rel="noopener">${esc(linkLabel(p.homepage))}</a> <span class="muted small">(네이버 지도 등록 정보)</span>`
+      : `<a href="${esc(p.homepage)}" target="_blank" rel="noopener">${esc(p.homepage)}</a>`)
     : p.homepageDead ? `<span class="muted">등록된 주소가 열리지 않음 — 네이버 후기·지도에서 확인하세요</span>` : "";
+  const bizText = p.bizDetail ? `${esc(p.biz || p.category)} · ${esc(p.bizDetail)}` : esc(p.biz || p.category);
+  // 네이버 지도에 같은 상호가 없는 식약처 업소 — 폐업·상호 변경 가능성 안내 (삭제는 식약처 명단에서 빠질 때만)
+  const naverMissingNote = p.official && p.naverMissing
+    ? `<p class="coupang-notice naver-missing">ℹ️ 네이버 지도에서 이 상호를 찾지 못했어요. 상호가 바뀌었거나 영업을 쉬고 있을 수 있으니 방문 전에 확인해 주세요.</p>`
+    : "";
 
   // 동반 조건 (관광공사 데이터에만 있음)
   const pi = p.petInfo || {};
@@ -496,10 +543,11 @@ function buildPage(p, all) {
       ${hero}
       <div class="info-grid">
         ${infoRow("📍", "주소", esc(p.address))}
-        ${infoRow("🏷️", "업종", esc(p.biz || p.category))}
+        ${infoRow("🏷️", "업종", bizText)}
         ${infoRow("📞", "문의", esc(p.tel))}
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
+      ${naverMissingNote}
       ${VP.galleryHtml(p.visitorPhotos, { name: p.name, href: reportMailto(p) })}
       ${photoCallHtml(p)}
       ${petSection}

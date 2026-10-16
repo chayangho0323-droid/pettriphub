@@ -42,6 +42,14 @@ jobs:
           REVIEW_BUDGET: "400"
         continue-on-error: true
 
+      # 네이버 지역 검색 → 장소별 네이버 지도 등록 정보 local.json (홈페이지·인스타·예약 링크, 세부 업종, 가게 좌표, 등록 여부. 하루 300곳, 30일마다 재확인)
+      - run: node fetch-local.js
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          LOCAL_BUDGET: "300"
+        continue-on-error: true
+
       # 장소마다 가까운 지하철역·버스정류장·주차장 계산 (API 없음 — data/stations.json, busstops.json.gz, parking.json.gz)
       - run: node fetch-transit.js
 

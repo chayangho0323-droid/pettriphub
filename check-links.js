@@ -55,6 +55,11 @@ async function main() {
 
   const urls = new Set();
   for (const c of camps) for (const u of [c.homepage]) if (u && /^https?:\/\//i.test(u)) urls.add(u.trim());
+  // 네이버 지도 등록 링크(fetch-local.js → local.json)도 같이 검사 — build가 homepage 빈 업소에 이 링크를 쓴다 (2026-10-16)
+  try {
+    const local = JSON.parse(fs.readFileSync("local.json", "utf-8"));
+    for (const e of Object.values(local.places || {})) if (e.found && e.link && /^https?:\/\//i.test(e.link)) urls.add(e.link.trim());
+  } catch {}
   const due = [...urls].filter((u) => {
     const r = status[u];
     if (!r) return true;

@@ -1418,3 +1418,5 @@ body {
 .review-box .blog-review-more { background: #03c75a; border-color: #03c75a; color: #fff; }
 .review-list .review-desc { margin: 6px 0 0; color: #555; font-size: 0.88rem; line-height: 1.6; }
 .review-box .dir-buttons { margin: 4px 0 6px; }
+.muted.small { font-size: 0.78rem; }
+.naver-missing { margin: 4px 0 10px; }
