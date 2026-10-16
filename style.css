@@ -1411,9 +1411,10 @@ body {
 
 /* ── 📝 블로그 후기 (build-pages.js reviewsHtml — 네이버 블로그 검색 결과 3개, 2026-10-16) ── */
 .review-list { list-style: none; padding: 0; margin: 0 0 12px; }
-.review-list li { padding: 10px 12px; margin-bottom: 8px; background: #fffaf3; border: 1px solid #f3e3cc; border-left: 4px solid #f0a35a; border-radius: 10px; }
-.review-list .blog-review-link { color: #1f3a8a; text-decoration: none; font-size: 0.98rem; line-height: 1.5; display: block; }
-.review-list .blog-review-link:hover { text-decoration: underline; }
-.review-list .review-meta { display: block; color: #8a6d3b; font-size: 0.8rem; margin-top: 2px; }
+.review-list li { padding: 10px 12px; margin-bottom: 8px; background: #f3fbf5; border: 1px solid #cdeedb; border-left: 4px solid #03c75a; border-radius: 10px; } /* 네이버 블로그 초록(#03c75a) — 2026-10-16 사용자 요청 */
+.review-list .blog-review-link { color: #0b6b35; text-decoration: none; font-size: 0.98rem; line-height: 1.5; display: block; }
+.review-list .blog-review-link:hover { text-decoration: underline; color: #03c75a; }
+.review-list .review-meta { display: block; color: #2f8a52; font-size: 0.8rem; margin-top: 2px; }
+.review-box .blog-review-more { background: #03c75a; border-color: #03c75a; color: #fff; }
 .review-list .review-desc { margin: 6px 0 0; color: #555; font-size: 0.88rem; line-height: 1.6; }
 .review-box .dir-buttons { margin: 4px 0 6px; }
