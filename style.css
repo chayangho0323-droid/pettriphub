@@ -1420,3 +1420,14 @@ body {
 .review-box .dir-buttons { margin: 4px 0 6px; }
 .muted.small { font-size: 0.78rem; }
 .naver-missing { margin: 4px 0 10px; }
+
+/* ── 👀 한눈에 띠 (상세 제목 아래 칩 줄 — build-pages.js glanceHtml, 2026-10-16) ── */
+.glance { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 14px; }
+.glance-chip { display: inline-block; padding: 5px 11px; border-radius: 999px; background: #f4f7fb; border: 1px solid #d9e2ef; color: #1f3a8a; font-size: 0.84rem; line-height: 1.4; text-decoration: none; white-space: nowrap; }
+.glance-chip:hover { background: #e8eef9; }
+.glance-chip.wx-good { background: #eefaf0; border-color: #bfe6c8; color: #1d6b32; }
+.glance-chip.wx-soso { background: #fff7e6; border-color: #f3dfae; color: #8a5a00; }
+.glance-chip.wx-rain { background: #eef3ff; border-color: #c5d3f5; color: #2b4aa8; }
+.glance-chip.ext { background: #fff0f5; border-color: #f5c6d8; color: #a8245a; }
+html { scroll-behavior: smooth; }
+#weather, #transit, #reviews, #nearby { scroll-margin-top: 12px; }

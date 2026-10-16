@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 60% · 13°/22° · 😷 먼지 좋음</a><a class="glance-chip" href="#transit">🅿️ 공영주차장 133m 무료</a><a class="glance-chip" href="#reviews">📝 블로그 후기 2개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <div class="ph-hero ph-restaurant">
         <span class="ph-icon">🍽️</span>
         <span class="ph-label">반려동물 동반 식당</span>
@@ -65,7 +66,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 강릉시 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">15°/23°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">⛅</span><span class="wx-pop">💧30%</span><span class="wx-temp">13°/22°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">15°/23°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">16°/22°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">12°/21°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">13°/17°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">7°/17°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 13°/22° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 60% · 15°/23°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -75,7 +76,7 @@
 배달 서비스도 활발히 운영되며, 사장님의 친절한 응대와 정성 가득한 요리로 단골 손님들의 인기를 끌고있다.&quot;</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -105,7 +106,7 @@
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%A3%BC%EB%AC%B8%EC%A7%84%EC%9D%8D%20%EC%8B%A0%EB%A6%AC%EC%B2%9C%EB%A1%9C%2011-1">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B0%95%EB%A6%89%EC%8B%9C%20%EB%8B%A4%EA%B2%BD%ED%9A%9F%EC%A7%91?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
-      <div class="transit-box">
+      <div class="transit-box" id="transit">
         <h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           
@@ -117,7 +118,7 @@
         </ul>
         <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="131271.html">
         <img src="http://tong.visitkorea.or.kr/cms/resource/81/2656581_image2_1.jpg" alt="주문진 방파제" loading="lazy" />
         <div class="nearby-name">주문진 방파제</div>

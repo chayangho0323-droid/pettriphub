@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 60% · 11°/23° · 😷 먼지 좋음</a><a class="glance-chip" href="#transit">🅿️ 공영주차장 103m</a><a class="glance-chip" href="#reviews">📝 블로그 후기 3개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="http://tong.visitkorea.or.kr/cms/resource/23/3542523_image2_1.jpg" alt="경주읍성" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">경상북도 경주시 동문로 31</div></div>
@@ -66,7 +67,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 경주시 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">13°/24°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">11°/23°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">15°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">15°/23°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">☁️</span><span class="wx-pop">💧30%</span><span class="wx-temp">8°/21°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧30%</span><span class="wx-temp">10°/16°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">5°/17°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 11°/23° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 60% · 15°/25°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -76,7 +77,7 @@
 영조 때 중수한 경주읍성은 성곽 둘레가 2.3㎞에 달했고, 동서남북에 성내로 통하는 사대문이 자리했다고 전한다. 사대문은 모두 소실되었는데, 동문인 향일문을 최근 복원하였다. 동쪽에 100여 미터 남짓 남아 있던 성벽을 이어 쌓고, 치성, 옹성, 동문 등을 복원해 2018년 11월 일반에 공개했다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -110,7 +111,7 @@
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%AC%B8%EB%A1%9C%2031">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B2%BD%EC%A3%BC%EC%8B%9C%20%EA%B2%BD%EC%A3%BC%EC%9D%8D%EC%84%B1?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
-      <div class="transit-box">
+      <div class="transit-box" id="transit">
         <h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           
@@ -122,7 +123,7 @@
         </ul>
         <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="map14t7.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/73/2902073_image2_1.jpg" alt="피자옥" loading="lazy" />
         <div class="nearby-name">피자옥</div>

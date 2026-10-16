@@ -12,6 +12,7 @@
 //   click_nearby    주변 관광지·맛집
 //   click_favorite  찜하기
 //   click_blog_review 블로그 후기 글 제목 (네이버 블로그 검색 결과, 2026-10-16)
+//   click_glance    상세 제목 아래 "한눈에" 칩 (날씨·주차·후기·인스타·근처, 2026-10-16)
 
 (function () {
   // GA가 아직 안 실려 있으면 아무것도 안 함 (에러 방지)
@@ -22,6 +23,7 @@
   // 클릭된 요소를 보고 어떤 종류인지 판별한다
   function classify(el) {
     // 2026-10-08 추가: 대중교통·주차장 링크, 날씨 띠의 지역 칩, 별 보기 지역 칩 (새 기능이 실제로 쓰이는지 측정)
+    if (el.closest(".glance-chip")) return "click_glance"; // 2026-10-16 한눈에 띠
     if (el.closest(".blog-review-link, .blog-review-more")) return "click_blog_review"; // 2026-10-16 블로그 후기 칸
     if (el.closest(".parking-link")) return "click_parking";
     if (el.closest(".transit-link, .transit-box a")) return "click_transit";

@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 60% · 13°/26° · 😷 먼지 좋음</a><a class="glance-chip" href="#transit">🅿️ 공영주차장 209m 무료</a><a class="glance-chip" href="#reviews">📝 블로그 후기 3개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="https://tong.visitkorea.or.kr/cms/resource/15/4063615_image2_1.jpg" alt="사직공원(광주)" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">전남광주통합특별시 남구 사직길 49</div></div>
@@ -61,7 +62,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 남구 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">15°/26°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">13°/26°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">18°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">15°/23°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">12°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧40%</span><span class="wx-temp">14°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">9°/19°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 13°/26° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 60% · 18°/25°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -70,7 +71,7 @@
       <section class="overview"><h2>소개</h2><p>사직공원의 터는 원래 사직단이 있던 곳이다. 사직단이란 삼국시대부터 나라의 안녕과 풍년을 기원하여 땅의 신과 곡식의 신에게 제사를 올리는 곳이다. 1894년 제사가 폐지되고 1960년대 말에 사직 동물원이 들어서면서 사직단은 헐리고 말았다. 그 뒤 사직단의 본래의 모습을 되찾아야 한다는 여론이 조성되자 1991년 동물원을 우치공원으로 옮기고 사직단을 복원하여 1994년 4월 100년 만에 사직제가 부활했다. 사직공원은 각종 수목 또는 화초들의 조경이 잘 조성되어 있으며 특히 매년 4월 15일을 전후해서 벚꽃이 만발한다. 전남광주통합특별시는 이 무렵이면 밤에 전등을 가설하여 시민들이 밤에도 벚꽃을 즐길 수 있도록 했다. 지금은 시민들이 가장 즐겨 찾는 휴식처로 자리매김하게 되었다. 사직공원의 전경을 내려다볼 수 있는 전망타워도 무료로 운영하고 있다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -104,7 +105,7 @@
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%82%A8%EA%B5%AC%20%EC%82%AC%EC%A7%81%EA%B8%B8%2049">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%82%A8%EA%B5%AC%20%EC%82%AC%EC%A7%81%EA%B3%B5%EC%9B%90(%EA%B4%91%EC%A3%BC)?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
-      <div class="transit-box">
+      <div class="transit-box" id="transit">
         <h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           <li>🚈 <a class="transit-link" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%AC%B8%ED%99%94%EC%A0%84%EB%8B%B9(%EA%B5%AC%EB%8F%84%EC%B2%AD)%EC%97%AD"><strong>문화전당(구도청)역</strong></a> (광주도시철도 1호선) 에서 <strong>884m</strong> · 도보 약 13분</li>
@@ -116,7 +117,7 @@
         </ul>
         <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="3097770.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/37/3097737_image2_1.jpg" alt="사직 빛의 숲" loading="lazy" />
         <div class="nearby-name">사직 빛의 숲</div>

@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 70% · 12°/26° · 😷 먼지 좋음</a><a class="glance-chip" href="#transit">🚌 정류장 190m</a><a class="glance-chip" href="#reviews">📝 블로그 후기 3개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="https://tong.visitkorea.or.kr/cms/resource/70/4098370_image2_1.jpg" alt="담양 소쇄원" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">전남광주통합특별시 담양군 가사문학면 소쇄원길 17</div></div>
@@ -61,7 +62,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 담양군 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">14°/26°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">12°/26°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧70%</span><span class="wx-temp">18°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">15°/23°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">13°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧40%</span><span class="wx-temp">15°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">10°/18°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 12°/26° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 70% · 18°/25°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -71,7 +72,7 @@
 소쇄원의 주요 조경 수목은 대나무와 매화, 소나무, 난, 동백 등이 있으며, 초본류는 석창포와 창포, 맥문동, 꽃무릇, 국화 등이 있다. 조경물로는 너럭바위, 흘러내리는 폭포, 걸상모양의 탑암과 책상바위 상암, 홈을 판 고목으로 물을 이어가는 두 개의 연못 등이 있다. 뿐만 아니라 따뜻한 정을 느끼게 하는 애양단, 계곡을 건너지르는 외나무다리 약작, 경사지에 적절히 단을 쌓아 꽃과 나무를 심고 담장으로 내부공간을 아우르고 감싸는 조화로운 곳이다. 이러한 공간의 조성은 조선 중종 때의 선비로서 조광조의 제자인 소쇄공 양산보의 주도로 이루어졌으며, 정확한 조영 시기는 1530년대에 시작하여 그의 자식과 손자 대에 이르러 완성된 것으로 추정되고 있다. 이후 정유재란으로 건물이 불에 타기도 했지만, 후손들에 의하여 다시 복원, 중수되어 현재까지 15대에 걸쳐 후손들이 잘 가꾸어 나가고 있다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -105,7 +106,7 @@
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8B%B4%EC%96%91%EA%B5%B0%20%EA%B0%80%EC%82%AC%EB%AC%B8%ED%95%99%EB%A9%B4%20%EC%86%8C%EC%87%84%EC%9B%90%EA%B8%B8%2017">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%8B%B4%EC%96%91%EA%B5%B0%20%EB%8B%B4%EC%96%91%20%EC%86%8C%EC%87%84%EC%9B%90?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
-      <div class="transit-box">
+      <div class="transit-box" id="transit">
         <h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           
@@ -114,7 +115,7 @@
         
         <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="228892.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/19/4103619_image2_1.jpg" alt="담양 명옥헌 원림" loading="lazy" />
         <div class="nearby-name">담양 명옥헌 원림</div>

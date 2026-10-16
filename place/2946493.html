@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 90% · 7°/23° · 😷 먼지 좋음</a><a class="glance-chip" href="#transit">🅿️ 공영주차장 1.3km</a><a class="glance-chip" href="#reviews">📝 블로그 후기 3개</a><a class="glance-chip ext" href="http://forms.gle/AL5KBGXfhrd7DZ4h9" target="_blank" rel="noopener">🌐 홈페이지 ↗</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="https://tong.visitkorea.or.kr/cms/resource/18/2947618_image2_1.jpg" alt="쁘띠샹들리에" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">충청북도 제천시 신월동 220-10</div></div>
@@ -61,7 +62,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 제천시 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">10°/21°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☁️</span><span class="wx-pop">💧30%</span><span class="wx-temp">7°/23°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧90%</span><span class="wx-temp">11°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">⛅</span><span class="wx-pop">💧30%</span><span class="wx-temp">12°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">9°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">11°/18°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">4°/17°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 7°/23° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 90% · 11°/20°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -70,7 +71,7 @@
       <section class="overview"><h2>소개</h2><p>프랑스 르 코르동 블루 출신의 파티시에가 만드는 프랑스식 디저트 전문점이다. 유기농 밀가루를 이용하여 모든 빵과 디저트를 직접 만들고 있고 커피 또한 디저트와 잘 어울리는 다크 블랜딩으로 준비되어 있으며, 카페인을 못 먹는 사람들을 위한 디카페인 커피도 준비되어 있다. 대표 메뉴로는 몽블랑이 있고 그 외에 마카롱, 까눌레, 크로와상, 케이크 등 메뉴가 다양해 선택의 폭이 넓고, 커피뿐만 아니라 다양한 음료도 준비되어 있다. 매장 외부는 언덕 위 살구색 건물과 붉은 벽돌 계단이 동화 같은 분위기를 풍기며 로맨틱한 인테리어 내부는 좌석이 넓어 편안하며 외부 테라스도 많아 여유를 즐길 수 있다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -104,7 +105,7 @@
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EC%8B%A0%EC%9B%94%EB%8F%99%20220-10">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EC%81%98%EB%9D%A0%EC%83%B9%EB%93%A4%EB%A6%AC%EC%97%90?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
-      <div class="transit-box">
+      <div class="transit-box" id="transit">
         <h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           
@@ -116,7 +117,7 @@
         </ul>
         <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="127804.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/09/3309809_image2_1.JPG" alt="제천 의림지와 제림" loading="lazy" />
         <div class="nearby-name">제천 의림지와 제림</div>

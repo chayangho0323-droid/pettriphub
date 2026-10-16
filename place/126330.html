@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 70% · 14°/25° · 😷 먼지 좋음</a><a class="glance-chip" href="#transit">🅿️ 공영주차장 730m</a><a class="glance-chip" href="#reviews">📝 블로그 후기 3개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="https://tong.visitkorea.or.kr/cms/resource/90/3495690_image2_1.jpg" alt="죽도봉공원" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">전남광주통합특별시 순천시 죽도봉길 81 (조곡동)</div></div>
@@ -61,7 +62,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 순천시 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">15°/24°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">14°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧70%</span><span class="wx-temp">16°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">17°/24°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">13°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧40%</span><span class="wx-temp">15°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">10°/18°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 14°/25° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 70% · 16°/25°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -70,7 +71,7 @@
       <section class="overview"><h2>소개</h2><p>순천 죽도봉공원은 순천 시가지의 아름다운 풍경을 한눈에 바라볼 수 있는 곳이어서 순천 시민들의 산책과 휴식처이며, 녹음이 우거진 동산은 흡사 외롭게 둥둥 떠 있는 섬같이 생겼다. 이곳은 오래전 전죽 밭으로 전해져 왔고, 그의 생김새가 마치 섬(島)과도 같아 죽도(竹島)로 불렀다고 한다. 옛날에는 전죽을 많이 소산(所産)해서 전쟁병기로 사용했었다. 죽도봉 정상에 오르면, 당시 순천시가 건립한 전망대와 여순사건과 6·25 때 순국한 이 고장 출신들의 반공순국위령탑이 세워져 있었는데 모두 철거시키고 이 자리에 강남정(江南亭) 1981년 10월 15일 건립된 3층 8각정이라는 정자를 건립하여 전망대로 이용하고 있다. 공원 광장에서 남쪽으로 내려가면 백우비와 백우탑, 강계중 선생 동상이 있고 활터로 사용하고 있는 환선정이 있다. 죽도봉공원은 봄철엔 벚꽃과 철쭉꽃이 활짝 피어 시민들의 좋은 휴식처이다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -104,7 +105,7 @@
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%88%9C%EC%B2%9C%EC%8B%9C%20%EC%A3%BD%EB%8F%84%EB%B4%89%EA%B8%B8%2081%20(%EC%A1%B0%EA%B3%A1%EB%8F%99)">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%88%9C%EC%B2%9C%EC%8B%9C%20%EC%A3%BD%EB%8F%84%EB%B4%89%EA%B3%B5%EC%9B%90?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
-      <div class="transit-box">
+      <div class="transit-box" id="transit">
         <h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           
@@ -116,7 +117,7 @@
         </ul>
         <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="2790730.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/39/4069239_image2_1.jpg" alt="조곡동 철도문화마을" loading="lazy" />
         <div class="nearby-name">조곡동 철도문화마을</div>

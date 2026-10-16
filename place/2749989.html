@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 90% · 7°/22° · 😷 먼지 좋음</a><a class="glance-chip" href="#reviews">📝 블로그 후기 1개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="https://tong.visitkorea.or.kr/cms/resource/91/4103891_image2_1.jpg" alt="꿈엔들캠핑장" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">강원특별자치도 영월군 무릉도원면 무릉법흥로 968-12</div></div>
@@ -61,7 +62,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 영월군 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">10°/22°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">7°/22°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧90%</span><span class="wx-temp">11°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">11°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">6°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">7°/15°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">1°/16°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 7°/22° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 90% · 11°/19°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -70,7 +71,7 @@
       <section class="overview"><h2>소개</h2><p>꿈엔들캠핑장은 법흥계곡 상류, 아름다운 숲속의 넓은 대지 위에  있는 힐링 공간이다.  중앙고속도로 신림 IC에서 신림, 주천 방면으로 나와 호야지리박물관과 법흥계곡을 거치면 도착한다. 구봉산을 배경으로 탄탄한 평지 위에 오토캠핑장 45면, 글램핑 6면이 있다.  사이트 사이에 각종 수목을 심어 싱그러움을 더한다. 오토캠핑장과 글램핑장  모두 전기와 화로 사용이 가능하다. 글램핑 텐트 내부에는 취사도구, 식기류, 압력솥, 의자, 테이블이 있다. 개수대, 화장실, 샤워장은 어느 사이트에 있든 접근하기 쉬운 곳에 위치했다. 관리소를 겸한 매점에서는 주류를 비롯해 음료, 식품, 부탄가스 등을 판매한다. 텐트, 타프, 화로, 전기장판, 침낭 등 캠핑에 필요한 모든 물품을 대여하고 있어 캠핑 장비가 없는 이들도 문제없이 캠핑을 만끽할 수 있다. 365일 휴장없이 운영된다. 반려견도 입장 가능하다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -97,7 +98,7 @@
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%98%81%EC%9B%94%EA%B5%B0%20%EA%BF%88%EC%97%94%EB%93%A4%EC%BA%A0%ED%95%91%EC%9E%A5?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
       
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="2734828.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/61/2734961_image2_1.JPG" alt="남강캠프" loading="lazy" />
         <div class="nearby-name">남강캠프</div>

@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 90% · 7°/22° · 😷 먼지 좋음</a><a class="glance-chip" href="#reviews">📝 블로그 후기 2개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="http://tong.visitkorea.or.kr/cms/resource/30/2920630_image2_1.jpg" alt="월드니스오토캠핑장" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">강원특별자치도 영월군 무릉도원면 도원운학로 475-10</div></div>
@@ -62,7 +63,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 영월군 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">10°/22°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">7°/22°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧90%</span><span class="wx-temp">11°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">11°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">6°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">7°/15°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">1°/16°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 7°/22° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 90% · 11°/19°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -71,7 +72,7 @@
       <section class="overview"><h2>소개</h2><p>월드니스오토캠핑장은 강원도 영월에서도 경치좋기로 유명한 무릉도원면 주천강변에 위치하고 있다. 강변 숲속에 위치한 자연친화적인 오토캠핑장으로 도시의 일상에서 벗어나 자연과 함께 휴식을 즐기기에 좋은 캠핑장이다. 서울에서 영등고속도로와 중앙고속도로를 이용 신림 IC로 진입하면 약 1시간30분이면 도착한다. 영월 보다는 원주에 근접해 있다. 일반 사이트 28면에 크기가 넓은 패밀리 사이트 1면을 갖췄고 따로 글램핑장도 운영중이다. 도로에서 강쪽으로 조금 내려가 있는 캠핑장은 주차장과 야영장이 조금 떨어져 있는 게 단점이자 장점이다. 제법 큰 수영장과 매점이 있다. 부대시설로 미니게임장이 있는데 미니볼링, 미니컬링, 미니에어퍽, 미니탁구 등 미니 게임을 즐길 수 있다.  세계 여러 나라의 문화를 체험하는 월드프렌즈빌리지도 있다. 주변 관광지로 고씨동굴, 선돌, 한반도지형 등을 둘러볼 수 있다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -102,7 +103,7 @@
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%9B%94%EB%93%9C%EB%8B%88%EC%8A%A4%EC%98%A4%ED%86%A0%EC%BA%A0%ED%95%91%EC%9E%A5?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
       
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="128752.html">
         <img src="http://tong.visitkorea.or.kr/cms/resource/46/2922046_image2_1.jpg" alt="요선정·요선암" loading="lazy" />
         <div class="nearby-name">요선정·요선암</div>

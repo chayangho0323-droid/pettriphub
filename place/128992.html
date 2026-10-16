@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 60% · 14°/25° · 😷 먼지 좋음</a><a class="glance-chip" href="#reviews">📝 블로그 후기 3개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="https://tong.visitkorea.or.kr/cms/resource/76/3538076_image2_1.jpg" alt="마량미항" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">전남광주통합특별시 강진군 미항로 152 마량놀토수산시장 </div></div>
@@ -61,7 +62,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 강진군 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">15°/24°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">14°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">20°/26°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">17°/24°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">13°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧40%</span><span class="wx-temp">15°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">10°/18°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 14°/25° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 60% · 20°/26°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -71,7 +72,7 @@
 역사적으로는 조선 시대 마두진이 설치되었던 요충지이자 임진왜란 당시 거북선이 대기하던 전략적 거점이었다. 항구 입구에는 숲이 검게 보일 만큼 푸르러 ‘까막섬’이라 불리는 섬이 운치를 더한다. 매년 가을에는 전어축제가 열리며, 4월부터 10월까지는 매주 토요일마다 토요음악회가 개최되어 즐길 거리를 더한다. 인근 가우도와는 차량으로 약 14분 거리이며, 그곳에서 모노레일과 집라인 등 다채로운 체험 활동도 함께 즐길 수 있다.</p></section>
       <section class="overview place-note"><h2>🐾 반려견과 함께 갈 때</h2><ul><li>방파제 산책로는 바닥이 평탄하고 길어서 반려견 산책에 좋아요. 낚시하는 분들이 많으니 낚싯바늘·미끼를 밟거나 먹지 않게 리드줄을 짧게 잡으세요.</li><li>주말 수산시장 주변은 사람이 많아요. 시장 안은 동반이 어려울 수 있으니 한 사람이 밖에서 기다리는 편이 좋아요.</li></ul><p class="coupang-notice">※ 펫트립허브가 정리한 동반 팁이에요. 출입 규정은 바뀔 수 있으니 현장 안내를 우선하세요.</p></section>
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -106,7 +107,7 @@
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B0%95%EC%A7%84%EA%B5%B0%20%EB%A7%88%EB%9F%89%EB%AF%B8%ED%95%AD?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
       
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="2024432.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/62/4065162_image2_1.jpg" alt="가우도" loading="lazy" />
         <div class="nearby-name">가우도</div>

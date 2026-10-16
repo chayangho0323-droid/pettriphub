@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 60% · 18°/24° · 😷 먼지 좋음</a><a class="glance-chip" href="#transit">🅿️ 공영주차장 8m</a><a class="glance-chip" href="#reviews">📝 블로그 후기 3개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <div class="ph-hero ph-spot">
         <span class="ph-icon">🏞️</span>
         <span class="ph-label">반려동물 동반 관광지</span>
@@ -66,7 +67,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 영도구 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧20%</span><span class="wx-temp">18°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">18°/24°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">20°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧70%</span><span class="wx-temp">19°/24°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧60%</span><span class="wx-temp">15°/22°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧40%</span><span class="wx-temp">16°/21°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">9°/19°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 18°/24° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 60% · 20°/25°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -75,7 +76,7 @@
       <section class="overview"><h2>소개</h2><p>절영해안산책로는 영도 서쪽 편 봉래산 아래 해안선을 따라 이어져 있는 산책로이다. 원래 지형이 가파르고 험난하여 접근이 어려웠으나, 시민들의 관광 욕구를 충족시키기 위한 공공근로사업의 일환으로 2001년 해안선을 따라 산책로를 개설하였다. 경치 좋은 절영해안 산책로에는 곳곳에 있는 장승과 돌탑, 뱃놀이 터, 산책로 우측의 넓은 바다, 담벼락의 다양한 모자이크 타일 문양 등 다양한 볼거리가 있다. 2014년 국토해양부가 선정한 대한민국 5대 해안 누리길로 선정되었고 2021년 부산 안심 관광지에도 선정되었다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -109,7 +110,7 @@
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%98%81%EB%8F%84%EA%B5%AC%20%ED%95%B4%EC%95%88%EC%82%B0%EC%B1%85%EA%B8%B8%2052">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%98%81%EB%8F%84%EA%B5%AC%20%EC%A0%88%EC%98%81%ED%95%B4%EC%95%88%EC%82%B0%EC%B1%85%EB%A1%9C?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
-      <div class="transit-box">
+      <div class="transit-box" id="transit">
         <h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           <li>🚈 <a class="transit-link" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%82%A8%ED%8F%AC%EC%97%AD"><strong>남포역</strong></a> (부산 도시철도 1호선) 에서 <strong>1.9km</strong> · 도보 약 29분 (멀어서 역에서 버스·택시 환승 권장)</li>
@@ -121,7 +122,7 @@
         </ul>
         <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="2504464.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/11/3413711_image2_1.jpg" alt="부산 송도해상케이블카" loading="lazy" />
         <div class="nearby-name">부산 송도해상케이블카</div>

@@ -39,6 +39,7 @@
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      <div class="glance" aria-label="한눈에 보기"><a class="glance-chip wx-rain" href="#weather">🌧️ 주말 산책 비 예보 · 비 90% · 12°/25° · 😷 먼지 좋음</a><a class="glance-chip" href="#transit">🅿️ 공영주차장 835m</a><a class="glance-chip" href="#reviews">📝 블로그 후기 3개</a><a class="glance-chip" href="#nearby">🐾 근처 동반 장소 8곳</a></div>
       <img class="hero" src="http://tong.visitkorea.or.kr/cms/resource/16/3573216_image2_1.jpg" alt="화랑대 철도공원" />
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📍 주소</span><div class="info-value">서울특별시 노원구 화랑로 608 (공릉동)</div></div>
@@ -64,7 +65,7 @@
       
       
       
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ 노원구 이번 주 날씨</h2>
         <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/16 금</span><span class="wx-icon">⛅</span><span class="wx-pop">💧30%</span><span class="wx-temp">16°/23°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/17 토</span><span class="wx-icon">☁️</span><span class="wx-pop">💧30%</span><span class="wx-temp">12°/25°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day wx-weekend"><span class="wx-dow">10/18 일</span><span class="wx-icon">🌧️</span><span class="wx-pop">💧90%</span><span class="wx-temp">16°/21°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/19 월</span><span class="wx-icon">☀️</span><span class="wx-pop">💧30%</span><span class="wx-temp">12°/20°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/20 화</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">8°/19°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/21 수</span><span class="wx-icon">⛅</span><span class="wx-pop">💧20%</span><span class="wx-temp">10°/15°</span><span class="wx-pm pm0" title="미세먼지 예보 (에어코리아)">😷 좋음</span></div><div class="wx-day"><span class="wx-dow">10/22 목</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">4°/16°</span></div></div>
         <p class="wx-weekend-line">🐾 <strong>이번 주말 산책 날씨</strong> — <span class="wx-grade soso">10/17(토) ⛅ 보통</span> 비 30% · 12°/25° / <span class="wx-grade rain">10/18(일) 🌧️ 비 예보</span> 비 90% · 16°/21°</p><p class="wx-tip">☔ 주말에 비 소식이 있어요. 실내 동반이 되는 곳인지 전화로 확인하고, 젖은 발 닦을 수건을 챙기세요.</p>
@@ -73,7 +74,7 @@
       <section class="overview"><h2>소개</h2><p>서울의 마지막 간이역이던 옛 화랑대역이 화랑대 철도공원으로 재탄생했다. 1939년 경춘선 개통 후 2010년 운행이 중단된 경춘선 철로구간을 공원으로 꾸민 곳으로, 기존 폐선을 걷어내지 않고 그대로 살려 옛 경춘선의 추억도 살리고 산책로도 제공하는 낭만적인 공간으로 탈바꿈되었다. 폐노선에는 1950년대의 미카열차와 협궤열차, 그리고 체코와 일본 히로시마의 노면전차까지 실물 기차가 곳곳에 전시되어 있어 사진 애호가에게는 단골 출사지로, 지역 주민들에게는 호젓한 산책 공간으로 사랑받고 있다. 공원 내의 구 화랑대역은 전시관으로 조성되어 역사의 구조와 연대기, 경춘선의 역사를 디지털 화면으로 볼 수 있으며, 승차권 매표소, 철제 책상, 추억의 열차 공간이 아날로그의 정취를 더한다.</p></section>
       
       
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           <li>
@@ -107,7 +108,7 @@
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%85%B8%EC%9B%90%EA%B5%AC%20%ED%99%94%EB%9E%91%EB%A1%9C%20608%20(%EA%B3%B5%EB%A6%89%EB%8F%99)">🧭 네이버지도에서 보기</a>
       <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%85%B8%EC%9B%90%EA%B5%AC%20%ED%99%94%EB%9E%91%EB%8C%80%20%EC%B2%A0%EB%8F%84%EA%B3%B5%EC%9B%90?placePath=%2Freview">📝 네이버 후기 보기</a>
     </div>
-      <div class="transit-box">
+      <div class="transit-box" id="transit">
         <h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           <li>🚈 <a class="transit-link" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%B4%89%ED%99%94%EC%82%B0(%EC%84%9C%EC%9A%B8%EC%9D%98%EB%A3%8C%EC%9B%90)%EC%97%AD"><strong>봉화산(서울의료원)역</strong></a> (6호선) 에서 <strong>804m</strong> · 도보 약 12분</li>
@@ -119,7 +120,7 @@
         </ul>
         <p class="coupang-notice">장소 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 강아지와 지하철·버스를 탈 땐 이동장(케이지) 규정이 있으니 미리 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>
-      <section class="nearby-section"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
+      <section class="nearby-section" id="nearby"><h2>🐾 근처 다른 반려동물 동반 장소</h2><div class="nearby-row">
       <a class="nearby-card nearby-link" href="1115042.html">
         <img src="http://tong.visitkorea.or.kr/cms/resource/23/3573123_image2_1.jpg" alt="봉화산(서울)" loading="lazy" />
         <div class="nearby-name">봉화산(서울)</div>

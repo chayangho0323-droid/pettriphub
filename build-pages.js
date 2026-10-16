@@ -107,7 +107,7 @@ function reviewsHtml(p) {
   if (!r || !r.items || !r.items.length) return "";
   const moreQ = encodeURIComponent(r.q || `${p.sigungu || p.sido} ${p.name}`);
   return `
-      <section class="overview review-box">
+      <section class="overview review-box" id="reviews">
         <h2>📝 다녀온 사람들의 블로그 후기</h2>
         <ul class="review-list">
           ${r.items.map((it) => `<li>
@@ -176,13 +176,40 @@ function weatherHtml(p) {
   const tipHtml = tips.map((t) => `<p class="wx-tip">${t}</p>`).join("");
   const mid = area.days.some((d) => d.src === "mid");
   return `
-      <section class="overview weather-box">
+      <section class="overview weather-box" id="weather">
         <h2>⛅ ${esc(p.sigungu)} 이번 주 날씨</h2>
         <div class="wx-strip">${cells}</div>
         ${wkHtml}${tipHtml}
         <p class="coupang-notice">기상청 단기·중기예보 (${esc(WEATHER.updated)} 발표) · ${esc(p.sigungu)} 기준${mid ? " · 4일 뒤부터는 권역 예보라 대략적인 값입니다" : ""}. 매일 새벽 갱신.</p>
       </section>`;
 }
+// ─── 👀 한눈에 띠 (상세 제목 바로 아래, 2026-10-16 체류 11초 대책 마지막 조각) ───
+// 스크롤 전에 "아래에 볼 게 있다"를 알리는 칩 줄: 주말 날씨·미세먼지 → #weather, 주차장/역 → #transit, 블로그 후기 → #reviews,
+// 인스타·예약 링크(네이버 지도 등록 정보) → 바로 이동, 근처 동반 장소 수 → #nearby. 데이터 없는 칩은 생략.
+function glanceHtml(p, { nearbyCount = 0, reviewsCount = 0 } = {}) {
+  const chips = [];
+  const key = `${p.sido} ${p.sigungu}`;
+  const w = p.sigungu && p.sido ? weekendOf(key) : null;
+  if (w) {
+    const pmAll = (AIR.areas && AIR.areas[key]) || {};
+    const pmWk = w.days.map((d) => pmAll[d.date]).filter(Boolean).sort((a, b) => (/매우/.test(b) ? 3 : /나쁨/.test(b) ? 2 : /보통/.test(b) ? 1 : 0) - (/매우/.test(a) ? 3 : /나쁨/.test(a) ? 2 : /보통/.test(a) ? 1 : 0))[0];
+    chips.push(`<a class="glance-chip wx-${w.grade}" href="#weather">${WX_ICON[w.grade]} 주말 산책 ${WX_LABEL[w.grade]} · 비 ${w.pop}%${w.tmn != null && w.tmx != null ? ` · ${Math.round(w.tmn)}°/${Math.round(w.tmx)}°` : ""}${pmWk ? ` · 😷 먼지 ${esc(pmWk)}` : ""}</a>`);
+  }
+  const t = p.transit || {};
+  const km = (m) => (m >= 1000 ? (m / 1000).toFixed(1) + "km" : m + "m");
+  if (t.parking && t.parking.length) chips.push(`<a class="glance-chip" href="#transit">🅿️ ${esc(t.parking[0].se)}주차장 ${km(t.parking[0].dist)}${t.parking[0].fee && /무료/.test(t.parking[0].fee) ? " 무료" : ""}</a>`);
+  else if (t.station) chips.push(`<a class="glance-chip" href="#transit">🚈 ${esc(t.station.name)}역 ${km(t.station.dist)}</a>`);
+  else if (t.stops && t.stops.length) chips.push(`<a class="glance-chip" href="#transit">🚌 정류장 ${t.stops[0].dist}m</a>`);
+  if (reviewsCount) chips.push(`<a class="glance-chip" href="#reviews">📝 블로그 후기 ${reviewsCount}개</a>`);
+  if (p.homepage && p.homepageVia === "naver") {
+    const h = p.homepage.toLowerCase();
+    const label = h.includes("instagram.com") ? "📸 인스타그램" : h.includes("catchtable") ? "🍽️ 캐치테이블 예약" : h.includes("naver") ? "🟢 네이버 예약·플레이스" : h.includes("pf.kakao") ? "💬 카카오톡 채널" : "🌐 홈페이지";
+    chips.push(`<a class="glance-chip ext" href="${esc(p.homepage)}" target="_blank" rel="noopener">${label} ↗</a>`);
+  }
+  if (nearbyCount) chips.push(`<a class="glance-chip" href="#nearby">🐾 근처 동반 장소 ${nearbyCount}곳</a>`);
+  return chips.length ? `<div class="glance" aria-label="한눈에 보기">${chips.join("")}</div>` : "";
+}
+
 const REPORT_EMAIL = "chayangho0323@gmail.com";
 const visitorPhotos = VP.loadVisitorPhotos(SITE_URL);
 let manualCount = 0;
@@ -443,7 +470,7 @@ function buildPage(p, all) {
         </ul>`
     : "";
   const transitHtml = t.station || (t.stops && t.stops.length) || parkingHtml
-    ? `<div class="transit-box">
+    ? `<div class="transit-box" id="transit">
         ${t.station || (t.stops && t.stops.length) ? `<h3>🚇 대중교통으로 가는 법</h3>
         <ul>
           ${t.station ? `<li>🚈 ${mapLink(`${t.station.name}역`, "transit-link")}<strong>${esc(t.station.name)}역</strong></a> (${t.station.lines.map(esc).join("·")}) 에서 <strong>${km(t.station.dist)}</strong> · 도보 약 ${t.station.walkMin}분${t.station.dist > 1500 ? " (멀어서 역에서 버스·택시 환승 권장)" : ""}</li>` : ""}
@@ -471,7 +498,7 @@ function buildPage(p, all) {
       </a>`;
   }).join("");
   const nearbySection = nearby.length
-    ? `<section class="nearby-section"><h2>🐾 ${p.official && p.sigungu ? `${esc(p.sigungu)} 다른 애견동반 장소` : "근처 다른 반려동물 동반 장소"}</h2><div class="nearby-row">${nearbyCards}</div></section>`
+    ? `<section class="nearby-section" id="nearby"><h2>🐾 ${p.official && p.sigungu ? `${esc(p.sigungu)} 다른 애견동반 장소` : "근처 다른 반려동물 동반 장소"}</h2><div class="nearby-row">${nearbyCards}</div></section>`
     : "";
   // 식약처 업소(소개·사진 없음)는 이 섹션을 위쪽(동반 안내 바로 아래)에 올려 "확인하고 바로 나감"을 줄인다 (2026-10-12, 체류 11초 대책)
   const nearbyTop = p.official ? nearbySection : "";
@@ -480,6 +507,8 @@ function buildPage(p, all) {
   const reviews = reviewsHtml(p);
   const reviewsTop = p.official ? reviews : "";
   const reviewsBottom = p.official ? "" : reviews;
+  const reviewsCount = (REVIEWS.places && REVIEWS.places[p.id] && REVIEWS.places[p.id].items || []).length;
+  const glance = glanceHtml(p, { nearbyCount: nearby.length, reviewsCount });
 
   // 근처 반려동물 캠핑장 (캠핑허브 연결)
   const camps = hasCoords
@@ -540,6 +569,7 @@ function buildPage(p, all) {
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <button id="share-btn" class="action-btn">🔗 링크 복사</button>
       </div>
+      ${glance}
       ${hero}
       <div class="info-grid">
         ${infoRow("📍", "주소", esc(p.address))}
