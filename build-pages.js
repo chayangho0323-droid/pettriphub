@@ -72,6 +72,32 @@ try { WEATHER = JSON.parse(fs.readFileSync("weather.json", "utf-8")); } catch {}
 let AIR = { updated: "", areas: {} }; // 에어코리아 미세먼지 예보 (fetch-air.js → air.json: "시도 시군구" → {YYYYMMDD: 좋음|보통|나쁨|매우나쁨})
 try { AIR = JSON.parse(fs.readFileSync("air.json", "utf-8")); } catch {}
 const pmClsOf = (g) => (/매우/.test(g) ? "pm3" : /나쁨/.test(g) ? "pm2" : /보통/.test(g) ? "pm1" : "pm0");
+
+// ─── 📝 블로그 후기 (fetch-reviews.js → reviews.json: 장소 id → {at, q, items:[{t 제목, l 링크, d 요약, b 블로거, dt 날짜}]}) ───
+// 네이버 블로그 검색 결과 중 이 장소 이름이 실제로 들어간 최신 글 3개. 본문은 가져오지 않고 제목·한 줄 요약·링크만 (검색 결과 수준).
+let REVIEWS = { updated: "", places: {} };
+try { REVIEWS = JSON.parse(fs.readFileSync("reviews.json", "utf-8")); } catch {}
+const fmtPostDate = (s) => (s && s.length === 8 ? `${s.slice(0, 4)}.${s.slice(4, 6)}.${s.slice(6, 8)}` : "");
+function reviewsHtml(p) {
+  const r = REVIEWS.places && REVIEWS.places[p.id];
+  if (!r || !r.items || !r.items.length) return "";
+  const moreQ = encodeURIComponent(r.q || `${p.sigungu || p.sido} ${p.name}`);
+  return `
+      <section class="overview review-box">
+        <h2>📝 다녀온 사람들의 블로그 후기</h2>
+        <ul class="review-list">
+          ${r.items.map((it) => `<li>
+            <a class="blog-review-link" target="_blank" rel="noopener nofollow" href="${esc(it.l)}"><strong>${esc(it.t)}</strong></a>
+            <span class="review-meta">${esc(it.b)}${it.dt ? ` · ${fmtPostDate(it.dt)}` : ""}</span>
+            ${it.d ? `<p class="review-desc">${esc(it.d)}…</p>` : ""}
+          </li>`).join("")}
+        </ul>
+        <div class="dir-buttons">
+          <a class="dir-btn hotel blog-review-more" target="_blank" rel="noopener" href="https://search.naver.com/search.naver?where=blog&query=${moreQ}">네이버 블로그에서 더 보기</a>
+        </div>
+        <p class="coupang-notice">네이버 블로그 검색 결과예요. 제목을 누르면 글쓴이의 블로그로 이동하며, 내용은 각 글쓴이의 의견입니다. 동명의 다른 가게 글이 섞일 수 있어요. (${fmtPostDate(r.at)} 기준)</p>
+      </section>`;
+}
 // 지역 목록 페이지용: 시군구별 주말 날씨 칩 + 카드 배지 (메인 app.js와 같은 기준)
 const wxGradeOf = (d) => (d.pty || d.pop >= 60 ? "rain" : d.pop >= 30 ? "soso" : "good");
 const WX_ICON = { good: "☀️", soso: "⛅", rain: "🌧️" };
@@ -403,6 +429,10 @@ function buildPage(p, all) {
   // 식약처 업소(소개·사진 없음)는 이 섹션을 위쪽(동반 안내 바로 아래)에 올려 "확인하고 바로 나감"을 줄인다 (2026-10-12, 체류 11초 대책)
   const nearbyTop = p.official ? nearbySection : "";
   const nearbyBottom = p.official ? "" : nearbySection;
+  // 블로그 후기: 식약처 업소(소개 없음)는 동반 안내 바로 아래 위쪽에, 관광지는 소개·팁 다음에 (2026-10-16)
+  const reviews = reviewsHtml(p);
+  const reviewsTop = p.official ? reviews : "";
+  const reviewsBottom = p.official ? "" : reviews;
 
   // 근처 반려동물 캠핑장 (캠핑허브 연결)
   const camps = hasCoords
@@ -473,10 +503,12 @@ function buildPage(p, all) {
       ${VP.galleryHtml(p.visitorPhotos, { name: p.name, href: reportMailto(p) })}
       ${photoCallHtml(p)}
       ${petSection}
+      ${reviewsTop}
       ${nearbyTop}
       ${weatherHtml(p)}
       ${overview}
       ${noteSection}
+      ${reviewsBottom}
       ${ADFIT_BODY}
       ${mapBlock}
       ${directions}

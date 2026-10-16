@@ -32,6 +32,16 @@ jobs:
           TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
           VWORLD_KEY: ${{ secrets.VWORLD_KEY }}
 
+      # 네이버 블로그 검색(NAVER API HUB) → 장소별 "다녀온 사람 글" 3개 reviews.json (하루 400곳, 14일마다 재검색, 하루 한도 25,000회 무료)
+      #   키 2개는 Secrets에 NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 로 등록 (네이버클라우드 콘솔 > NAVER API HUB > Application > 인증 정보)
+      #   키가 없거나 실패하면 전날 reviews.json을 그대로 써서 빌드는 계속된다
+      - run: node fetch-reviews.js
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          REVIEW_BUDGET: "400"
+        continue-on-error: true
+
       # 장소마다 가까운 지하철역·버스정류장·주차장 계산 (API 없음 — data/stations.json, busstops.json.gz, parking.json.gz)
       - run: node fetch-transit.js
 
