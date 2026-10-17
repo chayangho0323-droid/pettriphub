@@ -185474,7 +185474,7 @@
     "address": "인천광역시 연수구 송도동 1",
     "lat": 37.395289865,
     "lng": 126.6597518149,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/78/2781378_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/23/4120323_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -189217,9 +189217,9 @@
     "sido": "강원",
     "sigungu": "삼척시",
     "address": "강원특별자치도 삼척시 근덕면 맹방해변로 228-239",
-    "lat": 37.3898030893,
-    "lng": 129.2320061341,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/95/2921595_image2_1.jpg",
+    "lat": 37.3897500054,
+    "lng": 129.2319755,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/10/4123510_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -194015,9 +194015,9 @@
     "category": "관광지",
     "sido": "강원",
     "sigungu": "화천군",
-    "address": "강원 화천군 화천읍 동촌리 2921-3",
-    "lat": 38.212822547588,
-    "lng": 127.844284601282,
+    "address": "강원특별자치도 화천군 화천읍 동촌리 2921-3",
+    "lat": 38.2128225476,
+    "lng": 127.8442846013,
     "image": "https://tong.visitkorea.or.kr/cms/resource/20/3518520_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -196791,10 +196791,10 @@
     "category": "관광지",
     "sido": "서울",
     "sigungu": "중구",
-    "address": "서울특별시 중구 한강대로 405",
-    "lat": 37.5545193912,
-    "lng": 126.9706609645,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/09/3081409_image2_1.jpg",
+    "address": "서울특별시 중구 청파로 432 (봉래동2가)",
+    "lat": 37.5580003359,
+    "lng": 126.9697735338,
+    "image": "",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -196811,38 +196811,26 @@
     "addedAt": "20260915",
     "transit": {
       "station": {
-        "name": "서울",
+        "name": "서울역(경의선)",
         "lines": [
-          "인천국제공항선"
+          "경의중앙선"
         ],
-        "dist": 185,
+        "dist": 202,
         "walkMin": 3
       },
       "stops": [
         {
-          "name": "서울역버스환승센터",
-          "dist": 157,
-          "walkMin": 2
+          "name": "중림동교차로",
+          "dist": 70,
+          "walkMin": 1
         },
         {
-          "name": "서울역",
-          "dist": 164,
+          "name": "서울역서부",
+          "dist": 117,
           "walkMin": 2
         }
       ],
       "parking": [
-        {
-          "name": "손기정체육공원 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 162,
-          "fee": "기본 5분 200원 · 추가 5분 150원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-364-7003",
-          "dist": 562,
-          "walkMin": 8
-        },
         {
           "name": "서소문삼성생명뒤 공영주차장",
           "se": "공영",
@@ -196852,20 +196840,32 @@
           "hours": "08:00~22:00",
           "days": "평일+토요일",
           "tel": "02-310-9588",
-          "dist": 581,
-          "walkMin": 9
+          "dist": 379,
+          "walkMin": 6
         },
         {
-          "name": "서계동",
+          "name": "미근동 공영",
           "se": "공영",
           "type": "노외",
-          "cap": 31,
-          "fee": "기본 5분 150원 · 추가 5분 150원",
+          "cap": 27,
+          "fee": "유료 (요금 현장 확인)",
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
-          "tel": "02-749-5314",
-          "dist": 643,
-          "walkMin": 10
+          "tel": "02-360-8542",
+          "dist": 479,
+          "walkMin": 7
+        },
+        {
+          "name": "손기정체육공원 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 162,
+          "fee": "기본 5분 200원 · 추가 5분 150원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-364-7003",
+          "dist": 516,
+          "walkMin": 8
         }
       ]
     }
@@ -200083,9 +200083,9 @@
     "sido": "울산",
     "sigungu": "동구",
     "address": "울산광역시 동구 동해안로 263 (동부동)",
-    "lat": 35.5507976214,
-    "lng": 129.4340166979,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/30/2752330_image2_1.png",
+    "lat": 35.5507976151,
+    "lng": 129.4340167253,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/13/4123213_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -209438,9 +209438,9 @@
     "sido": "서울",
     "sigungu": "용산구",
     "address": "서울특별시 용산구 이촌로72길 62 (이촌동)",
-    "lat": 37.51782055627669,
-    "lng": 126.97085116144625,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/15/2531015_image2_1.jpg",
+    "lat": 37.5178205563,
+    "lng": 126.9708511614,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/62/4123162_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -213437,9 +213437,9 @@
     "sido": "강원",
     "sigungu": "철원군",
     "address": "강원특별자치도 철원군 동송읍 장흥리",
-    "lat": 38.2097567004,
-    "lng": 127.2659177854,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/37/3575437_image2_1.jpg",
+    "lat": 38.2097,
+    "lng": 127.2659,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/28/4121328_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
