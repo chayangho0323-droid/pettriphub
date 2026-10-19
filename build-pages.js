@@ -36,7 +36,7 @@ const BUILD_VER = (() => { const d = new Date(Date.now() + 9 * 3600 * 1000); ret
 // 쿠팡 파트너스 (반려용품) — 링크가 생기면 채운다. 비어 있으면 섹션 자체가 안 나옴
 const COUPANG_ITEMS = [];
 
-// 카카오 애드핏 (2026-09-28 매체 PetTripHub 등록) — 상세 페이지 동반 안내 아래 1개
+// 카카오 애드핏 (2026-09-28 매체 PetTripHub 등록) — 상세 페이지 정보표·사진 제보 띠 바로 아래 1개 (2026-10-19 위로 이동: 블로그 후기 칸이 위에 들어가며 보이는 비율 46%→30%로 떨어져서)
 const ADFIT_UNIT_BODY = "DAN-TPN5R3i2yb75Ge6t"; // 광고단위 "pettrip-본문" 300x250
 const adfitBlock = (unit, w, h) => `
       <div class="adfit" aria-label="광고">
@@ -580,6 +580,7 @@ function buildPage(p, all) {
       ${naverMissingNote}
       ${VP.galleryHtml(p.visitorPhotos, { name: p.name, href: reportMailto(p) })}
       ${photoCallHtml(p)}
+      ${ADFIT_BODY}
       ${petSection}
       ${reviewsTop}
       ${nearbyTop}
@@ -587,7 +588,6 @@ function buildPage(p, all) {
       ${overview}
       ${noteSection}
       ${reviewsBottom}
-      ${ADFIT_BODY}
       ${mapBlock}
       ${directions}
       ${transitHtml}
