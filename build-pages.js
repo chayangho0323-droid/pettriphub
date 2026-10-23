@@ -438,8 +438,18 @@ function buildPage(p, all) {
         "동반 가능한 크기·마리 수·실내 가능 여부는 업소마다 달라서, 처음 가는 곳은 방문 전 전화로 확인하는 걸 권해요.",
       ].filter(Boolean).join(" ")
     : "";
+  // 관광공사 소개문은 전문 대신 앞 2~3문장 요약 + 출처 링크 (2026-10-23, 애드센스 "복제된 콘텐츠" 대응 — 축제허브와 같은 방식)
+  const briefOf = (text, max = 220) => {
+    const t = String(text || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+    if (!t) return "";
+    const parts = t.match(/[^.!?。]+[.!?。]?\s*/g) || [t];
+    let out = "";
+    for (const part of parts) { if (out.length >= 120 || (out + part).length > max) break; out += part; }
+    out = (out || t.slice(0, max)).trim();
+    return out.length < t.length ? out.replace(/[,，·\s]+$/, "") + "…" : out;
+  };
   const overview = p.overview
-    ? `<section class="overview"><h2>소개</h2><p>${esc(p.overview)}</p></section>`
+    ? `<section class="overview official-brief"><h2>📄 공식 소개 요약</h2><p>${esc(briefOf(p.overview))}</p><p class="coupang-notice">한국관광공사 TourAPI 소개문을 펫트립허브가 요약했어요. 전문은 ${p.homepage && /^https?:/.test(p.homepage) && p.homepageVia !== "naver" ? `<a target="_blank" rel="noopener" href="${esc(p.homepage)}">공식 홈페이지</a>` : `<a target="_blank" rel="noopener" href="https://korean.visitkorea.or.kr/search/search_list.do?keyword=${encodeURIComponent(p.name)}">대한민국 구석구석</a>`}에서 확인하세요.</p></section>`
     : autoText
       ? `<section class="overview auto-intro"><h2>한눈에 보기</h2><p>${autoText}</p></section>`
       : "";
