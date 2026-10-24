@@ -72850,13 +72850,13 @@
     }
   },
   {
-    "id": "mjpr3nd",
+    "id": "m5oxplu",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -72889,13 +72889,13 @@
     }
   },
   {
-    "id": "m5oxplu",
+    "id": "mjpr3nd",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
