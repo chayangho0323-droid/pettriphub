@@ -1433,14 +1433,14 @@ html { scroll-behavior: smooth; }
 #weather, #transit, #reviews, #nearby { scroll-margin-top: 12px; }
 
 /* ── 🔥 이번 주 많이 찾은 곳 + 요즘 뜨는 검색어 (2026-10-26, popular.json) ── */
-.trend-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 6px 0 10px; }
+.trend-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; max-width: 900px; margin: 6px auto 10px; padding: 0 16px; box-sizing: border-box; }
 .trend-label { font-size: 0.85rem; color: #666; margin-right: 2px; }
 .trend-chip { cursor: pointer; font: inherit; font-size: 0.84rem; border: 1px solid #f3cf8a; background: #fff8e8; color: #7a4b00; }
 .trend-chip:hover { background: #ffefc9; }
-.popular-home { margin: 6px 0 14px; }
+.popular-home { max-width: 900px; margin: 6px auto 14px; padding: 0 16px; box-sizing: border-box; }
 .popular-title { font-size: 1.05rem; margin: 0 0 8px; }
 .popular-week { font-size: 0.78rem; color: #888; font-weight: 400; margin-left: 6px; }
-.popular-row { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x proximity; }
+.popular-row { display: flex; justify-content: flex-start; gap: 12px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x proximity; width: 100%; }
 .popular-card { position: relative; flex: 0 0 150px; scroll-snap-align: start; text-decoration: none; color: inherit; }
 .popular-card img, .popular-noimg { width: 150px; height: 100px; object-fit: cover; border-radius: 10px; background: #e9ecf1; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; }
 .popular-name { font-size: 0.85rem; font-weight: 600; margin-top: 6px; line-height: 1.3; }
