@@ -1,0 +1,27 @@
+{
+  "_설명": "월요일 점검 때 GA '페이지 및 화면' 상위 + 서치어드바이저 검색어로 손으로 갱신. build-pages.js가 popular-list.json(메인 app.js용)과 상세 하단 '요즘 많이 찾는 곳'에 반영. places는 pets.json id 순서대로 = 순위. keywords는 {label, q}(사이트 검색어) 또는 {label, href}(페이지 링크).",
+  "week": "10/19~10/25",
+  "updated": "20261026",
+  "places": [
+    { "id": "2003909", "why": "서울 송파 · 이번 주 조회 1위" },
+    { "id": "1958101", "why": "충주 온천 — 가을 나들이" },
+    { "id": "1947118", "why": "춘천 레일바이크" },
+    { "id": "2676837", "why": "단양 단풍 드라이브" },
+    { "id": "126719", "why": "과천 놀이공원" },
+    { "id": "2661698", "why": "포천 주상절리 산책" },
+    { "id": "979536", "why": "양양 온천 펜션" },
+    { "id": "252567", "why": "양양 바다 전망대" },
+    { "id": "me31pne", "why": "연천 애견동반 식당 (식약처 등록)" },
+    { "id": "127220", "why": "서울 북한산 둘레길" }
+  ],
+  "keywords": [
+    { "label": "🍽️ 애견동반 식당", "href": "cat-restaurant.html" },
+    { "label": "☕ 강아지 동반 카페", "href": "cat-cafe.html" },
+    { "label": "🏨 애견동반 숙소", "href": "cat-stay.html" },
+    { "label": "대전 애견동반 식당", "href": "region-daejeon-restaurant.html" },
+    { "label": "울산 애견동반 카페", "href": "region-ulsan-cafe.html" },
+    { "label": "롯데월드타워", "q": "롯데월드타워" },
+    { "label": "수안보온천", "q": "수안보" },
+    { "label": "단양 보발재", "q": "보발재" }
+  ]
+}

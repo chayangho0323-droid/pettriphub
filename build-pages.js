@@ -102,6 +102,21 @@ const pmClsOf = (g) => (/매우/.test(g) ? "pm3" : /나쁨/.test(g) ? "pm2" : /�
 let REVIEWS = { updated: "", places: {} };
 try { REVIEWS = JSON.parse(fs.readFileSync("reviews.json", "utf-8")); } catch {}
 const fmtPostDate = (s) => (s && s.length === 8 ? `${s.slice(0, 4)}.${s.slice(4, 6)}.${s.slice(6, 8)}` : "");
+// ─── 🔥 이번 주 많이 찾은 곳 (popular.json — 월요일 점검 때 GA 상위 페이지로 손 갱신, 2026-10-26 사용자 아이디어) ───
+// 메인: app.js가 popular-list.json을 읽어 상단 카드 줄 + 검색창 아래 "요즘 뜨는 검색어" 칩. 상세: 맨 아래 "요즘 많이 찾는 곳" 한 줄.
+let POPULAR = { week: "", updated: "", places: [], keywords: [] };
+try { POPULAR = JSON.parse(fs.readFileSync("popular.json", "utf-8")); } catch {}
+const POPULAR_PLACES = (POPULAR.places || []).map((x, i) => { const p = pets.find((q) => String(q.id) === String(x.id)); return p ? { rank: i + 1, why: x.why || "", p } : null; }).filter(Boolean);
+function popularHtml(cur) {
+  const items = POPULAR_PLACES.filter((x) => String(x.p.id) !== String(cur.id)).slice(0, 8);
+  if (!items.length) return "";
+  return `<section class="nearby-section popular-section" id="popular"><h2>🔥 요즘 많이 찾는 곳 <span class="muted small">${esc(POPULAR.week)} 조회 기준</span></h2><div class="nearby-row">${items.map(({ rank, p }) => `
+      <a class="nearby-card popular-link" href="${p.id}.html">
+        ${p.image ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" />` : placeholder(p.category, "nearby-noimg")}
+        <div class="nearby-name"><span class="pop-rank">${rank}</span> ${esc(p.name)}</div>
+        <div class="nearby-dist">${esc(p.sido)} ${esc(p.sigungu)} · ${esc(p.category)}</div>
+      </a>`).join("")}</div></section>`;
+}
 function reviewsHtml(p) {
   const r = REVIEWS.places && REVIEWS.places[p.id];
   if (!r || !r.items || !r.items.length) return "";
@@ -602,6 +617,7 @@ function buildPage(p, all) {
       ${directions}
       ${transitHtml}
       ${nearbyBottom}
+      ${popularHtml(p)}
       ${campSection}
       ${coupang}
       ${p.official ? `<p class="coupang-notice">※ 식약처 등록 현황은 영업자가 자율 신청한 업소 기준이며, 등록 이후 운영 상태가 바뀔 수 있습니다. 방문 전 확인을 권장합니다.</p>` : ""}
@@ -833,6 +849,13 @@ const slim = pets.map((p) => ({
 }));
 fs.writeFileSync("pets-list.json", JSON.stringify(slim), "utf-8");
 console.log(`✅ pets-list.json (${Math.round(JSON.stringify(slim).length / 1024)}KB)`);
+// 메인 "이번 주 많이 찾은 곳" + 검색어 칩용 (popular.json → 이름·사진 붙여서)
+fs.writeFileSync("popular-list.json", JSON.stringify({
+  week: POPULAR.week || "", updated: POPULAR.updated || "",
+  places: POPULAR_PLACES.map(({ rank, why, p }) => ({ rank, why, id: p.id, name: p.name, category: p.category, sido: p.sido, sigungu: p.sigungu, image: p.image || "", official: !!p.official })),
+  keywords: POPULAR.keywords || [],
+}), "utf-8");
+console.log(`✅ popular-list.json (인기 ${POPULAR_PLACES.length}곳 · 검색어 칩 ${(POPULAR.keywords || []).length}개)`);
 
 // ─── 메인 페이지용 주말 날씨 요약 (weather-summary.json, 약 10KB) — 캠핑허브와 같은 형식 ───
 // app.js가 읽어서 상단 "이번 주말 산책 날씨" 띠(시도별)와 카드 배지(시군구별)를 그린다

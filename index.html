@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />
-  <link rel="stylesheet" href="style.css?v=20261006" />
+  <link rel="stylesheet" href="style.css?v=20261026" />
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X518CVXSC1"></script>
   <script>
@@ -67,6 +67,10 @@
     </div>
   </section>
 
+  <!-- 요즘 뜨는 검색어 칩 + 이번 주 많이 찾은 곳 (app.js loadPopular, popular-list.json ← popular.json 월요일 손 갱신) -->
+  <div id="trend-chips" class="trend-chips"></div>
+  <section id="popular-home" class="popular-home"></section>
+
   <!-- 이번 주말 강아지 산책 날씨 (app.js renderWeatherBanner, weather-summary.json) -->
   <div id="weather-banner" class="weather-banner"></div>
 
@@ -96,7 +100,7 @@
   </footer>
 
   <!-- ?v= 는 캐시 무력화용 — app.js/style.css 고칠 때마다 숫자를 바꿔 주면 방문자에게 바로 반영됨 -->
-  <script src="app.js?v=20261012"></script>
+  <script src="app.js?v=20261026"></script>
   <script src="track-clicks.js"></script>
   <script src="report.js?v=20261006"></script>
 </body>
