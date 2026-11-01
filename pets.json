@@ -18178,13 +18178,13 @@
     }
   },
   {
-    "id": "mdmrzaa",
+    "id": "mejn2l7",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -18218,13 +18218,13 @@
     }
   },
   {
-    "id": "mejn2l7",
+    "id": "mdmrzaa",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -44675,6 +44675,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "m8vteek",
+    "name": "카페 트루미",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "전남",
+    "sigungu": "곡성군",
+    "address": "전남광주통합특별시 곡성군 옥과면 리문5길 9-4",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261101",
+    "addedAt": "20261101"
   },
   {
     "id": "mb4kg9s",
@@ -204803,9 +204820,9 @@
     "sido": "경기",
     "sigungu": "여주시",
     "address": "경기도 여주시 강천면 걸촌동길 40",
-    "lat": 37.2887356407,
-    "lng": 127.6992218945,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/32/3383432_image2_1.jpg",
+    "lat": 37.2886828026,
+    "lng": 127.6992011013,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/32/3383432_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -204824,12 +204841,12 @@
       "stops": [
         {
           "name": "걸은초교앞",
-          "dist": 315,
+          "dist": 321,
           "walkMin": 5
         },
         {
           "name": "이문동",
-          "dist": 404,
+          "dist": 406,
           "walkMin": 6
         }
       ]
