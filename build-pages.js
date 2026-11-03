@@ -804,8 +804,21 @@ const urls = [
   ...pets.map((p) => `${SITE_URL}/place/${p.id}.html`),
 ];
 fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join("\n")}\n</urlset>\n`, "utf-8");
-fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`, "utf-8");
+fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap-core.xml\nSitemap: ${SITE_URL}/sitemap.xml\n`, "utf-8");
 console.log(`✅ sitemap.xml (${urls.length}개 주소) + robots.txt`);
+
+// ── sitemap-core.xml: 핵심 페이지만 (2026-11-03, 구글 색인 우선순위용) — 허브·가이드·카테고리·지역 허브 + 인기/방문자 사진/정정 장소 상세 ──
+{
+  const popIds = new Set(POPULAR_PLACES.map((x) => String(x.p.id)));
+  const isCore = (p) => !!((p.visitorPhotos && p.visitorPhotos.length) || popIds.has(String(p.id)) || p.corrected);
+  const coreUrls = [
+    `${SITE_URL}/`, `${SITE_URL}/about.html`,
+    ...[...guideFiles, ...catFiles, ...regionFiles].map((f) => `${SITE_URL}/${f}`),
+    ...pets.filter(isCore).map((p) => `${SITE_URL}/place/${p.id}.html`),
+  ];
+  fs.writeFileSync("sitemap-core.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` + coreUrls.map((u) => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join("\n") + `\n</urlset>\n`, "utf-8");
+  console.log(`✅ sitemap-core.xml (핵심 ${coreUrls.length}개 주소)`);
+}
 
 // RSS — 네이버 서치어드바이저 "RSS 제출"용. 최근 추가된 장소 50곳 (같은 날이면 오늘의 셔플 순)
 const rssItems = [...pets]

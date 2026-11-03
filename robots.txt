@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://pettriphub.kr/sitemap-core.xml
 Sitemap: https://pettriphub.kr/sitemap.xml
