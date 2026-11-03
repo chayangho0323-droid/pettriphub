@@ -3664,9 +3664,10 @@
   "error": "fetch failed"
  },
  "https://healingpension.modoo.at/": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-29T00:45:32.889Z"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "https://moonguest.creatorlink.net/": {
   "state": "ok",
@@ -3717,10 +3718,10 @@
   "final": "https://www.pyeongchangramadahotel.com/"
  },
  "https://kkamankong.modoo.at": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-29T00:45:32.889Z",
-  "final": "https://kkamankong.modoo.at/"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "https://www.airbnb.co.kr/rooms/1232259768400727594": {
   "state": "ok",
@@ -3763,9 +3764,10 @@
   "error": "fetch failed"
  },
  "https://bukchon72.modoo.at/": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-29T00:45:32.889Z"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "http://blueoceanpension.com": {
   "state": "dead",
@@ -3808,10 +3810,10 @@
   "final": "https://chaletresort.kr/"
  },
  "https://seoneumjae.modoo.at": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-29T00:45:32.889Z",
-  "final": "https://seoneumjae.modoo.at/"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "https://map.naver.com/p/entry/place/1707296876": {
   "state": "ok",
@@ -3865,10 +3867,10 @@
   "checkedAt": "2026-10-30T00:50:31.788Z"
  },
  "https://goandong.modoo.at": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-29T00:45:32.889Z",
-  "final": "https://goandong.modoo.at/"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "http://www.xn--f90b2yp4ozylvmcji.com/intro.php": {
   "state": "ok",
@@ -3887,15 +3889,16 @@
   "final": "https://www.airbnb.com/rooms/38505120"
  },
  "https://yedaumguesthouse.modoo.at": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-30T00:50:31.788Z",
-  "final": "https://yedaumguesthouse.modoo.at/"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "https://wolchulmoon.modoo.at/": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-30T00:50:31.788Z"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "https://www.instagram.com/oryuheon.andong": {
   "state": "unknown",
@@ -3908,9 +3911,10 @@
   "checkedAt": "2026-10-30T00:50:31.788Z"
  },
  "https://yooseonjae.modoo.at/": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-30T00:50:31.788Z"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "http://instnthotel.com": {
   "state": "dead",
@@ -3960,15 +3964,16 @@
   "checkedAt": "2026-10-30T00:50:31.788Z"
  },
  "https://canvashostel.modoo.at/": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-30T00:50:31.788Z"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "https://canvashostel.modoo.at": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-30T00:50:31.788Z",
-  "final": "https://canvashostel.modoo.at/"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "https://www.airbnb.co.kr/rooms/1263720155689990082": {
   "state": "ok",
@@ -3992,9 +3997,10 @@
   "checkedAt": "2026-10-30T00:50:31.788Z"
  },
  "https://tongin1939.modoo.at/": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-30T00:50:31.788Z"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "https://www.cwg.go.kr/tour/selectTourCntntsWebView.do?tourNo=445&pageUnit=9&pageIndex=1&searchCnd=all&key=592&ctgry=21&sortTy=NM/": {
   "state": "dead",
@@ -4014,10 +4020,10 @@
   "checkedAt": "2026-10-30T00:50:31.788Z"
  },
  "http://hanok1294.modoo.at": {
-  "state": "ok",
+  "state": "dead",
   "status": 200,
-  "checkedAt": "2026-10-30T00:50:31.788Z",
-  "final": "http://hanok1294.modoo.at/"
+  "checkedAt": "2026-11-03T08:19:33.000Z",
+  "error": "modoo 서비스 종료"
  },
  "http://www.hsparktel.com/": {
   "state": "dead",

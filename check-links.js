@@ -24,6 +24,8 @@ const now = Date.now();
 const today = new Date(now + 9 * 3600 * 1000).toISOString().slice(0, 10);
 
 async function probe(url) {
+  // 네이버 modoo! 홈페이지 서비스 종료(2025-06-26) — 모든 *.modoo.at 주소가 "종료 안내" 페이지를 200으로 돌려줘 ok로 오판됐다 (2026-11-03 봄빛글램핑에서 발견)
+  if (/^https?:\/\/[^/]*modoo\.at(\/|$)/i.test(url)) return { state: "dead", status: 200, error: "modoo 서비스 종료" };
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
   try {

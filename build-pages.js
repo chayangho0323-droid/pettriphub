@@ -70,6 +70,7 @@ const pets = JSON.parse(fs.readFileSync("pets.json", "utf-8"));
   }
   if (linkN || missN) console.log(`📍 네이버 지도 정보: 링크 보충 ${linkN} · 세부 업종 ${bizN} · 좌표 보정 ${geoN} · 네이버에 없음 ${missN}`);
 }
+const isModoo = (u) => /^https?:\/\/[^/]*modoo\.at(\/|$)/i.test(String(u || "").trim()); // 네이버 modoo! 종료(2025-06-26) → 항상 죽은 링크 취급
 // 홈페이지 링크 생존 검사 결과(check-links.js → link-status.json): dead(404·5xx·접속 불가 확정)인 홈페이지는 비우고 homepageDead에 원래 주소를 남긴다 (캠핑허브와 같은 방식)
 {
   let LINKS = {};
@@ -77,7 +78,7 @@ const pets = JSON.parse(fs.readFileSync("pets.json", "utf-8"));
   let deadN = 0;
   for (const p of pets) {
     const u = String(p.homepage || "").trim();
-    if (u && LINKS[u] && LINKS[u].state === "dead") { p.homepageDead = u; p.homepage = ""; deadN++; }
+    if (u && (isModoo(u) || (LINKS[u] && LINKS[u].state === "dead"))) { p.homepageDead = u; p.homepage = ""; deadN++; }
   }
   if (deadN) console.log(`🔗 열리지 않는 홈페이지 ${deadN}건 → 표시 제외`);
 }
