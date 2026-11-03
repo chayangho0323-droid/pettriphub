@@ -74371,6 +74371,23 @@
     }
   },
   {
+    "id": "m6l2bpt",
+    "name": "시골쥐의 카페",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "인천",
+    "sigungu": "강화군",
+    "address": "인천광역시 강화군 선원면 중앙로413번길 6(희소식)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261103",
+    "addedAt": "20261103"
+  },
+  {
     "id": "mcsh0tr",
     "name": "아이스빈 강화읍점",
     "category": "카페",
@@ -102361,23 +102378,6 @@
     }
   },
   {
-    "id": "mwdl79j",
-    "name": "신주옥미 포레스트 화성왕림점",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "경기",
-    "sigungu": "화성시",
-    "address": "경기도 화성시 효행구 봉담읍 삼천병마로 1016(청담타운 3동 1층)",
-    "official": true,
-    "source": "mfds",
-    "lat": null,
-    "lng": null,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20261027",
-    "addedAt": "20261027"
-  },
-  {
     "id": "mpi9xlh",
     "name": "신통치킨(호프)동삭점",
     "category": "식당",
@@ -104037,6 +104037,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "myuzx4",
+    "name": "에스리떼 미사",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "하남시",
+    "address": "경기도 하남시 미사대로 550(현대지식산업센터 한강미사 제1층 제씨 1-0039호 덕풍동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261103",
+    "addedAt": "20261103"
   },
   {
     "id": "mg72uxw",
@@ -107101,83 +107118,6 @@
     }
   },
   {
-    "id": "mn33g84",
-    "name": "위자네",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "경기",
-    "sigungu": "화성시",
-    "address": "경기도 화성시 효행구 봉담읍 장등1길 3-10(1층)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.22241653283153,
-    "lng": 126.9452998653405,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260925",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "오목천역",
-        "lines": [
-          "수인선"
-        ],
-        "dist": 2807,
-        "walkMin": 42
-      },
-      "stops": [
-        {
-          "name": "봉담2.LH2단지",
-          "dist": 63,
-          "walkMin": 1
-        },
-        {
-          "name": "봉담초",
-          "dist": 145,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "봉담 상리 2",
-          "se": "공영",
-          "type": "노외",
-          "cap": 214,
-          "fee": "기본 90분 400원 · 추가 10분 600원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 317,
-          "walkMin": 5
-        },
-        {
-          "name": "봉담 상리 1",
-          "se": "공영",
-          "type": "노외",
-          "cap": 186,
-          "fee": "기본 90분 400원 · 추가 10분 600원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 405,
-          "walkMin": 6
-        },
-        {
-          "name": "봉담 상리(행복주택)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 50,
-          "fee": "기본 90분 300원 · 추가 10분 400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 566,
-          "walkMin": 8
-        }
-      ]
-    }
-  },
-  {
     "id": "m3dpldi",
     "name": "위자네",
     "category": "식당",
@@ -107250,6 +107190,83 @@
           "tel": "031-8045-5255",
           "dist": 657,
           "walkMin": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "mn33g84",
+    "name": "위자네",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "화성시",
+    "address": "경기도 화성시 효행구 봉담읍 장등1길 3-10(1층)",
+    "official": true,
+    "source": "mfds",
+    "lat": 37.22241653283153,
+    "lng": 126.9452998653405,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260925",
+    "addedAt": "20260915",
+    "transit": {
+      "station": {
+        "name": "오목천역",
+        "lines": [
+          "수인선"
+        ],
+        "dist": 2807,
+        "walkMin": 42
+      },
+      "stops": [
+        {
+          "name": "봉담2.LH2단지",
+          "dist": 63,
+          "walkMin": 1
+        },
+        {
+          "name": "봉담초",
+          "dist": 145,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "봉담 상리 2",
+          "se": "공영",
+          "type": "노외",
+          "cap": 214,
+          "fee": "기본 90분 400원 · 추가 10분 600원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 317,
+          "walkMin": 5
+        },
+        {
+          "name": "봉담 상리 1",
+          "se": "공영",
+          "type": "노외",
+          "cap": 186,
+          "fee": "기본 90분 400원 · 추가 10분 600원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 405,
+          "walkMin": 6
+        },
+        {
+          "name": "봉담 상리(행복주택)",
+          "se": "공영",
+          "type": "노외",
+          "cap": 50,
+          "fee": "기본 90분 300원 · 추가 10분 400원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 566,
+          "walkMin": 8
         }
       ]
     }
@@ -136557,6 +136574,23 @@
     }
   },
   {
+    "id": "m9xfyzf",
+    "name": "내재",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "충남",
+    "sigungu": "공주시",
+    "address": "충청남도 공주시 창벽로 420(1,2층 상왕동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261103",
+    "addedAt": "20261103"
+  },
+  {
     "id": "mouj6zh",
     "name": "노라포식당",
     "category": "식당",
@@ -138345,6 +138379,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "m482kz8",
+    "name": "엔학고레",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "충남",
+    "sigungu": "공주시",
+    "address": "충청남도 공주시 반포면 불장골길 113-12(1-2층)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/37/4079137_image2_1.jpg",
+    "tourId": "2724107",
+    "photoTried": "20261103",
+    "addedAt": "20261103"
   },
   {
     "id": "mwdklt0",
@@ -141081,6 +141132,23 @@
     "tourId": "",
     "photoTried": "20261015",
     "addedAt": "20261015"
+  },
+  {
+    "id": "me0dem5",
+    "name": "프린세스피크닉카페",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "충남",
+    "sigungu": "공주시",
+    "address": "충청남도 공주시 치미마을길 74(신관동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261103",
+    "addedAt": "20261103"
   },
   {
     "id": "msh46cl",
@@ -147294,6 +147362,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "mmolv5u",
+    "name": "남해왼손농장 맛집",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경남",
+    "sigungu": "남해군",
+    "address": "경상남도 남해군 서면 스포츠로498번길 3(2동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261103",
+    "addedAt": "20261103"
   },
   {
     "id": "m8savj7",
@@ -160319,6 +160404,23 @@
     "tourId": "",
     "photoTried": "20261030",
     "addedAt": "20261030"
+  },
+  {
+    "id": "mo7kkz2",
+    "name": "연림",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "제주",
+    "sigungu": "서귀포시",
+    "address": "제주특별자치도 서귀포시 열리로 74(2층 상예동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261103",
+    "addedAt": "20261103"
   },
   {
     "id": "m5uzs5l",
@@ -177722,9 +177824,9 @@
     "sido": "충남",
     "sigungu": "태안군",
     "address": "충청남도 태안군 근흥면 정죽리",
-    "lat": 36.6957489937,
-    "lng": 126.1520087212,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/10/3340710_image2_1.jpg",
+    "lat": 36.6957,
+    "lng": 126.152,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/10/3340710_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -177743,7 +177845,7 @@
       "stops": [
         {
           "name": "정죽3리.아랫고개",
-          "dist": 582,
+          "dist": 587,
           "walkMin": 9
         },
         {
@@ -177762,7 +177864,7 @@
           "hours": "01:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "041-670-2718",
-          "dist": 1476,
+          "dist": 1470,
           "walkMin": 22
         }
       ]
@@ -177838,10 +177940,10 @@
     "category": "관광지",
     "sido": "경북",
     "sigungu": "경주시",
-    "address": "경상북도 경주시 감포읍 감포로",
-    "lat": 35.8078329413,
-    "lng": 129.5040374805,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/78/3537978_image2_1.jpg",
+    "address": "경상북도 경주시 감포읍 감포로2길 93",
+    "lat": 35.8042149598,
+    "lng": 129.5046035642,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/78/3537978_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -177859,14 +177961,14 @@
     "transit": {
       "stops": [
         {
-          "name": "감포초등학교",
-          "dist": 129,
-          "walkMin": 2
+          "name": "감포항",
+          "dist": 175,
+          "walkMin": 3
         },
         {
-          "name": "등대삼거리",
-          "dist": 149,
-          "walkMin": 2
+          "name": "감포시장.감포항",
+          "dist": 178,
+          "walkMin": 3
         }
       ],
       "parking": [
@@ -177879,8 +177981,8 @@
           "hours": "09:00~20:00",
           "days": "평일+토요일+공휴일",
           "tel": "054-779-6531",
-          "dist": 209,
-          "walkMin": 3
+          "dist": 311,
+          "walkMin": 5
         }
       ]
     }
@@ -180083,14 +180185,14 @@
   },
   {
     "id": "127487",
-    "name": "경주엑스포대공원",
+    "name": "경주APEC기념공원",
     "category": "관광지",
     "sido": "경북",
     "sigungu": "경주시",
     "address": "경상북도 경주시 경감로 614 (천군동)",
-    "lat": 35.8340564631,
-    "lng": 129.2895443842,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/40/3537940_image2_1.jpg",
+    "lat": 35.832,
+    "lng": 129.2895,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/40/3537940_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -180108,14 +180210,14 @@
     "transit": {
       "stops": [
         {
-          "name": "엑스포삼거리건너",
-          "dist": 80,
-          "walkMin": 1
+          "name": "경주세계문화엑스포공원.신라밀레니엄파크",
+          "dist": 246,
+          "walkMin": 4
         },
         {
-          "name": "경주세계문화엑스포공원.신라밀레니엄파크",
-          "dist": 107,
-          "walkMin": 2
+          "name": "경주세계문화엑스포공원",
+          "dist": 249,
+          "walkMin": 4
         }
       ]
     }
@@ -181681,8 +181783,8 @@
     "sido": "강원",
     "sigungu": "양양군",
     "address": "강원특별자치도 양양군 현남면 광진리",
-    "lat": 37.96536073191619,
-    "lng": 128.7643376618066,
+    "lat": 37.9653607319,
+    "lng": 128.7643376618,
     "image": "https://tong.visitkorea.or.kr/cms/resource/60/3518260_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -185356,9 +185458,9 @@
     "sido": "경기",
     "sigungu": "남양주시",
     "address": "경기도 남양주시 조안면 다산로 767",
-    "lat": 37.5143591026577,
-    "lng": 127.298375113133,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/53/3507853_image2_1.jpg",
+    "lat": 37.5143591027,
+    "lng": 127.2983751131,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/30/4129530_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -192521,9 +192623,9 @@
     "sido": "경북",
     "sigungu": "경주시",
     "address": "경상북도 경주시 신평동",
-    "lat": 35.8413250823,
-    "lng": 129.2892803112,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/17/3541617_image2_1.jpg",
+    "lat": 35.8412808731,
+    "lng": 129.2892499205,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/17/3541617_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -192542,12 +192644,12 @@
       "stops": [
         {
           "name": "보문정",
-          "dist": 75,
+          "dist": 70,
           "walkMin": 1
         },
         {
           "name": "힐튼호텔.KT수련원.하이코",
-          "dist": 259,
+          "dist": 254,
           "walkMin": 4
         }
       ]
@@ -196184,9 +196286,9 @@
     "sido": "충남",
     "sigungu": "태안군",
     "address": "충청남도 태안군 안면읍 샛별길 184-2",
-    "lat": 36.4486777956,
-    "lng": 126.3360401973,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/78/3055578_image2_1.jpg",
+    "lat": 36.4486295828,
+    "lng": 126.3360282618,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/78/3055578_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -196205,7 +196307,7 @@
       "stops": [
         {
           "name": "샛별해수욕장",
-          "dist": 232,
+          "dist": 226,
           "walkMin": 3
         }
       ]
@@ -197511,59 +197613,6 @@
     }
   },
   {
-    "id": "127422",
-    "name": "석남사계곡",
-    "category": "관광지",
-    "sido": "울산",
-    "sigungu": "울주군",
-    "address": "울산광역시 울주군 상북면 이천리 642-7",
-    "lat": 35.5331267827,
-    "lng": 129.0091496267,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/65/3077965_image2_1.bmp",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "전 견종 동반 가능",
-      "petType": "전구역 동반가능",
-      "petNeed": "목줄 착용",
-      "petEtc": "- 맹견의 경우, 입마개 착용 필수\n- 배변봉투 지참 및 배변처리 필수",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "석남사 계곡은 울주군에 위치한 석남사를 끼고 있는 계곡이다. 가지산 동쪽 자락에 있는 석남사는 능동천이 흐르는 물 맑은 계곡의 해발 360m 지점 언덕에 세워진 비구니들의 수도 사찰로 알려진 고찰이다. 석남사 위쪽 운문령이나 능동천, 덕현천에서 언양읍을 향해 흘러내려가는 물은 매우 맑은 편으로 계곡길이가 불과 1km 정도로 짧지만 크고 작은 너럭바위들은 피서객들의 훌륭한 쉼터로 발을 담고 더위를 식히기 좋다. 바위와 바위 사이로는 자그마한 폭포와 그리 깊지 않은 소가 형성되어 있고 계곡 옆쪽으로 울창한 숲이 있어서 여름 한낮 땡볕을 피할 수 있다. 절의 일주문을 지나 석남사 가는 길목의 오른쪽 나무숲 사이로 계곡의 흐르는 물을 즐기며 더 올라가면 석남사 사찰 건물들이 보이고 석남사 계곡의 풍경이 한눈에 들어온다. 이 즈음에서 도로가 아닌 보행로를 이용하여 다리를 넘으면 석남사 경내로 들어가게 된다.",
-    "homepage": "http://www.seoknamsa.or.kr/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "죽전마을",
-          "dist": 208,
-          "walkMin": 3
-        },
-        {
-          "name": "당산",
-          "dist": 359,
-          "walkMin": 5
-        }
-      ],
-      "parking": [
-        {
-          "name": "상북 철구소",
-          "se": "공영",
-          "type": "노외",
-          "cap": 71,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "052-204-2514",
-          "dist": 1389,
-          "walkMin": 21
-        }
-      ]
-    }
-  },
-  {
     "id": "2738711",
     "name": "석남사계곡",
     "category": "관광지",
@@ -197587,6 +197636,59 @@
     "overview": "석남사계곡은 안성 서운산 자락에 위치한 석남사 위쪽에서 흐르고 있는 계곡이다. 석남사는 통일신라 고승 석선이 세웠다. 대웅전과 영산전 두 불전을 중심으로 요사채, 누각, 탑, 부도, 마애불이 있다. 최근 드라마  촬영지로 알려져 있어 많은 사람들이 방문한다. 특히 한 여름에 산에서 흐르는 석남사계곡에서 피서를 즐기기 좋다.",
     "homepage": "",
     "addedAt": "20260915"
+  },
+  {
+    "id": "127422",
+    "name": "석남사계곡(울산)",
+    "category": "관광지",
+    "sido": "울산",
+    "sigungu": "울주군",
+    "address": "울산광역시 울주군 상북면 이천리 642-7",
+    "lat": 35.5330857699,
+    "lng": 129.0091229147,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/65/3077965_image2_1.bmp",
+    "tel": "",
+    "official": false,
+    "source": "tour",
+    "petInfo": {
+      "petSize": "전 견종 동반 가능",
+      "petType": "전구역 동반가능",
+      "petNeed": "목줄 착용",
+      "petEtc": "- 맹견의 경우, 입마개 착용 필수\n- 배변봉투 지참 및 배변처리 필수",
+      "petFacility": "",
+      "petRisk": ""
+    },
+    "overview": "석남사 계곡은 울주군에 위치한 석남사를 끼고 있는 계곡이다. 가지산 동쪽 자락에 있는 석남사는 능동천이 흐르는 물 맑은 계곡의 해발 360m 지점 언덕에 세워진 비구니들의 수도 사찰로 알려진 고찰이다. 석남사 위쪽 운문령이나 능동천, 덕현천에서 언양읍을 향해 흘러내려가는 물은 매우 맑은 편으로 계곡길이가 불과 1km 정도로 짧지만 크고 작은 너럭바위들은 피서객들의 훌륭한 쉼터로 발을 담고 더위를 식히기 좋다. 바위와 바위 사이로는 자그마한 폭포와 그리 깊지 않은 소가 형성되어 있고 계곡 옆쪽으로 울창한 숲이 있어서 여름 한낮 땡볕을 피할 수 있다. 절의 일주문을 지나 석남사 가는 길목의 오른쪽 나무숲 사이로 계곡의 흐르는 물을 즐기며 더 올라가면 석남사 사찰 건물들이 보이고 석남사 계곡의 풍경이 한눈에 들어온다. 이 즈음에서 도로가 아닌 보행로를 이용하여 다리를 넘으면 석남사 경내로 들어가게 된다.",
+    "homepage": "http://www.seoknamsa.or.kr/",
+    "addedAt": "20260915",
+    "transit": {
+      "stops": [
+        {
+          "name": "죽전마을",
+          "dist": 205,
+          "walkMin": 3
+        },
+        {
+          "name": "당산",
+          "dist": 364,
+          "walkMin": 5
+        }
+      ],
+      "parking": [
+        {
+          "name": "상북 철구소",
+          "se": "공영",
+          "type": "노외",
+          "cap": 71,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "052-204-2514",
+          "dist": 1395,
+          "walkMin": 21
+        }
+      ]
+    }
   },
   {
     "id": "754052",
@@ -197902,8 +198004,8 @@
     "sido": "경남",
     "sigungu": "밀양시",
     "address": "경상남도 밀양시 단장면 관광단지로 78",
-    "lat": 35.50050143571084,
-    "lng": 128.83344642307802,
+    "lat": 35.5005014357,
+    "lng": 128.8334464231,
     "image": "https://tong.visitkorea.or.kr/cms/resource/00/3515000_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -200327,9 +200429,9 @@
     "sido": "경기",
     "sigungu": "양평군",
     "address": "경기도 양평군 단월면 곱다니길 55-2",
-    "lat": 37.5153751443,
-    "lng": 127.6482810596,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/78/3577778_image2_1.jpg",
+    "lat": 37.5153210019,
+    "lng": 127.6482605313,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/78/3577778_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -200348,7 +200450,7 @@
       "stops": [
         {
           "name": "봉상2리수미뜰",
-          "dist": 53,
+          "dist": 49,
           "walkMin": 1
         },
         {
@@ -200737,9 +200839,9 @@
     "sido": "경기",
     "sigungu": "가평군",
     "address": "경기도 가평군 청평면 북한강로 2047",
-    "lat": 37.6994935305,
-    "lng": 127.3930572292,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/95/3077295_image2_1.jpg",
+    "lat": 37.6994391787,
+    "lng": 127.3930394525,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/95/3077295_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -200760,18 +200862,18 @@
         "lines": [
           "경춘선"
         ],
-        "dist": 2121,
+        "dist": 2115,
         "walkMin": 32
       },
       "stops": [
         {
           "name": "삼회분교앞",
-          "dist": 131,
+          "dist": 134,
           "walkMin": 2
         },
         {
           "name": "큰골",
-          "dist": 366,
+          "dist": 360,
           "walkMin": 5
         }
       ]
@@ -201877,8 +201979,8 @@
     "sido": "경남",
     "sigungu": "밀양시",
     "address": "경상남도 밀양시 무안면 판정로 125-13",
-    "lat": 35.5008066849367,
-    "lng": 128.666176392571,
+    "lat": 35.5008066849,
+    "lng": 128.6661763926,
     "image": "https://tong.visitkorea.or.kr/cms/resource/12/3499512_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -204276,9 +204378,9 @@
     "sido": "충남",
     "sigungu": "태안군",
     "address": "충청남도 태안군 소원면 모항리",
-    "lat": 36.7528475763,
-    "lng": 126.1294092752,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/73/3340773_image2_1.jpg",
+    "lat": 36.7528,
+    "lng": 126.1294,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/73/3340773_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -204297,12 +204399,12 @@
       "stops": [
         {
           "name": "모항4리.어은돌",
-          "dist": 27,
+          "dist": 29,
           "walkMin": 1
         },
         {
           "name": "모항4리",
-          "dist": 204,
+          "dist": 203,
           "walkMin": 3
         }
       ]
@@ -207414,9 +207516,9 @@
     "sido": "충남",
     "sigungu": "태안군",
     "address": "충청남도 태안군 고남면 장삼포로 535-57",
-    "lat": 36.4335770925,
-    "lng": 126.355949906,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/42/3339342_image2_1.jpg",
+    "lat": 36.433528968,
+    "lng": 126.3559378466,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/42/3339342_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -207435,7 +207537,7 @@
       "stops": [
         {
           "name": "장곡3리",
-          "dist": 473,
+          "dist": 471,
           "walkMin": 7
         }
       ]
@@ -214945,9 +215047,9 @@
     "sido": "충북",
     "sigungu": "충주시",
     "address": "충청북도 충주시 엄정면 추평리",
-    "lat": 37.1257529896,
-    "lng": 127.9215232144,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/01/3063501_image2_1.JPG",
+    "lat": 37.125702,
+    "lng": 127.921503,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/01/3063501_image2_1.JPG",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -214966,12 +215068,12 @@
       "stops": [
         {
           "name": "탑평(종점방향)",
-          "dist": 58,
+          "dist": 59,
           "walkMin": 1
         },
         {
           "name": "옥성(시내방향)",
-          "dist": 592,
+          "dist": 595,
           "walkMin": 9
         }
       ]
@@ -216644,8 +216746,8 @@
     "sido": "경기",
     "sigungu": "파주시",
     "address": "경기도 파주시 탄현면 새오리로 69",
-    "lat": 37.7903476355662,
-    "lng": 126.684954889134,
+    "lat": 37.7903476356,
+    "lng": 126.6849548891,
     "image": "https://tong.visitkorea.or.kr/cms/resource/92/4057592_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -221499,9 +221601,9 @@
     "sido": "충남",
     "sigungu": "당진시",
     "address": "충청남도 당진시 석문면 장고항로",
-    "lat": 37.0312922335,
-    "lng": 126.5595239472,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/33/3567533_image2_1.jpg",
+    "lat": 37.0312407053,
+    "lng": 126.5595104954,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/33/3567533_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -221520,12 +221622,12 @@
       "stops": [
         {
           "name": "장고항선착장입구",
-          "dist": 75,
+          "dist": 69,
           "walkMin": 1
         },
         {
           "name": "장고항2리",
-          "dist": 266,
+          "dist": 261,
           "walkMin": 4
         }
       ]
@@ -232999,9 +233101,9 @@
     "sido": "경기",
     "sigungu": "용인시",
     "address": "경기도 용인시 처인구 원삼면 원양로124번길 82",
-    "lat": 37.1761277439,
-    "lng": 127.3137071701,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/94/2836594_image2_1.jpg",
+    "lat": 37.1760763387,
+    "lng": 127.3136901575,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/08/4130508_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -233020,7 +233122,7 @@
       "stops": [
         {
           "name": "고당리",
-          "dist": 464,
+          "dist": 463,
           "walkMin": 7
         }
       ],
@@ -233034,7 +233136,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-6193-5741",
-          "dist": 1061,
+          "dist": 1056,
           "walkMin": 16
         },
         {
@@ -233046,7 +233148,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 1348,
+          "dist": 1344,
           "walkMin": 20
         },
         {
@@ -233058,7 +233160,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-6193-5392",
-          "dist": 1435,
+          "dist": 1429,
           "walkMin": 21
         }
       ]
