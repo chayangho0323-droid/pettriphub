@@ -178344,8 +178344,8 @@
     "sido": "강원",
     "sigungu": "강릉시",
     "address": "강원특별자치도 강릉시 견소동",
-    "lat": 37.7742755493868,
-    "lng": 128.945118827483,
+    "lat": 37.7742755494,
+    "lng": 128.9451188275,
     "image": "https://tong.visitkorea.or.kr/cms/resource/09/3378409_image2_1.JPG",
     "tel": "",
     "official": false,
@@ -181536,9 +181536,9 @@
     "sido": "부산",
     "sigungu": "수영구",
     "address": "부산광역시 수영구 민락동",
-    "lat": 35.1551657503,
-    "lng": 129.1221363273,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/42/3071042_image2_1.JPG",
+    "lat": 35.1551254393,
+    "lng": 129.1221072313,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/42/3071042_image2_1.JPG",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -181565,12 +181565,12 @@
       "stops": [
         {
           "name": "광안리해수욕장",
-          "dist": 293,
+          "dist": 292,
           "walkMin": 4
         },
         {
           "name": "어방축제",
-          "dist": 310,
+          "dist": 306,
           "walkMin": 5
         }
       ],
@@ -181596,7 +181596,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "051-610-4552",
-          "dist": 459,
+          "dist": 461,
           "walkMin": 7
         },
         {
@@ -181608,7 +181608,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "051-610-4552",
-          "dist": 688,
+          "dist": 683,
           "walkMin": 10
         }
       ]
@@ -183863,8 +183863,8 @@
     "sido": "경북",
     "sigungu": "경주시",
     "address": "경상북도 경주시 감포읍 동해안로 1915",
-    "lat": 35.7829416854786,
-    "lng": 129.491754849878,
+    "lat": 35.7829416855,
+    "lng": 129.4917548499,
     "image": "https://tong.visitkorea.or.kr/cms/resource/82/3538582_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -183982,9 +183982,9 @@
     "sido": "경북",
     "sigungu": "상주시",
     "address": "경상북도 상주시 사벌국면 경천로 652",
-    "lat": 36.4582827307,
-    "lng": 128.2440300692,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/90/3082790_image2_1.jpg",
+    "lat": 36.4582347484,
+    "lng": 128.2440060498,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/90/3082790_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -184003,7 +184003,7 @@
       "stops": [
         {
           "name": "경천대",
-          "dist": 354,
+          "dist": 349,
           "walkMin": 5
         }
       ]
@@ -197782,9 +197782,9 @@
     "sido": "경기",
     "sigungu": "화성시",
     "address": "경기도 화성시 영천동",
-    "lat": 37.2117504811,
-    "lng": 127.1078164769,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/19/3538719_image2_1.jpg",
+    "lat": 37.2117,
+    "lng": 127.1078,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/19/3538719_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -197803,12 +197803,12 @@
       "stops": [
         {
           "name": "선납숲공원.퍼스트파크",
-          "dist": 176,
+          "dist": 170,
           "walkMin": 3
         },
         {
           "name": "퍼스트파크.선납숲공원",
-          "dist": 191,
+          "dist": 186,
           "walkMin": 3
         }
       ],
@@ -197822,7 +197822,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-5189-6445",
-          "dist": 626,
+          "dist": 621,
           "walkMin": 9
         },
         {
@@ -197834,7 +197834,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-8059-6538",
-          "dist": 630,
+          "dist": 626,
           "walkMin": 9
         },
         {
@@ -197846,7 +197846,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-8059-6538",
-          "dist": 884,
+          "dist": 880,
           "walkMin": 13
         }
       ]
@@ -200591,10 +200591,10 @@
     "category": "관광지",
     "sido": "충북",
     "sigungu": "청주시",
-    "address": "충청북도 청주시 상당구 수암로 58",
-    "lat": 36.6472835628,
-    "lng": 127.4943001085,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/98/3353798_image2_1.jpg",
+    "address": "충청북도 청주시 상당구 수암로56번길 13-6 (수동)",
+    "lat": 36.647370036,
+    "lng": 127.4950495508,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/98/3353798_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -200613,13 +200613,13 @@
       "stops": [
         {
           "name": "우암초등학교",
-          "dist": 431,
-          "walkMin": 6
+          "dist": 498,
+          "walkMin": 7
         },
         {
           "name": "우암교회",
-          "dist": 485,
-          "walkMin": 7
+          "dist": 552,
+          "walkMin": 8
         }
       ],
       "parking": [
@@ -200632,7 +200632,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "043-201-5392",
-          "dist": 51,
+          "dist": 83,
           "walkMin": 1
         },
         {
@@ -200644,8 +200644,8 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "043-201-5392",
-          "dist": 153,
-          "walkMin": 2
+          "dist": 98,
+          "walkMin": 1
         },
         {
           "name": "공한지주차장",
@@ -200656,7 +200656,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "043-201-5392",
-          "dist": 199,
+          "dist": 184,
           "walkMin": 3
         }
       ]
@@ -205252,9 +205252,9 @@
     "sido": "강원",
     "sigungu": "강릉시",
     "address": "강원특별자치도 강릉시 연곡면 영진리",
-    "lat": 37.8678206084197,
-    "lng": 128.848369678782,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/49/2494949_image2_1.jpg",
+    "lat": 37.8678206084,
+    "lng": 128.8483696788,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/73/4120473_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -211929,9 +211929,9 @@
     "category": "관광지",
     "sido": "강원",
     "sigungu": "강릉시",
-    "address": "강원특별자치도 강릉시 강동면 정동역길 17",
-    "lat": 37.691360328107315,
-    "lng": 129.0325745067553,
+    "address": "강원특별자치도 강릉시 강동면 정동진리 303-1",
+    "lat": 37.6913603281,
+    "lng": 129.0325745068,
     "image": "https://tong.visitkorea.or.kr/cms/resource/82/3534482_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -212778,8 +212778,8 @@
     "sido": "강원",
     "sigungu": "강릉시",
     "address": "강원특별자치도 강릉시 주문진읍 주문북로 210",
-    "lat": 37.9105787154618,
-    "lng": 128.818821192809,
+    "lat": 37.9105787155,
+    "lng": 128.8188211928,
     "image": "",
     "tel": "",
     "official": false,
@@ -215125,9 +215125,9 @@
     "sido": "충북",
     "sigungu": "충주시",
     "address": "충청북도 충주시 동량면 함암리",
-    "lat": 36.958149471,
-    "lng": 128.0400201677,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/95/3560695_image2_1.JPG",
+    "lat": 36.9581,
+    "lng": 128.04,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/95/3560695_image2_1.JPG",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -217605,7 +217605,7 @@
     "address": "강원특별자치도 동해시 한섬해안길 9",
     "lat": 37.521156939,
     "lng": 129.1217403068,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/34/3353534_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource_photo/12/3389212_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -218624,8 +218624,8 @@
     "sido": "경기",
     "sigungu": "포천시",
     "address": "경기도 포천시 신북면 청신로947번길 51",
-    "lat": 37.966180805650396,
-    "lng": 127.13347323937533,
+    "lat": 37.9661808057,
+    "lng": 127.1334732394,
     "image": "https://tong.visitkorea.or.kr/cms/resource/47/3575647_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -218849,7 +218849,7 @@
     "address": "경북 포항시 남구 호미곶면 대보리",
     "lat": 36.076781,
     "lng": 129.56797,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/52/4056752_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource_photo/60/4078660_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -223945,9 +223945,9 @@
     "sido": "울산",
     "sigungu": "중구",
     "address": "울산광역시 중구 태화동 667 태화강 국가정원 안내센터",
-    "lat": 35.5487747405,
-    "lng": 129.2911995498,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/01/3565101_image2_1.jpg",
+    "lat": 35.5469,
+    "lng": 129.2932,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/01/3565101_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -223965,17 +223965,29 @@
     "transit": {
       "stops": [
         {
-          "name": "시티버스-태화강국가정원(오산광장)",
-          "dist": 131,
-          "walkMin": 2
+          "name": "시티버스-태화강전망대(태화강 동굴피아)",
+          "dist": 267,
+          "walkMin": 4
         },
         {
           "name": "전원타운",
-          "dist": 171,
-          "walkMin": 3
+          "dist": 298,
+          "walkMin": 4
         }
       ],
       "parking": [
+        {
+          "name": "태화강국가정원",
+          "se": "공영",
+          "type": "노상",
+          "cap": 253,
+          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 6,000원",
+          "hours": "13:00~19:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "052-290-7637",
+          "dist": 639,
+          "walkMin": 10
+        },
         {
           "name": "태화강국가정원5",
           "se": "공영",
@@ -223985,8 +223997,8 @@
           "hours": "09:00~19:00",
           "days": "평일+토요일+공휴일",
           "tel": "052-290-7637",
-          "dist": 564,
-          "walkMin": 8
+          "dist": 832,
+          "walkMin": 12
         },
         {
           "name": "태화강국가정원2",
@@ -223997,20 +224009,8 @@
           "hours": "09:00~19:00",
           "days": "평일+토요일+공휴일",
           "tel": "052-290-7637",
-          "dist": 564,
-          "walkMin": 8
-        },
-        {
-          "name": "태화강국가정원3",
-          "se": "공영",
-          "type": "노외",
-          "cap": 69,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "052-290-7637",
-          "dist": 564,
-          "walkMin": 8
+          "dist": 832,
+          "walkMin": 12
         }
       ]
     }
@@ -232551,9 +232551,9 @@
     "sido": "서울",
     "sigungu": "성동구",
     "address": "서울특별시 성동구 왕십리로10길 6 (성수동1가)",
-    "lat": 37.5467355255,
-    "lng": 127.0453238283,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/41/2894941_image2_1.jpg",
+    "lat": 37.5466832599,
+    "lng": 127.0453098947,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/41/2894941_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -232574,18 +232574,18 @@
         "lines": [
           "2호선"
         ],
-        "dist": 191,
+        "dist": 193,
         "walkMin": 3
       },
       "stops": [
         {
           "name": "성동구민종합체육센터",
-          "dist": 75,
+          "dist": 72,
           "walkMin": 1
         },
         {
           "name": "뚝섬역8번출구",
-          "dist": 108,
+          "dist": 114,
           "walkMin": 2
         }
       ]

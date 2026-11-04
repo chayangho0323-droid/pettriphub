@@ -2,12 +2,12 @@
  "https://www.sunchang.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://res.knps.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://res.knps.or.kr/"
  },
  "https://tour.ulsan.go.kr/kor/unit/attrctn/view.ulsan?mId=001002001000000000&page=1&searchDvsn1=A&picPrsId=&searchType3=&searchType1=&searchTxt=&unqId=2": {
@@ -18,7 +18,9 @@
  "https://www.ulju.ulsan.kr/tour/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://tour.paju.go.kr/user/tour/": {
   "state": "dead",
@@ -28,7 +30,9 @@
  "https://www.ulju.ulsan.kr/bulgogi/contents.do?mId=0401000000": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.wonju.go.kr/tour원주시": {
   "state": "dead",
@@ -38,7 +42,7 @@
  "https://www.miryang.go.kr/tur/EgovTourDetail.do?nmtIdx=38&mnNo=10301010000": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gyeongju.go.kr/tour/page.do?cmd=2&mnu_uid=2294&area_uid=160": {
   "state": "dead",
@@ -48,17 +52,17 @@
  "https://visitgangneung.net/pub": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.taean.go.kr/prog/tursmCn/tour/sub02_03/view.do?cntno=15&contentTypeCode=TC002": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://visitgangneung.net/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.geochang.go.kr": {
   "state": "dead",
@@ -80,53 +84,53 @@
  "https://www.ex-police.or.kr/data/heros.php?ptype=view&idx=22890&page=5&code=heros": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://camp.yjcf.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://camp.yjcf.or.kr/"
  },
  "https://www.ganghwa.go.kr/open_content/tour/trip/storywalk.jsp": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://dforest.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.dforest.co.kr/"
  },
  "https://www.ulsan.go.kr/tour/kor/unit/attrctn/view.do?mId=001002007000000000&unqId=109": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.ganghwa.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.ganghwa.go.kr/open_content/main/"
  },
  "https://www.ganghwa-resort.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.ganghwa.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.ganghwa.go.kr/open_content/main/",
-  "suspect": true,
-  "lastError": "20"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.ganghwa.go.kr/open_content/main/"
  },
  "http://www.jeondeungsa.org": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.geochang.go.kr/": {
   "state": "dead",
@@ -137,13 +141,15 @@
  "http://www.gaehwapark.co.kr/default/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.ulsannamgu.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.ulsannamgu.go.kr/easyMain/mainPage.do"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.ulsannamgu.go.kr/easyMain/mainPage.do",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.geochang.go.kr/ssd/": {
   "state": "dead",
@@ -154,18 +160,18 @@
  "https://www.gyeongju.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.gyeongju.go.kr/tour/"
  },
  "https://www.gyeongju.go.kr/tour/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://itour.incheon.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gyeongju.go.kr/tour/page.do?cmd=2&mnu_uid=2517&chaNo=3270": {
   "state": "dead",
@@ -175,7 +181,7 @@
  "http://www.gyeongju.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.gyeongju.go.kr/tour/"
  },
  "http://www.gyeongju.go.kr/tour상상": {
@@ -191,17 +197,17 @@
  "https://www.gunsan.go.kr/tour/m2099/view/433883?": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://nonsan.go.kr/tour/html/sub02/0201.html?mode=V&mng_no=166&sch_gubun=&sch_category=&orderby=hit&sch_dong=&sch_word=&sch_season=&sch_member=&sch_place=&skey=title&sval=%EB%82%B4%EB%8B%A4%EB%A6%AC&GotoPage=17": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://gyeongju.go.kr/gyochon": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://gyeongju.go.kr/gyochon/"
  },
  "http://gyeryong.knps.or.kr": {
@@ -218,19 +224,19 @@
  "http://www.bulguksa.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.bulguksa.or.kr/"
  },
  "https://www.ggtour.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://ggtour.or.kr/main"
  },
  "https://www.cultureexpo.or.kr/open.content/ko/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.geochang.go.kr/tour": {
   "state": "dead",
@@ -241,7 +247,7 @@
  "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000018443": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.wanggok.kr": {
   "state": "ok",
@@ -252,7 +258,7 @@
  "https://www.gochang.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.gochang.go.kr/index.gochang"
  },
  "https://tour.ulsan.go.kr/kor/unit/attrctn/view.ulsan?mId=001002001000000000&unqId=7": {
@@ -263,13 +269,15 @@
  "http://www.hantangeopark.kr/bbs/content.php?co_id=sight_01_04": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.hantangeopark.kr/bbs/content.php?co_id=sight_01_04"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.hantangeopark.kr/bbs/content.php?co_id=sight_01_04",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://www.namgu.gwangju.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.namgu.gwangju.kr/"
  },
  "https://www.haman.go.kr/tour.web국가유산청": {
@@ -292,48 +300,54 @@
  "https://tour.asan.go.kr/tour/develop/m_tour/?m_mode=view&pds_no=2019111514554808010": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.damyang.go.kr/tour/index.damyang": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://gyeryong.go.kr/tour/html/sub02/0206.html": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://gwangyang.go.kr/menu.es?mid=a31201020000": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.yeosu.go.kr/tour/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.pcfmc.or.kr/facilities05": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tour.yangyang.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.visitjeju.net": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.visitjeju.net/en"
  },
  "https://www.cuc.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.cuc.or.kr/"
  },
  "https://www.guri.go.kr/culture": {
@@ -344,7 +358,7 @@
  "https://www.kh.or.kr/visit/kor/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gangjin.go.kr/culture": {
   "state": "dead",
@@ -367,18 +381,18 @@
  "https://www.foresttrip.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.foresttrip.go.kr/"
  },
  "https://www.goseong.go.kr/tour": {
   "state": "unknown",
   "status": 400,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.gukchae.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.gukchae.com/"
  },
  "https://tour.pc.go.kr/Home": {
@@ -395,15 +409,13 @@
  "https://tour.hscity.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://tour.hscity.go.kr/",
-  "suspect": true,
-  "lastError": "20"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://tour.hscity.go.kr/"
  },
  "https://www.gunsan.go.kr/tour/m2098/view/305357": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.kumkangsa.or.kr/": {
   "state": "ok",
@@ -420,12 +432,12 @@
  "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=0103": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.pohang.go.kr/phtour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.pohang.go.kr/phtour/"
  },
  "https://tour.daegu.go.kr/index.do": {
@@ -436,17 +448,17 @@
  "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=0196": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.pohang.go.kr/phtour/wmap/tourInformation/view.do?menu_idx=104&tour_info_idx=751": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://blog.naver.com/feelkkot": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gwgs.go.kr/tour/": {
   "state": "ok",
@@ -456,51 +468,52 @@
  "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000019460": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.taean.go.kr/tour.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.taean.go.kr/tour.do"
  },
  "http://gyeongju.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://gyeongju.go.kr/tour/"
  },
  "https://www.yw.go.kr/tour/selectTourCntntsWebView.do?key=562&ctgry=8&tourNo=5": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.taean.go.kr/prog/tursmCn/tour/sub02_03/view.do?cntno=18&searchCondition=title&searchKeyword=%EA%BE%B8%EC%A7%80%EB%82%98%EB%AC%B4%EA%B3%A8%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5&contentTypeCode=TC002": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gimpo.go.kr/culture/selectTourCntntsWebView.do?tourNo=383&pageUnit=8&pageIndex=1&searchCnd=all&key=6838&ctgry=9&sortTy=RECOMEND": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/jeju_dsr2180/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjeju_dsr2180%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.naju.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.naju.go.kr/"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.naju.go.kr/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://parks.seoul.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://parks.seoul.go.kr/"
  },
  "http://tour.gb.go.kr/": {
@@ -516,14 +529,16 @@
  "https://www.visitbusan.net/kr/index.do?menuCd=DOM_000000201001001000&uc_seq=377&lang_cd=ko": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.visitbusan.net/kr/index.do?menuCd=DOM_000000201001001000&uc_seq=377&lang_cd=ko"
  },
  "https://www.bukgu.ulsan.kr/lay1/S1T203C2168/contents.do#touratt5": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.bukgu.ulsan.kr/lay1/S1T203C2168/contents.do"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.bukgu.ulsan.kr/lay1/S1T203C2168/contents.do",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.sancheong.go.kr/tour/": {
   "state": "dead",
@@ -539,52 +554,51 @@
  "https://www.gimje.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.gimje.go.kr/index.gimje"
  },
  "https://www.durunubi.kr/4-2-1-1-walk-mobility-view-detail.do?crs_idx=T_CRS_MNG0000003086": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.sangju.go.kr/tour/page/15177/100045.tc": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.ulju.ulsan.kr/tour/tursm/view.do?category=nature&mId=0102000000&idx=107": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.instagram.com/nhtopialand": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnhtopialand&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://nodeul.org/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://남해독일마을.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "http://xn--q20b22d63gstp7hax35e.com/",
-  "suspect": true,
-  "lastError": "fetch failed"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "http://xn--q20b22d63gstp7hax35e.com/"
  },
  "http://www.norimae.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.ffestival.co.kr/main": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.ffestival.co.kr/main"
  },
  "https://koreadmz.kr/geopark/": {
@@ -596,44 +610,44 @@
  "http://hanokmaeul.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://hanokmaeul.co.kr/"
  },
  "https://www.visitjeju.net/kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.nyj.go.kr/culture": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.nyj.go.kr/culture/",
-  "suspect": true,
-  "lastError": "20"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.nyj.go.kr/culture/"
  },
  "https://www.visitbusan.net/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.visitbusan.net/index.do"
  },
  "https://namisum.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.namisum.com/"
  },
  "https://www.damyang.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.damyang.go.kr/"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.damyang.go.kr/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://tour.chungbuk.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://tour.chungbuk.go.kr/"
  },
  "http://tour.damyang.go.kr문화재청": {
@@ -643,15 +657,14 @@
   "error": "fetch failed"
  },
  "https://www.instagram.com/dal_bid/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdal_bid%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.borinara.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://borinara.co.kr/"
  },
  "http://www.danyang.go.kr/tour": {
@@ -663,17 +676,18 @@
  "https://skyranch.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://nijimori.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.jung.daegu.kr/new/opentour/pages/sub/page.html?mc=1747": {
-  "state": "unknown",
-  "status": 400,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "state": "dead",
+  "status": 0,
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "error": "20"
  },
  "https://www.daegu.go.kr": {
   "state": "ok",
@@ -684,23 +698,22 @@
  "https://www.donggu.go.kr/dg/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/dabdani_sugug/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdabdani_sugug%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.saha.go.kr/tour/contents.do?mId=0609000000": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.daeseongsa.org/": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tour.ulsan.go.kr/kor/unit/attrctn/view.ulsan?mId=001002001000000000&page=1&searchDvsn1=A&picPrsId=&searchType3=&searchType1=&searchTxt=&unqId=8": {
   "state": "dead",
@@ -711,38 +724,42 @@
  "https://blog.naver.com/gulbw": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://daewangam.donggu.ulsan.kr/Pgswaybridge.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://daecheonbeach.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://daewangam.donggu.ulsan.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://metaprovence.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://metaprovence.co.kr/"
  },
  "https://www.dh.go.kr/tour/selectTourCntntsWebView.do?key=1620&ctgryNo=4&tourNo=52": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.donggu.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.donggu.go.kr/"
  },
  "https://www.sokcho.go.kr": {
@@ -754,56 +771,59 @@
  "https://tour.yd.go.kr/kor/sight/sightView.aspx?idx=248": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.visitjeju.net/u/EuX": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.thestayhealingpark.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/dog_sporsium": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdog_sporsium&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.yeosu.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.yeosu.go.kr/tour/intro_2026.html"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.yeosu.go.kr/tour/intro_2026.html",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.alpacajeju.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.alpacajeju.com/"
  },
  "https://dogdogpethotel.imweb.me/index": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.daejeon.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.daejeon.go.kr/"
  },
  "https://www.yeosu.go.kr/tour/leisure/bambada/gun_carriage": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.samcheok.go.kr/tour/01456/01466/02200.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.namhae.go.kr/": {
   "state": "dead",
@@ -812,10 +832,9 @@
   "error": "20"
  },
  "https://www.instagram.com/camelia.forest": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcamelia.forest&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tour.daegu.go.kr": {
   "state": "ok",
@@ -832,49 +851,47 @@
  "https://hspark.hscity.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.lwt.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.lwt.co.kr/"
  },
  "https://tour.paju.go.kr/user/tour/place/BD_tourPlaceInfoView.do?menuCode=4&cntntsSn=69": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.ddp.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.ddp.or.kr//?menuno=228"
  },
  "http://www.soswaewon.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://soswaewon.co.kr/",
-  "suspect": true,
-  "lastError": "20"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://soswaewon.co.kr/"
  },
  "https://ddp.or.kr/?menuno=304": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.ddp.or.kr//?menuno=304"
  },
  "https://tour.paju.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://tour.paju.go.kr/user/tour/main/index.do"
  },
  "http://deungdaebeach.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.taean.go.kr/prog/tursmCn/tour/sub02_03/view.do?cntno=26&contentTypeCode=TC002": {
   "state": "ok",
@@ -884,19 +901,18 @@
  "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500150": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000019594": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.boeun.go.kr/tour/prog/tursmSghts/main/sub02/01/view.do?sghtsNo=61": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "suspect": true,
-  "lastError": "20"
+  "state": "dead",
+  "status": 0,
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "error": "20"
  },
  "https://www.gangwon.to/gwtour": {
   "state": "dead",
@@ -913,18 +929,20 @@
  "https://www.samcheok.go.kr/tour/01456/01466/02201.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=220": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.ulju.ulsan.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.ulju.ulsan.kr/tour/"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.ulju.ulsan.kr/tour/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://tour.geoje.go.kr/": {
   "state": "dead",
@@ -940,21 +958,21 @@
  "http://www.mazeland.co.kr": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.hongcheon.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.hongcheon.go.kr/hongcheon_intro_new/intro.html"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.hongcheon.go.kr/hongcheon_intro_new/intro.html",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.junggu.seoul.kr/tour/content.do?cmsid=14818&sf_category1=CWS1325&mode=view&page=&cid=98087638": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.junggu.seoul.kr/tour/content.do?cmsid=14818&sf_category1=CWS1325&mode=view&page=&cid=98087638",
-  "suspect": true,
-  "lastError": "fetch failed"
+  "state": "dead",
+  "status": 0,
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "error": "fetch failed"
  },
  "http://tour.muan.go.krhttps://www.heritage.go.kr": {
   "state": "dead",
@@ -965,7 +983,7 @@
  "http://www.jejumarado.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.jejumarado.com/"
  },
  "https://www.gwgs.go.kr/prog/tursmCn/tour/sub02_02/view.do?cntno=70": {
@@ -976,23 +994,23 @@
  "https://www.yeongju.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://opentour.gtdc.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://opentour.gtdc.or.kr/"
  },
  "http://munam.cheongju.go.kr/index.jsp": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tour.muju.go.kr/tour/selectTourCntntsDetail.do?key=512&tourNo=286": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tour.geoje.go.kr/user/smarttour/view.geoje?basicSid=19&tourFoodStyle=A01&menuCd=DOM_000008503001000000&pageIndex=1&searchType=BASIC_TITLE&basicSection2=&searchKeyword=": {
   "state": "dead",
@@ -1009,7 +1027,7 @@
  "http://tour.muju.go.kr/bandiland/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://tour.muju.go.kr/bandiland/index.do"
  },
  "https://www.namhae.go.kr/tour/": {
@@ -1021,14 +1039,12 @@
  "http://www.moochangpo.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "suspect": true,
-  "lastError": "fetch failed"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gimpo.go.kr/culture/selectTourCntntsWebView.do?key=6837&ctgry=8&tourNo=374": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.iksan.go.kr/tour/index.iksan": {
   "state": "dead",
@@ -1038,13 +1054,13 @@
  "https://www.miryang.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.miryang.go.kr/"
  },
  "https://blog.naver.com/psj-park": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://banryeomaru.kr공식": {
   "state": "dead",
@@ -1053,29 +1069,28 @@
   "error": "fetch failed"
  },
  "https://www.instagram.com/millac_the_market_official": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmillac_the_market_official&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.yw.go.kr/tour/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.jeongseon.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.jeongseon.go.kr/tour",
-  "suspect": true,
-  "lastError": "20"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.jeongseon.go.kr/tour"
  },
  "https://www.pyeongtaek.go.kr/camp/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.pyeongtaek.go.kr/camp/main.do"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.pyeongtaek.go.kr/camp/main.do",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://tour.ulsan.go.kr/kor/unit/attrctn/view.ulsan?mId=001002001000000000&unqId=18": {
   "state": "dead",
@@ -1085,22 +1100,24 @@
  "https://www.korail.com/tour/touristIntor/tourBeltIntor/baegdu": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.suwon.go.kr/web/visitsuwon/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.gbgs.go.kr/tour/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.taean.go.kr/prog/tursmCn/tour/sub02_04_12/view.do?cntno=54": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.suyeong.go.kr/tour/": {
   "state": "dead",
@@ -1117,8 +1134,10 @@
  "https://www.hantangeopark.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.hantangeopark.kr/"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.hantangeopark.kr/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://tour.gb.go.kr/travel/natureView.do?idx=6026": {
   "state": "dead",
@@ -1133,13 +1152,13 @@
  "http://hangang.seoul.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://hangang.seoul.go.kr/"
  },
  "https://tour.pc.go.kr/Home/H20000/H20200/placeDetail?place_no=73&viewType=gallery&curationGroup=1&page=1&pageSize=12&search_column=1&search_keyword=%EB%A7%89%EB%8F%99%EA%B3%84%EA%B3%A1&order_column=1&place_type=12": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gyeongju.go.kr/tour/page.do?cmd=2&mnu_uid=2291&area_uid=27": {
   "state": "dead",
@@ -1149,8 +1168,10 @@
  "http://tour.yeonggwang.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.yeonggwang.go.kr/"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.yeonggwang.go.kr/",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://cms.seantour.com": {
   "state": "dead",
@@ -1158,49 +1179,50 @@
   "checkedAt": "2026-11-03T03:04:50.491Z"
  },
  "https://www.instagram.com/boromwat_/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fboromwat_%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://daebuecotour.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.jinan.go.kr/tour/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.jinan.go.kr/tour/index.jtour"
  },
  "https://www.visitbusan.net/kr/index.do?menuCd=DOM_000000201001001000&uc_seq=286&lang_cd=ko": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.visitbusan.net/kr/index.do?menuCd=DOM_000000201001001000&uc_seq=286&lang_cd=ko"
  },
  "http://www.gamcheon.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.gamcheon.or.kr/"
  },
  "http://busanaircruise.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://busanaircruise.co.kr/main/main.html"
  },
  "https://www.mokpo.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.ariihills.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.ariihills.co.kr/"
  },
  "https://bschildpark.bisco.or.kr/bschildpark/": {
@@ -1217,55 +1239,55 @@
  "http://www.tourandong.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.tourandong.com/public/"
  },
  "http://www.ulsanforest.kr": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.yeosu.go.kr/tour/travel/info_each_area?mode=view&idx=530": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://hanok.seoul.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://hanok.seoul.go.kr/front/kor/town/town01.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.knps.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/b__b_garden": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fb__b_garden&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/secretforest75": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsecretforest75&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tour.ihc.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://korean.visitseoul.net/attractions/%EB%B6%81%EC%95%85%EC%8A%A4%EC%B9%B4%EC%9D%B4%EC%9B%A8%EC%9D%B4-%ED%8C%94%EA%B0%81%EC%A0%95/KOP011117": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=200596": {
   "state": "dead",
@@ -1282,7 +1304,7 @@
  "https://www.visitjeju.net/kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://visitgangneung.net사천해수욕장": {
   "state": "dead",
@@ -1299,7 +1321,9 @@
  "https://www.djjunggu.go.kr/hyo/sub03_01_01.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.sunchang.go.kr/tour/board/view.sunchang?menuCd=DOM_000000402003002000&boardId=BBS_0000006&dataSid=72": {
   "state": "dead",
@@ -1309,7 +1333,7 @@
  "https://www.miryang.go.kr/tur/EgovTourDetail.do?nmtIdx=49&mnNo=10302090000": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.bisco.or.kr/": {
   "state": "dead",
@@ -1320,24 +1344,25 @@
  "https://www.gwangju.go.kr/envi/contentsView.do?pageId=envi35": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/sanyang_keunkot/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsanyang_keunkot%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://donguibogam-village.sancheong.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://ydstay.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://ydstay.kr/"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://ydstay.kr/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.gn.go.kr/tour/index.do": {
   "state": "ok",
@@ -1348,18 +1373,18 @@
  "http://www.sejonghaeun.com/fare/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.sanigarden.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://sanigarden.com/"
  },
  "http://blog.naver.com/hl2dyu": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://blog.naver.com/NBlogTop.naver?isHttpsRedirect=true&blogId=hl2dyu"
  },
  "https://www.samcheok.go.kr/tour/삼척": {
@@ -1383,12 +1408,12 @@
  "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?pageNo=1_1_1_1&sngl=Y&ccbaCpno=1123820930000": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.donggu.go.kr/dg/tour/229/4/sights": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.visitjeju.net": {
   "state": "ok",
@@ -1399,19 +1424,19 @@
  "https://www.nowon.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.nowon.kr/www/index.do"
  },
  "https://www.ssssd.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.ssssd.or.kr/"
  },
  "http://www.sghland.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.iksan.go.kr/tour/board/view.iksan?boardId=BBS_TOUR_TOUR&menuCd=DOM_000005901001000000&dataSid=263685": {
   "state": "dead",
@@ -1433,13 +1458,15 @@
  "https://www.songpa.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.songpa.go.kr/"
  },
  "https://www.ulju.ulsan.kr/tour/travel/travel/5/44": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.buyeo.go.kr/html/tour/국가유산청": {
   "state": "dead",
@@ -1449,7 +1476,7 @@
  "https://www.songpa.go.kr/culture/contents.do?key=3851&": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://parks.seoul.go.kr/template/sub/seoullo7017.do": {
   "state": "dead",
@@ -1459,24 +1486,24 @@
  "https://parks.seoul.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.seoulup.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.seoulup.or.kr/"
  },
  "http://taean.go.kr/prog/tursmCn/tour/sub02_03/view.do?cntno=32&contentTypeCode=TC002": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://taean.go.kr/prog/tursmCn/tour/sub02_03/view.do?cntno=32&contentTypeCode=TC002"
  },
  "http://xn--o39am5bv7vomeopa05vdxb.gajagaja.co.kr/#none": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://xn--o39am5bv7vomeopa05vdxb.gajagaja.co.kr/"
  },
  "http://www.seocheon.go.kr/tour": {
@@ -1487,24 +1514,26 @@
  "http://www.korail.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.korail.com/"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.korail.com/",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://www.ggtour.or.kr/travel-info/tourism-info/725e845f-746a-11ee-b910-0242ac120002": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://korean.visitseoul.net": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://korean.visitseoul.net/"
  },
  "https://www.songpa.go.kr/culture": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.songpa.go.kr/culture/"
  },
  "https://www.icjg.go.kr/tour/cttu0107a03#section2": {
@@ -1522,24 +1551,24 @@
  "http://www.spiritedgarden.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.spiritedgarden.com/"
  },
  "https://korean.visitseoul.net/area/%EC%84%9C%EB%9E%98%EB%A7%88%EC%9D%84/KOP011082": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.seoknamsa.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.seoknamsa.or.kr/"
  },
  "https://www.seocheon.go.kr/healing/index.do?S=S01": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.cwg.go.kr/tour/": {
   "state": "dead",
@@ -1550,8 +1579,10 @@
  "https://park.miryang.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://park.miryang.go.kr/park/_Web/"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://park.miryang.go.kr/park/_Web/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.cwg.go.kr": {
   "state": "dead",
@@ -1562,44 +1593,42 @@
  "http://www.paleozoicgp.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://선재체험마을.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://xn--hz2b97k1of3lax1sflp.com/"
  },
  "http://tour.yangyang.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://tour.yangyang.go.kr/"
  },
  "https://www.sj.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.sj.go.kr/tour/"
  },
  "https://www.jeju.go.kr/seongeup/index.htm": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.seomigarden.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.seomigarden.com/page/index.html"
  },
  "https://www.icheon.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.icheon.go.kr/tour/main.do",
-  "suspect": true,
-  "lastError": "20"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.icheon.go.kr/tour/main.do"
  },
  "https://www.seongnam.go.kr/tour/tourVenue/tourVenueView.do?idx=42&menuIdx=1002457&division=G": {
   "state": "dead",
@@ -1615,7 +1644,7 @@
  "https://www.ecocatholic.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.ecocatholic.co.kr/"
  },
  "http://www.seoulland.co.kr/": {
@@ -1627,17 +1656,17 @@
  "https://www.sjfmc.or.kr/sjpark/sub01_01_01.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500343": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://sodolbeach.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.insiseol.or.kr/park/": {
   "state": "dead",
@@ -1658,29 +1687,29 @@
  "https://www.chuncheon.go.kr/tour/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://visitgangneung.net": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://visitgangneung.net/"
  },
  "http://sorae-pogu.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.visitjeju.net/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.visitjeju.net/en"
  },
  "http://liaf.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://liaf.kr/"
  },
  "https://www.slc.or.kr/인천투어": {
@@ -1691,7 +1720,7 @@
  "https://soomyland.com/main/main.php": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.suseong.kr/tour/": {
   "state": "dead",
@@ -1701,13 +1730,15 @@
  "https://www.bukgu.ulsan.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.bukgu.ulsan.kr/index.do"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.bukgu.ulsan.kr/index.do",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.cheongju.go.kr/ktour/selectClturCntnts2019View.do?key=20328&clturCntntsNo=2080&clturCode=12&pageUnit=8": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.hanriver.or.kr/ecology/33110_info1.php": {
   "state": "dead",
@@ -1722,12 +1753,14 @@
  "https://www.bucheon.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.incheon.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.incheon.go.kr/index"
  },
  "https://koreadmz.kr/geopark": {
@@ -1739,7 +1772,7 @@
  "http://www.suanbo.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.suanbo.or.kr/"
  },
  "http://www.sunchang.go.kr/tour/index.sunchang?menuCd=DOM_000000401001003000": {
@@ -1751,7 +1784,7 @@
  "https://www.soonsusheepfarm.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.suncheon.go.kr/tour": {
   "state": "dead",
@@ -1762,13 +1795,13 @@
  "http://www.dolmenpark.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.dolmenpark.kr/"
  },
  "http://www.swcf.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.swcf.or.kr/"
  },
  "https://www.suncheon.go.kr/scanimal/0002/0002": {
@@ -1780,7 +1813,7 @@
  "http://www.somesevit.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.somesevit.co.kr/"
  },
  "http://www.suncheon.go.kr/nagan/": {
@@ -1804,7 +1837,7 @@
  "https://www.visitjeju.net/u/El5": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gyeongju.go.kr/tour/page.do?cmd=2&mnu_uid=2292&area_uid=71": {
   "state": "dead",
@@ -1821,7 +1854,7 @@
  "https://scbay.suncheon.go.kr/wetland": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://scbay.suncheon.go.kr/wetland/"
  },
  "https://www.suncheon.go.kr/tour/tourist/0009/0003/": {
@@ -1839,7 +1872,7 @@
  "https://www.heritage.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.hc.go.kr/06572/06703/06728.web?amode=view&idx=1261": {
   "state": "ok",
@@ -1857,7 +1890,7 @@
  "https://scbay.suncheon.go.kr/garden": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://scbay.suncheon.go.kr/garden/"
  },
  "http://www.hadong.go.kr/02640/02649/02758.web?amode=view&idx=1877": {
@@ -1869,18 +1902,17 @@
  "https://www.shsi.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/snoopygardenkorea": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsnoopygardenkorea&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.starfield.co.kr/bucheon/about.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.abai.co.kr속초": {
   "state": "dead",
@@ -1897,7 +1929,9 @@
  "https://www.jeongseon.go.kr/tour": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://www.gyeyang.go.kr": {
   "state": "dead",
@@ -1931,54 +1965,52 @@
  "http://cafe.naver.com/grayonhjj": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://cafe.naver.com/grayonhjj"
  },
  "http://www.apsan-cablecar.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "http://www.apsan-cablecar.co.kr/",
-  "suspect": true,
-  "lastError": "fetch failed"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "http://www.apsan-cablecar.co.kr/"
  },
  "https://anianpark.com/main/index.php": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.nyj.go.kr/rent/rent/application/index/2018/01/28/1/NYJ03/03": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.anyang.go.kr/tour/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.anyang.go.kr/tour/index.htm"
+  "checkedAt": "2026-11-04T01:16:20.138Z",
+  "final": "https://www.anyang.go.kr/tour/index.htm",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.insiseol.or.kr/main/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500413": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/yanglim_craft_street/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyanglim_craft_street%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/dash_yangyang": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdash_yangyang&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tour.yp21.go.kr/": {
   "state": "ok",
@@ -1986,10 +2018,9 @@
   "checkedAt": "2026-10-29T00:45:32.889Z"
  },
  "https://www.instagram.com/yangji_petpark": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyangji_petpark&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.ulju.ulsan.kr/tour/main.do": {
   "state": "ok",
@@ -2016,7 +2047,7 @@
  "https://visityangnim.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.yp21.go.kr/museumhub": {
   "state": "ok",
@@ -2027,20 +2058,18 @@
  "http://www.ygtour.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://www.ygtour.kr/Home/index"
  },
  "https://www.gn.go.kr/tour/prog/lod/Sights/S01/sub02_02_01/view.do?cid=920": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
-  "suspect": true,
-  "lastError": "20"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.gwangjin.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-28T00:23:20.145Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.gwangjin.go.kr/portal/main/main.do"
  },
  "http://www.yeosucablecar.com": {
@@ -5840,7 +5869,7 @@
  "https://bibonggil53.com/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-01T00:10:16.797Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "error": "fetch failed"
  },
  "https://www.cwg.go.kr/tour/contents.do?key=1823": {
@@ -9054,22 +9083,19 @@
   "checkedAt": "2026-11-03T03:04:50.491Z"
  },
  "https://www.instagram.com/cafe_hyeyoum": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_hyeyoum&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/nok.ne_coffee": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnok.ne_coffee&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/nontable_beomeo": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnontable_beomeo&is_from_rle"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://bit.ly/choijihye-ig": {
   "state": "ok",
@@ -9080,7 +9106,7 @@
  "https://blog.naver.com/dahong_yeonwha": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://pf.kakao.com/_txjbxcb": {
   "state": "ok",
@@ -9095,16 +9121,14 @@
   "final": "https://pf.kakao.com/_xjWAHn/chat"
  },
  "https://www.instagram.com/littlemanly_donuts": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flittlemanly_donuts&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/linnebake": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flinnebake&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://www.montbellshelter.co.kr": {
   "state": "ok",
@@ -9113,10 +9137,9 @@
   "final": "https://www.montbellshelter.co.kr/"
  },
  "https://www.instagram.com/bolshoihouse.cafe": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbolshoihouse.cafe&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://app.catchtable.co.kr/ct/shop/oisomoisam": {
   "state": "ok",
@@ -9129,16 +9152,14 @@
   "checkedAt": "2026-11-03T03:04:50.491Z"
  },
  "https://www.instagram.com/berryday.cake?igsh=NGkyOHJ0bjVyb3R5": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fberryday.cake%3Figsh%3DNGkyOHJ0bjVyb3R5&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/daegu_cafe_shine/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdaegu_cafe_shine%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://smartstore.naver.com/conticoffee": {
   "state": "unknown",
@@ -9153,37 +9174,32 @@
  "https://smartstore.naver.com/coffian": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/kaffaviva?igsh=MWNxbTFtbGkxY3lzYw%3D%3D&utm_source=qr": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkaffaviva%3Figsh%3DMWNxbTFtbGkxY3lzYw%253D%253D%26utm_source%3Dqr&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/poment_coffee?igsh=MXBkYzJmMHM2bmZ6Zg%3D%3D&utm_source=qr": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpoment_coffee%3Figsh%3DMXBkYzJmMHM2bmZ6Zg%253D%253D%26utm_source%3Dqr&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/coffee_____first": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcoffee_____first&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/__ppcf": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F__ppcf&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/pin_a_cafe?igsh=MWQxMmdvdjlwMjJqMQ%3D%3D&utm_source=qr": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpin_a_cafe%3Figsh%3DMWQxMmdvdjlwMjJqMQ%253D%253D%26utm_source%3Dqr&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.receiptcoffee.kr": {
   "state": "ok",
@@ -9192,190 +9208,168 @@
   "final": "https://www.receiptcoffee.kr/"
  },
  "https://www.instagram.com/isolotto.pizza/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fisolotto.pizza%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/aina_bakery_brunch_cafe": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faina_bakery_brunch_cafe&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://instagram.com/coffeeonsix?igshid=nnfaaxxkmril": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcoffeeonsix%3Figshid%3Dnnfaaxxkmril&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/kongeulgi_": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkongeulgi_&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://smartstore.naver.com/ginoskocoffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://dalseoppg.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://dalseoppg.com/"
  },
  "https://www.instagram.com/nongga_house": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnongga_house&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/darak_cafe.bar": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdarak_cafe.bar&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/the_keun_na_mu": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthe_keun_na_mu&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/delice_butter.cafe": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdelice_butter.cafe&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/camellia_lounge_?igsh=Z2lidjUxOGh3Y2k5": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcamellia_lounge_%3Figsh%3DZ2lidjUxOGh3Y2k5&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/rustic.fluffy": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frustic.fluffy&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/retreat_ridercafe": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fretreat_ridercafe&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://blog.naver.com/dreammarketing_/223906182816": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/maretable.modo": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmaretable.modo&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.receiptcoffee.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://tally.so/r/GxGKop": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/momoharu205": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmomoharu205&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://instagram.com/monimoni_galsan": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmonimoni_galsan&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/clamno1": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fclamno1&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://pf.kakao.com/_sxnATn/chat": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://pf.kakao.com/_sxnATn/chat"
  },
  "https://www.instagram.com/beethovenhaus_incheon": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbeethovenhaus_incheon&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://blog.naver.com/petcafe_monte": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/blanc_cafe.bar": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fblanc_cafe.bar&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/spring.library?igsh=ZXBla2x0dXF3Njlo&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fspring.library%3Figsh%3DZXBla2x0dXF3Njlo%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/cafe_bluvary": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_bluvary&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/cafe_bbangjogak": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_bbangjogak&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://youtube.com/육갈탕,특갈탕,매운소왕갈찜,스지모듬수육": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-10-30T00:50:31.788Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/s2_bagel_incheon": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fs2_bagel_incheon&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://diner.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://diner.kr/"
  },
  "https://www.instagram.com/sanbadacoffee": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsanbadacoffee&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/seowonangil": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fseowonangil&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/resting___puppy": {
   "state": "ok",
@@ -9384,16 +9378,14 @@
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fresting___puppy&is_from_rle"
  },
  "https://www.instagram.com/cafe.forest_night?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe.forest_night%3Figsh%3DOGQ5ZDc2ODk2ZA%253D%253D%26utm_source%3Dqr&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://instagram.com/kaffee_selloum": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkaffee_selloum&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/artos_caffe/": {
   "state": "ok",
@@ -9416,7 +9408,7 @@
  "https://youtube.com/@_dolmenbakery": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.youtube.com/@_dolmenbakery"
  },
  "https://www.instagram.com/azitro_cafe?igsh=a2ZiN3oyaXQ2YWM=": {
@@ -9428,14 +9420,13 @@
  "http://www.analyticsfn.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://www.analyticsfn.com/"
  },
  "http://www.instagram.com/bluechair_coffee/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbluechair_coffee%2F&is_from_rle"
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://www.instagram.com/ys.profilecoffeelab": {
   "state": "ok",
@@ -9488,17 +9479,17 @@
  "https://app.catchtable.co.kr/ct/shop/bbok_guwol": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "http://coconutz.kr/16887": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z"
+  "checkedAt": "2026-11-04T01:16:20.138Z"
  },
  "https://diner.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "http://diner.kr/"
  },
  "https://sirucake.com": {
@@ -9510,7 +9501,7 @@
  "http://www.reorderbox.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-27T00:20:56.206Z",
+  "checkedAt": "2026-11-04T01:16:20.138Z",
   "final": "https://reorderbox.co.kr/"
  },
  "https://insaengaguzzim.com/": {
