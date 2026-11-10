@@ -29,7 +29,7 @@ const FONT_LINK = `
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />`;
-const HEAD_COMMON = FONT_LINK + GA_SNIPPET + ADS_SNIPPET;
+const HEAD_COMMON = FONT_LINK + GA_SNIPPET; // 2026-11-10: 애드센스 로더는 분리 — 허브·가이드·지역 페이지는 항상, 장소 상세는 showAds(우리 글·소개·사진 있는 페이지)일 때만 (축제·캠핑과 같은 규칙)
 // 정적 파일 캐시 무력화 — 매일 빌드 날짜가 붙어 style.css 변경이 방문자에게 바로 반영됨
 const BUILD_VER = (() => { const d = new Date(Date.now() + 9 * 3600 * 1000); return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, "0")}${String(d.getUTCDate()).padStart(2, "0")}`; })();
 
@@ -129,7 +129,6 @@ function reviewsHtml(p) {
           ${r.items.map((it) => `<li>
             <a class="blog-review-link" target="_blank" rel="noopener nofollow" href="${esc(it.l)}"><strong>${esc(it.t)}</strong></a>
             <span class="review-meta">${esc(it.b)}${it.dt ? ` · ${fmtPostDate(it.dt)}` : ""}</span>
-            ${it.d ? `<p class="review-desc">${esc(it.d)}…</p>` : ""}
           </li>`).join("")}
         </ul>
         <div class="dir-buttons">
@@ -369,7 +368,17 @@ function listCard(p) {
 }
 
 // ─── 장소 한 곳 → 상세 페이지 ───
+// ── 색인·광고 등급 (2026-11-10 애드센스 사이트 추가 준비, 축제·캠핑과 동일 원칙) ──
+// own: 반려견 팁(PLACE_NOTES)·방문자 사진·제보 정정 = 우리만 가진 내용. 소개문(TourAPI)도 사진도 own도 없는 장소(식약처 명단만 있는 식당 다수)는
+// 구글만 색인 제외(googlebot noindex — 네이버 '지역+애견동반 식당' 유입은 유지)·광고 없음·sitemap.xml 제외. 광고는 own이 있거나 소개문이 있는 페이지에만.
+const placeOverviewLen = (p) => String(p.overview || "").replace(/<[^>]+>/g, "").trim().length;
+const placeOwn = (p) => !!(findPlaceNote(p) || (p.visitorPhotos && p.visitorPhotos.length) || p.corrected);
+const isLowValuePlace = (p) => !placeOwn(p) && placeOverviewLen(p) < 50 && !p.image;
+const placeShowAds = (p) => !isLowValuePlace(p) && (placeOwn(p) || placeOverviewLen(p) >= 50);
+
 function buildPage(p, all) {
+  const lowValue = isLowValuePlace(p);
+  const showAds = placeShowAds(p);
   const cat = catOf(p.category);
   // 제목·설명은 사람들이 실제로 검색하는 말에 맞춘다 (2026-09-21 네이버 검색어 분석:
   // 가게 이름만 검색하면 클릭률 0%, "OO 강아지출입"처럼 동반 의도가 붙은 검색은 50%).
@@ -574,6 +583,7 @@ function buildPage(p, all) {
   <title>${esc(title)} | ${SITE_NAME}</title>
   <meta name="description" content="${esc(description)}" />
   <link rel="canonical" href="${SITE_URL}/place/${p.id}.html" />
+  ${lowValue ? `<meta name="googlebot" content="noindex,follow" /><!-- 구글만 제외: 네이버 유입 유지 -->` : ""}
   <meta property="og:type" content="place" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
@@ -582,7 +592,7 @@ function buildPage(p, all) {
   <link rel="stylesheet" href="../style.css?v=${BUILD_VER}" />
   ${hasCoords ? `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>` : ""}
-  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>${HEAD_COMMON}
+  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>${HEAD_COMMON}${showAds ? ADS_SNIPPET : ""}
 </head>
 <body>
   <main class="detail-container">
@@ -606,7 +616,7 @@ function buildPage(p, all) {
       ${naverMissingNote}
       ${VP.galleryHtml(p.visitorPhotos, { name: p.name, href: reportMailto(p) })}
       ${photoCallHtml(p)}
-      ${ADFIT_BODY}
+      ${showAds ? ADFIT_BODY : ""}
       ${petSection}
       ${reviewsTop}
       ${nearbyTop}
@@ -662,7 +672,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:image" content="${SITE_URL}/og-image.png" />
-  <link rel="stylesheet" href="style.css?v=${BUILD_VER}" />${HEAD_COMMON}
+  <link rel="stylesheet" href="style.css?v=${BUILD_VER}" />${HEAD_COMMON}${ADS_SNIPPET}
 </head>
 <body>
   <header class="site-header">
@@ -772,7 +782,7 @@ for (const g of GUIDE_PAGES) {
   <meta property="og:title" content="${esc(g.title)}" />
   <meta property="og:description" content="${esc(g.desc)}" />
   <meta property="og:image" content="${SITE_URL}/og-image.png" />
-  <link rel="stylesheet" href="style.css?v=${BUILD_VER}" />${HEAD_COMMON}
+  <link rel="stylesheet" href="style.css?v=${BUILD_VER}" />${HEAD_COMMON}${ADS_SNIPPET}
 </head>
 <body>
   <header class="site-header">
@@ -802,7 +812,7 @@ const urls = [
   ...guideFiles.map((f) => `${SITE_URL}/${f}`),
   ...catFiles.map((f) => `${SITE_URL}/${f}`),
   ...regionFiles.map((f) => `${SITE_URL}/${f}`),
-  ...pets.map((p) => `${SITE_URL}/place/${p.id}.html`),
+  ...pets.filter((p) => !isLowValuePlace(p)).map((p) => `${SITE_URL}/place/${p.id}.html`), // 2026-11-10: 구글 noindex 페이지 제외
 ];
 fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join("\n")}\n</urlset>\n`, "utf-8");
 fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap-core.xml\nSitemap: ${SITE_URL}/sitemap.xml\n`, "utf-8");
