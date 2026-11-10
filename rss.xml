@@ -5,7 +5,31 @@
     <link>https://pettriphub.kr/</link>
     <description>강아지·고양이와 함께 갈 수 있는 전국 카페, 식당, 관광지, 숙소. 식약처 등록 업소 + 한국관광공사 동반여행지, 매일 자동 갱신</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Nov 2026 01:16:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 03:18:58 GMT</lastBuildDate>
+    <item>
+      <title>르쁘띠포즈 — 서울 광진구 애견동반 식당</title>
+      <link>https://pettriphub.kr/place/mk3f3ua.html</link>
+      <guid isPermaLink="true">https://pettriphub.kr/place/mk3f3ua.html</guid>
+      <pubDate>Mon, 09 Nov 2026 21:00:00 GMT</pubDate>
+      <category>식당</category>
+      <description>서울 광진구에 있는 반려동물 동반 식당 (식약처 반려동물 동반출입 음식점 등록 업소). 서울특별시 광진구 아차산로78길 169(인스타빌딩 1층 광장동)</description>
+    </item>
+    <item>
+      <title>일상사 — 경기 과천시 애견동반 식당</title>
+      <link>https://pettriphub.kr/place/mbpf59g.html</link>
+      <guid isPermaLink="true">https://pettriphub.kr/place/mbpf59g.html</guid>
+      <pubDate>Mon, 09 Nov 2026 21:00:00 GMT</pubDate>
+      <category>식당</category>
+      <description>경기 과천시에 있는 반려동물 동반 식당 (식약처 반려동물 동반출입 음식점 등록 업소). 경기도 과천시 과천대로7길 33(디테크타워 상가B동 지1층 B111호 갈현동)</description>
+    </item>
+    <item>
+      <title>로버스(robbers) — 경기 광주시 애견동반 카페</title>
+      <link>https://pettriphub.kr/place/mdxtudz.html</link>
+      <guid isPermaLink="true">https://pettriphub.kr/place/mdxtudz.html</guid>
+      <pubDate>Mon, 09 Nov 2026 21:00:00 GMT</pubDate>
+      <category>카페</category>
+      <description>경기 광주시에 있는 반려동물 동반 카페 (식약처 반려동물 동반출입 음식점 등록 업소). 경기도 광주시 중앙로 147(1층 경안동)</description>
+    </item>
     <item>
       <title>오솔길 — 경기 화성시 애견동반 카페</title>
       <link>https://pettriphub.kr/place/m93vplw.html</link>
@@ -101,14 +125,6 @@
       <pubDate>Fri, 06 Nov 2026 21:00:00 GMT</pubDate>
       <category>식당</category>
       <description>경기 파주시에 있는 반려동물 동반 식당 (식약처 반려동물 동반출입 음식점 등록 업소). 경기도 파주시 지목로 68(파비뇽아울렛1동 A-101호 문발동)</description>
-    </item>
-    <item>
-      <title>르쁘띠포즈 — 서울 광진구 애견동반 식당</title>
-      <link>https://pettriphub.kr/place/m2rgv97.html</link>
-      <guid isPermaLink="true">https://pettriphub.kr/place/m2rgv97.html</guid>
-      <pubDate>Thu, 05 Nov 2026 21:00:00 GMT</pubDate>
-      <category>식당</category>
-      <description>서울 광진구에 있는 반려동물 동반 식당 (식약처 반려동물 동반출입 음식점 등록 업소). 서울특별시 광진구 아차산로78길 167(1층 광장동)</description>
     </item>
     <item>
       <title>드말리 베이커리 앤 다이닝 — 경기 하남시 애견동반 식당</title>
@@ -392,22 +408,6 @@
       <pubDate>Thu, 29 Oct 2026 21:00:00 GMT</pubDate>
       <category>식당</category>
       <description>경북 포항시에 있는 반려동물 동반 식당 (식약처 반려동물 동반출입 음식점 등록 업소). 경상북도 포항시 북구 양학천로 82(죽도동,1층)</description>
-    </item>
-    <item>
-      <title>네이처스 세븐(nature's seven) — 부산 해운대구 애견동반 식당</title>
-      <link>https://pettriphub.kr/place/mda59ak.html</link>
-      <guid isPermaLink="true">https://pettriphub.kr/place/mda59ak.html</guid>
-      <pubDate>Thu, 29 Oct 2026 21:00:00 GMT</pubDate>
-      <category>식당</category>
-      <description>부산 해운대구에 있는 반려동물 동반 식당 (식약처 반려동물 동반출입 음식점 등록 업소). 부산광역시 해운대구 마린시티2로 33(104동 139-1호 우동, 해운대두산위브더제니스)</description>
-    </item>
-    <item>
-      <title>아트스타 라운지 — 경기 안양시 애견동반 카페</title>
-      <link>https://pettriphub.kr/place/muws60s.html</link>
-      <guid isPermaLink="true">https://pettriphub.kr/place/muws60s.html</guid>
-      <pubDate>Thu, 29 Oct 2026 21:00:00 GMT</pubDate>
-      <category>카페</category>
-      <description>경기 안양시에 있는 반려동물 동반 카페 (식약처 반려동물 동반출입 음식점 등록 업소). 경기도 안양시 만안구 예술공원로 189(1층 일부호 안양동)</description>
     </item>
   </channel>
 </rss>

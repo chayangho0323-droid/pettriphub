@@ -3928,83 +3928,6 @@
     }
   },
   {
-    "id": "mx50a5p",
-    "name": "놀면뭐하개",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "서울",
-    "sigungu": "금천구",
-    "address": "서울특별시 금천구 남부순환로 1390(전영수내과의원 4층 독산동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.479839226041186,
-    "lng": 126.90521300567347,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260916",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "구로디지털단지",
-        "lines": [
-          "2호선"
-        ],
-        "dist": 691,
-        "walkMin": 10
-      },
-      "stops": [
-        {
-          "name": "모두의학교.금천문화예술정보학교",
-          "dist": 35,
-          "walkMin": 1
-        },
-        {
-          "name": "KT구로지사",
-          "dist": 49,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "독산3동",
-          "se": "공영",
-          "type": "노외",
-          "cap": 50,
-          "fee": "추가 5분 65원",
-          "hours": "09:00~18:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-809-0061",
-          "dist": 108,
-          "walkMin": 2
-        },
-        {
-          "name": "독산3동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 50,
-          "fee": "기본 5분 65원 · 추가 5분 65원",
-          "hours": "08:30~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-809-8571",
-          "dist": 110,
-          "walkMin": 2
-        },
-        {
-          "name": "조원동제1공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 108,
-          "fee": "기본 5분 250원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2081-2600",
-          "dist": 144,
-          "walkMin": 2
-        }
-      ]
-    }
-  },
-  {
     "id": "mf93bzh",
     "name": "누메로 뜨레쓰",
     "category": "식당",
@@ -6516,21 +6439,21 @@
     }
   },
   {
-    "id": "m2rgv97",
+    "id": "mk3f3ua",
     "name": "르쁘띠포즈",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "광진구",
-    "address": "서울특별시 광진구 아차산로78길 167(1층 광장동)",
+    "address": "서울특별시 광진구 아차산로78길 169(인스타빌딩 1층 광장동)",
     "official": true,
     "source": "mfds",
     "lat": null,
     "lng": null,
     "image": "",
     "tourId": "",
-    "photoTried": "20261106",
-    "addedAt": "20261106"
+    "photoTried": "20261110",
+    "addedAt": "20261110"
   },
   {
     "id": "mjtesos",
@@ -50215,83 +50138,6 @@
     }
   },
   {
-    "id": "mn5ebtr",
-    "name": "스트럿",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "부산",
-    "sigungu": "부산진구",
-    "address": "부산광역시 부산진구 동성로39번길 28(1층 전포동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 35.154106058799535,
-    "lng": 129.06682861952265,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260917",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "전포",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 176,
-        "walkMin": 3
-      },
-      "stops": [
-        {
-          "name": "전포1동주민센터",
-          "dist": 88,
-          "walkMin": 1
-        },
-        {
-          "name": "부산은행(전포역)",
-          "dist": 89,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "경남공고 뒤",
-          "se": "공영",
-          "type": "노상",
-          "cap": 27,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일",
-          "tel": "051-605-5886",
-          "dist": 306,
-          "walkMin": 5
-        },
-        {
-          "name": "하이빌 주변",
-          "se": "공영",
-          "type": "노상",
-          "cap": 12,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-607-6922",
-          "dist": 859,
-          "walkMin": 13
-        },
-        {
-          "name": "문현2동 주민센터 윗편",
-          "se": "공영",
-          "type": "노상",
-          "cap": 13,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-607-6922",
-          "dist": 1038,
-          "walkMin": 15
-        }
-      ]
-    }
-  },
-  {
     "id": "m4h7d5j",
     "name": "스트럿",
     "category": "식당",
@@ -50364,6 +50210,83 @@
           "tel": "051-749-4887",
           "dist": 82,
           "walkMin": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "mn5ebtr",
+    "name": "스트럿",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "부산",
+    "sigungu": "부산진구",
+    "address": "부산광역시 부산진구 동성로39번길 28(1층 전포동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 35.154106058799535,
+    "lng": 129.06682861952265,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260917",
+    "addedAt": "20260915",
+    "transit": {
+      "station": {
+        "name": "전포",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 176,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "전포1동주민센터",
+          "dist": 88,
+          "walkMin": 1
+        },
+        {
+          "name": "부산은행(전포역)",
+          "dist": 89,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "경남공고 뒤",
+          "se": "공영",
+          "type": "노상",
+          "cap": 27,
+          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
+          "hours": "08:00~20:00",
+          "days": "평일+토요일",
+          "tel": "051-605-5886",
+          "dist": 306,
+          "walkMin": 5
+        },
+        {
+          "name": "하이빌 주변",
+          "se": "공영",
+          "type": "노상",
+          "cap": 12,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-607-6922",
+          "dist": 859,
+          "walkMin": 13
+        },
+        {
+          "name": "문현2동 주민센터 윗편",
+          "se": "공영",
+          "type": "노상",
+          "cap": 13,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-607-6922",
+          "dist": 1038,
+          "walkMin": 15
         }
       ]
     }
@@ -72847,13 +72770,13 @@
     }
   },
   {
-    "id": "mjpr3nd",
+    "id": "m5oxplu",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -72886,13 +72809,13 @@
     }
   },
   {
-    "id": "m5oxplu",
+    "id": "mjpr3nd",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -108428,6 +108351,23 @@
     }
   },
   {
+    "id": "mbpf59g",
+    "name": "일상사",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "과천시",
+    "address": "경기도 과천시 과천대로7길 33(디테크타워 상가B동 지1층 B111호 갈현동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261110",
+    "addedAt": "20261110"
+  },
+  {
     "id": "mwoevx8",
     "name": "일품칼국수",
     "category": "식당",
@@ -122742,6 +122682,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "mdxtudz",
+    "name": "로버스(robbers)",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "경기",
+    "sigungu": "광주시",
+    "address": "경기도 광주시 중앙로 147(1층 경안동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261110",
+    "addedAt": "20261110"
   },
   {
     "id": "macofqu",
@@ -180995,9 +180952,9 @@
     "sido": "강원",
     "sigungu": "철원군",
     "address": "강원특별자치도 철원군 동송읍 태봉로 1825",
-    "lat": 38.1860265295,
-    "lng": 127.2869221163,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/67/3351667_image2_1.jpg",
+    "lat": 38.1859684995,
+    "lng": 127.2869037442,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/67/3351667_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -181016,7 +180973,7 @@
       "stops": [
         {
           "name": "고석정(정문)",
-          "dist": 310,
+          "dist": 315,
           "walkMin": 5
         }
       ]
@@ -184684,14 +184641,14 @@
   },
   {
     "id": "2783557",
-    "name": "남산순환나들길",
+    "name": "남산둘레길",
     "category": "관광지",
     "sido": "서울",
     "sigungu": "중구",
     "address": "서울특별시 중구 남산공원길 609 (예장동)",
-    "lat": 37.5549112997,
-    "lng": 126.9866844934,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/60/3458860_image2_1.jpg",
+    "lat": 37.5548575002,
+    "lng": 126.9866692456,
+    "image": "",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -184712,18 +184669,18 @@
         "lines": [
           "4호선"
         ],
-        "dist": 673,
+        "dist": 679,
         "walkMin": 10
       },
       "stops": [
         {
           "name": "남산케이블카.남산산책로입구",
-          "dist": 242,
+          "dist": 241,
           "walkMin": 4
         },
         {
           "name": "남산오르미",
-          "dist": 481,
+          "dist": 484,
           "walkMin": 7
         }
       ],
@@ -184737,7 +184694,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 261,
+          "dist": 262,
           "walkMin": 4
         },
         {
@@ -184749,7 +184706,7 @@
           "hours": "09:00~21:00",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 322,
+          "dist": 325,
           "walkMin": 5
         },
         {
@@ -184761,7 +184718,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "02-755-7004",
-          "dist": 491,
+          "dist": 497,
           "walkMin": 7
         }
       ]
@@ -184898,8 +184855,8 @@
     "sido": "경남",
     "sigungu": "남해군",
     "address": "경상남도 남해군 독일로 89-7",
-    "lat": 34.8000474598227,
-    "lng": 128.038340182584,
+    "lat": 34.8000474598,
+    "lng": 128.0383401826,
     "image": "https://tong.visitkorea.or.kr/cms/resource/79/3304479_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -187004,9 +186961,9 @@
     "sido": "서울",
     "sigungu": "영등포구",
     "address": "서울특별시 영등포구 대림동",
-    "lat": 37.4924530714,
-    "lng": 126.8975138236,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/92/3526892_image2_1.jpg",
+    "lat": 37.4924,
+    "lng": 126.8975,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/92/3526892_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -187027,13 +186984,13 @@
         "lines": [
           "7호선"
         ],
-        "dist": 75,
+        "dist": 79,
         "walkMin": 1
       },
       "stops": [
         {
           "name": "대림역7호선",
-          "dist": 59,
+          "dist": 64,
           "walkMin": 1
         },
         {
@@ -187052,7 +187009,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "02-2677-1401",
-          "dist": 233,
+          "dist": 232,
           "walkMin": 3
         },
         {
@@ -187174,9 +187131,9 @@
     "sido": "서울",
     "sigungu": "서초구",
     "address": "서울특별시 서초구 남부순환로328길 49 (서초동)",
-    "lat": 37.4763181306,
-    "lng": 127.0134731649,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/09/3540509_image2_1.jpg",
+    "lat": 37.4762651696,
+    "lng": 127.0134588502,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/09/3540509_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -187197,18 +187154,18 @@
         "lines": [
           "3호선"
         ],
-        "dist": 990,
+        "dist": 996,
         "walkMin": 15
       },
       "stops": [
         {
           "name": "서초동예술의전당",
-          "dist": 399,
+          "dist": 403,
           "walkMin": 6
         },
         {
           "name": "신중초등학교",
-          "dist": 444,
+          "dist": 448,
           "walkMin": 7
         }
       ]
@@ -188391,9 +188348,9 @@
     "sido": "서울",
     "sigungu": "중구",
     "address": "서울특별시 중구 을지로 281 (을지로7가)",
-    "lat": 37.566107632,
-    "lng": 127.0095709797,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/37/3566337_image2_1.jpg",
+    "lat": 37.5660539726,
+    "lng": 127.0095547691,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/37/3566337_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -188415,18 +188372,18 @@
           "2호선",
           "4호선"
         ],
-        "dist": 70,
+        "dist": 65,
         "walkMin": 1
       },
       "stops": [
         {
           "name": "광희동.동대문역사문화공원역",
-          "dist": 80,
+          "dist": 74,
           "walkMin": 1
         },
         {
           "name": "동대문역사문화공원",
-          "dist": 85,
+          "dist": 79,
           "walkMin": 1
         }
       ],
@@ -188440,7 +188397,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "02-2254-4901",
-          "dist": 252,
+          "dist": 256,
           "walkMin": 4
         },
         {
@@ -188452,7 +188409,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "02-2290-6437",
-          "dist": 258,
+          "dist": 263,
           "walkMin": 4
         },
         {
@@ -188464,7 +188421,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "02-2265-7765",
-          "dist": 462,
+          "dist": 465,
           "walkMin": 7
         }
       ]
@@ -188762,10 +188719,10 @@
     "category": "관광지",
     "sido": "경기",
     "sigungu": "화성시",
-    "address": "경기도 화성시 동탄순환대로 69 (송동)",
-    "lat": 37.1669527885,
-    "lng": 127.1024487705,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/18/3058418_image2_1.jpg",
+    "address": "경기도 화성시 동탄구 동탄대로8길 6 (산척동)",
+    "lat": 37.170202124,
+    "lng": 127.1077069973,
+    "image": "",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -188783,14 +188740,14 @@
     "transit": {
       "stops": [
         {
-          "name": "경기도시공사동탄사업단",
-          "dist": 174,
-          "walkMin": 3
+          "name": "우미린2차.호수부영3차",
+          "dist": 165,
+          "walkMin": 2
         },
         {
-          "name": "동탄그랑파사쥬",
-          "dist": 235,
-          "walkMin": 4
+          "name": "호수부영3차.우미린2차",
+          "dist": 173,
+          "walkMin": 3
         }
       ],
       "parking": [
@@ -188803,8 +188760,20 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-8059-6538",
-          "dist": 272,
-          "walkMin": 4
+          "dist": 329,
+          "walkMin": 5
+        },
+        {
+          "name": "산척",
+          "se": "공영",
+          "type": "노상",
+          "cap": 36,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-5189-6445",
+          "dist": 629,
+          "walkMin": 9
         },
         {
           "name": "송동721",
@@ -188815,19 +188784,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-8059-6538",
-          "dist": 314,
-          "walkMin": 5
-        },
-        {
-          "name": "동탄2지구 주64",
-          "se": "공영",
-          "type": "노외",
-          "cap": 38,
-          "fee": "기본 90분 400원 · 추가 10분 600원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8059-6538",
-          "dist": 845,
+          "dist": 904,
           "walkMin": 13
         }
       ]
@@ -191908,9 +191865,9 @@
     "sido": "경기",
     "sigungu": "안산시",
     "address": "경기도 안산시 단원구 대부황금로 1567-3",
-    "lat": 37.2963978942,
-    "lng": 126.5744098104,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/21/3342921_image2_1.jpg",
+    "lat": 37.2963448499,
+    "lng": 126.5743962171,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/21/3342921_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -191929,12 +191886,12 @@
       "stops": [
         {
           "name": "방아머리선착장",
-          "dist": 735,
+          "dist": 731,
           "walkMin": 11
         },
         {
           "name": "방아머리",
-          "dist": 751,
+          "dist": 746,
           "walkMin": 11
         }
       ],
@@ -191948,7 +191905,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-481-2974",
-          "dist": 1126,
+          "dist": 1120,
           "walkMin": 17
         },
         {
@@ -191960,7 +191917,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-481-2974",
-          "dist": 1436,
+          "dist": 1430,
           "walkMin": 21
         }
       ]
@@ -192215,9 +192172,9 @@
     "sido": "강원",
     "sigungu": "태백시",
     "address": "강원특별자치도 태백시 동태백로 389 (철암동)",
-    "lat": 37.1131088552,
-    "lng": 129.0367097758,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/93/3562993_image2_1.jpg",
+    "lat": 37.1130578187,
+    "lng": 129.0366807759,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/93/3562993_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -192236,12 +192193,12 @@
       "stops": [
         {
           "name": "철암역",
-          "dist": 40,
+          "dist": 35,
           "walkMin": 1
         },
         {
           "name": "철암시장",
-          "dist": 183,
+          "dist": 189,
           "walkMin": 3
         }
       ],
@@ -192255,7 +192212,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "033-550-2105",
-          "dist": 225,
+          "dist": 219,
           "walkMin": 3
         },
         {
@@ -192267,7 +192224,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "033-550-2105",
-          "dist": 193,
+          "dist": 199,
           "walkMin": 3
         },
         {
@@ -192279,7 +192236,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "033-550-2105",
-          "dist": 388,
+          "dist": 394,
           "walkMin": 6
         }
       ]
@@ -202725,9 +202682,9 @@
     "sido": "경남",
     "sigungu": "하동군",
     "address": "경상남도 하동군 화개면 화개로 142",
-    "lat": 35.2000061238,
-    "lng": 127.6304656321,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/32/3351932_image2_1.jpg",
+    "lat": 35.1999652544,
+    "lng": 127.6304458088,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/32/3351932_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -202746,12 +202703,12 @@
       "stops": [
         {
           "name": "화개중학교",
-          "dist": 61,
+          "dist": 59,
           "walkMin": 1
         },
         {
           "name": "법하",
-          "dist": 262,
+          "dist": 257,
           "walkMin": 4
         }
       ],
@@ -202765,7 +202722,7 @@
           "hours": "09:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "055-880-7233",
-          "dist": 875,
+          "dist": 870,
           "walkMin": 13
         },
         {
@@ -202777,7 +202734,7 @@
           "hours": "09:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "055-880-7233",
-          "dist": 1292,
+          "dist": 1287,
           "walkMin": 19
         },
         {
@@ -202789,7 +202746,7 @@
           "hours": "09:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "055-880-7233",
-          "dist": 1372,
+          "dist": 1367,
           "walkMin": 20
         }
       ]
@@ -206119,9 +206076,9 @@
     "sido": "전북",
     "sigungu": "임실군",
     "address": "전북특별자치도 임실군 오수면 충효로 2096-16",
-    "lat": 35.545245264,
-    "lng": 127.3326940727,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/66/3536766_image2_1.jpg",
+    "lat": 35.5452034111,
+    "lng": 127.3326778722,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/66/3536766_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -206140,12 +206097,12 @@
       "stops": [
         {
           "name": "남악",
-          "dist": 298,
-          "walkMin": 4
+          "dist": 302,
+          "walkMin": 5
         },
         {
           "name": "오수",
-          "dist": 712,
+          "dist": 707,
           "walkMin": 11
         }
       ],
@@ -206159,7 +206116,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "063-640-2943",
-          "dist": 5,
+          "dist": 0,
           "walkMin": 1
         },
         {
@@ -206171,7 +206128,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "063-640-2943",
-          "dist": 411,
+          "dist": 416,
           "walkMin": 6
         },
         {
@@ -206183,7 +206140,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "063-640-4411",
-          "dist": 696,
+          "dist": 692,
           "walkMin": 10
         }
       ]
@@ -206462,9 +206419,9 @@
     "sido": "서울",
     "sigungu": "구로구",
     "address": "서울특별시 구로구 고척로21나길 103 (개봉동)",
-    "lat": 37.5020481486,
-    "lng": 126.8397382631,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/33/3558633_image2_1.jpg",
+    "lat": 37.5019961491,
+    "lng": 126.8397231409,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/33/3558633_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -206485,18 +206442,18 @@
         "lines": [
           "경인선"
         ],
-        "dist": 951,
+        "dist": 946,
         "walkMin": 14
       },
       "stops": [
         {
           "name": "개봉중학교",
-          "dist": 302,
+          "dist": 304,
           "walkMin": 5
         },
         {
           "name": "동부골든아파트후문",
-          "dist": 315,
+          "dist": 312,
           "walkMin": 5
         }
       ],
@@ -206510,7 +206467,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "02-839-4875",
-          "dist": 593,
+          "dist": 597,
           "walkMin": 9
         },
         {
@@ -206522,7 +206479,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "02-839-4875",
-          "dist": 733,
+          "dist": 727,
           "walkMin": 11
         },
         {
@@ -206534,7 +206491,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 444,
+          "dist": 441,
           "walkMin": 7
         }
       ]
@@ -206807,9 +206764,9 @@
     "sido": "전북",
     "sigungu": "전주시",
     "address": "전북특별자치도 전주시 완산구 동완산동",
-    "lat": 35.8046986105,
-    "lng": 127.1419070225,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/45/3529545_image2_1.jpg",
+    "lat": 35.8046549176,
+    "lng": 127.141892144,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/45/3529545_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -206828,12 +206785,12 @@
       "stops": [
         {
           "name": "서서학우정목련아파트",
-          "dist": 538,
+          "dist": 536,
           "walkMin": 8
         },
         {
-          "name": "서서학예그린아파트",
-          "dist": 566,
+          "name": "장승백이",
+          "dist": 565,
           "walkMin": 8
         }
       ],
@@ -206847,7 +206804,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "063-239-2767",
-          "dist": 660,
+          "dist": 662,
           "walkMin": 10
         },
         {
@@ -206859,7 +206816,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "063-239-2767",
-          "dist": 820,
+          "dist": 824,
           "walkMin": 12
         },
         {
@@ -206871,7 +206828,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "063-239-2767",
-          "dist": 838,
+          "dist": 841,
           "walkMin": 13
         }
       ]
@@ -215626,6 +215583,83 @@
     }
   },
   {
+    "id": "2507820",
+    "name": "큐빅광장",
+    "category": "관광지",
+    "sido": "울산",
+    "sigungu": "중구",
+    "address": "울산광역시 중구 학성로 65",
+    "lat": 35.5547181285,
+    "lng": 129.3181443418,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/15/3335215_image2_1.jpg",
+    "tel": "",
+    "official": false,
+    "source": "tour",
+    "petInfo": {
+      "petSize": "전 견종 동반가능",
+      "petType": "전구역 동반가능",
+      "petNeed": "목줄 착용",
+      "petEtc": "- 맹견의 경우, 입마개 착용 필수\n- 배변봉투 지참 및 배변처리 필수",
+      "petFacility": "",
+      "petRisk": ""
+    },
+    "overview": "큐빅광장은 2013년 대한민국 공간문화대상을 수상한 바가 있다. 울산 원도심의 재생을 위한 ‘문화’라는 주제와 전략을 장소에 담아 실천해 낸 첫 번째 프로젝트로 탄생하였다. 이곳은 1970년대 당시 울산을 찾는 유랑 극단이나 서커스단의 공연이 펼쳐졌던 곳으로, 과거의 기억을 현대적으로 재현하면서 그 의미가 부각되었다. 2012년 9월 준공 이후에는 청소년들과 젊은이들을 위한 다양한 공연과 전시, 체험행사 등이 항상 열려 청소년들의 잠재성과 커뮤니티 활성화에 도움을 주고 있다. 이렇듯 큐빅광장이 다채로운 장소로 거듭나면서 도심기능과 상권회복의 기폭제 역할을 함과 동시에 원도심의 독특하고 이색적인 복합 문화공간으로 자리매김하였다.",
+    "homepage": "https://tour.ulsan.go.kr/kor/unit/attrctn/view.do?mId=001002005000000000&unqId=115",
+    "addedAt": "20260915",
+    "transit": {
+      "stops": [
+        {
+          "name": "성남프라자",
+          "dist": 68,
+          "walkMin": 1
+        },
+        {
+          "name": "국민은행사거리",
+          "dist": 73,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "성남",
+          "se": "공영",
+          "type": "노외",
+          "cap": 267,
+          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "052-290-7637",
+          "dist": 129,
+          "walkMin": 2
+        },
+        {
+          "name": "문화의거리",
+          "se": "공영",
+          "type": "노외",
+          "cap": 232,
+          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "052-290-7637",
+          "dist": 384,
+          "walkMin": 6
+        },
+        {
+          "name": "옥교",
+          "se": "공영",
+          "type": "노외",
+          "cap": 572,
+          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "052-290-7637",
+          "dist": 418,
+          "walkMin": 6
+        }
+      ]
+    }
+  },
+  {
     "id": "3062105",
     "name": "탐매마을",
     "category": "관광지",
@@ -221258,83 +221292,6 @@
           "name": "하동분점마을",
           "dist": 683,
           "walkMin": 10
-        }
-      ]
-    }
-  },
-  {
-    "id": "2507820",
-    "name": "큐빅광장",
-    "category": "문화시설",
-    "sido": "울산",
-    "sigungu": "중구",
-    "address": "울산광역시 중구 학성로 65",
-    "lat": 35.5547606861,
-    "lng": 129.3181748052,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/15/3335215_image2_1.jpg",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "전 견종 동반가능",
-      "petType": "전구역 동반가능",
-      "petNeed": "목줄 착용",
-      "petEtc": "- 맹견의 경우, 입마개 착용 필수\n- 배변봉투 지참 및 배변처리 필수",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "큐빅광장은 2013년 대한민국 공간문화대상을 수상한 바가 있다. 울산 원도심의 재생을 위한 ‘문화’라는 주제와 전략을 장소에 담아 실천해 낸 첫 번째 프로젝트로 탄생하였다. 이곳은 1970년대 당시 울산을 찾는 유랑 극단이나 서커스단의 공연이 펼쳐졌던 곳으로, 과거의 기억을 현대적으로 재현하면서 그 의미가 부각되었다. 2012년 9월 준공 이후에는 청소년들과 젊은이들을 위한 다양한 공연과 전시, 체험행사 등이 항상 열려 청소년들의 잠재성과 커뮤니티 활성화에 도움을 주고 있다. 이렇듯 큐빅광장이 다채로운 장소로 거듭나면서 도심기능과 상권회복의 기폭제 역할을 함과 동시에 원도심의 독특하고 이색적인 복합 문화공간으로 자리매김하였다.",
-    "homepage": "https://tour.ulsan.go.kr/kor/unit/attrctn/view.do?mId=001002005000000000&unqId=115",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "국민은행사거리",
-          "dist": 73,
-          "walkMin": 1
-        },
-        {
-          "name": "성남프라자",
-          "dist": 74,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "성남",
-          "se": "공영",
-          "type": "노외",
-          "cap": 267,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "052-290-7637",
-          "dist": 134,
-          "walkMin": 2
-        },
-        {
-          "name": "문화의거리",
-          "se": "공영",
-          "type": "노외",
-          "cap": 232,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "052-290-7637",
-          "dist": 379,
-          "walkMin": 6
-        },
-        {
-          "name": "옥교",
-          "se": "공영",
-          "type": "노외",
-          "cap": 572,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "052-290-7637",
-          "dist": 416,
-          "walkMin": 6
         }
       ]
     }
