@@ -17937,13 +17937,13 @@
     }
   },
   {
-    "id": "mejn2l7",
+    "id": "mdmrzaa",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -17977,13 +17977,13 @@
     }
   },
   {
-    "id": "mdmrzaa",
+    "id": "mejn2l7",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -70327,6 +70327,23 @@
     }
   },
   {
+    "id": "mg0zn55",
+    "name": "정서진떡볶이",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "인천",
+    "sigungu": "서해구",
+    "address": "인천광역시 서해구 염곡로 472(대건프라자 101호 가정동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261113",
+    "addedAt": "20261113"
+  },
+  {
     "id": "mtnfb74",
     "name": "정할머니 명주 간장게장",
     "category": "식당",
@@ -72718,13 +72735,13 @@
     }
   },
   {
-    "id": "m5oxplu",
+    "id": "mjpr3nd",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -72757,13 +72774,13 @@
     }
   },
   {
-    "id": "mjpr3nd",
+    "id": "m5oxplu",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -136497,6 +136514,23 @@
     }
   },
   {
+    "id": "mqc9zzv",
+    "name": "고마닭강정",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "충남",
+    "sigungu": "공주시",
+    "address": "충청남도 공주시 산성시장3길 102(1층 산성동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261112",
+    "addedAt": "20261112"
+  },
+  {
     "id": "m8lz9xv",
     "name": "그린메이트",
     "category": "식당",
@@ -177549,23 +177583,6 @@
     }
   },
   {
-    "id": "mqc9zzv",
-    "name": "고마닭강정",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "충남",
-    "sigungu": "공주시",
-    "address": "충청남도 공주시 산성시장3길 102(1층 산성동)",
-    "official": true,
-    "source": "mfds",
-    "lat": null,
-    "lng": null,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20261112",
-    "addedAt": "20261112"
-  },
-  {
     "id": "2784167",
     "name": "가야산생태탐방원",
     "category": "관광지",
@@ -179949,8 +179966,8 @@
     "sido": "경북",
     "sigungu": "경주시",
     "address": "경상북도 경주시 보문로 446 (신평동)",
-    "lat": 35.84369802390392,
-    "lng": 129.2869679882431,
+    "lat": 35.8436980239,
+    "lng": 129.2869679882,
     "image": "https://tong.visitkorea.or.kr/cms/resource/85/3479385_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -182748,9 +182765,9 @@
     "category": "관광지",
     "sido": "경기",
     "sigungu": "화성시",
-    "address": "경기도 화성시 서신면 궁평항로 1049-24",
-    "lat": 37.11535292648798,
-    "lng": 126.68133626289496,
+    "address": "경기도 화성시 만세구 서신면 궁평항로 1049-24",
+    "lat": 37.1160299821,
+    "lng": 126.6812743071,
     "image": "https://tong.visitkorea.or.kr/cms/resource/67/3530567_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -182770,13 +182787,13 @@
       "stops": [
         {
           "name": "궁평항",
-          "dist": 221,
-          "walkMin": 3
+          "dist": 251,
+          "walkMin": 4
         },
         {
           "name": "궁평1교차로(미정차)",
-          "dist": 773,
-          "walkMin": 12
+          "dist": 750,
+          "walkMin": 11
         }
       ]
     }
@@ -184592,7 +184609,7 @@
     "address": "강원특별자치도 춘천시 남이섬길 1 남이섬",
     "lat": 37.7962650518,
     "lng": 127.5254891999,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/51/4103151_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/96/4153696_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -185282,9 +185299,9 @@
     "sido": "부산",
     "sigungu": "사하구",
     "address": "부산광역시 사하구 몰운대1길 14 (다대동)",
-    "lat": 35.0463945293,
-    "lng": 128.9680471374,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/08/3506208_image2_1.jpg",
+    "lat": 35.0463558975,
+    "lng": 128.968020553,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/08/3506208_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -185305,18 +185322,18 @@
         "lines": [
           "부산 도시철도 1호선"
         ],
-        "dist": 281,
+        "dist": 283,
         "walkMin": 4
       },
       "stops": [
         {
           "name": "다대포해수욕장",
-          "dist": 301,
-          "walkMin": 4
+          "dist": 303,
+          "walkMin": 5
         },
         {
           "name": "다대포해수욕장역",
-          "dist": 309,
+          "dist": 310,
           "walkMin": 5
         }
       ],
@@ -185342,7 +185359,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "051-220-4511",
-          "dist": 277,
+          "dist": 278,
           "walkMin": 4
         }
       ]
@@ -216402,9 +216419,9 @@
     "sido": "경북",
     "sigungu": "포항시",
     "address": "경상북도 포항시 북구 해안로 44 (항구동)",
-    "lat": 36.0515974731,
-    "lng": 129.3788775199,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/71/3586571_image2_1.jpg",
+    "lat": 36.0515536759,
+    "lng": 129.3788483863,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/71/3586571_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -216428,7 +216445,7 @@
         },
         {
           "name": "영일대 해수욕장",
-          "dist": 351,
+          "dist": 353,
           "walkMin": 5
         }
       ],
@@ -216442,7 +216459,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 285,
+          "dist": 287,
           "walkMin": 4
         },
         {
@@ -216454,7 +216471,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 313,
+          "dist": 315,
           "walkMin": 5
         },
         {
@@ -226419,31 +226436,6 @@
         }
       ]
     }
-  },
-  {
-    "id": "138661",
-    "name": "샬레리조트",
-    "category": "숙박",
-    "sido": "강원",
-    "sigungu": "평창군",
-    "address": "강원특별자치도 평창군 봉평면 석이바우길 71-20",
-    "lat": 37.5758479263,
-    "lng": 128.3490214575,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/96/2929696_image2_1.jpg",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "4kg이하 소형견 최대 2마리 동반 가능",
-      "petType": "일부구역 동반가능",
-      "petNeed": "",
-      "petEtc": "- 4kg이하 소형견 최대 2마리 동반 가능합니다. \n- 반려견 전용 객실을 별도로 운영하고 있습니다. \n- 애견가능객실 : 커플원룸, 패밀리디럭스룸, 단체룸 (예약 시 반드시 반려견 동반이라고 메모 남겨주시기 바랍니다.)\n* 반려견 동반 운영정책은 현지 사정에 따라 변동될 수 있습니다.",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "샬레라는 이름과 같이 아름다운 스위스의 산장을 연상시키는 유럽풍의 정통 목조 건물로 이루어져 있으며, 아름다운 전망과 고요하고 평화로운 주변환경, 그리고 3분거리에는 휘닉스파크 스키장과 잭니클라우스가 설계하였다는 골프장, 여름철 최고의 물놀이 시설인 워터파크 '블루캐니언'이 위치하고 있다. 40명 이상 수용할 수 있는 세미나실과 족구장, 바비큐장, 산책로가 준비되어 있으며 소중하고 아름다운 추억을 만들어갈 수 있는 최적의 숙소이다.",
-    "homepage": "https://www.chaletresort.kr/",
-    "addedAt": "20260915"
   },
   {
     "id": "2701396",
