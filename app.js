@@ -123,6 +123,7 @@ function fillOptions() {
     regionEl.appendChild(opt);
   }
   const nav = document.getElementById("quick-links");
+  nav.innerHTML = ""; // 2026-11-18: 빌드가 넣어둔 정적 칩을 비우고 다시 그린다 (크롤러용 정적 칩 + JS 칩 중복 방지)
   const addChip = (href, label, cls = "chip", tip = "") => {
     const a = document.createElement("a");
     a.className = cls; a.href = href; a.textContent = label;

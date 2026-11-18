@@ -928,3 +928,30 @@ console.log(`✅ popular-list.json (인기 ${POPULAR_PLACES.length}곳 · 검색
   fs.writeFileSync("weather-summary.json", JSON.stringify(summary), "utf-8");
   console.log(`✅ weather-summary.json (시도 ${Object.keys(summary.sido).length}·시군구 ${Object.keys(summary.areas).length})`);
 }
+
+
+// ── 메인(index.html) 정적 콘텐츠 (2026-11-18) — 캠핑허브와 같은 이유: 메인 HTML에 장소 링크 0개 → 크롤러에게 빈 페이지 ──
+{
+  const idx = "index.html";
+  let html = fs.readFileSync(idx, "utf-8");
+  const chip = (href, label, cls = "chip") => `<a class="${cls}" href="${href}">${label}</a>`;
+  const CAT_LABEL = { cafe: "☕ 카페", restaurant: "🍽️ 식당", bakery: "🥐 베이커리", spot: "🏞️ 관광지", stay: "🏨 숙박", leisure: "🎢 레포츠", culture: "🏛️ 문화시설" };
+  const navHtml = [
+    ...catFiles.map((f) => { const k = f.replace(/^cat-|\.html$/g, ""); return chip(f, CAT_LABEL[k] || k, k === "cafe" ? "chip chip-hot" : "chip"); }),
+    chip("guide-cafe-manner.html", "📚 강아지와 카페 매너", "chip chip-hot"), chip("guide-daytrip.html", "🚗 당일치기 체크리스트"),
+    ...Object.entries(REGION_SLUGS).filter(([, slug]) => fs.existsSync(`region-${slug}.html`)).sort((a, b) => a[0].localeCompare(b[0], "ko")).map(([name, slug]) => chip(`region-${slug}.html`, name)),
+  ].join("\n    ");
+  const seen = new Set();
+  const picked = [];
+  const add = (p) => { if (p && !seen.has(String(p.id))) { seen.add(String(p.id)); picked.push(p); } };
+  POPULAR_PLACES.forEach((x) => add(x.p));
+  pets.filter((p) => p.visitorPhotos && p.visitorPhotos.length).forEach(add);
+  pets.filter((p) => findPlaceNote(p)).forEach(add);
+  pets.filter((p) => p.image && String(p.overview || "").length >= 200).forEach(add);
+  const cards = picked.slice(0, 60).map(listCard).join("\n");
+  const before = html;
+  html = html.replace(/(<nav id="quick-links" class="quick-links sticky-desktop">)[\s\S]*?(<\/nav>)/, `$1\n    ${navHtml}\n  $2`);
+  html = html.replace(/(<main id="pet-list" class="festival-grid">)[\s\S]*?(<\/main>)/, `$1\n${cards}\n  $2`);
+  if (html !== before) fs.writeFileSync(idx, html, "utf-8");
+  console.log(`✅ index.html 정적 콘텐츠 (카드 ${Math.min(picked.length, 60)}개 · 칩 ${navHtml.split("<a ").length - 1}개)`);
+}
