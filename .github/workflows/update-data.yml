@@ -74,6 +74,12 @@ jobs:
 
       - run: node build-pages.js
 
+      # IndexNow: 새 페이지 + 핵심 페이지 주소를 빙·네이버에 바로 알림 (실패해도 로봇은 계속)
+
+      - run: node indexnow.js
+
+        continue-on-error: true
+
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
