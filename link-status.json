@@ -878,7 +878,9 @@
  "https://www.boeun.go.kr/tour/prog/tursmSghts/main/sub02/01/view.do?sghtsNo=61": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.gangwon.to/gwtour": {
   "state": "dead",
@@ -3304,11 +3306,6 @@
   "status": 403,
   "checkedAt": "2026-11-13T01:56:00.216Z"
  },
- "https://www.mullegil.com/mullegil/web/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-11-13T01:56:00.216Z"
- },
  "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500335": {
   "state": "ok",
   "status": 200,
@@ -4945,10 +4942,10 @@
   "final": "http://happy-chowon.co.kr/"
  },
  "http://단양추억여행.com": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
-  "error": "fetch failed"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "http://xn--6j1bx76addnj036aj4l.com/"
  },
  "http://www.jangsu.go.kr/reserve/index.jangsu": {
   "state": "ok",
@@ -5426,7 +5423,7 @@
  "http://www.galmeir.com": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "error": "fetch failed"
  },
  "https://www.instagram.com/saddlerhaus_bakery": {
@@ -5474,8 +5471,9 @@
  },
  "http://knps.or.kr/naturecenter/gayasan": {
   "state": "dead",
-  "status": 404,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "status": 0,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "error": "fetch failed"
  },
  "https://smartstore.naver.com/dsr2180": {
   "state": "unknown",
@@ -5615,8 +5613,9 @@
  },
  "http://m.elandeat.com/front/moreView/storeWaitingViewWeb.cs?plantCode=AL296": {
   "state": "dead",
-  "status": 404,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "status": 0,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "error": "fetch failed"
  },
  "https://blog.naver.com/onurang_stay": {
   "state": "ok",
@@ -5653,14 +5652,14 @@
  "https://bibonggil53.com/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "error": "fetch failed"
  },
  "https://www.cwg.go.kr/tour/contents.do?key=1823": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
-  "error": "20"
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "error": "fetch failed"
  },
  "https://www.instagram.com/cafe_creambreeze": {
   "state": "unknown",
@@ -5803,7 +5802,7 @@
  "http://www.seohee.or.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "error": "fetch failed"
  },
  "https://www.instagram.com/gpc.seoul/": {
@@ -6259,7 +6258,7 @@
  "https://www.geochang.go.kr/changpowon/Index.do": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "error": "20"
  },
  "https://www.instagram.com/bgj_there/": {
@@ -6651,7 +6650,7 @@
  "https://main.suncheon.go.kr/yeyak/stay/0001/list/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "error": "20"
  },
  "https://www.instagram.com/horno_seoul/?hl=ko": {
@@ -8258,20 +8257,26 @@
  "https://www.instagram.com/mongjak_": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmongjak_&is_from_rle"
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmongjak_&is_from_rle",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://instagram.com/Mount__batten": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2FMount__batten&is_from_rle"
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2FMount__batten&is_from_rle",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.instagram.com/baram_gwangalli": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbaram_gwangalli&is_from_rle"
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbaram_gwangalli&is_from_rle",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.sonohotelsresorts.com/calm_ys": {
   "state": "ok",
@@ -8281,13 +8286,13 @@
  "https://www.instagram.com/baeksu_official": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbaeksu_official&is_from_rle"
  },
  "https://www.instagram.com/bubbas_onchoncheon/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbubbas_onchoncheon%2F&is_from_rle"
  },
  "https://talk.naver.com/profile/w43dbf": {
@@ -8337,379 +8342,379 @@
  "https://www.instagram.com/salaria_busan": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsalaria_busan&is_from_rle"
  },
  "https://blog.naver.com/gofyddl77": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/theborn_tasty?igsh=MThhbW5pOXo1YXBqeg==": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftheborn_tasty%3Figsh%3DMThhbW5pOXo1YXBqeg%253D%253D&is_from_rle"
  },
  "https://www.instagram.com/snoopy_dogcafe/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsnoopy_dogcafe%2F&is_from_rle"
  },
  "https://blog.naver.com/bulwanjun/224270270347": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://strutcoffee.sixshop.site/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/soonyang.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsoonyang.co.kr%2F&is_from_rle"
  },
  "http://shabuya.co.kr/": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://app.catchtable.co.kr/ct/shop/scents.busan": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "http://www.instagram.com/simchui_bin": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsimchui_bin&is_from_rle"
  },
  "https://www.instagram.com/yusu_roasters": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyusu_roasters&is_from_rle"
  },
  "https://www.instagram.com/jaeyeong_965": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjaeyeong_965&is_from_rle"
  },
  "https://www.instagram.com/walwalland_busan": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwalwalland_busan&is_from_rle"
  },
  "https://www.instagram.com/oira_official_/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foira_official_%2F&is_from_rle"
  },
  "https://www.instagram.com/oru_jeonpo?igsh=MXZvaXo5cWxoaG9yaA%3D%3D&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foru_jeonpo%3Figsh%3DMXZvaXo5cWxoaG9yaA%253D%253D%26utm_source%3Dqr&is_from_rle"
  },
  "https://smartstore.naver.com/stingfree": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://smartstore.naver.com/brightcoffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/sea_king_noodle/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsea_king_noodle%2F&is_from_rle"
  },
  "http://instagram.com/sinbosung806_4800": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsinbosung806_4800&is_from_rle"
  },
  "https://www.instagram.com/leebaba_coffee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fleebaba_coffee&is_from_rle"
  },
  "http://www.instagram.com/ogu__official": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fogu__official&is_from_rle"
  },
  "http://쏘대찌.shop/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "http://xn--vk1bk33ab9f.shop/"
  },
  "http://www.instagram.com/selahs.official": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fselahs.official&is_from_rle"
  },
  "https://www.instagram.com/cozynook___?igsh=N3E3bHljbHdlMGFp&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcozynook___%3Figsh%3DN3E3bHljbHdlMGFp%26utm_source%3Dqr&is_from_rle"
  },
  "https://blog.naver.com/themejung": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/habilli_busan_official/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhabilli_busan_official%2F&is_from_rle"
  },
  "https://www.instagram.com/jogae_bridge_dongnae": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjogae_bridge_dongnae&is_from_rle"
  },
  "https://www.instagram.com/homac.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhomac.kr%2F&is_from_rle"
  },
  "https://www.instagram.com/hello.missjang": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhello.missjang&is_from_rle"
  },
  "https://www.instagram.com/mijunmam": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmijunmam&is_from_rle"
  },
  "https://app.catchtable.co.kr/ct/shop/justchilling": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/zeeek.roastery": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-10T03:16:59.664Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fzeeek.roastery&is_from_rle"
  },
  "https://www.instagram.com/colf_dongnae": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcolf_dongnae&is_from_rle"
  },
  "https://www.instagram.com/closea_meals": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fclosea_meals&is_from_rle"
  },
  "http://instagram.com/cluttercoffee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcluttercoffee&is_from_rle"
  },
  "https://fruiterie.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://fruiterie.co.kr/"
  },
  "https://www.instagram.com/fallinginncoffee?igsh=MXZnYjBpazczd2Q0ZQ==": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffallinginncoffee%3Figsh%3DMXZnYjBpazczd2Q0ZQ%253D%253D&is_from_rle"
  },
  "https://smartstore.naver.com/cphshop": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/nonsleep_lab": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnonsleep_lab&is_from_rle"
  },
  "https://maisondeartcafe.vercel.app": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://maisondeartcafe.vercel.app/"
  },
  "https://www.instagram.com/natures_seven?igsh=MWs5bW1yZ3M2NmJ5NQ==": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnatures_seven%3Figsh%3DMWs5bW1yZ3M2NmJ5NQ%253D%253D&is_from_rle"
  },
  "https://www.instagram.com/vintagevista_official?igsh=a2o0OWQ0MnRjODVr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvintagevista_official%3Figsh%3Da2o0OWQ0MnRjODVr&is_from_rle"
  },
  "https://www.instagram.com/cafe_bowle": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_bowle&is_from_rle"
  },
  "https://www.instagram.com/sinkicoffee?igsh=MTFqaGw2cHFrcXF4MA%3D%3D&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsinkicoffee%3Figsh%3DMTFqaGw2cHFrcXF4MA%253D%253D%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/walker_lounge/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwalker_lounge%2F&is_from_rle"
  },
  "https://www.instagram.com/cafe_onus/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_onus%2F&is_from_rle"
  },
  "https://www.instagram.com/cafej.j.farm": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafej.j.farm&is_from_rle"
  },
  "https://www.instagram.com/creamstal.cake": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcreamstal.cake&is_from_rle"
  },
  "https://www.instagram.com/typobusan": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftypobusan&is_from_rle"
  },
  "https://www.instagram.com/fluffycream.official": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffluffycream.official&is_from_rle"
  },
  "http://instagram.com/pet_nube": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpet_nube&is_from_rle"
  },
  "https://www.instagram.com/fasho_coffee_roasters": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffasho_coffee_roasters&is_from_rle"
  },
  "https://www.instagram.com/hide_but": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhide_but&is_from_rle"
  },
  "https://www.instagram.com/goyo_brunch?utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgoyo_brunch%3Futm_source%3Dqr&is_from_rle"
  },
  "https://smartstore.naver.com/rawandsweetbusan": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/cafe_hiko__?igsh=MWF5ZzhyMDg0OTUyMQ%3D%3D&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_hiko__%3Figsh%3DMWF5ZzhyMDg0OTUyMQ%253D%253D%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/donamdog?igsh=d3NuYzZnOXQyOThy": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdonamdog%3Figsh%3Dd3NuYzZnOXQyOThy&is_from_rle"
  },
  "https://www.instagram.com/mame.busan?igsh=MXhzc3B3Mnkxc2d4dA%3D%3D&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmame.busan%3Figsh%3DMXhzc3B3Mnkxc2d4dA%253D%253D%26utm_source%3Dqr&is_from_rle"
  },
  "http://instagram.com/_bluecosmos": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F_bluecosmos&is_from_rle"
  },
  "https://www.instagram.com/loewe_brunch": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Floewe_brunch&is_from_rle"
  },
  "https://blog.naver.com/berrydam727": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "http://instagram.com/luvmiga_s2": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fluvmiga_s2&is_from_rle"
  },
  "http://pf.kakao.com/_xfRYqX/chat": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://pf.kakao.com/_xfRYqX/chat"
  },
  "https://www.instagram.com/sangrok_sangin?igsh=OHN6MHVocmYwanJr&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsangrok_sangin%3Figsh%3DOHN6MHVocmYwanJr%26utm_source%3Dqr&is_from_rle"
  },
  "https://blog.naver.com/aufonddubois": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/cafe_hyeyoum": {
   "state": "unknown",
@@ -8729,7 +8734,7 @@
  "https://bit.ly/choijihye-ig": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://coloso.co.kr/products/patissier-choijihye?utm_source=lecture-instagram&utm_medium=organic&utm_campaign=plan_open_patissier-choijihye_auto_all&utm_content=cooking_patissier-choijihye_lecture-ig-referrals-260514"
  },
  "https://blog.naver.com/dahong_yeonwha": {
@@ -8740,13 +8745,13 @@
  "http://pf.kakao.com/_txjbxcb": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://pf.kakao.com/_txjbxcb"
  },
  "http://pf.kakao.com/_xjWAHn/chat": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://pf.kakao.com/_xjWAHn/chat"
  },
  "https://www.instagram.com/littlemanly_donuts": {
@@ -8762,7 +8767,7 @@
  "http://www.montbellshelter.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.montbellshelter.co.kr/"
  },
  "https://www.instagram.com/bolshoihouse.cafe": {
@@ -8773,12 +8778,12 @@
  "https://app.catchtable.co.kr/ct/shop/oisomoisam": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://app.catchtable.co.kr/ct/shop/lotusbloom32": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/berryday.cake?igsh=NGkyOHJ0bjVyb3R5": {
   "state": "unknown",
@@ -8793,12 +8798,12 @@
  "https://smartstore.naver.com/conticoffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.ssbnc.kr/pg/bbs/board.php?bo_table=store2": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://smartstore.naver.com/coffian": {
   "state": "unknown",
@@ -8833,7 +8838,7 @@
  "https://www.receiptcoffee.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.receiptcoffee.kr/"
  },
  "https://www.instagram.com/isolotto.pizza/": {
@@ -8847,10 +8852,10 @@
   "checkedAt": "2026-11-13T01:56:00.216Z"
  },
  "https://instagram.com/coffeeonsix?igshid=nnfaaxxkmril": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-11-13T01:56:00.216Z",
-  "error": "fetch failed"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcoffeeonsix%3Figshid%3Dnnfaaxxkmril&is_from_rle"
  },
  "https://www.instagram.com/kongeulgi_": {
   "state": "unknown",
@@ -8975,16 +8980,10 @@
   "checkedAt": "2026-11-16T01:10:08.573Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_bluvary&is_from_rle"
  },
- "https://www.instagram.com/cafe_bbangjogak": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-11-16T01:10:08.573Z",
-  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_bbangjogak&is_from_rle"
- },
  "https://youtube.com/육갈탕,특갈탕,매운소왕갈찜,스지모듬수육": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/s2_bagel_incheon": {
   "state": "ok",
@@ -9058,12 +9057,6 @@
   "checkedAt": "2026-11-16T01:10:08.573Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fazitro_cafe%3Figsh%3Da2ZiN3oyaXQ2YWM%253D&is_from_rle"
  },
- "http://www.analyticsfn.com": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-11-13T01:56:00.216Z",
-  "final": "https://www.analyticsfn.com/"
- },
  "http://www.instagram.com/bluechair_coffee/": {
   "state": "ok",
   "status": 200,
@@ -9071,50 +9064,57 @@
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbluechair_coffee%2F&is_from_rle"
  },
  "https://www.instagram.com/ys.profilecoffeelab": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-05T01:31:25.447Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fys.profilecoffeelab&is_from_rle"
  },
  "https://www.instagram.com/seafood_oido?igsh=ZGlhaWJuNWx0MGY=": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fseafood_oido%3Figsh%3DZGlhaWJuNWx0MGY%253D&is_from_rle"
  },
  "https://www.instagram.com/jogae_view/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjogae_view%2F&is_from_rle"
  },
  "http://instagram.com/wolmi_doremi_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwolmi_doremi_cafe&is_from_rle"
  },
  "http://pf.kakao.com/_Yazxhn": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://pf.kakao.com/_Yazxhn"
  },
  "https://www.instagram.com/yukback_600": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyukback_600&is_from_rle"
  },
  "https://www.instagram.com/u_we_bar?igshid=MzRlODBiNWFlZA==": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fu_we_bar%3Figshid%3DMzRlODBiNWFlZA%253D%253D&is_from_rle"
  },
  "https://blog.naver.com/waveincoffee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/Stevie_ul_der": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2FStevie_ul_der&is_from_rle"
  },
  "https://app.catchtable.co.kr/ct/shop/bbok_guwol": {
   "state": "ok",
@@ -9149,7 +9149,7 @@
  "https://insaengaguzzim.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://tour.ihc.go.kr": {
   "state": "ok",
@@ -9158,1026 +9158,1095 @@
   "final": "https://tour.ihc.go.kr/"
  },
  "https://www.instagram.com/momnme_table?igsh=c3BrczJhdng2Ym5j": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmomnme_table%3Figsh%3Dc3BrczJhdng2Ym5j&is_from_rle"
  },
  "https://www.instagram.com/_ex_house": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F_ex_house&is_from_rle"
  },
  "https://blog.naver.com/chosun100tiger": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://litt.ly/in_the_camping": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/milpoom/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmilpoom%2F&is_from_rle"
  },
  "https://www.instagram.com/onnoff_yeongjong_?igsh=aTZqb2szYTk5Z3Fp&utm_source=qr": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
- },
- "https://www.instagram.com/cafe_b_ete?igsh=MWNiOGZnZDFvMWhmeA%3D%3D&utm_source=qr": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fonnoff_yeongjong_%3Figsh%3DaTZqb2szYTk5Z3Fp%26utm_source%3Dqr&is_from_rle"
  },
  "https://blog.naver.com/publicadcompany4": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/cafe.somemore": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe.somemore&is_from_rle"
  },
  "https://www.instagram.com/clover___house": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fclover___house&is_from_rle"
  },
  "https://www.jangsodam.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/quay.cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
- },
- "https://www.youtube.com/@hitalez": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fquay.cafe&is_from_rle"
  },
  "http://www.instagram.com/cafe_holly": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_holly&is_from_rle"
  },
  "https://m.place.naver.com/restaurant/36772165/home?entry=pll": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/cafe_pieona?igsh=ZjZwdXpla3hvMWpz&utm_source=qr": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_pieona%3Figsh%3DZjZwdXpla3hvMWpz%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/hounagoood/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhounagoood%2F&is_from_rle"
  },
  "https://www.instagram.com/beans_man__": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbeans_man__&is_from_rle"
  },
  "https://www.instagram.com/cafe_owls/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_owls%2F&is_from_rle"
  },
  "https://smartstore.naver.com/coffeeeyagi": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/catblisse_bono": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcatblisse_bono&is_from_rle"
  },
  "https://www.instagram.com/havie_park": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhavie_park&is_from_rle"
  },
  "https://www.instagram.com/piknic_brewers": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpiknic_brewers&is_from_rle"
  },
  "https://www.instagram.com/cafe_greenery_basket": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_greenery_basket&is_from_rle"
  },
  "https://www.instagram.com/longbeachcoffee_": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flongbeachcoffee_&is_from_rle"
  },
  "https://www.instagram.com/lama_coffeebar": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flama_coffeebar&is_from_rle"
  },
  "https://www.instagram.com/noah20160803": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnoah20160803&is_from_rle"
  },
  "https://www.instagram.com/mongsil.forest": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmongsil.forest&is_from_rle"
  },
  "https://www.instagram.com/maehwamareum_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmaehwamareum_cafe&is_from_rle"
  },
  "https://www.instagram.com/bomboms_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbomboms_cafe&is_from_rle"
  },
  "https://www.instagram.com/ganghwa_badaboda/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fganghwa_badaboda%2F&is_from_rle"
  },
  "http://instagram.com/lil.butter_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flil.butter_cafe&is_from_rle"
  },
  "https://www.instagram.com/black_issue_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fblack_issue_cafe&is_from_rle"
  },
  "http://instagram.com/dbflowercafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdbflowercafe&is_from_rle"
  },
  "https://instagram.com/cafe_bongdang?igshid=cafy16es1hkp": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_bongdang%3Figshid%3Dcafy16es1hkp&is_from_rle"
  },
  "https://www.instagram.com/cafe_bpc": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_bpc&is_from_rle"
  },
  "https://www.instagram.com/saltgarden_ganghwa": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsaltgarden_ganghwa&is_from_rle"
  },
  "https://blog.naver.com/luckyhshsh": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "http://instagram.com/samnam_picnic": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsamnam_picnic&is_from_rle"
  },
  "https://www.instagram.com/sniff__coffee": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsniff__coffee&is_from_rle"
  },
  "http://instagram.com/sun_j_coffeezip": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsun_j_coffeezip&is_from_rle"
  },
  "https://www.instagram.com/swal.low_coffee": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fswal.low_coffee&is_from_rle"
  },
  "https://blog.naver.com/soseolwon_mansu": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/aloha_ganghwa": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faloha_ganghwa&is_from_rle"
  },
  "https://smartstore.naver.com/starmoonbakery": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/cafe_anoint": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_anoint&is_from_rle"
  },
  "http://www.instagram.com/icebean.in.ganghwa": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ficebean.in.ganghwa&is_from_rle"
  },
  "https://www.instagram.com/coffee_gentlebreeze": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcoffee_gentlebreeze&is_from_rle"
  },
  "https://www.instagram.com/wayocoffee_cheongna": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwayocoffee_cheongna&is_from_rle"
  },
  "https://www.instagram.com/emmental_coffee": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Femmental_coffee&is_from_rle"
  },
  "https://www.instagram.com/cafemoarro": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafemoarro&is_from_rle"
  },
  "https://www.instagram.com/cafe_andhari": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_andhari&is_from_rle"
  },
  "http://app.catchtable.co.kr/ct/shop/4season_kitchen_cheongna": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://app.catchtable.co.kr/ct/shop/4season_kitchen_cheongna"
  },
  "https://www.instagram.com/cafe.galilee": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe.galilee&is_from_rle"
  },
  "https://www.instagram.com/mer.d_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmer.d_cafe&is_from_rle"
  },
  "https://www.instagram.com/cafebaladang/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafebaladang%2F&is_from_rle"
  },
  "http://www.instagram.com/cafe.column": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe.column&is_from_rle"
  },
  "https://blog.naver.com/pymwings": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "http://www.instagram.com/feat.in.coffee": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffeat.in.coffee&is_from_rle"
  },
  "https://www.instagram.com/haushail.official": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhaushail.official&is_from_rle"
  },
  "https://www.instagram.com/hidden_mu9": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhidden_mu9&is_from_rle"
  },
  "https://www.instagram.com/earthborn_vegan/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fearthborn_vegan%2F&is_from_rle"
  },
  "https://www.instagram.com/casa_de.cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcasa_de.cafe&is_from_rle"
  },
  "https://www.instagram.com/harudang.daily?igsh=MWFmZXF6OGM5Y3Y0cw%3D%3D&utm_source=qr": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fharudang.daily%3Figsh%3DMWFmZXF6OGM5Y3Y0cw%253D%253D%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/sosorim_2022": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsosorim_2022&is_from_rle"
  },
  "https://www.instagram.com/sandstone110": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsandstone110&is_from_rle"
  },
  "https://blog.naver.com/jjineejinee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "http://instagram.com/cafe.niche_eoeun": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe.niche_eoeun&is_from_rle"
  },
  "https://www.instagram.com/puppys_green": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpuppys_green&is_from_rle"
  },
  "https://blog.naver.com/john431611": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://instagram.com/gabae.roasters?igshid=1vvrsdz8vix1z": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgabae.roasters%3Figshid%3D1vvrsdz8vix1z&is_from_rle"
  },
  "https://www.instagram.com/stillrhythm/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstillrhythm%2F&is_from_rle"
  },
  "https://www.instagram.com/danbi_presso?igsh=M2h3NjlhNzVjZ2tk": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdanbi_presso%3Figsh%3DM2h3NjlhNzVjZ2tk&is_from_rle"
  },
  "https://www.instagram.com/seosaengehwa": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fseosaengehwa&is_from_rle"
  },
  "https://www.instagram.com/c_y_248": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fc_y_248&is_from_rle"
  },
  "https://www.instagram.com/cafe.sanggereum?igsh=anp1OHFodnFheTE": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe.sanggereum%3Figsh%3Danp1OHFodnFheTE&is_from_rle"
  },
  "https://www.instagram.com/diner_place/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdiner_place%2F&is_from_rle"
  },
  "https://www.instagram.com/sejong_batu": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsejong_batu&is_from_rle"
  },
  "https://www.instagram.com/cafe_maristella/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_maristella%2F&is_from_rle"
  },
  "https://www.instagram.com/wiswish_sejong?igsh=MWJ0M255OGZsc3Fmbw%3D%3D&utm_source=qr": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwiswish_sejong%3Figsh%3DMWJ0M255OGZsc3Fmbw%253D%253D%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/sejong_pino_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsejong_pino_cafe&is_from_rle"
  },
  "https://www.instagram.com/bedan_bakery_n_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbedan_bakery_n_cafe&is_from_rle"
  },
  "https://www.instagram.com/tails_park_camp?igsh=Y2Y5ang2OWxjank2": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftails_park_camp%3Figsh%3DY2Y5ang2OWxjank2&is_from_rle"
  },
  "https://blog.naver.com/4weekscoffee-2003": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/invites/contact/?igsh=1wxeur6fei1l1&utm_content=zgb1b8w": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/"
  },
  "https://www.instagram.com/8numb_cafe": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F8numb_cafe&is_from_rle"
  },
  "https://philaudio.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://instagram.com/cafe_55do?utm_medium=copy_link": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_55do%3Futm_medium%3Dcopy_link&is_from_rle"
  },
  "https://www.instagram.com/betterandvetter": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbetterandvetter&is_from_rle"
  },
  "https://smartstore.naver.com/ferhtacoffeeroastery": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/chap_chap_e": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fchap_chap_e&is_from_rle"
  },
  "https://www.instagram.com/cafedeep2023": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafedeep2023&is_from_rle"
  },
  "https://www.instagram.com/easy_peasy_r6": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Feasy_peasy_r6&is_from_rle"
  },
  "https://youtube.com/8corgihouse": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "http://www.instagram.com/moons_bistro": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmoons_bistro&is_from_rle"
  },
  "http://instagram.com/table_de_pasta": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftable_de_pasta&is_from_rle"
  },
  "https://blog.naver.com/yipibrunch": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/gaslamp__/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgaslamp__%2F&is_from_rle"
  },
  "https://www.instagram.com/mari.v.coffee": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmari.v.coffee&is_from_rle"
  },
  "https://www.instagram.com/korean_beef_home": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkorean_beef_home&is_from_rle"
  },
  "https://www.instagram.com/gae.cafe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgae.cafe&is_from_rle"
  },
  "https://app.catchtable.co.kr/ct/shop/masil.gam?from=share&type=VISIT_RESERVATION": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/gag_mung": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgag_mung&is_from_rle"
  },
  "https://blog.naver.com/goodinfo21": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/gomokase_neunggok?igsh=dWZiMmsxY3h3b3A5&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgomokase_neunggok%3Figsh%3DdWZiMmsxY3h3b3A5%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/kobrun_brunch": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkobrun_brunch&is_from_rle"
  },
  "https://moment0116.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "http://www.instagram.com/gomaecoffee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgomaecoffee&is_from_rle"
  },
  "https://www.instagram.com/golmok_zip_/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgolmok_zip_%2F&is_from_rle"
  },
  "http://instagram.com/cafe_goyojae": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_goyojae&is_from_rle"
  },
  "https://www.instagram.com/guraeok2?igsh=ZDZhMDZ3eXIxZmQ2": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fguraeok2%3Figsh%3DZDZhMDZ3eXIxZmQ2&is_from_rle"
  },
  "https://www.instagram.com/grine_oasis": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgrine_oasis&is_from_rle"
  },
  "https://www.instagram.com/greencave_": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgreencave_&is_from_rle"
  },
  "https://www.instagram.com/Glad_bakeshop": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2FGlad_bakeshop&is_from_rle"
  },
  "http://www.instagram.com/darkmoon_cafe1527": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdarkmoon_cafe1527&is_from_rle"
  },
  "http://instagram.com/kirogi_coffeehouse": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkirogi_coffeehouse&is_from_rle"
  },
  "https://www.instagram.com/kimsungmin_coffee/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fkimsungmin_coffee%2F&is_from_rle"
  },
  "https://www.instagram.com/cardi.espresso.bar": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcardi.espresso.bar&is_from_rle"
  },
  "https://www.instagram.com/contigo_0416": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcontigo_0416&is_from_rle"
  },
  "https://www.instagram.com/namsa_coffee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnamsa_coffee&is_from_rle"
  },
  "https://www.instagram.com/natjisa_coffee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnatjisa_coffee&is_from_rle"
  },
  "https://www.instagram.com/brunch_napjak/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbrunch_napjak%2F&is_from_rle"
  },
  "https://www.instagram.com/naedaeji_238": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnaedaeji_238&is_from_rle"
  },
  "https://www.instagram.com/nuts_holdem_bucheon?stkn=emk5eHlvaXg2YzFl&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnuts_holdem_bucheon%3Fstkn%3Demk5eHlvaXg2YzFl%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/noradora_cafe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnoradora_cafe&is_from_rle"
  },
  "https://www.instagram.com/nosang_official/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnosang_official%2F&is_from_rle"
  },
  "https://www.instagram.com/cafe.nous_": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe.nous_&is_from_rle"
  },
  "https://www.instagram.com/ever_greengarden___?igsh=NTc4MTIwNjQ2YQ==": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fever_greengarden___%3Figsh%3DNTc4MTIwNjQ2YQ%253D%253D&is_from_rle"
  },
  "https://www.instagram.com/cafe_the_nilai": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_the_nilai&is_from_rle"
  },
  "https://www.instagram.com/dalmatian_suwon/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdalmatian_suwon%2F&is_from_rle"
  },
  "https://app.catchtable.co.kr/ct/shop/nicetime_namyangju?from=share&type=DINING": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/sweet.factory___": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsweet.factory___&is_from_rle"
  },
  "https://www.instagram.com/daenggrr_cafe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdaenggrr_cafe&is_from_rle"
  },
  "https://www.instagram.com/danglelife_": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdanglelife_&is_from_rle"
  },
  "https://blog.naver.com/dang_green_": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "http://pf.kakao.com/_akzgxl": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://pf.kakao.com/_akzgxl"
  },
  "http://pf.kakao.com/_fxjypG": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://pf.kakao.com/_fxjypG"
  },
  "https://www.instagram.com/cafe_in_the_soop?igsh=YWQ3enpjY3hwbGQ2&utm_source=qr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_in_the_soop%3Figsh%3DYWQ3enpjY3hwbGQ2%26utm_source%3Dqr&is_from_rle"
  },
  "https://www.instagram.com/pizzeria_delpino?igsh=NXZtdWQwaDliZGhr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpizzeria_delpino%3Figsh%3DNXZtdWQwaDliZGhr&is_from_rle"
  },
  "https://smartstore.naver.com/bj_dang": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/cafe_daybean": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_daybean&is_from_rle"
  },
  "https://www.instagram.com/cafe_gongsaeng": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_gongsaeng&is_from_rle"
  },
  "https://www.instagram.com/donasday": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdonasday&is_from_rle"
  },
  "https://www.instagram.com/cafe_dodomimi": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_dodomimi&is_from_rle"
  },
  "https://blog.naver.com/gusrnr6014": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/dongbaek_paju": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdongbaek_paju&is_from_rle"
  },
  "https://www.instagram.com/dhumancafe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdhumancafe&is_from_rle"
  },
  "https://www.instagram.com/d._.grr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fd._.grr&is_from_rle"
  },
  "https://www.instagram.com/d.good.d.good": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fd.good.d.good&is_from_rle"
  },
  "https://www.instagram.com/cafe_de.con/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_de.con%2F&is_from_rle"
  },
  "https://www.instagram.com/dekent_577": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdekent_577&is_from_rle"
  },
  "http://www.instagram.com/thaol_gimpo": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthaol_gimpo&is_from_rle"
  },
  "https://www.instagram.com/cafe_lafermata": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_lafermata&is_from_rle"
  },
  "https://www.instagram.com/ddoori_duck/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fddoori_duck%2F&is_from_rle"
  },
  "https://app.catchtable.co.kr/ct/shop/diner_ansan": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/lacanachef": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flacanachef&is_from_rle"
  },
  "https://www.instagram.com/redbrique_cafe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fredbrique_cafe&is_from_rle"
  },
  "https://www.instagram.com/_lazybrook": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F_lazybrook&is_from_rle"
  },
  "https://www.instagram.com/leostaurant": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fleostaurant&is_from_rle"
  },
  "https://www.instagram.com/LAZYKE_DONGTAN": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2FLAZYKE_DONGTAN&is_from_rle"
  },
  "https://www.instagram.com/rbc.roast_n_barris_coffee/?igshid=OGQ5ZDc2ODk2ZA%3D%3D": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frbc.roast_n_barris_coffee%2F%3Figshid%3DOGQ5ZDc2ODk2ZA%253D%253D&is_from_rle"
  },
  "http://instagram.com/cafe_lakelike": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_lakelike&is_from_rle"
  },
  "https://www.instagram.com/cafelumil": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafelumil&is_from_rle"
  },
  "https://www.instagram.com/roysa_official_": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Froysa_official_&is_from_rle"
  },
  "https://www.instagram.com/lookie.latte": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flookie.latte&is_from_rle"
  },
  "https://www.instagram.com/lilas_cocotte": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flilas_cocotte&is_from_rle"
  },
  "https://www.instagram.com/ribbonpop_cafe/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fribbonpop_cafe%2F&is_from_rle"
  },
  "http://www.kimboknam.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://kimboknam.com/layout/res/home.php?go=main"
  },
  "https://www.instagram.com/leecoffee_paragon": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fleecoffee_paragon&is_from_rle"
  },
  "https://loegarden.creatorlink.net": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://loegarden.creatorlink.net/"
  },
  "https://www.sonohotelsresorts.com/calm_gy/diningviewall/detail/DIN00000389": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-06T01:41:17.768Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://blog.naver.com/lnl0815": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://dongmakgol-chicken.jalib.site/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/mashita_anyang": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmashita_anyang&is_from_rle"
  },
  "https://www.instagram.com/mybomb_taco": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmybomb_taco&is_from_rle"
  },
  "https://www.instagram.com/cafe.mareve": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe.mareve&is_from_rle"
  },
  "http://instagram.com/ma.fe.ne": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fma.fe.ne&is_from_rle"
  },
  "https://www.instagram.com/maziabread": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmaziabread&is_from_rle"
  },
  "https://daepaemiga.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/masslowcoffee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmasslowcoffee&is_from_rle"
  },
  "https://www.instagram.com/everyday_with_drink": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Feveryday_with_drink&is_from_rle"
  },
  "https://www.instagram.com/p/CEa6gnBl7oc/?igshid=3pzebf6ez22a": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/manseokgung": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmanseokgung&is_from_rle"
  },
  "https://www.instagram.com/stayjeong_seiromushi": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstayjeong_seiromushi&is_from_rle"
  },
  "https://www.instagram.com/murmur_brunch.cafe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmurmur_brunch.cafe&is_from_rle"
  },
  "https://www.instagram.com/mungsoop_dogcafe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmungsoop_dogcafe&is_from_rle"
  },
  "https://www.instagram.com/mungstyle/?utm_medium=copy_link": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmungstyle%2F%3Futm_medium%3Dcopy_link&is_from_rle"
  },
  "https://www.instagram.com/cafe_merci13": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcafe_merci13&is_from_rle"
  },
  "https://www.instagram.com/maisonpepper_season2": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmaisonpepper_season2&is_from_rle"
  },
  "https://www.instagram.com/melting._.slow": {
@@ -10195,7 +10264,7 @@
  "http://instagram.com/madame_suwon": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmadame_suwon&is_from_rle"
  },
  "https://www.instagram.com/mon.chiot.foret": {
@@ -10218,7 +10287,7 @@
  "https://www.instagram.com/maeari_sanjang?igsh=eXUyZnhwaDBuYW5l": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmaeari_sanjang%3Figsh%3DeXUyZnhwaDBuYW5l&is_from_rle"
  },
  "http://instagram.com/munsterdam": {
@@ -10252,7 +10321,7 @@
  "https://www.realsicdan.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.realsicdan.com/"
  },
  "https://www.instagram.com/barfac_jinjeop": {
@@ -10263,7 +10332,7 @@
  "https://www.macjugeopum.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z"
+  "checkedAt": "2026-11-18T03:04:03.578Z"
  },
  "https://www.instagram.com/p/COrlROYJRO9/?igshid=ggc0k568jsml": {
   "state": "ok",
@@ -10404,7 +10473,7 @@
  "http://www.madforgarlic.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "final": "https://www.madforgarlic.com/"
  },
  "https://www.instagram.com/seolha.official?stkn=YmZyb3NwaXRxemN0": {
@@ -10474,7 +10543,7 @@
  "http://www.galby.co.kr": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-11T01:08:45.249Z",
+  "checkedAt": "2026-11-18T03:04:03.578Z",
   "error": "fetch failed"
  },
  "https://www.dh.go.kr/tour": {
@@ -11859,5 +11928,40 @@
   "state": "ok",
   "status": 200,
   "checkedAt": "2026-11-17T03:42:55.920Z"
+ },
+ "https://naver.me/GkR3a6NG": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://map.naver.com/p/entry/place/1249025584?placePath=%2Fhome"
+ },
+ "https://www.instagram.com/goyobrunch_official": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgoyobrunch_official&is_from_rle"
+ },
+ "https://blog.naver.com/adtes963": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z"
+ },
+ "https://www.instagram.com/ovtu__/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fovtu__%2F&is_from_rle"
+ },
+ "https://www.instagram.com/bete_cafe": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbete_cafe&is_from_rle"
+ },
+ "https://hitalez.ai": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "final": "https://hitalez.ai/"
  }
 }
