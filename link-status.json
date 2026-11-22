@@ -666,7 +666,7 @@
  "https://www.jung.daegu.kr/new/opentour/pages/sub/page.html?mc=1747": {
   "state": "unknown",
   "status": 400,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.daegu.go.kr": {
   "state": "dead",
@@ -4822,12 +4822,12 @@
  "https://www.railtrip.co.kr/homepage/jeongdongjin/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-14T01:32:04.342Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://gangneungcoffeestreet.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-14T01:32:04.342Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.hanriver.or.kr": {
   "state": "ok",
@@ -4838,13 +4838,13 @@
  "https://www.insiseol.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.insiseol.or.kr/"
  },
  "https://100원커피이벤트-선착순주문하기.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-14T01:32:04.342Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://events.passorder.co.kr/naver-place/main"
  },
  "http://cafe.naver.com/gamcheon2": {
@@ -4856,131 +4856,131 @@
  "https://parks.seoul.go.kr/content.do?key=2605090001": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.sciport.or.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-17T03:42:55.920Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "http://www.para1.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://www.para1.co.kr/"
  },
  "http://www.firstgarden.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.bauzium.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.bauzium.co.kr/"
  },
  "https://blog.naver.com/culturetank": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/namiislandcafe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/p11y00s11": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/taeantulipfestival": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.ddp.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://www.ddp.or.kr//?menuno=228"
  },
  "https://www.yapen.co.kr/external?ypIdx=57688": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://neungpadae.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/canvashostel": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.instagram.com/hwangpo_sailing_boat": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.seoulup.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.seoulup.or.kr/"
  },
  "http://www.dytc.or.kr/mancheonha/89": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.dytc.or.kr/mancheonha/89"
  },
  "https://www.iksan.go.kr/strange": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://hsparktel.co.kr": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-17T03:42:55.920Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "https://www.instagram.com/donnaekohill_spa_resort/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.981park.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.981park.com/"
  },
  "https://www.cheongpungcablecar.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.자연담은.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://www.xn--jk1b037a32acj.kr/"
  },
  "https://arnops.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://happy-chowon.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://happy-chowon.co.kr/"
  },
  "http://단양추억여행.com": {
@@ -4992,1362 +4992,1359 @@
  "http://www.jangsu.go.kr/reserve/index.jangsu": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.jangsu.go.kr/reserve/index.jangsu"
  },
  "https://belleforetresort.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://belleforetresort.com/"
  },
  "https://www.instagram.com/metaprovence": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.ALR.co.kr": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://ohmygallery.co.kr": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
-  "final": "https://ohmygallery.co.kr/"
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://booking.naver.com/booking/12/bizes/1485121": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/wolchulmoon": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://museumhaslla.com/ypark_main#ypark1": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.museumhaslla.com/ypark_main"
  },
  "https://www.instagram.com/yellow_light_house_busan/?hl=ko": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://sangmusushi.kr/": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://hwarang.cdws.or.kr/open.content/hwarang/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.bluelinepark.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://www.bluelinepark.com/"
  },
  "https://www.sanida.co.kr": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-17T03:42:55.920Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "https://youtube.com/playlist?list=PLzgsCu2Ia-0bskKYpAf5pdQ6vdGAoHiOH&si=PmFaYIVNJ7BmzEzo": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.youtube.com/playlist?list=PLzgsCu2Ia-0bskKYpAf5pdQ6vdGAoHiOH&si=PmFaYIVNJ7BmzEzo"
  },
  "https://www.instagram.com/blueocean_yeongjong": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.무주양지뜰.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://www.xn--ig2b49eosl8pdb2a.com/"
  },
  "https://blog.naver.com/jeju_norimae": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.youtube.com/channel/UC3h1ZDGvL2UtStA6rhsCDhA": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.hanokstaysns.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.hanokstaysns.com/"
  },
  "https://mhaklimjaetestwxm.zaemit.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://mhaklimjaetestwxm.zaemit.kr/"
  },
  "https://airbnb.com/h/sodamstay": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.airbnb.com/rooms/33107858"
  },
  "https://airbnb.com/h/hyojastay": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.airbnb.com/rooms/41903571"
  },
  "https://www.usc.go.kr/petworld/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.jewelmuseum.go.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-17T03:42:55.920Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "https://blog.naver.com/cavinp": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/koreaflowerpark": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://munam.cheongju.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://tour.yangyang.go.kr/pub/yy10view.do?mode=v&seq=172": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/brewworks": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/boromwat": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/snoopygarden_jeju": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.dforest.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.dforest.co.kr/"
  },
  "https://www.instagram.com/camp_namgang": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.gasancamping.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/nhtopialand": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://ueco.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://ueco.or.kr/"
  },
  "https://camfit.co.kr/camp/61024420d6369e001e23c360": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/pclavender": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/dal90651": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.instagram.com/cheon_hyang_": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.theweekandresort.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://theweekandresort.com/"
  },
  "http://www.janghocamping.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://www.janghocamping.kr/html/main/intro.asp"
  },
  "http://www.cheesepark.kr": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
-  "final": "https://www.cheesepark.kr/"
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.campingtalk.me/booking/camp/3304": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://cafe.naver.com/wdcamping": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/woodae_4": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://youtube.com/@슬로우캠프": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.youtube.com/@%EC%8A%AC%EB%A1%9C%EC%9A%B0%EC%BA%A0%ED%94%84"
  },
  "https://booking.ddnayo.com/?accommodationId=12876": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.giheunggu.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.giheunggu.go.kr/index.asp"
  },
  "https://cms.seantour.com/CN008/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://cms.seantour.com/byeongsulman/index.do"
  },
  "https://www.youtube.com/channel/UCJwOqKX6QESOufXUw1QianA?view_as=subscriber://": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://alpacajeju.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://alpacajeju.com/"
  },
  "https://www.railpark.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://cafe.naver.com/camptool": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://cafe.naver.com/camptool"
  },
  "http://www.soonsusheepfarm.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.soonsusheepfarm.com/"
  },
  "https://www.nijimori.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.nijimori.kr/"
  },
  "https://blog.naver.com/dbswhd3692": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.ccmullegil.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://www.ccmullegil.co.kr/new/index.html"
  },
  "https://www.instagram.com/hotellkennyyeosu/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.geojecruise.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.geojecruise.com/"
  },
  "http://staffpicks.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://staffpicks.co.kr/"
  },
  "https://juksanbocamp.imweb.me/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/dokkaebi_gelato?igshid=YmMyMTA2M2Y=": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://cameliaforest.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://cameliaforest.com/"
  },
  "https://m.site.naver.com/1DRbp": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.graega.com/rooms/6901?utm_source=naver&utm_medium=place&utm_campaign=place_link&utm_content=%ED%95%9C%EB%B0%98%EB%8F%84"
  },
  "http://www.caffe-pascucci.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.pascucci.co.kr/"
  },
  "https://www.instagram.com/aracarim/?igsh=MWRuZmpwdm14Z3Jyaw%3D%3D": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://ppeoldabang.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.gamzabatt.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://gamzabatt.com/"
  },
  "https://blog.naver.com/maketnight": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/dog_sporsium?igsh=MWt1bDh2dTI1NWplbQ==": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/noridog_town/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.utopmarina.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.utopmarina.com/"
  },
  "http://athotel.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
-  "final": "https://athotel.kr/"
+  "checkedAt": "2026-11-22T01:15:06.388Z",
+  "final": "https://athotel.kr/",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://instagram.com/jejutaxi": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.instagram.com/iksan.petcafe": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/ohshanyy": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/dokkebibbq": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/daejeon_animal_shelter": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/sanai4744": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://engr.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://engr.co.kr/"
  },
  "https://www.instagram.com/simone_coffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/magpie-and-tiger": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/yujinfang.kr/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://app.catchtable.co.kr/ct/shop/yournakedcheese_seongsu": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://app.catchtable.co.kr/ct/shop/yournakedcheese_seongsu"
  },
  "https://www.ehamcampus.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.ehamcampus.com/"
  },
  "http://forms.gle/AL5KBGXfhrd7DZ4h9": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://docs.google.com/forms/d/e/1FAIpQLSfUhHzmEgWksYQmhyV1jE7hvUZeyexFM9GtatvK7-StTy0RmQ/viewform?usp=send_form"
  },
  "http://www.galmeir.com": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "https://www.instagram.com/saddlerhaus_bakery": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.fe01.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.fe01.co.kr/"
  },
  "https://www.insiseol.or.kr/park/seaside/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/museum_thefans": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/1day_in_hanok": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://instagram.com/borabora_itaewon": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://chamsamherb.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://chamsamherb.com/"
  },
  "http://해바라기올래정원.shop/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://xn--ok0b89opc61th7of2a88di88b.shop/"
  },
  "http://knps.or.kr/naturecenter/gayasan": {
   "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-11-18T03:04:03.578Z",
-  "error": "fetch failed"
+  "status": 404,
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/dsr2180": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/dongyang_bakerycafe": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.toursorak.com/yang/yang-36.html": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-17T03:42:55.920Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "https://www.instagram.com/cafeyoon_631": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://sosandang.staynt.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://sosandang.staynt.co.kr/"
  },
  "https://blog.naver.com/tongin1939": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.airbnb.co.kr/rooms/7393535": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/camp__down": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/duskcoffee.lab_ansan": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://gold-seven-sepia.vercel.app": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://gold-seven-sepia.vercel.app/"
  },
  "https://www.instagram.com/teacnic_gwanggyo": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/hongrard.coffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/aria_1968_/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/sanigarden/products/13749658703": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/cafe_arero": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/para.an_angang": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/grans.kr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://banryeomaru.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://banryeomaru.kr/"
  },
  "https://www.instagram.com/leciel_2023": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/cafewoori2024": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://jungjeong.net": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://jungjeong.net/"
  },
  "https://smartstore.naver.com/dash_yangyang": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/goldmountainhouse": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://moonguest.creatorlink.net": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
-  "final": "https://moonguest.creatorlink.net/"
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/lanternhouse_?igsh=MXVqZXpsZnJiYXZzNA%3D%3D&utm_source=qr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/louiehousehanam": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://m.elandeat.com/front/moreView/storeWaitingViewWeb.cs?plantCode=AL296": {
   "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-11-18T03:04:03.578Z",
-  "error": "fetch failed"
+  "status": 404,
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/onurang_stay": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://youtube.com/channel/UCSkbQEvVkTTH9Lv4jjs9Awg": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.youtube.com/channel/UCSkbQEvVkTTH9Lv4jjs9Awg"
  },
  "https://www.instagram.com/seha.official_": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.bandivillage.com": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-17T03:42:55.920Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "https://www.instagram.com/ambreadcoffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/rara_mongmong": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://bibonggil53.com/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "https://www.cwg.go.kr/tour/contents.do?key=1823": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-18T03:04:03.578Z",
-  "error": "fetch failed"
+  "checkedAt": "2026-11-22T01:15:06.388Z",
+  "error": "20"
  },
  "https://www.instagram.com/cafe_creambreeze": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/gsbaenni/products/9136258613": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://homepage.staymg.com/가평레젤프펜션": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://homepage.staymg.com/%EA%B0%80%ED%8F%89%EB%A0%88%EC%A0%A4%ED%94%84%ED%8E%9C%EC%85%98"
  },
  "https://www.instagram.com/zzimdaegam": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/feria902_pet?igsh=aW8yeXdmdGR3Nm94": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/haeanro_?igsh=cmRwMW41dTd3bDhl&utm_source=qr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/gabae_chodang/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/zzambbongbbang": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/ttgrill": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.facebook.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/coffeelibre_yeonnam": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/79founyard.mokdong41": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/9ram_cafe": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.mujugaja.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/driftwood_kr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/hrr.seoul": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.안목을높이다.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "http://www.xn--f90b2yp4ozylvmcji.com/"
  },
  "http://instagram.com/ou_topos_coffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/__springmoment": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/secondbreath_official": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://app.catchtable.co.kr/ct/shop/yebindang?type=DINING&date=260905&personCount=2": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/errd.seoul/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://app.catchtable.co.kr/ct/shop/flavourtown": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/thewhatever_seoul/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/gaein__gg": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.haewoodang.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.haewoodang.com/"
  },
  "https://www.instagram.com/golambji": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.seohee.or.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "fetch failed"
  },
  "https://www.instagram.com/gpc.seoul/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/gramedoo?igsh=M2c3NWpoamMxeGl0&utm_source=qr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.instagram.com/flot_nokbeon": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/granwave": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/gre_vert": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.instagram.com/poldcoffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.97-7f.store": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/grooverscoffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://app.catchtable.co.kr/ct/shop/23platter": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/greeting_seoul": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/geumsu_yeonnam": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/kkachijip/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/waterchicken_jayang": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/cafe__narnia": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/by.yooji": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.instagram.com/saenghwa2019": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://instagram.com/numero__official?igshid=17yu9l6lpch9k": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/numero__official?igsh=MWRjMDNyMTIwYnFr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/leeddongbal": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/comidaqqq": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/nooyagbakes": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/ilovecompi": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/dorabowl.soupcurry_official": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.facebook.com/eungjung1004.lee": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.facebook.com/Eungjung1004.Lee/"
  },
  "https://m.site.naver.com/1Dsv4": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://smartstore.naver.com/cmfinc": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/diff_seoul": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://tally.so/r/q47MQ5?utm_source=ig&utm_medium=social&utm_content=link_in_bio": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/raah_seoul": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/lafarina.bagel_geumho": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/cafelayup": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/letseatchicken_/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/lanewaycoffee_?igsh=MXB4MDRxNnc5ZWc0cA%3D%3D&utm_source=qr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/recordpizza_cheonho": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://app.catchtable.co.kr/ct/shop/dm_seoul": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://app.catchtable.co.kr/ct/shop/do_you_like_eat_yeonnam?from=share&type=NONE": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://app.catchtable.co.kr/ct/shop/Langhe": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/low.angle.club/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://drrobbin.com/store/store.html": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://pf.kakao.com/_ExdExoj": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://pf.kakao.com/_ExdExoj"
  },
  "https://www.instagram.com/librairiecoffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/liyoliyo_coffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/rootraw.official": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/lithaus.kr/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/likcoffeeclub": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/roong_dessert": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/magnettt_cakeroom?igsh=czN5dzh5eW94eGRz&utm_source=qr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/limbo.seoul?igsh=bGI5Y2FyMjFteGll&utm_source=qr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://diesynthese.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://diesynthese.com/"
  },
  "https://www.instagram.com/maudie_dining": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.instagram.com/mother.offline": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/my_dachs": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/sakaba.maizuru": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://app.catchtable.co.kr/ct/shop/luigi": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/mangkakzi": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/munchez_official": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/dabang_mungmoong": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/m_git_/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/muchcoffee_official": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/mekle.coffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/maybake_official": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/morgenglut706": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/mapletop_": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://app.catchtable.co.kr/ct/shop/manaseoul": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/mo.ann_____": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/moontaro_2003": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/mooncrowded/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/muiro_coffee_house": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/moot_roastery/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/menewat_cafe/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://youtu.be/pJ-_jz7a0Tk?si=n4lklykNVW-WY55v": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.youtube.com/watch?si=n4lklykNVW-WY55v&v=pJ-_jz7a0Tk&feature=youtu.be"
  },
  "https://www.instagram.com/mimimi_sinnonhyun": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://www.levegiwang.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.levegiwang.com/"
  },
  "https://www.instagram.com/mitsubar_tachinomi/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/mungchi.haus": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/minimumallday": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/miyeol_mia/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/miplounge/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/millionvillagecoffeebar": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/milandroux?igsh=eWRpZW9qdjB5anMw&utm_source=qr": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/_minggijeok": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/barseulona": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/cafe.barkbar": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/butterum.boutique": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/veranda_seoul": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/berry.hound": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/spring.summer.sai": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/bong.mansion": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.geochang.go.kr/changpowon/Index.do": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "20"
  },
  "https://www.instagram.com/bgj_there/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/brownccafe": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/biroso_rooftop_partyroom/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/bivical_official/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://naver.me/5nerUy49": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://map.naver.com/p/entry/place/1340948037?placePath=%2Fphoto"
  },
  "https://www.instagram.com/vivid_bakehouse": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://instagram.com/bonsol_yhd": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/bbangssaem_songpa/?igsh=M3ExNmcwOTFqNDY3": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "http://instagram.com/cafesaru2015": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/seoajin_rooftop": {
   "state": "unknown",
@@ -6357,12 +6354,12 @@
  "https://www.instagram.com/loveisgre.en": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://reflect-coffee.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://reflect-coffee.co.kr/"
  },
  "https://www.seochocoffeestudio.com/": {
@@ -6380,7 +6377,7 @@
  "https://daangn.com/kr/link/pickup/menu/19730551": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://blog.naver.com/seoulansim_official": {
   "state": "ok",
@@ -6420,7 +6417,7 @@
  "https://www.barbambar.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/supsup_279": {
   "state": "ok",
@@ -6496,7 +6493,7 @@
  "https://app.catchtable.co.kr/ct/shop/villadebleu_sungsu": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://m.site.naver.com/0HhFi": {
   "state": "ok",
@@ -6506,7 +6503,7 @@
  "https://naver.me/xfeh2D7g": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://map.naver.com/p/entry/place/1537940593"
  },
  "https://smartstore.naver.com/seacave": {
@@ -6546,7 +6543,7 @@
  "http://bomarket.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://bomarket.co.kr/"
  },
  "https://smartstore.naver.com/archivistcoffee": {
@@ -6660,7 +6657,7 @@
  "https://mukgolssambab.lovable.app/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://alohaturtle.creatorlink.net/": {
   "state": "ok",
@@ -6686,13 +6683,13 @@
  "http://www.lespia.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-15T01:03:07.558Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "final": "https://www.lespia.co.kr/"
  },
  "https://main.suncheon.go.kr/yeyak/stay/0001/list/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-18T03:04:03.578Z",
+  "checkedAt": "2026-11-22T01:15:06.388Z",
   "error": "20"
  },
  "https://www.instagram.com/horno_seoul/?hl=ko": {
@@ -11857,12 +11854,12 @@
  "http://smartstore.naver.com/hebecoffee": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/leckerlecker_seoul": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-11-15T01:03:07.558Z"
+  "checkedAt": "2026-11-22T01:15:06.388Z"
  },
  "https://www.instagram.com/soonseo_kr/": {
   "state": "unknown",
