@@ -1,11 +1,11 @@
 {
-  "ranAt": "2026-11-22T00:56:14.953Z",
+  "ranAt": "2026-11-23T01:23:21.445Z",
   "runner": "github-actions",
   "geocode": {
     "new": 0,
     "fail": 194,
     "reusedByAddress": 0,
-    "lastError": "네트워크: fetch failed"
+    "lastError": "HTTP 502 JSON 아님: 502 Bad Gateway"
   },
   "total": 3933,
   "noCoords": 194
