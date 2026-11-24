@@ -17979,13 +17979,13 @@
     }
   },
   {
-    "id": "mejn2l7",
+    "id": "mdmrzaa",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -18019,13 +18019,13 @@
     }
   },
   {
-    "id": "mdmrzaa",
+    "id": "mejn2l7",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -27293,6 +27293,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "mlv5sbr",
+    "name": "호미스피자 신도림점",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "구로구",
+    "address": "서울특별시 구로구 새말로 102(신도림포스빌 1층 147, 148호 구로동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261124",
+    "addedAt": "20261124"
   },
   {
     "id": "mn1f5ll",
@@ -40906,83 +40923,6 @@
     }
   },
   {
-    "id": "m4jjnjw",
-    "name": "송경솥밥",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "광주",
-    "sigungu": "서구",
-    "address": "전남광주통합특별시 서구 상무시민로 136(수성빌딩 1층 치평동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 35.15499938373094,
-    "lng": 126.85388385172718,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260917",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "운천",
-        "lines": [
-          "광주도시철도 1호선"
-        ],
-        "dist": 666,
-        "walkMin": 10
-      },
-      "stops": [
-        {
-          "name": "5.18기념공원",
-          "dist": 148,
-          "walkMin": 2
-        },
-        {
-          "name": "상무병원",
-          "dist": 291,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "계수마을 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 16,
-          "fee": "무료",
-          "hours": "09:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-360-7810",
-          "dist": 809,
-          "walkMin": 12
-        },
-        {
-          "name": "느티나무어린이공원 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 33,
-          "fee": "기본 30분 700원 · 추가 15분 350원 · 1일 8,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-360-7810",
-          "dist": 857,
-          "walkMin": 13
-        },
-        {
-          "name": "동천동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 44,
-          "fee": "기본 30분 700원 · 추가 15분 350원 · 1일 8,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-360-7810",
-          "dist": 857,
-          "walkMin": 13
-        }
-      ]
-    }
-  },
-  {
     "id": "mag7mv8",
     "name": "송경솥밥",
     "category": "식당",
@@ -41055,6 +40995,83 @@
           "tel": "062-608-2914",
           "dist": 173,
           "walkMin": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "m4jjnjw",
+    "name": "송경솥밥",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "광주",
+    "sigungu": "서구",
+    "address": "전남광주통합특별시 서구 상무시민로 136(수성빌딩 1층 치평동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 35.15499938373094,
+    "lng": 126.85388385172718,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260917",
+    "addedAt": "20260915",
+    "transit": {
+      "station": {
+        "name": "운천",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 666,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "5.18기념공원",
+          "dist": 148,
+          "walkMin": 2
+        },
+        {
+          "name": "상무병원",
+          "dist": 291,
+          "walkMin": 4
+        }
+      ],
+      "parking": [
+        {
+          "name": "계수마을 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 16,
+          "fee": "무료",
+          "hours": "09:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "062-360-7810",
+          "dist": 809,
+          "walkMin": 12
+        },
+        {
+          "name": "느티나무어린이공원 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 33,
+          "fee": "기본 30분 700원 · 추가 15분 350원 · 1일 8,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "062-360-7810",
+          "dist": 857,
+          "walkMin": 13
+        },
+        {
+          "name": "동천동 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 44,
+          "fee": "기본 30분 700원 · 추가 15분 350원 · 1일 8,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "062-360-7810",
+          "dist": 857,
+          "walkMin": 13
         }
       ]
     }
@@ -65779,6 +65796,23 @@
     }
   },
   {
+    "id": "m5cyvze",
+    "name": "2번창고",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "인천",
+    "sigungu": "강화군",
+    "address": "인천광역시 강화군 불은면 강화동로 680",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/30/2877930_image2_1.jpg",
+    "tourId": "2891600",
+    "photoTried": "20261124",
+    "addedAt": "20261124"
+  },
+  {
     "id": "maq51",
     "name": "6층커피집",
     "category": "식당",
@@ -67934,6 +67968,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "mtbzf06",
+    "name": "밤백",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "인천",
+    "sigungu": "남동구",
+    "address": "인천광역시 남동구 예술로 138(이토타워 1층 110호 구월동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261124",
+    "addedAt": "20261124"
   },
   {
     "id": "mkcxbzc",
@@ -72938,13 +72989,13 @@
     }
   },
   {
-    "id": "m5oxplu",
+    "id": "mjpr3nd",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -72977,13 +73028,13 @@
     }
   },
   {
-    "id": "mjpr3nd",
+    "id": "m5oxplu",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -95380,6 +95431,23 @@
     }
   },
   {
+    "id": "mtwxi7a",
+    "name": "모모쌀국수",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "화성시",
+    "address": "경기도 화성시 만세구 남양읍 화성시청역로 7(212동 3층 302호 화성시청역 센트럴파크스타힐스 2단지)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261124",
+    "addedAt": "20261124"
+  },
+  {
     "id": "mbhhgub",
     "name": "목로주점",
     "category": "식당",
@@ -107406,83 +107474,6 @@
     }
   },
   {
-    "id": "mn33g84",
-    "name": "위자네",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "경기",
-    "sigungu": "화성시",
-    "address": "경기도 화성시 효행구 봉담읍 장등1길 3-10(1층)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.22241653283153,
-    "lng": 126.9452998653405,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260925",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "오목천역",
-        "lines": [
-          "수인선"
-        ],
-        "dist": 2807,
-        "walkMin": 42
-      },
-      "stops": [
-        {
-          "name": "봉담2.LH2단지",
-          "dist": 63,
-          "walkMin": 1
-        },
-        {
-          "name": "봉담초",
-          "dist": 145,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "봉담 상리 2",
-          "se": "공영",
-          "type": "노외",
-          "cap": 214,
-          "fee": "기본 90분 400원 · 추가 10분 600원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 317,
-          "walkMin": 5
-        },
-        {
-          "name": "봉담 상리 1",
-          "se": "공영",
-          "type": "노외",
-          "cap": 186,
-          "fee": "기본 90분 400원 · 추가 10분 600원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 405,
-          "walkMin": 6
-        },
-        {
-          "name": "봉담 상리(행복주택)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 50,
-          "fee": "기본 90분 300원 · 추가 10분 400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 566,
-          "walkMin": 8
-        }
-      ]
-    }
-  },
-  {
     "id": "m3dpldi",
     "name": "위자네",
     "category": "식당",
@@ -107555,6 +107546,83 @@
           "tel": "031-8045-5255",
           "dist": 657,
           "walkMin": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "mn33g84",
+    "name": "위자네",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "화성시",
+    "address": "경기도 화성시 효행구 봉담읍 장등1길 3-10(1층)",
+    "official": true,
+    "source": "mfds",
+    "lat": 37.22241653283153,
+    "lng": 126.9452998653405,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260925",
+    "addedAt": "20260915",
+    "transit": {
+      "station": {
+        "name": "오목천역",
+        "lines": [
+          "수인선"
+        ],
+        "dist": 2807,
+        "walkMin": 42
+      },
+      "stops": [
+        {
+          "name": "봉담2.LH2단지",
+          "dist": 63,
+          "walkMin": 1
+        },
+        {
+          "name": "봉담초",
+          "dist": 145,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "봉담 상리 2",
+          "se": "공영",
+          "type": "노외",
+          "cap": 214,
+          "fee": "기본 90분 400원 · 추가 10분 600원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 317,
+          "walkMin": 5
+        },
+        {
+          "name": "봉담 상리 1",
+          "se": "공영",
+          "type": "노외",
+          "cap": 186,
+          "fee": "기본 90분 400원 · 추가 10분 600원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 405,
+          "walkMin": 6
+        },
+        {
+          "name": "봉담 상리(행복주택)",
+          "se": "공영",
+          "type": "노외",
+          "cap": 50,
+          "fee": "기본 90분 300원 · 추가 10분 400원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-357-6548",
+          "dist": 566,
+          "walkMin": 8
         }
       ]
     }
@@ -109374,6 +109442,23 @@
     }
   },
   {
+    "id": "mr6e4ba",
+    "name": "조개랑칼국수",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "시흥시",
+    "address": "경기도 시흥시 오이도로 231-1(1층 정왕동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261124",
+    "addedAt": "20261124"
+  },
+  {
     "id": "m42nuaw",
     "name": "조개포차",
     "category": "식당",
@@ -109515,71 +109600,6 @@
           "tel": "031-929-4843",
           "dist": 329,
           "walkMin": 5
-        }
-      ]
-    }
-  },
-  {
-    "id": "me3eewi",
-    "name": "주식회사 멍더쿠",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "경기",
-    "sigungu": "김포시",
-    "address": "경기도 김포시 모담공원로 89(1층 운양동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.65203188474435,
-    "lng": 126.68881734618479,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260925",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "운양역",
-        "lines": [
-          "김포도시철도"
-        ],
-        "dist": 484,
-        "walkMin": 7
-      },
-      "stops": [
-        {
-          "name": "하늘빛마을",
-          "dist": 110,
-          "walkMin": 2
-        },
-        {
-          "name": "하늘빛마을일성트루웰",
-          "dist": 260,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "운양역환승센터 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 424,
-          "fee": "기본 30분 600원 · 추가 10분 300원 · 1일 7,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-996-6584",
-          "dist": 425,
-          "walkMin": 6
-        },
-        {
-          "name": "운양3 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 26,
-          "fee": "기본 30분 600원 · 추가 10분 300원 · 1일 7,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일",
-          "tel": "031-996-6586",
-          "dist": 649,
-          "walkMin": 10
         }
       ]
     }
@@ -151547,6 +151567,23 @@
     }
   },
   {
+    "id": "me2tamh",
+    "name": "오븐 스프링(Oven spring)",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경남",
+    "sigungu": "김해시",
+    "address": "경상남도 김해시 가락로23번길 40(봉황동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261124",
+    "addedAt": "20261124"
+  },
+  {
     "id": "m223d3v",
     "name": "오아시스",
     "category": "식당",
@@ -164629,6 +164666,63 @@
     }
   },
   {
+    "id": "mhe3qwk",
+    "name": "강릉경포활게",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "강원",
+    "sigungu": "강릉시",
+    "address": "강원특별자치도 강릉시 해안로 501(2층 안현동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 37.804431507674565,
+    "lng": 128.9050163061213,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261124",
+    "addedAt": "20261124",
+    "transit": {
+      "parking": [
+        {
+          "name": "안현동 865-4 주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 18,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 221,
+          "walkMin": 3
+        },
+        {
+          "name": "경포 번영회 주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 145,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 263,
+          "walkMin": 4
+        },
+        {
+          "name": "경포대 초등학교 옆 공한지 주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 50,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 285,
+          "walkMin": 4
+        }
+      ]
+    }
+  },
+  {
     "id": "m55xyv7",
     "name": "강릉맛집 강릉횟집 천둥회와물회 경포대점",
     "category": "식당",
@@ -164929,63 +165023,6 @@
     "tourId": "",
     "photoTried": "20260930",
     "addedAt": "20260915"
-  },
-  {
-    "id": "mpj1an4",
-    "name": "경포활게",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "강원",
-    "sigungu": "강릉시",
-    "address": "강원특별자치도 강릉시 해안로 501(2층 안현동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.804431507674565,
-    "lng": 128.9050163061213,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260930",
-    "addedAt": "20260915",
-    "transit": {
-      "parking": [
-        {
-          "name": "안현동 865-4 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 18,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 221,
-          "walkMin": 3
-        },
-        {
-          "name": "경포 번영회 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 145,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 263,
-          "walkMin": 4
-        },
-        {
-          "name": "경포대 초등학교 옆 공한지 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 50,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 285,
-          "walkMin": 4
-        }
-      ]
-    }
   },
   {
     "id": "mxgekma",
@@ -183967,7 +184004,7 @@
     "address": "충청남도 태안군 안면읍 승언리",
     "lat": 36.5013176424,
     "lng": 126.3346520126,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/64/4060364_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/23/3498123_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -210029,7 +210066,7 @@
     "address": "제주특별자치도 제주시 도리로",
     "lat": 33.4973871738,
     "lng": 126.4531448539,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/30/4096630_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/40/4096640_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -223703,7 +223740,7 @@
     "address": "강원특별자치도 정선군 여량면 노추산로 745",
     "lat": 37.5163380308,
     "lng": 128.7273222889,
-    "image": "",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/45/4165645_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
