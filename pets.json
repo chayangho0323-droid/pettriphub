@@ -11962,84 +11962,6 @@
     }
   },
   {
-    "id": "mv4caf6",
-    "name": "사루",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "서울",
-    "sigungu": "중구",
-    "address": "서울특별시 중구 장충단로7길 24(1층 쌍림동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.56256581937329,
-    "lng": 127.00516958134583,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260929",
-    "addedAt": "20260929",
-    "transit": {
-      "station": {
-        "name": "동대문역사문화공원(DDP)",
-        "lines": [
-          "5호선",
-          "4호선"
-        ],
-        "dist": 236,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "장충동써미트호텔",
-          "dist": 136,
-          "walkMin": 2
-        },
-        {
-          "name": "퇴계로6가",
-          "dist": 145,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "장충 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 106,
-          "fee": "기본 5분 200원 · 추가 5분 150원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2277-7004",
-          "dist": 447,
-          "walkMin": 7
-        },
-        {
-          "name": "묵정공원지하 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 491,
-          "fee": "기본 5분 450원 · 추가 5분 400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2280-8370",
-          "dist": 489,
-          "walkMin": 7
-        },
-        {
-          "name": "훈련원공원",
-          "se": "공영",
-          "type": "노외",
-          "cap": 873,
-          "fee": "기본 5분 550원 · 추가 5분 550원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-3405-4597",
-          "dist": 490,
-          "walkMin": 7
-        }
-      ]
-    }
-  },
-  {
     "id": "mrq28h3",
     "name": "사루",
     "category": "식당",
@@ -12113,6 +12035,84 @@
           "tel": "02-2280-8360",
           "dist": 220,
           "walkMin": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "mv4caf6",
+    "name": "사루",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "서울",
+    "sigungu": "중구",
+    "address": "서울특별시 중구 장충단로7길 24(1층 쌍림동)",
+    "official": true,
+    "source": "mfds",
+    "lat": 37.56256581937329,
+    "lng": 127.00516958134583,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20260929",
+    "addedAt": "20260929",
+    "transit": {
+      "station": {
+        "name": "동대문역사문화공원(DDP)",
+        "lines": [
+          "5호선",
+          "4호선"
+        ],
+        "dist": 236,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "장충동써미트호텔",
+          "dist": 136,
+          "walkMin": 2
+        },
+        {
+          "name": "퇴계로6가",
+          "dist": 145,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "장충 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 106,
+          "fee": "기본 5분 200원 · 추가 5분 150원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2277-7004",
+          "dist": 447,
+          "walkMin": 7
+        },
+        {
+          "name": "묵정공원지하 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 491,
+          "fee": "기본 5분 450원 · 추가 5분 400원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2280-8370",
+          "dist": 489,
+          "walkMin": 7
+        },
+        {
+          "name": "훈련원공원",
+          "se": "공영",
+          "type": "노외",
+          "cap": 873,
+          "fee": "기본 5분 550원 · 추가 5분 550원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-3405-4597",
+          "dist": 490,
+          "walkMin": 7
         }
       ]
     }
@@ -17979,13 +17979,13 @@
     }
   },
   {
-    "id": "mdmrzaa",
+    "id": "mejn2l7",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -18019,13 +18019,13 @@
     }
   },
   {
-    "id": "mejn2l7",
+    "id": "mdmrzaa",
     "name": "오르노 합정점",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "서울",
     "sigungu": "마포구",
-    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B149,B150,B151, B152,B153,B154호 합정동, 마포 한강 2차 푸르지오)",
+    "address": "서울특별시 마포구 월드컵로3길 14(지1층 B113,114호 합정동, 마포 한강 2차 푸르지오)",
     "official": true,
     "source": "mfds",
     "lat": 37.551035923504344,
@@ -29607,6 +29607,23 @@
     }
   },
   {
+    "id": "mjtb0b",
+    "name": "느을",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "서울",
+    "sigungu": "성북구",
+    "address": "서울특별시 성북구 화랑로9길 25(1층 하월곡동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261126",
+    "addedAt": "20261126"
+  },
+  {
     "id": "mq8zd54",
     "name": "댕이곳간",
     "category": "카페",
@@ -32342,23 +32359,6 @@
         }
       ]
     }
-  },
-  {
-    "id": "mu8zort",
-    "name": "애호",
-    "category": "카페",
-    "biz": "휴게음식점",
-    "sido": "서울",
-    "sigungu": "성북구",
-    "address": "서울특별시 성북구 화랑로9길 25(1층 하월곡동)",
-    "official": true,
-    "source": "mfds",
-    "lat": null,
-    "lng": null,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20261118",
-    "addedAt": "20261118"
   },
   {
     "id": "mnz6i8h",
@@ -38733,6 +38733,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "mxju9f6",
+    "name": "그레이레이지목포",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "전남",
+    "sigungu": "목포시",
+    "address": "전남광주통합특별시 목포시 옥암로 28(1층 옥암동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261126",
+    "addedAt": "20261126"
   },
   {
     "id": "mt6ijtm",
@@ -70693,13 +70710,13 @@
     }
   },
   {
-    "id": "mvwvo56",
+    "id": "mky6sl0",
     "name": "조선백호",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "인천",
     "sigungu": "제물포구",
-    "address": "인천광역시 제물포구 개항로96번길 11(1층 경동)",
+    "address": "인천광역시 제물포구 개항로96번길 11(1,2층 경동)",
     "official": true,
     "source": "mfds",
     "lat": 37.47163445123357,
@@ -70770,13 +70787,13 @@
     }
   },
   {
-    "id": "mky6sl0",
+    "id": "mvwvo56",
     "name": "조선백호",
     "category": "식당",
     "biz": "일반음식점",
     "sido": "인천",
     "sigungu": "제물포구",
-    "address": "인천광역시 제물포구 개항로96번길 11(1,2층 경동)",
+    "address": "인천광역시 제물포구 개항로96번길 11(1층 경동)",
     "official": true,
     "source": "mfds",
     "lat": 37.47163445123357,
@@ -71276,83 +71293,6 @@
           "name": "갤러리84입구",
           "dist": 335,
           "walkMin": 5
-        }
-      ]
-    }
-  },
-  {
-    "id": "m4i4q6p",
-    "name": "카페, 스페이드",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "인천",
-    "sigungu": "연수구",
-    "address": "인천광역시 연수구 해돋이로 104(지상1층 106,107호 송도동)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.391510272712274,
-    "lng": 126.65089008147768,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260921",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "캠퍼스타운",
-        "lines": [
-          "인천지하철 1호선"
-        ],
-        "dist": 1047,
-        "walkMin": 16
-      },
-      "stops": [
-        {
-          "name": "송도1동행정복지센터",
-          "dist": 65,
-          "walkMin": 1
-        },
-        {
-          "name": "해돋이공원",
-          "dist": 102,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "송도1동 행정복지센터 일원 노상주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 10,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-749-8754",
-          "dist": 121,
-          "walkMin": 2
-        },
-        {
-          "name": "제11공영주차장(송도)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 34,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 491,
-          "walkMin": 7
-        },
-        {
-          "name": "제10공영주차장(송도)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 34,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 513,
-          "walkMin": 8
         }
       ]
     }
@@ -72962,13 +72902,13 @@
     }
   },
   {
-    "id": "m5oxplu",
+    "id": "mjpr3nd",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -73001,13 +72941,13 @@
     }
   },
   {
-    "id": "mjpr3nd",
+    "id": "m5oxplu",
     "name": "그리너리 바스켓",
     "category": "카페",
     "biz": "휴게음식점",
     "sido": "인천",
     "sigungu": "영종구",
-    "address": "인천광역시 영종구 백운로 510(1동 지1층 운북동)",
+    "address": "인천광역시 영종구 백운로 510(2동 1,2층 운북동)",
     "official": true,
     "source": "mfds",
     "lat": 37.51577219718315,
@@ -95840,6 +95780,23 @@
     }
   },
   {
+    "id": "m8hi75z",
+    "name": "문산373",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "경기",
+    "sigungu": "파주시",
+    "address": "경기도 파주시 문산읍 문산로40번길 41(1층일부107호)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261126",
+    "addedAt": "20261126"
+  },
+  {
     "id": "mop1g66",
     "name": "뭉즈카페앤펍 부천역점",
     "category": "식당",
@@ -97903,83 +97860,6 @@
           "tel": "031-996-6584",
           "dist": 614,
           "walkMin": 9
-        }
-      ]
-    }
-  },
-  {
-    "id": "m9ehe8e",
-    "name": "봉구비어 부개점",
-    "category": "식당",
-    "biz": "일반음식점",
-    "sido": "경기",
-    "sigungu": "부천시",
-    "address": "경기도 부천시 원미구 상이로39번길 29-8(상동,, 1층)",
-    "official": true,
-    "source": "mfds",
-    "lat": 37.49176229607299,
-    "lng": 126.74239119855807,
-    "image": "",
-    "tourId": "",
-    "photoTried": "20260924",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "부개역",
-        "lines": [
-          "경인선"
-        ],
-        "dist": 400,
-        "walkMin": 6
-      },
-      "stops": [
-        {
-          "name": "성일아파트후문앞",
-          "dist": 68,
-          "walkMin": 1
-        },
-        {
-          "name": "부개성일아파트",
-          "dist": 145,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "부개역",
-          "se": "공영",
-          "type": "노외",
-          "cap": 193,
-          "fee": "기본 30분 400원 · 추가 15분 200원 · 1일 4,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 356,
-          "walkMin": 5
-        },
-        {
-          "name": "부개역",
-          "se": "공영",
-          "type": "노외",
-          "cap": 193,
-          "fee": "기본 30분 400원 · 추가 15분 200원 · 1일 4,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 356,
-          "walkMin": 5
-        },
-        {
-          "name": "부개동527번지",
-          "se": "공영",
-          "type": "노외",
-          "cap": 3,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-262-9220",
-          "dist": 368,
-          "walkMin": 5
         }
       ]
     }
@@ -135657,6 +135537,23 @@
     }
   },
   {
+    "id": "maunkmj",
+    "name": "달별해",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "충북",
+    "sigungu": "제천시",
+    "address": "충청북도 제천시 내토로27길 18(1층 101호 화산동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261126",
+    "addedAt": "20261126"
+  },
+  {
     "id": "mz6eptr",
     "name": "댕그라운드",
     "category": "카페",
@@ -136127,6 +136024,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "md8p7vv",
+    "name": "추이추이",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "충북",
+    "sigungu": "청주시",
+    "address": "충청북도 청주시 흥덕구 직지대로743번길 22(1층 운천동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261126",
+    "addedAt": "20261126"
   },
   {
     "id": "mul94n",
@@ -163232,6 +163146,23 @@
     }
   },
   {
+    "id": "mplnws7",
+    "name": "커피구십구점구",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "제주",
+    "sigungu": "제주시",
+    "address": "제주특별자치도 제주시 1100로 3173(노형동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261126",
+    "addedAt": "20261126"
+  },
+  {
     "id": "m2l7jhf",
     "name": "커피냅로스터스제주",
     "category": "카페",
@@ -175157,6 +175088,23 @@
     }
   },
   {
+    "id": "m8eu1c0",
+    "name": "유루리",
+    "category": "식당",
+    "biz": "일반음식점",
+    "sido": "전북",
+    "sigungu": "순창군",
+    "address": "전북특별자치도 순창군 복흥면 상송길 18",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261126",
+    "addedAt": "20261126"
+  },
+  {
     "id": "mmix0yw",
     "name": "유성가든",
     "category": "식당",
@@ -176813,6 +176761,23 @@
         }
       ]
     }
+  },
+  {
+    "id": "miyagjt",
+    "name": "빅팜229",
+    "category": "카페",
+    "biz": "휴게음식점",
+    "sido": "전북",
+    "sigungu": "김제시",
+    "address": "전북특별자치도 김제시 화동길 109(요촌동)",
+    "official": true,
+    "source": "mfds",
+    "lat": null,
+    "lng": null,
+    "image": "",
+    "tourId": "",
+    "photoTried": "20261126",
+    "addedAt": "20261126"
   },
   {
     "id": "m6wkcu3",
@@ -182143,10 +182108,10 @@
     "category": "관광지",
     "sido": "강원",
     "sigungu": "평창군",
-    "address": "강원특별자치도 평창군 고대동길 119",
-    "lat": 37.518772059,
-    "lng": 128.4516478074,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/46/4128246_image2_1.jpg",
+    "address": "강원특별자치도 평창군 대화면 고대동길 119",
+    "lat": 37.5187700317,
+    "lng": 128.451635651,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/50/4128250_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -182172,7 +182137,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "033-330-2285",
-          "dist": 94,
+          "dist": 93,
           "walkMin": 1
         }
       ]
@@ -185925,9 +185890,9 @@
     "sido": "경남",
     "sigungu": "밀양시",
     "address": "경상남도 밀양시 단장면",
-    "lat": 35.485566801,
-    "lng": 128.9312688684,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/81/3374781_image2_1.JPG",
+    "lat": 35.4855245469,
+    "lng": 128.9312408464,
+    "image": "https://tong.visitkorea.or.kr/cms/resource/81/3374781_image2_1.JPG",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -185946,12 +185911,12 @@
       "stops": [
         {
           "name": "고례종점",
-          "dist": 192,
+          "dist": 197,
           "walkMin": 3
         },
         {
           "name": "고례초등학교",
-          "dist": 764,
+          "dist": 768,
           "walkMin": 11
         }
       ]
@@ -203198,9 +203163,9 @@
     "sido": "경북",
     "sigungu": "안동시",
     "address": "경상북도 안동시 풍천면 전서로 186-8",
-    "lat": 36.5506148855,
-    "lng": 128.5282935032,
-    "image": "https://tong.visitkorea.or.kr/cms/resource/62/4059762_image2_1.jpg",
+    "lat": 36.5506160344,
+    "lng": 128.5283033573,
+    "image": "https://tong.visitkorea.or.kr/cms/resource_photo/75/3415175_image2_1.jpg",
     "tel": "",
     "official": false,
     "source": "tour",
@@ -203224,7 +203189,7 @@
         },
         {
           "name": "목석원",
-          "dist": 222,
+          "dist": 221,
           "walkMin": 3
         }
       ],
@@ -203238,7 +203203,7 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "054-840-5424",
-          "dist": 104,
+          "dist": 103,
           "walkMin": 2
         }
       ]
@@ -214730,8 +214695,8 @@
     "sido": "충북",
     "sigungu": "제천시",
     "address": "충청북도 제천시 청풍면 문화재길 166",
-    "lat": 37.0012624214,
-    "lng": 128.166778301,
+    "lat": 37.0012644432,
+    "lng": 128.1667809414,
     "image": "https://tong.visitkorea.or.kr/cms/resource/43/4135343_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -216095,13 +216060,13 @@
   },
   {
     "id": "1626349",
-    "name": "팔공산 케이블카",
+    "name": "팔공산케이블카",
     "category": "관광지",
     "sido": "대구",
     "sigungu": "동구",
-    "address": "대구광역시 동구 팔공산로185길 51",
-    "lat": 35.9908018181,
-    "lng": 128.6948432632,
+    "address": "대구광역시 동구 팔공산로185길 51 (용수동)",
+    "lat": 35.9908870575,
+    "lng": 128.6948352263,
     "image": "https://tong.visitkorea.or.kr/cms/resource/97/4147697_image2_1.jpg",
     "tel": "",
     "official": false,
@@ -216121,13 +216086,13 @@
       "stops": [
         {
           "name": "동화시설집단지구(종점)2",
-          "dist": 288,
+          "dist": 298,
           "walkMin": 4
         },
         {
           "name": "동화시설집단지구(종점)2(대구시민안전테마파크)",
-          "dist": 295,
-          "walkMin": 4
+          "dist": 305,
+          "walkMin": 5
         }
       ]
     }
@@ -224606,9 +224571,9 @@
     "category": "레포츠",
     "sido": "경기",
     "sigungu": "화성시",
-    "address": "경기도 화성시 서신면 해안길 477",
-    "lat": 37.17527301675771,
-    "lng": 126.62817055216158,
+    "address": "경기도 화성시 만세구 서신면 해안길 477",
+    "lat": 37.176091142,
+    "lng": 126.6255147097,
     "image": "https://tong.visitkorea.or.kr/cms/resource/93/3510093_image2_1.JPG",
     "tel": "",
     "official": false,
@@ -224628,13 +224593,13 @@
       "stops": [
         {
           "name": "통나무횟집",
-          "dist": 215,
-          "walkMin": 3
+          "dist": 80,
+          "walkMin": 1
         },
         {
-          "name": "서해랑케이블카.제부초소",
-          "dist": 258,
-          "walkMin": 4
+          "name": "선착장",
+          "dist": 322,
+          "walkMin": 5
         }
       ],
       "parking": [
@@ -224647,8 +224612,8 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-5189-3130",
-          "dist": 583,
-          "walkMin": 9
+          "dist": 339,
+          "walkMin": 5
         },
         {
           "name": "제부도임시",
@@ -224659,20 +224624,8 @@
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "031-357-6548",
-          "dist": 1045,
-          "walkMin": 16
-        },
-        {
-          "name": "제부도4호",
-          "se": "공영",
-          "type": "노외",
-          "cap": 221,
-          "fee": "기본 10분 1,000원 · 추가 60분 2,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-357-6548",
-          "dist": 1499,
-          "walkMin": 22
+          "dist": 931,
+          "walkMin": 14
         }
       ]
     }
@@ -225166,59 +225119,6 @@
     "addedAt": "20260915"
   },
   {
-    "id": "2622230",
-    "name": "관광 꿈꾸는숲 펜션",
-    "category": "숙박",
-    "sido": "경기",
-    "sigungu": "포천시",
-    "address": "경기도 포천시 소흘읍 죽엽산로 490",
-    "lat": 37.7907315317,
-    "lng": 127.164922608,
-    "image": "",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "5kg 이하 강아지",
-      "petType": "전구역 동반가능",
-      "petNeed": "목줄 착용",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "꿈꾸는 숲 펜션은 친환경 자제로 지어진 펜션으로 방문객에게 최고의 안식과 휴식공간을 제공한다. 주변에 고모리 호수의 둘레길이 자연과 어우러져있어 가족들과 편안한 하이킹 코스를 제공하며, 날씨에 구애받지 않고 멋진 전망을 제공한다.",
-    "homepage": "https://www.dreamyforest.com/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "저수지",
-          "dist": 357,
-          "walkMin": 5
-        },
-        {
-          "name": "비득재",
-          "dist": 371,
-          "walkMin": 6
-        }
-      ],
-      "parking": [
-        {
-          "name": "고모리 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 40,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-538-3464",
-          "dist": 866,
-          "walkMin": 13
-        }
-      ]
-    }
-  },
-  {
     "id": "3438591",
     "name": "구례 문 한옥 게스트 하우스",
     "category": "숙박",
@@ -225537,125 +225437,6 @@
     }
   },
   {
-    "id": "2575832",
-    "name": "눈꽃여행",
-    "category": "숙박",
-    "sido": "전북",
-    "sigungu": "무주군",
-    "address": "전북특별자치도 무주군 설천면 내배방길 22",
-    "lat": 35.9124582874,
-    "lng": 127.7567356523,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/14/2575614_image2_1.jpg",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "소형견",
-      "petType": "전구역 동반가능",
-      "petNeed": "목줄 착용",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "한 여름의 무더위를 식혀주는 덕유산의 상쾌한 바람과 싱그러움. 전국의 크시와 부드 매니아들을 흥분시키는 무주리조트의 짜릿함과 함께 새하얀 눈꽃처럼 포근한 휴식과 편안함을 더하는 무주 눈꽃 여행이 방문객들을 기다린다.",
-    "homepage": "http://www.snow-flower.co.kr/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "배방(리조트)",
-          "dist": 343,
-          "walkMin": 5
-        },
-        {
-          "name": "외배방",
-          "dist": 760,
-          "walkMin": 11
-        }
-      ]
-    }
-  },
-  {
-    "id": "2571935",
-    "name": "단양추억펜션",
-    "category": "숙박",
-    "sido": "충북",
-    "sigungu": "단양군",
-    "address": "충청북도 단양군 가곡면 가대1길 55",
-    "lat": 37.0428882901,
-    "lng": 128.409412377,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/11/2570911_image2_1.jpg",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "",
-      "petType": "전구역 동반가능",
-      "petNeed": "",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "단양추억펜션은 소백산과 월악산 사이에 자리한 산골의 정겨운 모습을 그대로 느낄 수 있다. 통나무로 직접 수제작하여 아름다운 자연과 하나가 되는 경험을 할 수 있다. 펜션 앞에 흐르는 강물과 산속에서 흘라나오는 새소리로 힐링 여행을 즐길 수 있다. 바비큐장 시설이 있으며 배드민턴 채를 제공한다. 특이하게 웰큼드링크로 막걸리를 마실 수 있다.",
-    "homepage": "https://healingpension.modoo.at/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "가대리 문화마을",
-          "dist": 71,
-          "walkMin": 1
-        },
-        {
-          "name": "가대리.문화마을",
-          "dist": 88,
-          "walkMin": 1
-        }
-      ]
-    }
-  },
-  {
-    "id": "2692190",
-    "name": "더 포레 관광펜션",
-    "category": "숙박",
-    "sido": "경북",
-    "sigungu": "청도군",
-    "address": "경상북도 청도군 각남면 구곡1길 66-32",
-    "lat": 35.6373698403,
-    "lng": 128.6681627264,
-    "image": "",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "15kg 이하 반려견",
-      "petType": "전구역 동반가능",
-      "petNeed": "목줄 착용",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": "모든 사고 및 피해는 보호자의 책임"
-    },
-    "overview": "힐링 공간의 최적의 장소 더 포레는 배산임수의 명당으로 앞에는 저수지, 뒤쪽의 산과 과수원은 힐링하기에 최적의 환경을 갖추고 있다. 맑고 상쾌한 물과 공기의 더 포레에서 지친 마음의 힐링이 가능하다. 더 포레는 1층, 2층, 3층이 통합적이면서도 불니되어 있어 모두 독립된 공간으로 가족이 함께 즐겁게 놀고 각자 휴식할 수 있으며, 1층부터 3층 내부 계단으로 이동이 가능하다.",
-    "homepage": "http://the-foret.co.kr/",
-    "addedAt": "20260915",
-    "transit": {
-      "parking": [
-        {
-          "name": "각남면사무소주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 30,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-370-2472",
-          "dist": 969,
-          "walkMin": 14
-        }
-      ]
-    }
-  },
-  {
     "id": "3532773",
     "name": "덕용재4.9",
     "category": "숙박",
@@ -225690,45 +225471,6 @@
           "name": "용문정류소",
           "dist": 357,
           "walkMin": 5
-        }
-      ]
-    }
-  },
-  {
-    "id": "2621853",
-    "name": "돈내코힐 리조트",
-    "category": "숙박",
-    "sido": "제주",
-    "sigungu": "서귀포시",
-    "address": "제주특별자치도 서귀포시 돈내코로 180",
-    "lat": 33.3029335392,
-    "lng": 126.5785144865,
-    "image": "",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "훈련된 5KG 이하 반려견",
-      "petType": "전구역 동반가능",
-      "petNeed": "목줄 착용",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": "모든 사고 및 피해는 보호자의 책임"
-    },
-    "overview": "돈내코 힐리조트는 중문 관광단지를 포함하여 아름다운 제주의 여러 명소들과의 접근성이 매우 좋은 교통의 요지에 위치하고 있으며, 용천수인 돈내코 계곡과 300m 거리에 있어 산책과 물놀이에 최적의 입지이다.\n\n편의시설, 의료시설들과 5분 거리 내에 위치하며, 산록도로 주변 8개 골프장이 10분 거리에 위치해 있다.",
-    "homepage": "http://www.donnaekohill.com/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "돈내코 모루[북]",
-          "dist": 75,
-          "walkMin": 1
-        },
-        {
-          "name": "돈내코 모루[남]",
-          "dist": 92,
-          "walkMin": 1
         }
       ]
     }
@@ -225986,83 +225728,6 @@
     }
   },
   {
-    "id": "1871362",
-    "name": "문화공간 양사재",
-    "category": "숙박",
-    "sido": "전북",
-    "sigungu": "전주시",
-    "address": "전북특별자치도 전주시 완산구 오목대길 40 양사재",
-    "lat": 35.813145084,
-    "lng": 127.1541362693,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/41/2999041_image2_1.jpg",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "",
-      "petType": "전구역 동반가능",
-      "petNeed": "",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "문화공간 양사재는 전주 교동 풍남동의 한옥마을에 위치해있다. 향교의 부속건물로써 조선시대 선비들이 공부를 한 장소이다. 대문을 열고 들어가면 앞뜰의 한가로움을 느낄 수 있다. 구들방 아궁이로 불을 지펴 볼 수 있고 아름다운 밤의 전경이 특징인 한옥이다.",
-    "homepage": "http://yangsajae.kr",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "한벽루자만벽화마을",
-          "dist": 221,
-          "walkMin": 3
-        },
-        {
-          "name": "오목대.한옥마을",
-          "dist": 258,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "한옥마을제3주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 72,
-          "fee": "기본 30분 1,200원 · 추가 15분 600원 · 1일 14,400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "063-239-2767",
-          "dist": 447,
-          "walkMin": 7
-        },
-        {
-          "name": "한옥마을1",
-          "se": "공영",
-          "type": "부설",
-          "cap": 293,
-          "fee": "기본 30분 1,200원 · 추가 15분 600원 · 1일 14,400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "063-239-2767",
-          "dist": 569,
-          "walkMin": 8
-        },
-        {
-          "name": "한옥마을2",
-          "se": "공영",
-          "type": "부설",
-          "cap": 171,
-          "fee": "기본 30분 1,200원 · 추가 15분 600원 · 1일 14,400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "063-239-2767",
-          "dist": 587,
-          "walkMin": 9
-        }
-      ]
-    }
-  },
-  {
     "id": "3533157",
     "name": "미미몽몽",
     "category": "숙박",
@@ -226135,40 +225800,6 @@
           "tel": "063-239-2767",
           "dist": 433,
           "walkMin": 6
-        }
-      ]
-    }
-  },
-  {
-    "id": "2572858",
-    "name": "바다정원펜션",
-    "category": "숙박",
-    "sido": "경남",
-    "sigungu": "사천시",
-    "address": "경상남도 사천시 서포면 토끼로 245-41",
-    "lat": 34.9898550844,
-    "lng": 127.9662193887,
-    "image": "http://tong.visitkorea.or.kr/cms/resource/96/2571696_image2_1.jpg",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "중/소형견 10kg 미만만 입실 가능",
-      "petType": "전구역 동반가능",
-      "petNeed": "목줄 착용,매너벨트 착용",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "경남 사천에 위치한 바다정원펜션은 에메랄드빛바다 갯벌체험과 낚시가 가능하다. 전 객실이 바다 뷰로 넓은 정원과 바비큐장도 준비되어 있다.",
-    "homepage": "http://seagardenpension.com/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "선창",
-          "dist": 746,
-          "walkMin": 11
         }
       ]
     }
@@ -226550,45 +226181,6 @@
     }
   },
   {
-    "id": "2701396",
-    "name": "서남산한옥",
-    "category": "숙박",
-    "sido": "경북",
-    "sigungu": "경주시",
-    "address": "경상북도 경주시 내남면 포석로 435-12",
-    "lat": 35.7808636366,
-    "lng": 129.2045588973,
-    "image": "",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "10kg 미만",
-      "petType": "전구역 동반가능",
-      "petNeed": "목줄 착용,매너벨트 착용",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "첨성대에서 15분거리에 있는 신상 2층한옥 펜션으로 경주국립공원 남산앞에 있다. 각각의 객실마다 특색있고 감각적인 컨셉으로 꾸며놓았다.",
-    "homepage": "http://www.wnamsan.com/default/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "용장4리.비파",
-          "dist": 238,
-          "walkMin": 4
-        },
-        {
-          "name": "용장1리.배양골",
-          "dist": 345,
-          "walkMin": 5
-        }
-      ]
-    }
-  },
-  {
     "id": "3532875",
     "name": "세하",
     "category": "숙박",
@@ -226654,91 +226246,6 @@
     }
   },
   {
-    "id": "2696312",
-    "name": "소담스테이",
-    "category": "숙박",
-    "sido": "서울",
-    "sigungu": "마포구",
-    "address": "서울특별시 마포구 마포대로14길 12-17",
-    "lat": 37.5480393261,
-    "lng": 126.9559902624,
-    "image": "",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "훈련된 소형견",
-      "petType": "전구역 동반가능",
-      "petNeed": "",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "소담스테이는 서울시에서 인증한 클린존(방역안심시설)으로 정기적으로 방역을 실시하고 있다. 공덕동 소담길 인근 주택가에 조용히 자리하고 있는 한옥인 소담스테이는 아침에는 환한 햇살이 마당에 내리쬐고, 비가 오는 날이ㅁs 가만히 빗소리를 듣기 좋은 집이다.",
-    "homepage": "",
-    "addedAt": "20260915",
-    "transit": {
-      "station": {
-        "name": "애오개",
-        "lines": [
-          "5호선"
-        ],
-        "dist": 621,
-        "walkMin": 9
-      },
-      "stops": [
-        {
-          "name": "공덕동성당",
-          "dist": 88,
-          "walkMin": 1
-        },
-        {
-          "name": "서울서부지방법원",
-          "dist": 102,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "서계동",
-          "se": "공영",
-          "type": "노외",
-          "cap": 31,
-          "fee": "기본 5분 150원 · 추가 5분 150원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-749-5314",
-          "dist": 838,
-          "walkMin": 13
-        },
-        {
-          "name": "용문동",
-          "se": "공영",
-          "type": "노외",
-          "cap": 39,
-          "fee": "기본 5분 150원 · 추가 5분 150원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-749-5314",
-          "dist": 1024,
-          "walkMin": 15
-        },
-        {
-          "name": "손기정체육공원 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 162,
-          "fee": "기본 5분 200원 · 추가 5분 150원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-364-7003",
-          "dist": 1156,
-          "walkMin": 17
-        }
-      ]
-    }
-  },
-  {
     "id": "3102031",
     "name": "소산당",
     "category": "숙박",
@@ -226772,40 +226279,6 @@
         {
           "name": "하사",
           "dist": 462,
-          "walkMin": 7
-        }
-      ]
-    }
-  },
-  {
-    "id": "2579802",
-    "name": "수성그린비",
-    "category": "숙박",
-    "sido": "경남",
-    "sigungu": "고성군",
-    "address": "경상남도 고성군 삼산면 자란만로 2128",
-    "lat": 34.9424818379,
-    "lng": 128.236185907,
-    "image": "",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "",
-      "petType": "전구역 동반가능",
-      "petNeed": "",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "수성그린비는 경남 고성의 맑은 공기와 깨끗한 바다, 갯벌을 접하고 있는 천혜의 자연 테마로 이루어진 경남 최상의 관광농원이다. 수성그린비는 휴식을 위한 설비들을 갖췄을 뿐만 아니라, 독채형 펜션 시설이 마련되어 있으며, 방문객들의 편의를 위해 야외에 별도의 취사장, 샤워시설도 비치되어 있다. 알프스사과와, 토마토, 딸기를 채취할 수 있는 체험장이 마련되어있고, 농원 앞 갯벌에서는 조개 채취도 체험해볼 수 있다. 아이들을 위한 스카이퐁퐁, 미끄럼틀, 분수형 야외풀장과 사륜바이크, 제트스키, 바나나보트, 보트투어까지 가능한 그야말로 다양한 체험활동과 해양 레포츠를 동시에 즐길 수 있는 국내 유일의 버라이어티 관광농원이다.\n\n(정보제공자: 고성군청)",
-    "homepage": "http://ssgreenbi.com/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "장백-아랫땀",
-          "dist": 443,
           "walkMin": 7
         }
       ]
@@ -226884,45 +226357,6 @@
           "tel": "054-779-6531",
           "dist": 295,
           "walkMin": 4
-        }
-      ]
-    }
-  },
-  {
-    "id": "2626972",
-    "name": "아르노펜션",
-    "category": "숙박",
-    "sido": "경기",
-    "sigungu": "가평군",
-    "address": "경기도 가평군 설악면 유명로 2108",
-    "lat": 37.6949258467,
-    "lng": 127.4600929288,
-    "image": "",
-    "tel": "",
-    "official": false,
-    "source": "tour",
-    "petInfo": {
-      "petSize": "10KG 이하 반려견",
-      "petType": "전구역 동반가능",
-      "petNeed": "매너벨트 착용",
-      "petEtc": "",
-      "petFacility": "",
-      "petRisk": ""
-    },
-    "overview": "청정 계곡과 환상적인 스파의 만남! 아르노 펜션에서는 봄이면 불어오는 강바람을 따라 따뜻한 봄 내음이 느끼고, 여름이면 계곡에서 시원한 물놀이는 물론 스릴 만점 수상 레저를 즐길 수 있다. 가을이면 유명산에 울긋불긋 아름답게 핀 단풍을 감상하며 등산을 즐겨보자. 겨울에는 하얗게 눈 덮인 풍경에 잠시 추억 속으로 빠져 볼 수 있다. 계절마다 자연이 주는 아름다움을 감상하며 소중한 사람과 여행지에서 즐거운 한때를 누릴 수 있다.",
-    "homepage": "http://arnokids.com/",
-    "addedAt": "20260915",
-    "transit": {
-      "stops": [
-        {
-          "name": "능골",
-          "dist": 279,
-          "walkMin": 4
-        },
-        {
-          "name": "큰골",
-          "dist": 679,
-          "walkMin": 10
         }
       ]
     }
